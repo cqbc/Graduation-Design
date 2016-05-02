@@ -1,0 +1,21 @@
+{
+"root_url":"http://news.baidu.com/",
+"is_inject_jquery":true,
+"jquery_path":"phantomjs/jquery-2.1.0.min.js",
+"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.57.2 (KHTML, like Gecko) Version/5.1.7 Safari/534.57.2",
+"search_keyword":"刘泽宙",
+"is_capture_pic":true,
+"pic_capture_save_root_path":"phantomjs/capture/",
+"pic_capture_save_sub_path":"baidu_C720EA8D1CC34BFD90ABE6383DB573E0/",
+"pic_file_prefix_name":"capture-",
+"pic_file_suffix_name":".png",
+"max_page_number":3,
+"is_data_write_to_file":true,
+"data_write_to_file_root_path":"phantomjs/crawlData/",
+"data_file_prefix_name":"page-",
+"data_file_suffix_name":".txt",
+"data_write_to_file_sub_path":"baidu_C720EA8D1CC34BFD90ABE6383DB573E0/",
+"no_response_waitting_time_max":80000,
+"no_response_waitting_fail_time_max":2,
+"body_pic_or_txt_count":0
+}
