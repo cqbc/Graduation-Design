@@ -1,0 +1,701 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="content-type" content="text/html; charset=GBK">
+<meta http-equiv="X-UA-Compatible" content="IE=7">
+<title>搜狗新闻搜索：刘泽宙</title>
+<link rel="shortcut icon" href="http://logo.www.sogou.com/images/logo2014/new/favicon.ico" type="image/x-icon">
+
+
+<link type="text/css" rel="stylesheet" href="/css/base_common.v.4.css">
+<link type="text/css" rel="stylesheet" href="/css/news151102.v.3.css">
+<link type="text/css" rel="stylesheet" href="/cssnew/suggestion.min.v.1.css">
+<script>var uuid="f9792bee-bc0c-4b19-8d82-ec5ee7f01795";</script>
+
+<script>
+function getCookie(name) {
+	var dc = document.cookie;
+	var prefix = name + "=";
+	var begin = dc.indexOf("; " + prefix);
+	if (begin == -1) {
+	begin = dc.indexOf(prefix);
+	if (begin != 0) return null;
+	} else {
+	begin += 2;
+	}
+	var end = document.cookie.indexOf(";", begin);
+	if (end == -1) {
+	end = dc.length;
+	}
+	return unescape(dc.substring(begin + prefix.length, end));
+	} 
+function imgLoadOk(imgEle){
+	return (imgEle && imgEle.complete);
+}
+function dissatisfied(formname, isSite){
+	//$s.$ = document.getElementById;
+	//如果是url查询，需要传回query、refer、uuid、queryurl四个参数
+	$s.$(formname).target='_blank';
+	var bodyHTML = document.body.innerHTML;
+	var fankui_begin = bodyHTML.indexOf('<!-- a -->');
+	var fankui_end = bodyHTML.indexOf('<!-- z -->');
+	if(fankui_begin!=-1 && fankui_end > fankui_begin)
+		$s.$(formname).scenehtml.value = bodyHTML.substring(fankui_begin+8,fankui_end);
+	else
+		$s.$(formname).scenehtml.value = '';
+	$s.$(formname).action='http://news.sogou.com/complain/feedback.php?v=1';
+	$s.$(formname).submit();
+}
+</script>
+</head>
+<body class="    vr1024">
+<div class="wrap">
+
+
+
+<form type="hidden" name="navf" id="navf" method="get" action="">
+	<input type="hidden" id="navq" name="query">
+	<input type="hidden" id="navp" name="p">
+	<input type="hidden" id="navw" name="w">
+</form>
+<form type="hidden" name="navf" id="sform" method="get" action="" accept-charset="UTF-8">
+	<input type="hidden" id="scid" name="cid">
+	<input type="hidden" id="ssp" name="sp">
+	<input type="hidden" id="sw" name="w">
+</form>
+<script type="text/javascript">
+if(!!window.ActiveXObject){
+	if(document.charset!='gb2312'){document.charset='gb2312';location.reload();}
+	setTimeout(function(){if(document.charset!='gb2312'){document.charset='gb2312';location.reload();}},50);
+}
+var $s = (function(){
+	var version = "0.1.0",
+			that = {},
+			funcs = {};
+			
+	//extension js address
+	that.ext_js = "/js/sext.js";
+	
+	//default objects
+	var $d = that.$d = document,js_hash = {}
+						
+	/*
+	* call a function that will be defined in another js
+	* @method call_from_js
+	* @param function_name {string} a name for future calling 
+	* @param js_address {string} address of the js file
+	* @param initFunc {function} function to call when js is ready
+	* @return null.
+	*/
+	function call_from_js(function_name, js_address, initFunc){
+		var that = this; //save caller
+		var args = Array.prototype.slice.call(arguments,3); //get extra arguments
+		if (typeof window[function_name] == "function") { //if this function is already there
+			if (js_hash[js_address] == "1"){
+				js_hash[js_address] = "2";
+				if (typeof initFunc == "function") {
+					initFunc.apply(that, args);
+				}
+			}
+			window[function_name].apply(that, args)
+		} else {
+			if (!js_hash[js_address]) { 
+				//if js is not loading, then load it
+				var js = $d.createElement("script");
+				js_hash[js_address]="1";
+				js.type = "text/javascript";
+				js.src = js_address;
+				if ($s.ua&&$s.ua.ie6){
+					setTimeout(function(){
+						$s.$h().appendChild(js);
+					}, 50);
+				}else{
+					$s.$h().appendChild(js);
+				}
+			}
+			args = Array.prototype.slice.call(arguments,0);
+			setTimeout(function() {
+				call_from_js.apply(that, args);
+			}, 50);
+		}
+	}
+	that.cjs = call_from_js;
+	
+	//common functions
+	that.$ = function(id){
+		return $d.getElementById(id);
+	}
+	that.$$ = function(obj, tag_name){
+		if (obj){
+			return obj.getElementsByTagName(tag_name);
+		}else{
+			return $d.getElementsByTagName(tag_name);
+		}
+	}
+	that.$b = function(elem, evts, funcs){
+		if (elem){
+			for (var i in evts){
+				if (window.attachEvent){
+					elem.attachEvent("on"+evts[i],funcs[i]);
+				}else{
+					elem.addEventListener(evts[i],funcs[i],false);
+				}
+			}
+		}
+	}
+	that.$c = function(tag_name, obj, cname, jssrc){
+		var tmp = $d.createElement(tag_name);
+		if (jssrc){
+			tmp.type = "text/javascript";
+			tmp.src = jssrc;
+		}
+		if (obj){
+			obj.appendChild(tmp);
+		}
+		if (cname){
+			tmp.className = cname;
+		}
+		return tmp;
+	}
+	that.$h = function(){
+		return that.$$($d, "head")[0];
+	}
+	that.t = function(){
+		return (new Date()).getTime();
+	}
+	//simple ua detect function
+	that.ua = (function(){
+		var ua_text = window.navigator.userAgent.toLowerCase();
+		var ua = {};
+		if (window.opera) {
+			ua["opera"] = true;
+		} else if (ua_text.indexOf("msie") != -1) {
+			ua["ie"] = true;
+			var ie_version = /msie\s+(.)/.exec(ua_text);
+			if (ie_version){
+				ua["ie"+ie_version[1]] = true;
+			}
+		} else if (ua_text.indexOf("webkit") != -1) {
+			ua["webkit"] = true;
+			if (ua_text.indexOf("chrome") != -1) {
+				ua["chrome"] = true;
+			} else if (ua_text.indexOf("ipad") != -1) {
+				ua["ipad"] = true;
+				ua["ios"] = true;
+			} else if (ua_text.indexOf("safari") != -1) {
+				ua["safari"] = true;
+			}
+		} else if (ua_text.indexOf("gecko") != -1) {
+			ua["gecko"] = true;
+			if (ua_text.indexOf("firefox") != -1) {
+				ua["firefox"] = true;
+			}
+		}
+		if (ua_text.indexOf("android") != -1){
+			ua["and"] = true;
+		}
+		if (ua_text.indexOf("iphone") != -1){
+			ua["ios"] = true;
+		}
+		return ua;
+	})();
+	that.wait = function(objid, func){
+		var div = $s.$(objid); 
+		if (div){
+			return func(div)
+		}
+		setTimeout(function(){that.wait(objid, func)}, 100)
+	}
+	
+	//preload javasript as image or object
+	//code from http://stevesouders.com/controljs/index.php
+	that.preload = function(js_addr){
+		if ( $s.ua.ie || $s.ua.opera ) {
+			var img = new Image();
+			img.src = js_addr;
+		}
+		else {
+			if ( "undefined" === typeof($d.body) || ! $d.body ) {
+				setTimeout("$s.preload('" + js_addr + "')", 50);
+				return;
+			}
+			var obj = $d.createElement('object');
+			obj.data = js_addr;
+			obj.width  = 0;
+			obj.height = 0;
+			$d.body.appendChild(obj);
+
+		}
+	} 
+	
+	//preload extend functions
+	that.extend = function(callback){
+		call_from_js("$s_ext", $s.ext_js, callback);
+	}
+	
+	//add remove class
+	that.cls = function(node, cls, isAdd){
+		if (node){
+			var className = node.className;
+			className = className.replace( cls , '' );
+			if (isAdd){
+				className = className+" "+cls;
+			}
+			node.className = className;
+		}
+	}
+	
+	that.viewport = function(){
+		var e = window, a = 'inner';
+		if ( !( 'innerWidth' in window ) ){
+			a = 'client';
+			e = $d.documentElement || $d.body;
+		}
+		return { width : e[ a+'Width' ] , height : e[ a+'Height' ] }
+	}
+
+	return that;
+})();
+function navSubmit(el, target, pval, wval) {
+	el.href="###";
+	var f = document.getElementById("navf"); f.action = target;
+	var q = document.getElementById("navq"); var iq = document.getElementById("upquery"); q.value = iq.value;
+	var p = document.getElementById("navp"); p.value = pval;
+	var w = document.getElementById("navw"); w.value = wval;
+	f.submit();
+	return false;
+}
+function navBar(c,a,b){var e=c.href.split(a),d=$s.$("searchForm").query.value;if(b){d=encodeURIComponent(d)}c.href=[e[0],a,d,"&",e[1].split("&").slice(1).join("&")].join("")} 
+function sosoSubmit(el, target, pval) {
+	el.href="###";
+	var iq = document.getElementById("upquery");
+	var f = document.getElementById("sform"); f.action = target;
+	var p = document.getElementById("scid"); p.value = pval;
+	var sp = document.getElementById("ssp"); sp.value = "S" + iq.value;
+	var w = document.getElementById("sw"); w.value = iq.value;
+	if(!!window.ActiveXObject)
+		document.charset='UTF-8';
+	f.submit();
+	if(!!window.ActiveXObject)
+                document.charset='gb2312';
+	return false;
+}
+function tp(d){
+	if(document.searchForm.query.value.length>=0){
+		var a=document.searchForm.query.value;
+		if(d.href.indexOf("wenwen")!=-1){
+			d.href="http://wenwen.sogou.com/s/?cid=newssearch2ww&w="+encodeURIComponent(a)
+		}else if(d.href.indexOf("baike")!=-1){
+			d.href="http://baike.sogou.com/Search.e?cid=newssearch2bk&sp=S"+encodeURIComponent(a)
+		}
+	}
+}
+$s.wait("searchnav", function(){
+	var btn = $s.$("navibtn"), div = $s.$("navimore"), timer;
+	if (btn && div){
+		btn.onclick = function(){
+			if (div.style.display == "block"){
+				//uigsPB("intclose");
+				btn.className = "";
+				div.style.display = "none";
+			}else{
+				//uigsPB("intmore");
+				div.style.display = "block";
+				btn.className = "on";
+			}
+			return false;
+		}
+		btn.parentNode.onmouseout = function(){
+			clearTimeout(timer);
+			timer = setTimeout(function(){
+				if (div.style.display == "block"){
+					//uigsPB("intclose");
+					div.style.display = "none";
+					btn.className = "";
+				}
+			}, 100);
+		}
+		btn.parentNode.onmouseover = function(){
+			clearTimeout(timer);
+		}
+	}
+});
+//fix body width
+var noresize = false;
+function fixBodyClass(){
+	$s.wait("upquery", function(obj){
+		obj.blur();
+	})
+	try{
+		if ($s.$("sugc")){
+			var tmp = $s.$("sugc").parentNode.parentNode;
+			tmp.style.display = "none";
+			tmp = tmp.parentNode.getElementsByTagName("iframe");
+			if (tmp.length > 0){
+				tmp[0].style.display = "none";
+			}
+		}
+		if (noresize){return}
+		if($s.viewport().width < 1200) { 
+			$s.cls(document.body, "vr1024", 1);
+		}else{
+			$s.cls(document.body, "vr1024");
+		}
+	}catch(E){
+		
+	}
+}
+function resizeWindow(){
+	var fn=function(){
+		if($s.viewport().width < 1200) { 
+			$s.cls(document.body, "vr1024", 1);
+		}else{
+			$s.cls(document.body, "vr1024");
+		}
+	}
+	if(window.addEventListener){
+        window.addEventListener('resize', function(){ fn(); });
+    }else if(window.attachEvent){
+        window.attachEvent('onresize', function(){ fn(); });
+    }
+    fn();
+}
+var imgIdArr=[];
+function checkImgLoad(trys){
+	if( trys >= 20 || imgIdArr.length == 0) return;
+	for(var i = 0 ; i < imgIdArr.length ; i ++ ){
+		 if( document.getElementById("imgID" + imgIdArr[i]).width>0 ){
+			document.getElementById("imgboxID" + imgIdArr[i]).style.display = "block";
+			imgIdArr.splice(i,1);i--;
+		 }
+	}
+	if( imgIdArr.length > 0 )
+		setTimeout( function(){checkImgLoad( trys?trys+1:1);},10 );
+}
+function len(str){
+	if(str)
+		return str.replace(/<.*?>/g, "").replace(/[^\x00-\xff]/g,"rr").replace(/&nbsp;/g, " ").length;
+	return 0;
+}
+function cutLength(str, maxLen, appended, appendLength){
+	appended = appended||"...";
+	appendLength = appendLength||2;
+	str=str.replace(/<!.*?>/g, "");
+	if (len(str) > maxLen){
+		do{
+			str = str.substring(0, str.length-1);
+		}while(str && (len(str)+appendLength > maxLen));
+		if (str.lastIndexOf("</") != str.lastIndexOf("<")){
+			str = str.substring(0, str.lastIndexOf("<"))+str.substring(str.lastIndexOf(">")+1);
+		}
+		return str+appended;
+	}
+	return str;
+}
+fixBodyClass();
+resizeWindow();
+function focusInput(that){
+	var qboarder = that.parentNode.parentNode;
+	that.onblur = function(){
+		qboarder.className = "qborder";
+	}
+	that.onfocus = function(){
+		qboarder.className = "qborder blueQborder";
+	}
+	if (that.getAttribute('ov')){
+		setTimeout(function(){
+			if(that.value!=that.getAttribute('ov')){
+				that.value=that.getAttribute('ov')
+			};
+			document.searchForm.setAttribute('reseted', 1);
+		}, 50);
+	}
+	qboarder.className = "qborder blueQborder";
+}
+function clickHide(btn, div, pbName){
+	var timer, nohide = false;
+	btn.onmouseover = function(){};
+	if (btn && div){
+		function hide(){
+			if (nohide){
+				nohide = false;
+				return;
+			}
+			if (div.style.display != "none"){
+				uigsPB("intclose_"+pbName);
+				div.style.display = "none";
+			}
+		}
+		btn.onclick = function(){
+			nohide = true;
+			if (div.style.display != "none"){
+				uigsPB("intclose_"+pbName);
+				div.style.display = "none";
+			}else{
+				uigsPB("intmore_"+pbName);
+				div.style.display = "block";
+			}
+			return false;
+		}
+		div.onmouseout = btn.onmouseout = function(){
+			clearTimeout(timer);
+			timer = setTimeout(hide, 100);
+		}
+		div.onmouseover = btn.onmouseover = function(){
+			clearTimeout(timer);
+		}
+		$s.$b(document.body, ["click"], [hide])
+	}
+};
+function setCookie(name, value, expires, path, domain, secure) {
+    var today = new Date();
+    today.setTime( today.getTime() );
+    var expires_date = new Date( today.getTime() + (expires) );
+    document.cookie= name + "=" + escape(value) +
+        ((expires) ? "; expires=" + expires_date.toGMTString() : "") +
+        ((path) ? "; path=" + path : "") +
+        ((domain) ? "; domain=" + domain : "") +
+        ((secure) ? "; secure" : "");
+}
+</script>
+<div class="header">
+	<a href="http://news.sogou.com/?w=03021800" title="回到搜狗新闻首页" class="logo"></a>
+	<ul class="searchnav">
+		<li class="cur"><a href="#">新闻</a></li><li><a href="http://www.sogou.com/web?query=%C1%F5%D4%F3%D6%E6&amp;w=03021800" id="news_www" onclick="navSubmit(this,'http://www.sogou.com/web','','03021800');return false;">网页</a></li><li><a href="http://weixin.sogou.com/weixin?p=42341200&amp;query=%E5%88%98%E6%B3%BD%E5%AE%99&amp;type=2&amp;ie=utf8" id="news_weixin" onclick="navBar(this,'query=',true)">微信</a></li><li><span class="nav-new"></span><a href="http://zhihu.sogou.com/zhihu?p=42351201&amp;query=%E5%88%98%E6%B3%BD%E5%AE%99&amp;ie=utf8" id="news_zhihu" onclick="navBar(this,'query=',true)">知乎</a></li><li><a href="http://wenwen.sogou.com/s/?cid=newssearch2ww&amp;w=%E5%88%98%E6%B3%BD%E5%AE%99" id="news_zhishi" onclick="return tp(this);">问问</a></li><li><a href="http://pic.sogou.com/pics?query=%C1%F5%D4%F3%D6%E6&amp;w=03021800" id="news_pic" onclick="navSubmit(this,'http://pic.sogou.com/pics','','03021800');return false;">图片</a></li><li><a href="http://v.sogou.com/v?query=%C1%F5%D4%F3%D6%E6" id="news_video" onclick="navSubmit(this,'http://v.sogou.com/v','','03021800');return false;">视频</a></li><li><a href="http://map.sogou.com/#lq=%C1%F5%D4%F3%D6%E6" id="news_map" onclick="navBar(this,'#lq=','')">地图</a></li><li><a href="http://gouwu.sogou.com/shop?query=%C1%F5%D4%F3%D6%E6&amp;p=40251501" id="news_gouwu" onclick="navSubmit(this,'http://gouwu.sogou.com/shop','40251501','03021800');return false;">购物</a></li><li><a href="http://www.sogou.com/docs/more.htm" id="top_more" target="_blank">更多<span>&gt;&gt;</span></a></li>
+		
+		
+	</ul>
+	<form name="searchForm" id="searchForm">
+		<div class="querybox">
+			<div class="qborder">
+				<div class="qborder2">
+					<input type="text" id="upquery" class="query" name="query" onfocus="focusInput(this)" ov="刘泽宙" value="刘泽宙" autocomplete="off">
+					<a href="javascript:void(0)" class="qreset2" style="display: block;"></a>
+				</div>
+			</div>
+			
+			<input type="hidden" name="_ast" value="1462199040"><input type="hidden" name="_asf" value="news.sogou.com"><input type="hidden" name="time" value="0"><input type="hidden" name="w" value="03009900"><input type="hidden" name="sort" value="0"><input type="hidden" name="mode" id="mode" value="1"><input type="hidden" name="manual" value="">
+			<input type="submit" value="搜狗搜索" class="sbtn1" uigs="click=searchBtn" onmouseover="this.className='btnactive'" onmouseup="this.className='sbtn1'" onmouseout="this.className='sbtn1'">
+		</div>
+	</form>
+</div>
+<div class="header-filt">
+	
+	<span class="filt-result">找到相关新闻约0篇</span>	
+	
+    <div class="filt-type">
+	   	 
+		<label for="mode_in_content" class="filt-news"><input type="radio" id="mode_in_content" class="filt-radio" value="news" checked="checked">新闻全文</label><label for="mode_in_title" class="filt-title"><input type="radio" id="mode_in_title" class="filt-radio" name="tn" value="newstitle">新闻标题</label>
+		
+    </div><span class="filt-line">|</span>
+    <div class="filt-sort">
+	    
+	    <span onmouseover="clickHide(this, this.nextSibling, 'filter')">按焦点排序</span><div class="filt-pop" id="filt_pop" style="display:none"><a href="javascript:void(0)" id="news_sortbyrelative" class="cur">按焦点排序</a><a href="javascript:void(0)" id="news_sortbytime" onclick="switchsort(this);return false;">按时间排序</a></div>
+		
+    </div>
+    <div class="filt-sort filt-sort-from">
+      	<span onmouseover="clickHide(this, this.nextSibling, 'time')">全部来源</span><div class="filt-pop popMore" style="display:none;">
+		<a href="?query=site:sohu.com%20%C1%F5%D4%F3%D6%E6&amp;manual=true&amp;mode=1&amp;sort=0&amp;p=42230302">搜狐</a><a href="?query=site:qq.com%20%C1%F5%D4%F3%D6%E6&amp;manual=true&amp;mode=1&amp;sort=0&amp;p=42230302">腾讯</a><a href="?query=site:sina.com.cn%20%C1%F5%D4%F3%D6%E6&amp;manual=true&amp;mode=1&amp;sort=0&amp;p=42230302">新浪</a><a href="?query=site:ifeng.com%20%C1%F5%D4%F3%D6%E6&amp;manual=true&amp;mode=1&amp;sort=0&amp;p=42230302">凤凰</a><a href="?query=site:163.com%20%C1%F5%D4%F3%D6%E6&amp;manual=true&amp;mode=1&amp;sort=0&amp;p=42230302">网易</a>
+       </div>
+    </div>
+</div>
+<script>
+function select(modevalue){document.getElementById("mode").value=modevalue;document.getElementById('searchForm').submit();}
+$s.$("mode_in_content").onclick= function(){
+	select('1');
+};
+$s.$("mode_in_title").onclick= function(){
+	select('2');
+};
+function switchsort(obj){
+	if(obj.id=="news_sortbytime"){
+		window.location.href="./news?&clusterId=&p=42230305&time=0&query=%C1%F5%D4%F3%D6%E6&mode=1&media=&sort=1";
+	}else{
+		window.location.href="./news?&clusterId=&p=42230304&time=0&query=%C1%F5%D4%F3%D6%E6&mode=1&media=&sort=0";
+	}
+}
+</script>
+<!-- </div> -->
+<div id="wrapper" class="wrapper"><div id="right" class="right" style="">
+		<div class="rvr-model">
+    <h3 class="rvr-atAdBranch">新闻热点<a href="/" class="newshome" target="_blank">新闻首页&gt;&gt;</a></h3>
+    <ol class="music-recommend"><li class="music-tit">关键词<span>热度</span></li><li id="tpw1"><span class="ranklist_span">9970</span><span class="mus-pub mus-top1">1</span><a href="http://news.sogou.com/news?pid=sogou-brse-596dedf4498e258e&amp;p=99350101&amp;query=%D3%CE%CF%E3%B8%DB%BE%DC%B9%BA%CE%EF%B1%BB%B4%F2" target="_blank">游香港拒购物被打</a></li><li id="tpw2"><span class="ranklist_span">9354</span><span class="mus-pub mus-top2">2</span><a href="http://news.sogou.com/news?pid=sogou-brse-596dedf4498e258e&amp;p=99350101&amp;query=%D2%C9%E2%D7%B3%CE%C7%EC%B9%AB%BF%AA%C1%B5%C7%E9" target="_blank">疑庾澄庆公开恋情</a></li><li id="tpw3"><span class="ranklist_span">8963</span><span class="mus-pub mus-top3">3</span><a href="http://news.sogou.com/news?pid=sogou-brse-596dedf4498e258e&amp;p=99350101&amp;query=%B3%F6%D7%E2%B3%B5%D7%B2%C0%CD%CB%B9%C0%B3%CB%B9" target="_blank">出租车撞劳斯莱斯</a></li><li id="tpw4"><span class="ranklist_span">8769</span><span class="mus-pub">4</span><a href="http://news.sogou.com/news?pid=sogou-brse-596dedf4498e258e&amp;p=99350101&amp;query=%CF%C4%C2%E5%CC%D8%B9%AB%D6%F7%D3%AD%D6%DC%CB%EA" target="_blank">夏洛特公主迎周岁</a></li><li id="tpw5"><span class="ranklist_span">8645</span><span class="mus-pub">5</span><a href="http://news.sogou.com/news?pid=sogou-brse-596dedf4498e258e&amp;p=99350101&amp;query=%C8%D5%BD%AB%B7%C5%BF%ED%C7%A9%D6%A4%D5%FE%B2%DF" target="_blank">日将放宽签证政策</a></li><li id="tpw6"><span class="ranklist_span">8363</span><span class="mus-pub">6</span><a href="http://news.sogou.com/news?pid=sogou-brse-596dedf4498e258e&amp;p=99350101&amp;query=%BE%AD%C0%ED%C9%EE%D2%B9%D7%DF%B4%ED%BF%CD%B7%BF" target="_blank">经理深夜走错客房</a></li><li id="tpw7"><span class="ranklist_span">7857</span><span class="mus-pub">7</span><a href="http://news.sogou.com/news?pid=sogou-brse-596dedf4498e258e&amp;p=99350101&amp;query=%C7%D8%BB%CA%B5%BA%BA%A3%BA%E7%D6%D0%B6%BE" target="_blank">秦皇岛海虹中毒</a></li><li id="tpw8"><span class="ranklist_span">7396</span><span class="mus-pub">8</span><a href="http://news.sogou.com/news?pid=sogou-brse-596dedf4498e258e&amp;p=99350101&amp;query=%B4%C5%CC%FA%B8%C4%B3%B5%C5%C6%C9%CF%B8%DF%CB%D9" target="_blank">磁铁改车牌上高速</a></li><li id="tpw9"><span class="ranklist_span">7167</span><span class="mus-pub">9</span><a href="http://news.sogou.com/news?pid=sogou-brse-596dedf4498e258e&amp;p=99350101&amp;query=%C4%D0%D3%A4%CA%D6%D6%B8%BD%C5%D6%BA31%B8%F9" target="_blank">男婴手指脚趾31根</a></li><li id="tpw10"><span class="ranklist_span">6903</span><span class="mus-pub">10</span><a href="http://news.sogou.com/news?pid=sogou-brse-596dedf4498e258e&amp;p=99350101&amp;query=%C4%D0%CD%AF%B3%A426%BF%C5%BD%E1%CA%AF" target="_blank">男童长26颗结石</a></li></ol><div class="hot-rukou">来源：<a href="http://top.sogou.com/?fr=news_right" target="_blank" id="sogou_hotwords">搜狗热搜榜</a> - <a href="http://top.sogou.com/hot/shishi_1.html?fr=news_right" target="_blank" id="realtime_hotwords">实时热点</a></div></div>
+		<div class="rvr-model">
+			<div style="width:200px;">
+	  		  <script type="text/javascript">showBrandAD('sogou__news_lunbo',5)</script><script type="text/javascript" src="http://sig.brand.sogou.com/cpc_brand?pid=sogou__news_lunbo&amp;position=5&amp;div=sogouFrag_5&amp;suid=9FAA5DCB13EFEEDF8F7FF483DF0123B5&amp;page_id=f9792bee-bc0c-4b19-8d82-ec5ee7f01795&amp;ads_cnt=3&amp;url=http%3A//news.sogou.com/news%3Fquery%3D%25C1%25F5%25D4%25F3%25D6%25E6%26mode%3D1&amp;showcx=1"></script>
+	          <div id="sogouFrag_5" style="margin-bottom:35px;">
+	            <script type="text/javascript" src="http://images.sohu.com/cs/jsfile/js/c.js"></script><script src="http://inte.sogou.com/ask?id=25529&amp;pos_id=205&amp;h=200&amp;w=200&amp;fv=0&amp;if=16&amp;sohuurl=http%3A%2F%2Fnews.sogou.com%2Fnews%3Fquery%3D%25C1%25F5%25D4%25F3%25D6%25E6%26mode%3D1&amp;refer=http%3A%2F%2Fnews.sogou.com%2F&amp;rnd=592748e107a8e8a9&amp;z=fc77674f7e4876c1&amp;lmt=1462170780&amp;srp=1366,768&amp;ccd=32&amp;lhi=2&amp;eja=false&amp;npl=0&amp;nmi=0&amp;ece=true&amp;lan=zh-CN&amp;bi=1&amp;t1=24&amp;t2=1462199581&amp;pvt=1462199580931&amp;ssi0=261&amp;ti=%E6%90%9C%E7%8B%97%E6%96%B0%E9%97%BB%E6%90%9C%E7%B4%A2%EF%BC%9A%E5%88%98%E6%B3%BD%E5%AE%99&amp;bs=400,300&amp;cb=SOGOU_STAR_SETJSONADSLOT&amp;fs=1&amp;mi=0&amp;tmp_cdif=0&amp;bm=4&amp;glx=0"></script><div style="display:none">-</div> <div id="starIframe_wrapper_1" style="height:200px;"><iframe id="starIframe1" onload="document.sogou_ads1_loaded=true;" src="http://inte.sogou.com/ct?id=25529&amp;pos_id=205&amp;h=200&amp;w=200&amp;fv=0&amp;if=16&amp;sohuurl=http%3A%2F%2Fnews.sogou.com%2Fnews%3Fquery%3D%25C1%25F5%25D4%25F3%25D6%25E6%26mode%3D1&amp;refer=http%3A%2F%2Fnews.sogou.com%2F&amp;rnd=592748e107a8e8a9&amp;z=fc77674f7e4876c1&amp;lmt=1462170781&amp;srp=1366,768&amp;ccd=32&amp;lhi=2&amp;eja=false&amp;npl=0&amp;nmi=0&amp;ece=true&amp;lan=zh-CN&amp;bi=1&amp;t1=99&amp;t2=1462199581&amp;pvt=1462199580931&amp;ssi0=261&amp;ti=%E6%90%9C%E7%8B%97%E6%96%B0%E9%97%BB%E6%90%9C%E7%B4%A2%EF%BC%9A%E5%88%98%E6%B3%BD%E5%AE%99&amp;bs=400,300&amp;tmp_cdif=0&amp;mi=0&amp;m=MTQ2MjE5OTA4OF9wcmV0dHkgZG9nXzI1NTI5AA--&amp;ex=&amp;glx=0" width="200" height="200" align="center,center" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" allowtransparency="true"></iframe></div>          
+	          </div>
+	          <script type="text/javascript">showBrandAD('sogou__news_lunbo',6)</script><script type="text/javascript" src="http://sig.brand.sogou.com/cpc_brand?pid=sogou__news_lunbo&amp;position=6&amp;div=sogouFrag_6&amp;suid=A0158A0B50AEDF2A77368FE34AB65551&amp;page_id=f9792bee-bc0c-4b19-8d82-ec5ee7f01795&amp;ads_cnt=3&amp;url=http%3A//news.sogou.com/news%3Fquery%3D%25C1%25F5%25D4%25F3%25D6%25E6%26mode%3D1&amp;showcx=1"></script>
+              <div id="sogouFrag_6" style="margin-bottom:35px;">
+	          	<script type="text/javascript" src="http://images.sohu.com/cs/jsfile/js/c.js"></script><script src="http://inte.sogou.com/ask?id=25529&amp;pos_id=206&amp;h=200&amp;w=200&amp;fv=0&amp;if=16&amp;sohuurl=http%3A%2F%2Fnews.sogou.com%2Fnews%3Fquery%3D%25C1%25F5%25D4%25F3%25D6%25E6%26mode%3D1&amp;refer=http%3A%2F%2Fnews.sogou.com%2F&amp;rnd=592748e107a8e8a9&amp;z=474107ba9aeb171d&amp;lmt=1462170781&amp;srp=1366,768&amp;ccd=32&amp;lhi=2&amp;eja=false&amp;npl=0&amp;nmi=0&amp;ece=true&amp;lan=zh-CN&amp;bi=2&amp;t1=6&amp;t2=1462199581&amp;pvt=1462199580931&amp;ssi0=261&amp;ti=%E6%90%9C%E7%8B%97%E6%96%B0%E9%97%BB%E6%90%9C%E7%B4%A2%EF%BC%9A%E5%88%98%E6%B3%BD%E5%AE%99&amp;bs=400,300&amp;cb=SOGOU_STAR_SETJSONADSLOT&amp;fs=1&amp;mi=0&amp;tmp_cdif=0&amp;bm=4&amp;glx=0"></script><div style="display:none">-</div> <div id="starIframe_wrapper_2" style="height:200px;"><iframe id="starIframe2" onload="document.sogou_ads2_loaded=true;" src="http://inte.sogou.com/ct?id=25529&amp;pos_id=206&amp;h=200&amp;w=200&amp;fv=0&amp;if=16&amp;sohuurl=http%3A%2F%2Fnews.sogou.com%2Fnews%3Fquery%3D%25C1%25F5%25D4%25F3%25D6%25E6%26mode%3D1&amp;refer=http%3A%2F%2Fnews.sogou.com%2F&amp;rnd=592748e107a8e8a9&amp;z=474107ba9aeb171d&amp;lmt=1462170781&amp;srp=1366,768&amp;ccd=32&amp;lhi=2&amp;eja=false&amp;npl=0&amp;nmi=0&amp;ece=true&amp;lan=zh-CN&amp;bi=2&amp;t1=67&amp;t2=1462199581&amp;pvt=1462199580931&amp;ssi0=261&amp;ti=%E6%90%9C%E7%8B%97%E6%96%B0%E9%97%BB%E6%90%9C%E7%B4%A2%EF%BC%9A%E5%88%98%E6%B3%BD%E5%AE%99&amp;bs=400,300&amp;tmp_cdif=0&amp;mi=0&amp;m=MTQ2MjE5OTA4OF9wcmV0dHkgZG9nXzI1NTI5AA--&amp;ex=&amp;glx=0" width="200" height="200" align="center,center" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" allowtransparency="true"></iframe></div>          
+	          </div>
+	          <script type="text/javascript">showBrandAD('sogou__news_lunbo',7)</script><script type="text/javascript" src="http://sig.brand.sogou.com/cpc_brand?pid=sogou__news_lunbo&amp;position=7&amp;div=sogouFrag_7&amp;suid=FAA8A779EB5CA807C104C30A25618669&amp;page_id=f9792bee-bc0c-4b19-8d82-ec5ee7f01795&amp;ads_cnt=3&amp;url=http%3A//news.sogou.com/news%3Fquery%3D%25C1%25F5%25D4%25F3%25D6%25E6%26mode%3D1&amp;showcx=1"></script>
+	          <div id="sogouFrag_7" style="margin-bottom:35px;">
+	            <script type="text/javascript" src="http://images.sohu.com/cs/jsfile/js/c.js"></script><script src="http://inte.sogou.com/ask?id=25529&amp;pos_id=207&amp;h=200&amp;w=200&amp;fv=0&amp;if=16&amp;sohuurl=http%3A%2F%2Fnews.sogou.com%2Fnews%3Fquery%3D%25C1%25F5%25D4%25F3%25D6%25E6%26mode%3D1&amp;refer=http%3A%2F%2Fnews.sogou.com%2F&amp;rnd=592748e107a8e8a9&amp;z=52b9eaf0071a5b47&amp;lmt=1462170781&amp;srp=1366,768&amp;ccd=32&amp;lhi=2&amp;eja=false&amp;npl=0&amp;nmi=0&amp;ece=true&amp;lan=zh-CN&amp;bi=3&amp;t1=7&amp;t2=1462199581&amp;pvt=1462199580931&amp;ssi0=261&amp;ti=%E6%90%9C%E7%8B%97%E6%96%B0%E9%97%BB%E6%90%9C%E7%B4%A2%EF%BC%9A%E5%88%98%E6%B3%BD%E5%AE%99&amp;bs=400,300&amp;cb=SOGOU_STAR_SETJSONADSLOT&amp;fs=1&amp;mi=0&amp;tmp_cdif=0&amp;bm=4&amp;glx=0"></script><div style="display:none">-</div> <div id="starIframe_wrapper_3" style="height:200px;"><iframe id="starIframe3" onload="document.sogou_ads3_loaded=true;" src="http://inte.sogou.com/ct?id=25529&amp;pos_id=207&amp;h=200&amp;w=200&amp;fv=0&amp;if=16&amp;sohuurl=http%3A%2F%2Fnews.sogou.com%2Fnews%3Fquery%3D%25C1%25F5%25D4%25F3%25D6%25E6%26mode%3D1&amp;refer=http%3A%2F%2Fnews.sogou.com%2F&amp;rnd=592748e107a8e8a9&amp;z=52b9eaf0071a5b47&amp;lmt=1462170781&amp;srp=1366,768&amp;ccd=32&amp;lhi=2&amp;eja=false&amp;npl=0&amp;nmi=0&amp;ece=true&amp;lan=zh-CN&amp;bi=3&amp;t1=78&amp;t2=1462199581&amp;pvt=1462199580931&amp;ssi0=261&amp;ti=%E6%90%9C%E7%8B%97%E6%96%B0%E9%97%BB%E6%90%9C%E7%B4%A2%EF%BC%9A%E5%88%98%E6%B3%BD%E5%AE%99&amp;bs=400,300&amp;tmp_cdif=0&amp;mi=0&amp;m=MTQ2MjE5OTA4OV9wcmV0dHkgZG9nXzI1NTI5AA--&amp;ex=&amp;glx=0" width="200" height="200" align="center,center" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" allowtransparency="true"></iframe></div>                   
+	          </div>
+	          
+	      	</div>
+      	</div>
+	</div><div id="main" class="main">
+<script>
+(function(){
+	setCookie("sortcookie","1",-1,"/","sogou.com",null);
+})();
+</script>  
+<div class="results">
+
+<div class="no-result" id="noresult_part1_container">
+				没有找到与“ <font color="#c60a00">刘泽宙</font> ”相关的新闻。
+			  </div>
+			
+		<div class="no-result-info" id="noresult_part3_container"><b>建议您:</b>
+			<ol>
+				<li>1.请检查您输入的关键词是否有错误;</li>
+				<li>2.换另一个相似的词，或常见的词试试;</li>
+				<li>3.您可以查看<a href="http://www.sogou.com/help.html" id="news_help">搜狗帮助</a>，或向我们<a href="http://fankui.help.sogou.com/index.php/web/web/index?type=4&amp;stype=news" target="_blank">提出建议</a>。</li>
+			</ol>
+		</div><br>
+		
+</div></div>
+</div>
+</div>
+<script type="text/javascript">
+		function getRandomString(len){
+			var chars = '1234567890ABCDEF';
+			var ret = "";
+			for(var i = 0; i < len; i ++)
+				ret += chars.charAt(Math.floor(Math.random()*chars.length));
+			return ret;
+		}
+		function deleteCookie(name, path, domain) {
+		    if (getCookie(name)) {
+		        document.cookie = name + "=" +
+		            ((path) ? "; path=" + path : "") +
+		            ((domain) ? "; domain=" + domain : "") +
+		            "; expires=Thu, 01-Jan-1970 00:00:01 GMT";
+		    }
+		}
+		function showBrandAD(pid, pos, callback) {
+		    var div = "sogouFrag_" + pos;
+		    var adid = "ADID_" + pos;
+		    if (!document.getElementById(adid)) {
+		        var html_doc = document.getElementsByTagName('head')[0];
+		        //js = document.createElement('script');
+		        //html_doc.appendChild(js);
+		        //js.setAttribute('id', adid);
+		        //js.setAttribute('type', 'text/javascript');
+		        //var urlBuff = ["http://sig.brand.sogou.com/cpc_brand?&pid="+pid+"&position="];
+				var urlBuff = ["http://sig.brand.sogou.com/cpc_brand?pid="+pid+"&position="];
+		        urlBuff.push(pos);
+		        urlBuff.push("&div=");
+		        urlBuff.push(div);
+		        urlBuff.push("&suid=");
+		        var SUID = getCookie("SUID");
+		        if(document.cookie.indexOf("suid") != null){
+					document.cookie = "suid=;path=/;domain=.soso.com;expires=Thu, 01-Jan-1970 00:00:01 GMT"
+					SUID = getRandomString(32);
+				}
+		        urlBuff.push(SUID);
+		        urlBuff.push("&page_id=");
+		        urlBuff.push("f9792bee-bc0c-4b19-8d82-ec5ee7f01795");
+		        urlBuff.push("&ads_cnt=3");
+		        urlBuff.push("&url=");
+		        urlBuff.push(escape(window.location.href));
+		        urlBuff.push("&showcx=1");
+		        //js.setAttribute('src', urlBuff.join(""));
+				var content = '<scr' + 'ipt type="text/javascript" src="' + urlBuff.join("") + '"></scr' + 'ipt>';
+		           document.write(content); 
+		    }
+		    if (typeof (callback) == "function")
+		        callback();
+		}
+	</script>
+	
+	 
+
+<div class="cr" id="footer">
+	<!--[if IE]><a id="sogou_hpfooter" href="#pageEnd" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://news.sogou.com');">设为首页</a> <![endif]-->
+	<a id="sogou_newshelp" href="http://help.sogou.com/news.html?v=1" target="_blank">搜索帮助</a>  <a id="news_feedbackdown" href="http://fankui.help.sogou.com/index.php/web/web/index?type=4&amp;stype=news" target="_blank">意见反馈</a>  <a target="_blank" href="http://e.weibo.com/sogou" id="sogouweibo">官方微博</a> © 2016 SOGOU.COM <a class="g" href="http://www.sogou.com/docs/terms.htm?v=1" target="_blank">免责声明</a>
+	<form id="fankuiform" method="post" accept-charset="gbk"><input type="hidden" name="cause" value="满意"><input type="hidden" name="query" value="刘泽宙"><input type="hidden" name="refer" value="http://news.sogou.com/"><input type="hidden" name="uuid" value="f9792bee-bc0c-4b19-8d82-ec5ee7f01795"><input type="hidden" name="scenehtml" id="scenehtml"><input type="hidden" name="queryurl" value=""></form>
+</div>
+
+<script>
+//reset related function
+var queryList = ["upquery", "bottom_form_querytext"];
+
+for (i = 0; i < queryList.length; i++){
+	$s.wait(queryList[i], function(query){
+		var resetBtn = $s.$$(query.parentNode.parentNode, "a")[0];
+		if (resetBtn){
+			function showImgHl(){
+				resetBtn.style.display = query.value?"block":"none";
+				setTimeout(showImgHl, 100);
+			}
+			showImgHl();
+			resetBtn.onclick = function(){
+				query.value = "";
+				query.setAttribute("ov", "");
+				query.focus();
+				uigsPB("clearImg"+query.id);
+			}
+		}
+	});
+}
+//加载显示右侧
+$s.wait("right",function(b){var a=$s.$("main");if(a){a.parentNode.insertBefore(b,a);b.style.display="";}});
+
+var wendaList = [];
+var smallImageList = [];
+var imageSuccessList = [];
+</script>
+<script>var leftIsHidden = false;
+(function(){
+	function setCookie(value) {
+		document.cookie="columnnum="+value+"; expires=Thu, 21-Jul-2020 00:00:00 GMT; path=/;domain=sogou.com;";
+	}
+	$s.wait("switchcolimg", function(obj) {
+		function closeLeft(isclose){
+			var fold = false;
+		    if (isclose || document.body.className.indexOf('hideside') < 0) {
+		    	$s.cls(document.body, "hideside", 1);
+		        fold = true;
+		        leftIsHidden = true;
+		    } else {
+		    	$s.cls(document.body, "hideside");
+		    }
+		    setCookie(fold?"2":"1");
+		    if (!isclose){
+		    	uigsPB('leftColumn_'+(fold?"close":"open"));
+		    }		    
+		}
+	    
+	    if (screen.width <= 800 && document.cookie.indexOf("columnnum") < 0){
+			closeLeft(true);
+		}
+	    obj.onclick = function(){closeLeft()};
+	})
+})();
+if (typeof sogou_news_top_words_encoded == "undefined"){
+    var sctop =document.createElement("script");
+    sctop.charset="gb2312";
+    sctop.src="http://top.sogou.com/news_top_index.js?v="+((new Date()).getTime());
+    document.body.appendChild(sctop);
+}
+var uigs_para={"uigs_productid":"news","uigs_pbtag":"A",query:'%C1%F5%D4%F3%D6%E6',page:1,sort:0,mode:1,'abtest':'b','leftIsHidden':leftIsHidden,'inttab':'0','intcat':'news','rn':'0', 'hint':'0','hasTrendsResult':typeof hasTrendsResult != "undefined"?"true":"false", "zhuanti_title":typeof zhuanti_title != "undefined"?zhuanti_title:"","imgrecom":window.imgrecom?"true":"false"};
+var SugPara = {"domain":"w.sugg.sogou.com",sugType:"news",productId:"news", inputid:"upquery", suggestRid:"01025001", normalRid:"01029901",  useParent:1, oms:1,"frpage":"result"};
+</script><script charset="gb2312" src="http://top.sogou.com/news_top_index.js?v=1462199581324"></script>
+<script type="text/javascript" src="/js/pb_v.1.8.js"></script>
+<script type="text/javascript" src="/js/sugg_pcnews.min.v.0.1.js"></script>
+
+
+
+
+
+<!--STATUS total 0 time 48 page 0 maxEnd 0 totalItems 0-->
+<!--real_pageno:1-->
+<!--lyc-->
+
+
+
+
+
+</body></html>
