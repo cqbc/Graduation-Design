@@ -1,0 +1,5 @@
+#proxy ip username password配置列表
+
+#10.142.164.91	3128	liuzezhou 123
+#10.142.164.90	3128	bigdata	bigdata
+

@@ -1,0 +1,395 @@
+网易论坛	bbs.local.163.com	http://bbs.local.163.com/[\s\S]*	httpclient
+        标题	div.tie-con-hd>h2
+        作者	div.tie-author-column>span
+        发布时间	div.tie-con-hd-panel>span#=>#(楼主 &nbsp;&nbsp;[\s]*[\s]*#split_small#[\S]*\s[\S]*#split_small# )
+        正文	div.tie-content
+
+中华网社区	club.china.com	http://club.china.com/[\s\S]*	httpclient  
+        标题	div.topic>div.postHeadOne>h1
+        作者	div.topic>div.postInfo span.author>a
+        发布时间	div.topic>div.postInfo li.time>span#=>#(发表于：[\s]*#split_small#[\S]*\s[\S]*#split_small# )
+        正文	div.topic>div.postContent
+
+新浪博客	blog.sina.com.cn	http://blog.sina.com.cn/[\s\S]*	httpclient
+	标题	div.articalTitle>h2
+	作者	strong#ownernick
+	发布时间	span.time#=>#(\(*#split_small#[\s\S]*#split_small#\))
+	正文	div.articalContent>p
+        
+西祠论坛	www.xici.net	http://www.xici.net/[\s\S]*	phantomjs
+	标题	h1.title
+	作者	a.b>span
+	发布时间	div.l>b
+	正文	div.doc_txt>p
+
+#搜狐	club.news.sohu.com	http://club.news.sohu.com/[\s\S]*	phantomjs
+#	标题	em.title
+#	作者	a.username
+#	发布时间	div.grey:contains(-)#=>#(发表于*#split_small#[\s\S]*#split_small#[ ])
+#	正文	div.wrap>p
+
+凯迪社区	club.kdnet.net	http://club.kdnet.net/[\s\S]*	phantomjs
+	标题	div.posts-title
+	作者	div.posts-posted#=>#(#split_small#[\s\S]*#split_small# 于)
+	发布时间	div.posts-posted#=>#(于 *#split_small#[\s\S]*#split_small#发布)
+	正文	div.posts-cont	
+
+搜狐社区	m.club.sohu.com	http://m.club.sohu.com/[\\s\\S]*	httpclient
+	标题	div.read>dl>dd#block_index#1
+	作者	span[style=float:right;margin-top: 1px;]>em#block_index#1
+	发布时间	span[style=float:right;margin-top: 1px;]>em#block_index#2
+	正文	dl[style=background:#fff;]>dt	
+
+网易论坛	bbs.news.163.com	http://bbs.news.163.com/[\s\S]*	httpclient
+	标题	h2
+	作者	span.info-name#paras#html,title
+	发布时间	span.time#=>#(楼主 &nbsp;&nbsp; [\s]*#split_small#[\S]*\s[\S]*#split_small# )
+	正文	div.tie-con-bd
+
+人民网观点	opinion.people.com.cn	http://opinion.people.com.cn/[\s\S]*	httpclient
+	标题	h1#p_title
+	作者	span#p_origin#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
+	发布时间	span#p_publishtime
+	正文	div#p_content
+
+新华网	news.xinhuanet.com	http://news.xinhuanet.com/[\s\S]*	httpclient
+	标题	h1#title
+	作者	span#source#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
+	发布时间	span#pubtime
+	正文	div#content
+
+中国网	news.china.com.cn	http://news.china.com.cn/[\s\S]*	httpclient
+	标题	div#contit>h1
+	作者	span#source_baidu#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
+	发布时间	span#pubtime_baidu#=>#(发布时间： #split_small#[\S\s]*#split_small#[　]*)
+	正文	div#bigpic
+
+央视网	news.cntv.cn	http://news.cntv.cn/[\s\S]*	httpclient
+	标题	div#top_title>h1
+	作者	div#top_title>p#=>#(来源： #split_small#[\S\s]*#split_small#[　]*\| 手机看新闻)
+	发布时间	div#top_title>p#=>#(发布时间: #split_small#[\S\s]*#split_small#[ ]\| 进入复兴论坛)
+	#发布时间	span#pubtime_baidu#=>#(发布时间： #split_small#[\S\s]*#split_small#[　]*)
+	正文	div#content_body
+
+中国青年网	news.youth.cn	http://news.youth.cn/[\s\S]*	httpclient
+	标题	div.l_tit
+	作者	span#source_baidu#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
+	发布时间	span#pubtime_baidu#=>#(发稿时间： #split_small#[\S\s]*#split_small#[　]*)
+	正文	div.article
+
+中国青年网	pinglun.youth.cn	http://pinglun.youth.cn/[\s\S]*	httpclient
+	标题	div.l_tit
+	作者	span#source_baidu#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
+	发布时间	span#pubtime_baidu#=>#(发稿时间： #split_small#[\S\s]*#split_small#[　]*)
+	正文	div.article
+
+深圳新闻网	www.sznews.com	http://www.sznews.com/[\s\S]*	httpclient
+	标题	div#PrintTxt>h2
+	作者	span#source_baidu#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
+	发布时间	span#pubtime_baidu
+	正文	div.new_txt>p
+
+正方北网	www.northnews.cn	http://www.northnews.cn/[\s\S]*	httpclient
+	标题	div.wz-tit>h1
+	作者	div.auth>span#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
+	发布时间	div.auth span:eq(0)
+	正文	div#ctrlfscont
+
+咸宁新闻网	news.xnnews.com.cn	http://news.xnnews.com.cn/[\s\S]*	httpclient
+	标题	td.title
+	#作者	td.ly#=>#(来源： #split_small#[\S\s]*#split_small#[　]* 时间)
+	作者	td.ly#=>#(来源： #split_small#[\S\s]*#split_small#[　]*时间)
+	发布时间	td.ly#=>#(时间： #split_small#[\S\s]*#split_small#[　]*进入论坛)
+	正文	div.TRS_Editor>p
+
+正方北网	news.shangdu.com	http://news.shangdu.com/[\s\S]*	httpclient
+	标题	div.newsColumnHeader>h1
+	作者	div.artInfo1#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
+	发布时间	div.artInfo1>span
+	正文	div.newsContent
+
+经济网	www.ceweekly.cn	http://www.ceweekly.cn/[\s\S]*	httpclient
+	标题	div.inner>h1
+	作者	span.source#=>#(来源:#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	span.date
+	正文	div.article-content*
+
+铜仁网	www.tongren.gov.cn	http://www.tongren.gov.cn/[\s\S]*	httpclient
+	标题	div#Article>h1
+	作者	[width=595]
+	#发布时间	span.date
+	#正文	div.article-content*
+
+南都周刊	www.nbweekly.com	http://www.nbweekly.com/[\s\S]*	httpclient
+	标题	div.contWarp>h1
+	作者	span.form
+	发布时间	span.date
+	正文	div.cont
+
+东方卫视	www.dragontv.cn	http://www.dragontv.cn/[\s\S]*	httpclient
+	标题	div#newspageleftcontent>h1
+	作者	div#newspageleftcontent>h4#=>#(来源:#split_small#[\S\s]*#split_small#[　]* )
+	发布时间	div#newspageleftcontent>h4#=>#(#split_small#[\S\s]*#split_small#[　]*来源)
+	正文	div#nplayer>p
+
+重庆晨报	www.cqcb.com	http://www.cqcb.com/[\s\S]*	httpclient
+	标题	div.dbt
+	作者	div.info#=>#(来源：#split_small#[\S\s]*#split_small#[　]*\| 时间)
+	发布时间	div.info#=>#(时间：#split_small#[\S\s]*#split_small#[　]*\| 编辑)
+	正文	div.zw
+
+扬州网	news.yznews.com.cn	http://news.yznews.com.cn/[\s\S]*	httpclient
+	标题	div.hd>h1
+	作者	div.info#=>#(来源： #split_small#[\S\s]*#split_small#[　]*\&nbsp;\|\&nbsp; 扬州网官方微博)
+	发布时间	div.info>span
+	正文	div#Cnt-Main-Article-QQ>p
+
+北晚新视觉网	www.takefoto.cn	http://www.takefoto.cn/[\s\S]*	httpclient
+	标题	div.news-title>h2
+	作者	div.news-body>h4#=>#(#split_small#[\S\s]*#split_small#[　]* )
+	发布时间	div.news-title>p#=>#(#split_small#[\S\s]*#split_small#[　]*\| 编辑)
+	正文	div.news-body
+
+i黑马网	newshtml.iheima.com	http://newshtml.iheima.com/[\s\S]*	httpclient
+	标题	div.content-article-title
+	作者	div.production p:eq(1)#=>#(文章来源： #split_small#[\S\s]*#split_small#[ ]* 2)
+	#作者	div.left#=>#(来源： #split_small#[\S\s]*#split_small#[　]*编辑)
+	发布时间	div.production p:eq(1)>span
+	#发布时间	div.news_line font_12_666666_normal>div.right
+	正文	div.satrt1
+
+吴江新闻网	www.wjdaily.com	http://www.wjdaily.com/[\s\S]*	httpclient
+	标题	div.inner>h1
+	作者	div.article-infos>span.source#=>#(来源:#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	div.article-infos>span.date
+	正文	div.article-content
+
+吴江新闻网	www.wjdaily.com	http://www.wjdaily.com/[\s\S]*	httpclient
+	标题	div.inner>h1
+	#作者	p.mar-t-20
+	#作者	p.mar-t-20#=>#(\(C\)#split_small#[\S\s]*#split_small#[　]* 2015)
+	发布时间	div.article-infos>span.date
+	正文	div.article-content
+
+山西新闻网	news.sxrb.com	http://news.sxrb.com/[\s\S]*	httpclient
+	标题	div.art_01_wraper>h2
+	作者	h3.art_info#=>#(来源： #split_small#[\S\s]*#split_small#[　]*进入论坛)
+	发布时间	h3.art_info#=>#(时间： #split_small#[\S\s]*#split_small#[　]*来源)
+	正文	div.art_txt>p
+
+黄河新闻网	news.sxgov.cn	http://news.sxgov.cn/[\s\S]*	httpclient
+	标题	td.dahei
+	作者	span#source_baidu#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
+	发布时间	span#pubtime_baidu
+	正文	td.Newsfont
+
+华商晨报·辽一网	news.liao1.com	http://news.liao1.com/[\s\S]*	httpclient
+	标题	div#text>h2
+	作者	div#text>h5#=>#(来源：#split_small#[\S\s]*#split_small#[　]*\]　　　　　 \[我)
+	发布时间	div#text>h5#=>#(#split_small#[\S\s]*#split_small#[　]*\[来源)
+	正文	div#newsContent
+
+宁夏新闻网	www.nxnews.net	http://www.nxnews.net/[\s\S]*	httpclient
+	标题	span.listblackfont20h30heiti
+	作者	td.Navsl#=>#(#split_small#[\S\s]*#split_small#[　]*WWW)
+	发布时间	span.pubdate#=>#(发布时间:  #split_small#[\S\s]*#split_small#[　]*)
+	正文	td.listblackf14h25
+
+兴义之窗	www.xyzc.cn	http://www.xyzc.cn/[\s\S]*	httpclient
+	标题	div.news-content-tit>h2
+	作者	div.news-content-tit#=>#(来源： #split_small#[\S\s]*#split_small#[　]*摘要)
+	发布时间	div.news-content-tit#=>#(更新：#split_small#[\S\s]*#split_small#[　]*\|编辑)
+	正文	div.news-content-txt
+
+中国江门网	www.jmnews.com.cn	http://www.jmnews.com.cn/[\s\S]*	httpclient
+	标题	div.tit_bar>h1
+	作者	div.tit_from#=>#(来源:#split_small#[\S\s]*#split_small#[　]*发表时间)
+	发布时间	div.tit_from#=>#(发表时间：#split_small#[\S\s]*#split_small#[　]*点击)
+	正文	div.content
+
+大洋网	news.dayoo.com	http://news.dayoo.com/[\s\S]*	httpclient
+	标题	div.content_hd>h1
+	作者	div.articleInfo>span.source#=>#(来源:#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	div.articleInfo>span.time#=>#(#split_small#[\S\s]*#split_small#[　]*)
+	正文	div.content
+
+北京广播网	www.rbc.cn	http://www.rbc.cn/[\s\S]*	httpclient
+	标题	div.display>h1
+	作者	p.t_info span:eq(2)#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	p.t_info span:eq(1)
+	正文	div.art_contnet
+
+悠视网	www.uusee.com	http://www.uusee.com/[\s\S]*	httpclient
+	标题	div.shipingl_title>h1
+	作者	div.copr#=>#(版权所有:#split_small#[\S\s]*#split_small#[　]*京ICP备)
+	发布时间	div.date
+	正文	div.zx_tw
+
+柳州市广播电视台	www.lzgd.com.cn	http://www.lzgd.com.cn/[\s\S]*	httpclient
+	标题	div.article-entity>h1
+	作者	div.entity-info span:eq(1)#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	div.entity-info span:eq(2)#=>#(发布日期：#split_small#[\S\s]*#split_small#[　]*)
+	正文	div.entity-body
+
+半月谈网	www.banyuetan.org	http://www.banyuetan.org/[\s\S]*	httpclient
+	标题	div.content_con_list>h1
+	作者	div.content_con_list>h2>span>b>em
+	发布时间	div.content_con_list>h2>span b:eq(0)
+	正文	div.text
+
+东莞时间网	news.timedg.com	http://news.timedg.com/[\s\S]*	httpclient
+	标题	div#content>h1
+	作者	div.titleDiscription>span#source_baidu#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	div.titleDiscription>span#pubtime_baidu
+	正文	div.mainContent
+
+### 
+老友网	www.nntv.cn	http://www.nntv.cn/[\s\S]*	httpclient
+	标题	div.content_left_header>h1
+	作者	div.content_left_header>p span:eq(1)#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	div.content_left_header>p span:eq(0)
+	正文	div#content
+
+老友网	www.nntv.cn	http://www.nntv.cn/[\s\S]*	httpclient
+	标题	h1[align=center]
+	作者	div.content_left_header>p span:eq(1)#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	div.content_left_header>p span:eq(0)
+	正文	div.content_left_center
+
+老友网	www.nntv.cn	http://www.nntv.cn/[\s\S]*	httpclient
+	标题	div.content_left_header>h1
+	作者	div.content_left_header>p span:eq(1)#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	div.content_left_header>p span:eq(0)
+	正文	div.content_left_center
+
+北京电视台	news.brtn.cn	http://news.brtn.cn/[\s\S]*	httpclient
+	标题	div.body_left>h2
+	作者	p.h2#=>#([要闻速递 \| |环球资讯 \|社会民生 \| |社会万象 \| |时政要闻 \| ]*#split_small#[\S\s]*#split_small#[　]*201)
+	#作者	div.content_left_header>p span:eq(1)#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	span.gray
+	正文	div.txt
+
+北京电视台	finance.brtn.cn	http://finance.brtn.cn/[\s\S]*	httpclient
+	标题	div.body_left>h2
+	作者	p.h2#=>#([BRTN北京财经 \| | \|BRTN证券 \| |BRTN财经楼市 \| |BRTN财经 \| |BRTN财经楼市 \| |BRTN国内财经\| |BRTN国际财经 \| ]*#split_small#[\S\s]*#split_small#[　]*201)
+	#作者	div.content_left_header>p span:eq(1)#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	span.gray
+	正文	div.txt
+
+昆明信息港	xw.kunming.cn	http://xw.kunming.cn/[\s\S]*	httpclient
+	标题	div.list_left>h1
+	作者	span#source_baidu#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	span#pubtime_baidu
+	正文	div.detailbg
+
+##新闻
+中国新闻周刊	news.inewsweek.cn	http://news.inewsweek.cn/[\s\S]*	httpclient
+	标题	div.pic_div>h3
+	作者	span#source_baidu#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	div.text_c>p>span#pubtime_baidu
+	正文	div.text_f
+
+#人物
+中国新闻周刊	people.inewsweek.cn	http://people.inewsweek.cn/[\s\S]*	httpclient
+	标题	div.pic_div>h3
+	作者	span#source_baidu#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	div.text_c>p>span#pubtime_baidu
+	正文	div.text_f
+#往事
+中国新闻周刊	story.inewsweek.cn	http://story.inewsweek.cn/[\s\S]*	httpclient
+	标题	div.pic_div>h3
+	作者	span#source_baidu#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	div.text_c>p>span#pubtime_baidu
+	正文	div.text_f
+
+#观点
+中国新闻周刊	viewpoint.inewsweek.cn	http://viewpoint.inewsweek.cn/[\s\S]*	httpclient
+	标题	div.pic_div>h3
+	作者	span#source_baidu#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	div.text_c>p>span#pubtime_baidu
+	正文	div.text_f
+#财经
+中国新闻周刊	finance.inewsweek.cn	http://finance.inewsweek.cn/[\s\S]*	httpclient
+	标题	div.vsmy>p
+	作者	div.vsmy>p#=>#(文章来源：#split_small#[\S\s]*#split_small#[　]* )
+	发布时间	div.vsmy>p#=>#(#split_small#[\S\s]*#split_small#[　]*&nbsp; 作者)
+	正文	div#content
+
+中国金融新闻网	www.financialnews.com.cn	http://www.financialnews.com.cn/[\s\S]*	httpclient
+	标题	td>h1
+	作者	div[style=margin:5px; text-align:center; font-size:12px;]#=>#(来源：#split_small#[\S\s]*#split_small#[　]*&nbsp;&nbsp;&nbsp;)
+	发布时间	div[style=margin:5px; text-align:center; font-size:12px;]#=>#(#split_small#[\S\s]*#split_small#[　]*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [记者|\s|\S])
+	#正文	div#TRS_Editor>p
+
+晋城在线	www.jconline.cn	http://www.jconline.cn/[\s\S]*	httpclient
+	标题	td.t_deepgrey_text_title
+	作者	td.t_deepgrey_text_Mark#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	td.t_deepgrey_text_Mark#=>#(#split_small#[\S\s]*#split_small#[　]*&nbsp;&nbsp;&nbsp;&nbsp;来源)
+	正文	td.t_deepgrey_text
+
+TOM	news.tom.com	http://news.tom.com/[\s\S]*	httpclient
+	标题	div#PrintTxt>h1
+	作者	div.operate>div.newsinfo>a[href]
+	发布时间	div.operate>div.newsinfo#=>#(时间：#split_small#[\S\s]*#split_small#[　]*)
+	正文	div#content_body
+
+武进新闻网	www.wj001.com	http://www.wj001.com/[\s\S]*	httpclient
+	标题	div.contenttitle>h1
+	作者	div.contenttime#=>#(来源： #split_small#[\S\s]*#split_small#[　]* [作者|\s])
+	发布时间	div.contenttime#=>#(日期：#split_small#[\S\s]*#split_small#[　]* [\S\s])
+	正文	div.info
+
+科技世界网	www.twwtn.com	http://www.twwtn.com/[\s\S]*	httpclient
+	标题	div.main>h1
+	作者	div.dc>span.company
+	发布时间	div.dc>span.date
+	正文	div.newscontent
+
+#亚洲科技
+科技世界网	www.twwtn.com	http://www.twwtn.com/[\s\S]*	httpclient
+	标题	div.newslist_content>h1
+	作者	div.dc>span.company>a[href]
+	发布时间	div.dc>span.date
+	正文	div#video_cont_top_content
+
+科技世界网	www.twwtn.com	http://www.twwtn.com/[\s\S]*	httpclient
+	标题	div.newslist_content>h1
+	作者	div.dc>span.company
+	发布时间	div.dc>span.date
+	正文	div#video_cont_top_content
+
+江苏新闻周刊网	news.025ct.com	http://news.025ct.com/[\s\S]*	httpclient
+	标题	div.article_body>h1
+	作者	div.article_body>p#=>#(来源：#split_small#[\S\s]*#split_small#[　]*&nbsp; &nbsp;&nbsp;发布时间)
+	发布时间	div.article_body>p#=>#(发布时间：#split_small#[\S\s]*#split_small#[　]*&nbsp; &nbsp;&nbsp;编辑)
+	正文	div.acticle_body_cont
+
+生活新报	www.shxb.net	http://www.shxb.net/[\s\S]*	httpclient
+	标题	div.list_b_cen>h2
+	作者	div.hour>strong#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	div.hour>strong#=>#(#split_small#[\S\s]*#split_small#[　]*来源)
+	正文	div.text_cen
+
+草根网	www.caogen.com	http://www.caogen.com/[\s\S]*	httpclient
+	标题	div.copy_title>span#Blog_Infor
+	作者	span#Head1_Person
+	发布时间	div.copy_title>span#Intime
+	正文	span#Content
+
+永州网	www.0746news.com	http://www.0746news.com/[\s\S]*	httpclient
+	标题	div#content_head>h1
+	作者	div#content_head>h2#=>#(来源：#split_small#[\S\s]*#split_small#[　]*&nbsp;&nbsp;关注本网微)
+	发布时间	div#content_head>h2#=>#(发布时间：#split_small#[\S\s]*#split_small#[　]*&nbsp;&nbsp;编辑)
+	正文	div#endtext
+
+广东广播电视台	www.hitvs.cn	http://www.hitvs.cn/[\s\S]*	httpclient
+	标题	div.title>h1
+	作者	div.tip#=>#(来源：#split_small#[\S\s]*#split_small#[　]*作者)
+	发布时间	div.tip#=>#(#split_small#[\S\s]*#split_small#[　]*来源)
+	正文	div.cont_news
+
+七月网	news.qiyue.com	http://news.qiyue.com/[\s\S]*	httpclient
+	标题	div.conText>h1
+	作者	div.summary>span#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
+	发布时间	span#pubtime_baidu
+	正文	div.text

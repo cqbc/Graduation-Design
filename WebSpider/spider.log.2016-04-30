@@ -1,0 +1,1041 @@
+2016-04-30 12:13:42,084 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-30 12:13:43,438 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:13:43,450 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:13:43,471 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库有更新，已更新到redis中!
+2016-04-30 12:13:43,488 [Thread-5] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:13:43,491 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - task_circle初始化完成!
+2016-04-30 12:13:43,491 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:13:43,492 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:13:43,496 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:13:46,493 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:13:46,497 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-30 12:13:46,511 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:13:46,698 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_to_do_task_key初始化完成!
+2016-04-30 12:13:46,879 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_done_task_key初始化完成!
+2016-04-30 12:13:46,912 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-04-30 12:13:46,912 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-30 12:13:46,914 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-04-30 12:13:46,914 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-30 12:13:46,917 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-04-30 12:13:46,917 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-30 12:13:46,920 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - the file task list have added to the redis quene all!
+2016-04-30 12:13:46,921 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - current to do task size in redis---3
+2016-04-30 12:13:51,921 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - seeds\test.txt,数据文件已加载到内存，将删除之!
+2016-04-30 12:13:51,921 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - once load seed dir,the seeds task have pushed all to the queue
+2016-04-30 12:14:25,884 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-30 12:14:25,946 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:14:26,265 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:14:26,279 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:14:33,614 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:14:33,614 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:14:33,615 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:14:33,616 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:15:23,619 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:15:23,619 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:15:23,619 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:15:23,623 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:15:55,525 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-30 12:15:55,586 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:15:55,756 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:15:55,765 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:16:13,626 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:16:13,626 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:16:13,626 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:16:13,629 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:16:27,789 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-30 12:16:30,426 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:16:30,589 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:16:30,614 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:16:30,663 [Thread-5] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:16:30,682 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - task_circle从redis加载完成!
+2016-04-30 12:16:30,682 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:16:30,685 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:16:30,689 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:16:33,599 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:16:33,600 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-30 12:16:33,606 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:16:34,166 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_to_do_task_key从redis加载完成!
+2016-04-30 12:16:34,186 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_done_task_key初始化完成!
+2016-04-30 12:16:34,199 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-04-30 12:16:34,199 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-30 12:16:34,201 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-04-30 12:16:34,201 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-30 12:16:34,202 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-04-30 12:16:34,203 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-30 12:16:34,203 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - the file task list have added to the redis quene all!
+2016-04-30 12:16:34,204 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - current to do task size in redis---3
+2016-04-30 12:16:39,205 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - seeds\test.txt,数据文件已加载到内存，将删除之!
+2016-04-30 12:16:39,205 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - once load seed dir,the seeds task have pushed all to the queue
+2016-04-30 12:17:06,869 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-30 12:17:06,927 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:17:07,109 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:17:07,116 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 12:17:07,184 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/360_news_crawl_search_result.js phantomjs/para/360_99D9D4D9AB390C4DA5715C3BDE0F9322.json
+2016-04-30 12:17:20,694 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:17:20,694 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:17:20,694 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:17:20,696 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:18:10,700 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:18:10,700 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:18:10,701 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:18:10,702 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:19:00,713 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:19:00,714 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:19:00,714 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:19:00,723 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:19:50,727 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:19:50,728 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:19:50,728 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:19:50,731 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:20:40,735 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:20:40,735 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:20:40,735 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:20:40,737 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:21:09,563 [main] INFO  [com.cqupt.spider.task.process.MetaSearchProcess] - 读取新产生种子文件时，出现了问题
+2016-04-30 12:21:09,576 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_news_crawl_search_result.js phantomjs/para/baidu_99D9D4D9AB390C4DA5715C3BDE0F9322.json
+2016-04-30 12:21:30,741 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:21:30,741 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:21:30,742 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:21:30,761 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:21:31,307 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=59
+2016-04-30 12:21:31,309 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,327 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,329 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,332 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,334 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,336 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,338 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,341 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,343 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,345 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,349 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,365 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,368 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,373 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,379 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,384 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,387 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,390 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,397 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,400 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,415 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,417 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,420 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,423 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,424 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,425 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,426 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,427 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,428 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,429 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,430 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,431 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,431 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,433 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,434 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,434 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,436 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,437 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,438 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,440 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,441 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,441 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,443 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,444 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,445 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,447 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,449 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,451 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,453 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,455 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,457 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,458 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,460 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,461 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,467 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,469 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,470 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,473 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,475 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:21:31,481 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_99D9D4D9AB390C4DA5715C3BDE0F9322.json
+2016-04-30 12:21:38,302 [pool-2-thread-1] INFO  [org.elasticsearch.plugins] - [Kraken] loaded [], sites []
+2016-04-30 12:21:41,049 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:21:41,170 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:21:51,220 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:21:51,225 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:21:56,152 [main] INFO  [com.cqupt.spider.task.process.MetaSearchProcess] - 读取新产生种子文件时，出现了问题
+2016-04-30 12:22:01,272 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:22:01,275 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:22:11,320 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:22:11,324 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:22:20,764 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:22:20,767 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-30 12:22:20,767 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:22:20,769 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:22:21,187 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_92B10DB7E93F13E30994E3D09364AFA7.json
+2016-04-30 12:22:21,366 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:22:21,370 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:22:31,454 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:22:31,458 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:22:38,570 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_916B9E040B4F307DB9AE5BAE325C4050.json
+2016-04-30 12:22:41,506 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:22:41,510 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:22:51,544 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:22:51,550 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:23:01,590 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:23:01,594 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:23:04,797 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_1914401FC5619D98F049F918D5F3365C.json
+2016-04-30 12:23:10,773 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:23:10,773 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:23:10,773 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:23:10,775 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:23:11,666 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:23:11,675 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:23:21,725 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:23:21,730 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:23:25,610 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-30 12:23:31,767 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:23:31,775 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:23:41,799 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:23:41,806 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:23:51,854 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:23:51,859 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:24:00,778 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:24:00,778 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:24:00,781 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加元搜索待抓取周期任务到redis set成功!
+2016-04-30 12:24:00,781 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有到时的循环任务到待执行的circle to do队列中!
+2016-04-30 12:24:00,783 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:24:01,890 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:24:01,894 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:24:05,624 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle keyword to do key!
+2016-04-30 12:24:05,625 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_99D9D4D9AB390C4DA5715C3BDE0F9322.json
+2016-04-30 12:24:11,933 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:24:11,940 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:24:21,972 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:24:21,982 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:24:31,373 [main] INFO  [com.cqupt.spider.task.process.MetaSearchProcess] - 读取新产生种子文件时，出现了问题
+2016-04-30 12:24:32,010 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:24:32,014 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:24:42,041 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:24:42,059 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:24:50,786 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:24:50,786 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:24:50,786 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:24:50,789 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:24:52,086 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:24:52,133 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:25:02,176 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:25:02,184 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:25:12,212 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:25:12,216 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:25:22,241 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:25:22,245 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:25:32,269 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:25:32,287 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:25:40,794 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:25:40,794 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:25:40,794 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:25:40,795 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:25:42,321 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:25:42,325 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:25:52,329 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:26:02,353 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:26:02,357 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:26:12,384 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:26:12,387 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:26:22,410 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:26:22,417 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:26:30,799 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:26:30,799 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:26:30,799 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:26:30,801 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:26:32,468 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:26:32,490 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:26:42,528 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:26:42,535 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:26:52,557 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:26:52,565 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:27:02,588 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:27:02,602 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:27:12,646 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:27:12,651 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:27:20,804 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:27:20,804 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:27:20,805 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加元搜索待抓取周期任务到redis set成功!
+2016-04-30 12:27:20,806 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有到时的循环任务到待执行的circle to do队列中!
+2016-04-30 12:27:20,808 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:27:21,459 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle keyword to do key!
+2016-04-30 12:27:21,461 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/360_news_crawl_search_result.js phantomjs/para/360_99D9D4D9AB390C4DA5715C3BDE0F9322.json
+2016-04-30 12:27:22,676 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:27:22,681 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:27:32,702 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:27:32,718 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:27:42,726 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:27:52,760 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:27:52,765 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:28:02,769 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:28:10,816 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:28:10,816 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:28:10,816 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:28:10,819 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:28:12,770 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:28:22,801 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:28:22,805 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:28:32,827 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:28:32,833 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:28:42,863 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:28:42,869 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:28:52,891 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:28:52,902 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:29:00,823 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:29:00,823 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:29:00,823 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:29:00,827 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:29:02,937 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:29:02,942 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:29:12,964 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:29:12,968 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:29:22,972 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:29:32,994 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:29:33,001 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:29:43,019 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:29:43,024 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:29:50,830 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:29:50,830 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:29:50,831 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:29:50,836 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:29:53,052 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:29:53,064 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:30:03,081 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:30:03,085 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:30:13,114 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:30:13,121 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:30:23,142 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:30:23,148 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:30:33,166 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:30:33,171 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:30:40,856 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:30:40,856 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:30:40,856 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:30:40,861 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:30:43,205 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:30:43,211 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:30:53,230 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:30:53,237 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:31:03,260 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:31:03,267 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:31:13,270 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-30 12:31:23,273 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-30 12:31:23,274 [main] INFO  [com.cqupt.spider.task.process.MetaSearchProcess] - 读取新产生种子文件时，出现了问题
+2016-04-30 12:31:30,866 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:31:30,867 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:31:30,867 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:31:30,869 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:31:33,301 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:31:33,304 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-30 12:32:20,873 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:32:20,873 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:32:20,874 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:32:20,878 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:33:10,881 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:33:10,881 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:33:10,881 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:33:10,887 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:34:00,891 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:34:00,891 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:34:00,923 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加元搜索待抓取周期任务到redis set成功!
+2016-04-30 12:34:00,923 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有到时的循环任务到待执行的circle to do队列中!
+2016-04-30 12:34:00,925 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:34:03,325 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle keyword to do key!
+2016-04-30 12:34:03,327 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_99D9D4D9AB390C4DA5715C3BDE0F9322.json
+2016-04-30 12:34:29,219 [main] INFO  [com.cqupt.spider.task.process.MetaSearchProcess] - 读取新产生种子文件时，出现了问题
+2016-04-30 12:34:50,928 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:34:50,928 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:34:50,928 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:34:50,930 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:35:40,935 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:35:40,935 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:35:40,935 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:35:40,938 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:36:30,941 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:36:30,942 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:36:30,942 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:36:30,944 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:37:20,947 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:37:20,947 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:37:20,963 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加元搜索待抓取周期任务到redis set成功!
+2016-04-30 12:37:20,963 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有到时的循环任务到待执行的circle to do队列中!
+2016-04-30 12:37:20,965 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:37:24,267 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle keyword to do key!
+2016-04-30 12:37:24,269 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_news_crawl_search_result.js phantomjs/para/baidu_99D9D4D9AB390C4DA5715C3BDE0F9322.json
+2016-04-30 12:37:47,568 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=60
+2016-04-30 12:37:47,570 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,571 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,572 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,573 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,574 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,576 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,578 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,579 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,580 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,582 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,583 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,585 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,586 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,587 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,588 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,589 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,590 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,591 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,592 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,594 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,594 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,595 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,596 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,597 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,598 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,599 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,600 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,602 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,602 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,604 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,604 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,605 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,606 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,607 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,608 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,610 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,611 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,612 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,613 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,614 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,615 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,616 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,617 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,618 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,619 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,620 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,621 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,622 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,622 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,623 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,625 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,626 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,628 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,629 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,630 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,631 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,633 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,635 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,636 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:47,637 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 12:37:53,343 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:38:03,345 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:38:10,969 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:38:10,973 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-30 12:38:10,974 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-30 12:38:10,974 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:38:10,976 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:38:12,649 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_92B10DB7E93F13E30994E3D09364AFA7.json
+2016-04-30 12:38:13,350 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:38:23,354 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:38:29,331 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_916B9E040B4F307DB9AE5BAE325C4050.json
+2016-04-30 12:38:33,357 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:38:43,361 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:38:53,363 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:39:00,980 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:39:00,980 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:39:00,980 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:39:00,982 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:39:03,366 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:39:13,369 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:39:23,373 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:39:33,375 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:39:43,379 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:39:50,984 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:39:50,984 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:39:50,985 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:39:50,986 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:39:53,381 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:40:03,385 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:40:13,388 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:40:23,391 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:40:33,395 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:40:40,990 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:40:40,991 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:40:40,991 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:40:40,995 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:40:43,397 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:40:53,400 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:41:03,429 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 12:41:03,448 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 12:41:13,450 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:41:23,454 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:41:30,998 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:41:30,998 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:41:30,998 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:41:31,001 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:41:33,457 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:41:43,461 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:41:53,463 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:42:03,468 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:42:13,471 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:42:21,004 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:42:21,005 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:42:21,005 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:42:21,006 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:42:23,475 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:42:33,479 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:42:43,481 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:42:53,485 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:43:03,487 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:43:11,009 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:43:11,009 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:43:11,009 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 12:43:11,011 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:43:13,492 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:43:23,495 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:43:33,497 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:43:43,502 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:43:53,515 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:44:01,015 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 12:44:01,015 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 12:44:01,016 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加元搜索待抓取周期任务到redis set成功!
+2016-04-30 12:44:01,016 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有到时的循环任务到待执行的circle to do队列中!
+2016-04-30 12:44:01,019 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 12:44:01,572 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle keyword to do key!
+2016-04-30 12:44:01,574 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/360_news_crawl_search_result.js phantomjs/para/360_99D9D4D9AB390C4DA5715C3BDE0F9322.json
+2016-04-30 12:44:03,528 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:44:13,531 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:44:23,535 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:44:33,538 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 12:44:43,540 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 13:08:02,937 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-30 13:08:04,048 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 13:08:04,079 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 13:08:04,129 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库有更新，已更新到redis中!
+2016-04-30 13:08:04,149 [Thread-5] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 13:08:04,149 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - task_circle初始化完成!
+2016-04-30 13:08:04,150 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:08:04,150 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:08:04,163 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:08:07,086 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 13:08:07,088 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-30 13:08:07,105 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 13:08:07,149 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_to_do_task_key初始化完成!
+2016-04-30 13:08:07,263 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_done_task_key初始化完成!
+2016-04-30 13:08:07,275 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-04-30 13:08:07,275 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-30 13:08:07,276 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-04-30 13:08:07,277 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-30 13:08:07,278 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-04-30 13:08:07,278 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-30 13:08:07,278 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - the file task list have added to the redis quene all!
+2016-04-30 13:08:07,279 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - current to do task size in redis---3
+2016-04-30 13:08:12,280 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - seeds\test.txt,数据文件已加载到内存，将删除之!
+2016-04-30 13:08:12,280 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - once load seed dir,the seeds task have pushed all to the queue
+2016-04-30 13:08:19,794 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-30 13:08:19,839 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 13:08:20,106 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 13:08:20,116 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 13:08:20,179 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_99D9D4D9AB390C4DA5715C3BDE0F9322.json
+2016-04-30 13:08:51,248 [main] INFO  [com.cqupt.spider.task.process.MetaSearchProcess] - 读取新产生种子文件时，出现了问题
+2016-04-30 13:08:51,257 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_news_crawl_search_result.js phantomjs/para/baidu_99D9D4D9AB390C4DA5715C3BDE0F9322.json
+2016-04-30 13:08:54,314 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:08:54,314 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:08:54,314 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:08:54,317 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:09:18,013 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=117
+2016-04-30 13:09:18,018 [Thread-0] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKeyClient] - 规则库有更新，更新完成!
+2016-04-30 13:09:18,021 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,023 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,025 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,027 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,029 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,031 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,038 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,041 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,044 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,046 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,049 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,051 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,054 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,056 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,058 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,061 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,063 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,066 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,068 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,071 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,073 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,076 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,078 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,081 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,083 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,086 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,088 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,089 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,092 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,093 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,095 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,097 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,099 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,101 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,102 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,104 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,105 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,106 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,108 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,109 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,110 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,112 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,113 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,114 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,115 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,117 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,118 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,120 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,121 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,123 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,124 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,126 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,128 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,129 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,131 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,132 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,133 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,135 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,136 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,138 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,139 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,141 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,145 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,150 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,152 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,153 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,154 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,156 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,158 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,159 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,160 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,161 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,163 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,165 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,167 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,169 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,170 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,172 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,173 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,174 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,176 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,177 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,179 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,181 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,182 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,183 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,184 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,185 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,186 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,187 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,189 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,190 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,191 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,192 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,202 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,203 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,204 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,206 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,207 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,209 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,210 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,211 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,213 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,214 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,215 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,216 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,218 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,219 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,220 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,221 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,222 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,223 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,226 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,227 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,228 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,230 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,231 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,233 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,239 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,241 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=英雄联盟,newUrlSet.size()=0
+2016-04-30 13:09:18,244 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_99D9D4D9AB390C4DA5715C3BDE0F9322.json
+2016-04-30 13:09:30,104 [pool-2-thread-1] INFO  [org.elasticsearch.plugins] - [DJ] loaded [], sites []
+2016-04-30 13:09:31,844 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:09:31,881 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:09:41,919 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:09:41,925 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:09:44,323 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:09:44,327 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-30 13:09:44,327 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:09:44,329 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:09:50,744 [main] INFO  [com.cqupt.spider.task.process.MetaSearchProcess] - 读取新产生种子文件时，出现了问题
+2016-04-30 13:09:50,764 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_92B10DB7E93F13E30994E3D09364AFA7.json
+2016-04-30 13:09:51,959 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:09:51,968 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:10:01,992 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:10:01,997 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:10:08,060 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_1914401FC5619D98F049F918D5F3365C.json
+2016-04-30 13:10:12,028 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:10:12,031 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:10:22,054 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:10:22,058 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:10:28,471 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-30 13:10:29,778 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-30 13:10:29,782 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_916B9E040B4F307DB9AE5BAE325C4050.json
+2016-04-30 13:10:32,087 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:10:32,092 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:10:34,337 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:10:34,337 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:10:34,337 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:10:34,340 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:10:42,121 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:10:42,125 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:10:52,144 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:10:52,147 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:11:02,166 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:11:02,172 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:11:12,198 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:11:12,202 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:11:22,221 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:11:22,225 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:11:24,347 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:11:24,348 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:11:24,349 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:11:24,351 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:11:32,250 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:11:32,255 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:11:42,273 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:11:42,276 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:11:52,300 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:11:52,305 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:12:02,335 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:12:02,339 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:12:12,358 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:12:12,363 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:12:14,356 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:12:14,356 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:12:14,357 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:12:14,362 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:12:22,407 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:12:22,410 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:12:32,440 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:12:32,455 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:12:42,492 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:12:42,504 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:12:52,526 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:12:52,529 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:13:02,556 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:13:02,559 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:13:04,367 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:13:04,367 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:13:04,367 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:13:04,368 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:13:12,595 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:13:12,598 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:13:22,616 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:13:22,619 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:13:32,646 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:13:32,651 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:13:42,669 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:13:42,672 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:13:52,676 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 13:13:54,375 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:13:54,376 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:13:54,376 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:13:54,378 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:14:02,695 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:14:02,698 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:14:12,718 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:14:12,720 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:14:22,745 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:14:22,806 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:14:32,823 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:14:32,826 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:14:42,845 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:14:42,848 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:14:44,385 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:14:44,385 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:14:44,385 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:14:44,388 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:14:52,875 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:14:52,879 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:15:02,904 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:15:02,907 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:15:12,929 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:15:12,934 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:15:22,950 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:15:22,954 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:15:32,958 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 13:15:34,392 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:15:34,393 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:15:34,393 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:15:34,394 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:15:42,984 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:15:42,991 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:15:52,996 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 13:16:03,012 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:16:03,016 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:16:13,034 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:16:13,037 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:16:23,060 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:16:23,064 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:16:24,400 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:16:24,400 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:16:24,400 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:16:24,410 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:16:33,088 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:16:33,097 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:16:43,114 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:16:43,117 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:16:53,138 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:16:53,147 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:17:03,157 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 13:17:13,181 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:17:13,185 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:17:14,415 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:17:14,415 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:17:14,415 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:17:14,417 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:17:23,208 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:17:23,212 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:17:33,240 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:17:33,244 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:17:43,261 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:17:43,268 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:17:53,286 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:17:53,291 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:18:03,326 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:18:03,329 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:18:04,422 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:18:04,422 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:18:04,422 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:18:04,424 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:18:13,353 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:18:13,357 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:18:23,376 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:18:23,384 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:18:33,401 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:18:33,417 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:18:43,441 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:18:43,449 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:18:53,468 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:18:53,472 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:18:54,429 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:18:54,429 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:18:54,432 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加元搜索待抓取周期任务到redis set成功!
+2016-04-30 13:18:54,432 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有到时的循环任务到待执行的circle to do队列中!
+2016-04-30 13:18:54,434 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:18:55,021 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle keyword to do key!
+2016-04-30 13:18:55,023 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_99D9D4D9AB390C4DA5715C3BDE0F9322.json
+2016-04-30 13:19:03,494 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:19:03,498 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:19:13,540 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:19:13,545 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:19:23,565 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:19:23,568 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:19:26,704 [main] INFO  [com.cqupt.spider.task.process.MetaSearchProcess] - 读取新产生种子文件时，出现了问题
+2016-04-30 13:19:33,594 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:19:33,598 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:19:43,621 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:19:43,625 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:19:44,439 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:19:44,439 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:19:44,439 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:19:44,442 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:19:53,649 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:19:53,652 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:20:03,669 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:20:03,673 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:20:13,714 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:20:13,718 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:20:23,741 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:20:23,748 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:20:33,773 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:20:33,782 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:20:34,446 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:20:34,446 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:20:34,447 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:20:34,449 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:20:43,806 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:20:43,811 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:20:53,889 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:20:53,897 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:21:02,169 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-30 13:21:02,224 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 13:21:02,605 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 13:21:02,611 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-30 13:21:03,932 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:21:03,939 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:21:13,965 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:21:13,973 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:21:24,113 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:21:24,125 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:21:24,454 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:21:24,454 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:21:24,454 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:21:24,456 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:21:34,149 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:21:34,155 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:21:44,171 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:21:44,184 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:21:54,201 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:21:54,204 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:22:04,219 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:22:04,225 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:22:14,228 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 13:22:14,461 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:22:14,462 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:22:14,462 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:22:14,473 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:22:24,249 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:22:24,253 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:22:34,269 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:22:34,273 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:22:44,294 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:22:44,297 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:22:54,327 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:22:54,332 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:23:04,350 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:23:04,354 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:23:04,479 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:23:04,480 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:23:04,480 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:23:04,482 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:23:14,356 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 13:23:24,383 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:23:24,388 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:23:34,412 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:23:34,416 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:23:44,436 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:23:44,439 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:23:54,458 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:23:54,461 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:23:54,486 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:23:54,486 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:23:54,486 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:23:54,487 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:24:04,491 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:24:04,494 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:24:14,516 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:24:14,522 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:24:24,525 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 13:24:34,561 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:24:34,565 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:24:44,490 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:24:44,490 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:24:44,490 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:24:44,491 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:24:44,567 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 13:24:54,591 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:24:54,603 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:25:04,627 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:25:04,632 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:25:14,651 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:25:14,654 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:25:24,684 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:25:24,687 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:25:34,494 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:25:34,495 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:25:34,495 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:25:34,496 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:25:34,691 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 13:25:44,695 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 13:25:54,714 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:25:54,716 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:26:04,748 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:26:04,752 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:26:14,776 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:26:14,796 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:26:24,499 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:26:24,500 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:26:24,500 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:26:24,501 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:26:24,811 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:26:24,816 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:26:34,837 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:26:34,844 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:26:44,870 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:26:44,875 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:26:54,897 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:26:54,909 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:27:04,926 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:27:04,938 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:27:14,519 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:27:14,519 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:27:14,519 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:27:14,528 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:27:14,955 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:27:14,957 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:27:24,960 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-04-30 13:27:34,979 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:27:34,981 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:27:44,996 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:27:45,000 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:27:55,016 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:27:55,019 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:28:04,531 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:28:04,531 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:28:04,532 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:28:04,533 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:28:05,036 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:28:05,135 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:28:15,151 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:28:15,154 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:28:25,171 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:28:25,177 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:28:35,193 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:28:35,197 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:28:45,217 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:28:45,225 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-04-30 13:28:54,538 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:28:54,538 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:28:54,539 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加元搜索待抓取周期任务到redis set成功!
+2016-04-30 13:28:54,540 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有到时的循环任务到待执行的circle to do队列中!
+2016-04-30 13:28:54,542 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:28:55,229 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-30 13:28:57,818 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle keyword to do key!
+2016-04-30 13:28:57,842 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_99D9D4D9AB390C4DA5715C3BDE0F9322.json
+2016-04-30 13:29:05,261 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:29:05,264 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-30 13:29:15,307 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-30 13:29:15,322 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-30 13:29:25,324 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-30 13:29:31,449 [main] INFO  [com.cqupt.spider.task.process.MetaSearchProcess] - 读取新产生种子文件时，出现了问题
+2016-04-30 13:29:44,547 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:29:44,547 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:29:44,547 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:29:44,550 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:30:34,554 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:30:34,554 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:30:34,554 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:30:34,557 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:31:24,561 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:31:24,562 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:31:24,562 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:31:24,564 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:32:14,569 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:32:14,569 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:32:14,569 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:32:14,571 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:33:04,575 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:33:04,575 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:33:04,575 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:33:04,577 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:33:54,581 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:33:54,581 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:33:54,581 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:33:54,581 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-30 13:34:44,592 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-30 13:34:44,592 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-30 13:34:44,592 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-30 13:34:44,592 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!

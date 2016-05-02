@@ -1,0 +1,2405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="apple-touch-icon" href="http://i2.sinaimg.cn/dy/deco/2010/0709/icon.png">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+<title>新闻搜索_新浪搜索_新浪网</title>
+<meta name="keywords" content="新闻搜索,新浪搜索,新浪网">
+<meta name="description" content="新浪新闻搜索">
+<meta name="viewport" content="initial-scale = 1.0,maximum-scale=1.0">
+
+<style type="text/css">
+/* 脥篓脫脙 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, table, td, img { margin: 0; padding: 0; }
+input, select, textarea { margin:0; }
+fieldset, img { border:none; }
+address, caption, cite, code, dfn, em, th, var { font-style: normal; font-weight: normal; }
+ul, ol { list-style-type:none; }
+select, input { vertical-align:middle; }
+select, input, textarea { font-size:12px; }
+body { background:#fff; color:#000; font:13px/20px "arial"; }
+.clearfix:after { content:"."; display:block; height:0; visibility:hidden; clear:both; }
+.clearfix { zoom:1; }
+.clearit { clear:both; height:0px; overflow:hidden; }
+.lh20 { line-height:20px; }
+.pl20{padding-left:20px;}
+.lh23 { line-height:23px; }
+.sp10 { height:10px; overflow:hidden; }
+.f12 { font-size:12px; }
+.f14 { font-size:14px; }
+.fB { font-weight:bold; }
+.fwhite, a.fwhite { color:#fff; }
+.fblack { color:#000; }
+.fred { color:#c00; }
+.fgreen { color:#009900; font-size:12px; }
+.fgray_time { color:#666; font-size:12px; }
+a.fnoL { text-decoration:none; }
+a.fnoL:hover { text-decoration:underline; }
+.fB { font-weight:bold; }
+.fgray { color:#999; }
+.space { height:10px; background:#fff; overflow:hidden; clear:both; }
+.fblue { color:#000099; }
+.wbret-wrap { margin-top:15px; margin-bottom:19px;/* width:205px; *//* 20120910 dalong3*/ display:block; padding:10px 15px; /*background-color:#f2f6f9; */border-bottom:1px dashed #c3d0ed; }
+a.wbret-wrap, a.wbret-wrap:link, a.wbret-wrap:visited, a.wbret-wrap:active, a.wbret-wrap:hover, a.wbret-wrap:focus { text-decoration:none; }
+.wbret-wrap { margin-top:10px; }/*20120910 dalong3*/
+.wbret-tt { display:block; padding:0 0 0 20px; background:url(images/swb_01.png) 0 0 no-repeat; }
+.wbret-tt span { text-decoration:none; font-size:14px; }
+.wbret-p1 { display:block; padding:10px 0 5px 0; border-bottom:1px dotted #ccc; font-size:12px; color:#333; }
+.wbret-date1 { display:block; color:#999; }
+.wbret-p2 { word-wrap:break-word;display:block; padding:5px 0 5px 0; font-size:12px; color:#333; }
+.wbret-link1 { padding:0; color:#000099; }
+a.wbret-link1:link, a.wbret-link1:visited { color:#00099; text-decoration:none; }
+a.wbret-link1:active, a.wbret-link1:hover, a.wbret-link1:focus { text-decoration:underline; }
+.wbret-p3 { display:block; padding:0; font-size:12px; }
+.wblink { color:#26A2DA; }
+a { color:#000099; text-decoration:none; }
+a:hover { color: #ff0000; text-decoration:underline; }
+.tac { text-align:center; }
+.tar { text-align:right; }
+.pad10 { padding:10px; }
+.wrap { width:1000px; }
+/*碌炉鲁枚虏茫脳篓脫脙*/
+a.fred { color:#c00; }
+.layer-frame { border:0; position:absolute; filter: alpha(opacity=0); }
+.l { float:left; }
+.r { float:right; }
+.r a { margin:5px; }
+.r a.style_a { margin-left:0px; }
+/*20120912 dalong3 start*/
+.r a { color:#000000; }
+.product_l .r .style_box { border-right:dotted 1px #ccc; margin-right:5px; padding-right:10px }
+.product_l .r a:link, .r a:visited { color:#000 }
+.product_l .r a:hover { color:#000; text-decoration:underline; }
+.zcblk01 .titChange1 { width:550px; }
+/*20120912 dalong3 end*/
+
+/* xuehua1 modify 20130911 start*/
+.topWrap{ background-color:#f6f6f6; border-bottom:solid 1px #ececec; min-width:1000px; margin-bottom:8px;}
+.navType{ float:left; font-size:14px;padding:18px 0 0 9px}
+/* xuehua1 modify 20130911 end*/
+.r .style_cion { margin-left:0 }
+.top {position:relative; line-height:26px; padding:8px 10px 0 5px;}/* xuehua1 modify 20130911 */
+.top .l a { float:left; display:inline; margin:2px 3px 0; padding:0 5px; outline:0 }
+.top .l a:link { text-decoration:none; color:#009; }/* xuehua1 modify 20130911 */
+.top .l a:visited { color:#009; }/* xuehua1 modify 20130911 */
+.top .l a:hover { color:#e42f36;}/* xuehua1 modify 20130911 */
+.top .l a.selected { color:#e42f36; font-weight:bold; /*text-decoration:underline*/}/* xuehua1 modify 20130911 */
+.top a:hover, .top a:active, .top a:focus { text-decoration:none; }
+.top .r{ line-height:34px;}/* xuehua1 modify 20130911 */
+.top2 { position: relative; z-index:100; height:80px; width:950px; }
+.top h1 { padding:0 0 0 19px; }/* xuehua1 modify 20130911 */
+.search-form { padding:6px 0 0 31px; zoom:1; }/* xuehua1 modify 20130911 */
+.search-form a:hover, .search-form a:focus { text-decoration:none; }
+.ipt-02 { border:1px solid #898989; padding:3px 5px; line-height:24px; height:24px; font-size:14px; width:608px; margin:0 10px 0 0; }/* xuehua1 modify 20130911 */
+input.ipt-03 { background: url(images/search_btn_yan.png) 0 0 no-repeat; width:90px; height:30px; border:none; color:#fff; margin:0 3px 0 0; cursor:pointer; outline:none 0 }
+input.ipt-03_zt { background: url(images/zt_search_btn_yan.png) 0 0 no-repeat; width:90px; height:30px; border:none; color:#fff; margin:0 3px 0 0; cursor:pointer; outline:none 0 }
+input.ipt-03_img { background: url(images/img_search_btn_yan.png) 0 0 no-repeat; width:90px; height:30px; border:none; color:#fff; margin:0 3px 0 0; cursor:pointer; outline:none 0 }
+input.ipt-03_blog { background: url(images/blog_search_btn_yan.png) 0 0 no-repeat; width:90px; height:30px; border:none; color:#fff; margin:0 3px 0 0; cursor:pointer; outline:none 0 }
+input.ipt-03_product { background: url(images/product_search_btn_yan.png) 0 0 no-repeat; width:90px; height:30px; border:none; color:#fff; margin:0 3px 0 0; cursor:pointer; outline:none 0 }
+input.ipt-03 { margin-left:7px;}
+form input.ipt-03:hover, input.ipt-03.hover { background-position:0 -50px; }
+input.ipt-03:focus, input.ipt-03:active { outline:none 0; border:none }
+input.ipt-03::-moz-focus-inner {
+border: 0;
+}
+/*20120823 moidfy yan*/
+input.ipt-03b { background:url(images/search_btn_yan.png) 0 0 no-repeat; width: 90px; margin-left:0;}
+input.ipt-03b:hover, input.hoverb { background:url(images/search_btn_yan.png) 0 -50px no-repeat; }
+.search-form-bot input.ipt-03_zt { background:url(images/zt_search_btn_yan.png) 0 0 no-repeat; width: 90px; margin-left:0;}
+.search-form-bot input.ipt-03_zt:hover, input.hoverb { background:url(images/zt_search_btn_yan.png) 0 -50px no-repeat; }
+.search-form-bot input.ipt-03_img { background:url(images/img_search_btn_yan.png) 0 0 no-repeat; width: 90px; margin-left:0;}
+.search-form-bot input.ipt-03_img:hover, input.hoverb { background:url(images/img_search_btn_yan.png) 0 -50px no-repeat; }
+.search-form-bot input.ipt-03_blog { background:url(images/blog_search_btn_yan.png) 0 0 no-repeat; width: 90px; margin-left:0;}
+.search-form-bot input.ipt-03_blog:hover, input.hoverb { background:url(images/blog_search_btn_yan.png) 0 -50px no-repeat; }
+.search-form-bot input.ipt-03_product { background:url(images/product_search_btn_yan.png) 0 0 no-repeat; width: 90px; margin-left:0;}
+.search-form-bot input.ipt-03_product:hover, input.hoverb { background:url(images/product_search_btn_yan.png) 0 -50px no-repeat; }
+/* 脭脷陆谩鹿没脰脨脣脩脣梅*/
+.ipt-04 { background:url(http://www.sinaimg.cn/dy/search/images/searchin_btn.png); width:90px; height:26px; border:none; color:#fff; margin:0 3px 0 0; }
+.search-form p { padding:10px 0 0 228px; }
+.search-form p label input { margin:-3px 3px 0 0; }
+.search-form p label { margin:0 1.5em 0 0; }
+/* 赂脽录露脣脩脣梅 by liusong */
+.adv_search { padding:10px 20px; height:600px; }
+.adv_search table { width:100%; margin:20px auto; border-collapse:collapse; border-spacing:0 }
+.adv_search th, .adv_search td { border:dashed 1px #E4E9FA; border-width:1px 0; padding:10px }
+.adv_search th { text-align:left; font-size:14px; width:160px; padding-right:15px }
+.adv_search td p { padding-bottom:10px ;margin:5px;}
+.adv_search .btns { text-align:center; border-width:0; padding:20px }
+.adv_search .btns input { font-size:14px }
+.adv_search label { margin-right:2em; vertical-align:middle }
+.adv_search .inp_txt_long { /*border:solid 1px #9EB5E4;*/  width:220px;padding:3px 4px ;float:right;margin-right:280px;}
+.adv_search .inp_txt { /*border:solid 1px #9EB5E4;*/  width:220px;padding:3px 4px ;margin-right:40px;}
+.date_pick .inp_txt { width:100px; background:url(http://www.sinaimg.cn/dy/search/images/ss_cl_011.png) no-repeat 95% center; cursor:pointer; }
+.data-select { background:url(http://www.sinaimg.cn/dy/search/images/ss_cl_011.png) no-repeat 95% center; border:1px solid #8fcee0; padding:2px; height:14px; line-height:14px; width:80px; cursor:pointer; }
+.adv_search select { width:110px; margin-right:16px }
+
+.sec_tit h2 { font-weight:bold; margin:-10px 0 0px; font-family:"脦垄脠铆脩脜潞脷", "潞脷脤氓"; font-size:18px }
+.nav { border-bottom:solid 1px #ddd;; line-height:28px; color:#666; margin-left:30px; width:700px}
+.nav .l{ padding:0 0 0 155px; }
+.nav .r_v2{ float:right; margin-top:-28px;padding:0px 5px;}
+.nav .r_v2 span{ display:inline-block; border-bottom:solid 1px #e42f36; position:relative; margin-bottom:-1px;}
+.nav .r{ color:#787878; position:relative }
+.nav .r strong, .nav .product_l { font-weight:normal; zoom:1 }
+.nav a:hover, .nav a:focus { text-decoration:none; }
+.nav2 { background:#eef7f9; margin-top:1px; line-height:30px; padding:0 10px; }
+.nav2 .l { border-right:1px solid #cfe9ef; width:150px; }
+.nav2 .r { line-height:normal; height:22px; padding:6px 0 0 0; }
+/*20120823 added yan start*/
+/*common bg*/
+/* 20120908 dalong3 start*/
+li .product_cur, .imgcur, dd ul li, dt .cur, .main .l .toClose, .main .l .toOpen, .reset, .r_list .selected a, .r_list dd .del_h { background:url(images/search_btn_yan.png) 999px 999px no-repeat; }
+.main .l dt{ height:25px; line-height:25px; padding-bottom:2px }
+.wrap .main .sidebar dl ul .selected, .imgcur, .main .l dt .cur, .sRight .r_list dd .cur { background-color:#ffffff; background-position:5px -94px; font-size:14px; margin-bottom:3px; padding-left:18px; }
+ .c_list span.cur li { background-color:#ffffff; background-position:5px -96px; font-size:14px; padding-bottom:3px; }
+.imgcur, .main .l dl dd ul span li .cur {cursor:pointer} 
+.l .sidebar dl dt a span, .sidebar dl dt a, dd ul li {cursor:pointer}
+.imgcur { color:#000; }
+li.imgcur:hover { background-color:#e9eff5; }
+.img_sidebar li a { display:block; }
+.main .l dl dt a, .main .l dl dd li a { color:#000000; }
+.search_history { width:205px; }
+.sRight .wbret-wrap .wbret-p3 .wbret-link1 { color:#7F7FCC; }
+#nav_result_container .zcblk { margin: 0 0 30px 0; padding:10px 0 10px 0; /*width:550px;*/}
+.zcblk .zch .nav_add_log { width:300px; margin-right:23px; }
+/*.zcblk .zcbox .zcwords { width:399px; } hongliang4 脰卤麓茂脟酶脧脭脢戮脠楼碌么*/ 
+/*20120908 dalong3 end*/
+
+.fgrey a:link, .fgrey a:visited { color:#5d5d5d}
+.fgrey a:hover { color:#333; text-decoration:none; }
+
+.main { cursor:default; }
+.main .l { width:125px; cursor:auto; }
+.main .l dl { padding:25px 0 0 0; }
+
+.main .l dt span { display:inline-block; padding-right:10px;}
+.main .l dt a, .main .l dd ul li { display:block; padding-left:17px; }
+.main .l .product_sidebar dl dt { display:block; padding-left:17px;}
+.main .l .product_sidebar .product_sidebar_dl dt { padding-left:0; }
+.main .l .product_sidebar dl dt.product_reset { padding-left:0; }
+#sidebar .product_sidebar { padding-top:10px; width:135px; }
+.main .product_sidebar dl dd ul li.cur:hover { background-color:#e9eff5; }
+.product_sidebar li a:hover { background-color:#e9eff5; }
+.product_sidebar li a { display:block; }
+.c_list a {display:block;}
+.main .l .toClose { background-position:100% -132px; }
+.main .l .toOpen { background-position:100% -170px; }
+.main .l #cannel.toOpen { background-position:-25px -170px; }
+.main .l #sYear.toOpen { background-position:-28px -170px; }
+.main .l #cdatebtn.toOpen { background-position:-3px -170px; }
+
+.main .l a:hover .toClose { background-position:100% -332px; }
+.main .l #cannel.toClose { background-position:-25px -332px; }
+.main .l #sYear.toClose { background-position:-28px -332px; }
+.main .l #cdatebtn.toClose { background-position:-3px -332px; }
+.main .l a:hover .toOpen { background-position:100% -370px; }
+
+.main .l a:link, .main .l a:visited { color:#000 }
+.main .l #sYear { display:inline-block; padding-right:10px;}
+.main .l a.reset { background-position:15px -234px; padding-left:30px }
+.main .l a.reset:hover { background-position:15px -254px; }
+.main .c_list { padding-top:5px; }
+.main .c_list li { height:20px; line-height:20px; padding-left:17px; margin:0 0 5px }
+.main .c_list li.on, .main .c_list li:hover, dd ul li:hover { background-color:#e9eff5; }
+/*.main .c_list a:link, .c_list a:visited { color#333333 }    dalong3 20120922*/
+.main .c_list a:hover { text-decoration:none; }
+.main .result { float:left; padding:10px 0px 10px 30px; width:589px; zoom:1; cursor:auto; position:relative; overflow:hidden; }/* xuehua1 modify 20130911 */
+.main .product_result { width:700px; padding-left:10px; margin-left:10px; }
+.main .sLeft { float:left; width:619px; }/* xuehua1 modify 20130911 */
+.main .sRight { float:right; width:235px; background-color:#fff; border:solid 1px #eaeaea; margin-top:-22px;}/* xuehua1 modify 20130911 */
+.main .zcad { float:left; width:210px; float:right; }
+
+.r_list { padding-bottom:15px; }
+.r_list dt { font-size:14px; font-weight:bold; color:#3d3d3d; padding-left:15px; padding-bottom: 10px;}
+.r_list dd, .r_list dd .highlighted  { line-height:22px; height:22px; font-weight:normal}
+.r_list dd a, .r_list dd .highlighted  { padding: 0 20px 0 15px; display:inline-block; }
+.r_list .selected a { background-position: 0 -94px; font-size:14px; }
+.r_list dd a:hover, .r_list dd .highlighted:hover { background-color:#e9eff5 }
+/*.r_list dt a:hover, dalong3 20120919*/
+.main .sidebar dl dt a:hover, .product_sidebar ul li:hover { background-color:#e9eff5 }/*dalong3*/
+.main .sidebar dt .cur_time { padding-left:17px; }
+/*.nav .wrap .main .l .sidebar dl dt a.cur:hover { background-color:#e9eff5 }/*dalong3*/
+.sidebar dl a span { width:97px } /*dalong3 20120919*/
+.r_list dd .del_h { background-position:15px -273px; padding-left:30px; }
+.r_list dd a.del_h:hover { background-position:15px -293px; padding-left:30px; }
+.r_list dd .highlighted { cursor:pointer; }
+.r_list.fgrey a, .r_list dd .highlighted  { width:205px; }
+
+.about_search{ background-color:#f3f5f8; padding:10px 0;}
+.about_search_box{ width:800px; padding-left:150px;}
+.about_search .Stabl01 th{font-size: 14px;font-weight: normal; line-height:30px; text-align: left; vertical-align: top;    white-space: nowrap;}
+.about_search .Stabl01 .tt{ padding:0 25px 0 0}
+.about_search .Stabl01 td{ width: 5%;}
+.about_search .Stabl01 a:hover{ text-decoration:none; color:#000099}
+
+.foot { text-align:center; padding:10px 0; color:#666666; background-color:#e1e1e1;font-size: 12px;}
+.foot a:link,.foot a:visited { color:#666; }
+.foot a:hover, .foot a:focus { text-decoration:none;color:#666; }
+
+/*20120823 added yan end*/
+
+
+a.amore { background:url(http://www.sinaimg.cn/dy/search/images/ss_cl_007.png) no-repeat 100% -88px; padding-right:15px; }
+a.amore2 { background:url(http://www.sinaimg.cn/dy/search/images/ss_cl_007.png) no-repeat 100% -49px; padding-right:15px; }
+.list-more { position:absolute; left:5px; top:18px; width:95px; z-index:10000; }
+.list-more .more-arr { background: url(http://www.sinaimg.cn/dy/search/images/sea_m_arr.png) no-repeat 10px 0; height:5px; overflow:hidden; position:relative; margin-bottom:-1px; zoom:1 }
+.ipt-01 { border:1px solid #60a9cc; padding:3px; line-height:20px; height:20px; width:426px; margin:0; float:left; font-size:14px; outline:none }
+.more-link { border:1px solid #687DCE; background:#fff; padding:3px 0 0 0; }
+.more-link a { display:block; margin:1px; line-height:24px; padding:0 0 0 13px; text-decoration:none; background:#fff; zoom:1; height:24px; overflow:hidden; }
+.more-link a:hover { background-color:#ECEEF9; text-decoration:none; color:#000099; }
+.more-link .line-dot { background:url(http://www.sinaimg.cn/dy/search/images/ss_cl_004.png) repeat-x; }
+.data-select { background:url(http://www.sinaimg.cn/dy/search/images/ss_cl_011.png) no-repeat 95% center; border:1px solid #8fcee0; padding:2px; height:14px; line-height:14px; width:80px; cursor:pointer; }
+.box-define { padding:0 0 0 7px; }
+.box-define p { padding:2px 0; }
+a.areset { background:url(http://www.sinaimg.cn/dy/search/images/ss_cl_012.png) no-repeat 0 center; padding:0 0 0 15px; }
+a.back { background:url(http://www.sinaimg.cn/dy/search/images/back.png) no-repeat 0 center; padding:0 0 0 12px; margin:0 0 0 -10px; }
+/* 脛脷脠脻露楼虏驴脤谩脢戮脟酶脫貌 mod_bar */
+.mod_bar { zoom:1; overflow:hidden; padding:0 0 5px; width:605px; margin:0 0 0 1px; } /*20120912 dalong3*/
+/* 脜脜脨貌路陆脢陆 */
+.sort_option { float: right; margin:0; width:160px; height:25px; line-height:25px; text-align:center; }/*2010/10/26*/
+.sort_option_product { margin:0; display:block; width:558px; text-align:right; height:25px; line-height:25px; z-index:9999; }
+.result .sort_option a { margin-left:0px; text-decoration:none; }
+.result .sort_option_product a { text-decoration:none; }
+.cur_sort { color:#000; padding-bottom:5px; background:url(http://www.sinaimg.cn/dy/search/images/arr.png) no-repeat 50% 100%;/*margin-left:10px;*/ }
+/* 掳麓脢卤录盲脜脜脨貌脤谩脢戮脨脜脧垄 */
+.tips_01 { position: relative; height:30px; line-height: 30px; background:#F2F6F9; margin: 0 18px 5px 0; padding:0 10px;border: 1px solid #e0ebf1; color: #000; }
+.tips_01 { /*width:529px; *width:547px;*/ }/*20120912 dalong3 */
+.tips_01 p em { color: #CC0033; }
+.tips_01 .close { color:#959ebe; position: absolute; right:6px; top:6px; line-height: 14px; font-family: arial; cursor: pointer; }
+/*  鹿脴卤脮脡赂脩隆脝梅掳麓脜楼虏禄虏脡脫脙 20120821  碌芦脥录脝卢脣脩脣梅脨猫脪陋脝么脫脙 20120912 --dalong3*/
+#sidebtn{background:url(images/side_arr3.png) no-repeat 0 0;display:block; position:absolute; width:11px;height:30px;overflow:hidden;text-indent:-999em;margin:120px 0 0 -31px;padding:0;outline:none;}
+a#sidebtn.sideclose{background-position:100% 0;margin-left:-30px; }
+a.sideopen{}
+#sidebtn:hover{background-position:0 -30px; }
+a#sidebtn.sideclose:hover{background-position:100% 100%;}
+
+.result h2 { line-height:24px; }
+.box-result { zoom:1; padding:0 0 0 10px; border: 1px solid #fff; position:relative;margin-bottom:8px; }/*20120823*/
+.box-result { /*width:569px; *width:579px;*/}/*20120910 about ie by dalong3*/
+.box-result .r-img { margin:5px 0; float:left; width:140px; position:relative; }
+.box-result .r-img .video { position:absolute; left:5px; bottom:5px; *bottom:9px;
+border:none; }
+a.a-img img { border:1px solid #ccc; padding:1px; }
+a.a-img:hover img { border-color:#69c; }
+.box-result .r-info { margin:5px 0; float:left; width:417px; }/* 20120823*/
+.box-result .r-info p { word-wrap:break-word; word-break:break-all; }
+.box-result .r-info p a:link,.box-result .r-info p a:visited{ color:#7F7FCC}/* 20120829 modify yan*/
+.box-result .r-info p a:hover{ color:#4949b5}/* 20120829 modify yan*/
+.box-result .r-info p .col3 { display:inline-block; width:22%; overflow:hidden; height:16px; }
+.box-result .r-info p .update { width:45% }
+.box-result .r-info2 { float:none; width:auto; }
+.box-result h2 { font:normal normal normal 16px/1.67em "arial"; }/*20120828 modify yan*/
+.box-result h2 .fgreen { font-size:12px; font-family:Arial; }/*20120828 modify yan*/
+a strong.highlight, a:link strong.highlight, a:visited strong.highlight, .highlight { color:#c00; font-weight:normal; }
+a strong.highlight { text-decoration:underline }
+.box-result .fblue { color:#7f7fcc; text-decoration:none; }/*20120828 modify yan*/
+/*.box-result .r-info h2 a {padding-right:10px;}*/
+.acmt { background:url(http://www.sinaimg.cn/dy/search/images/ss_cl_014.png) no-repeat 0 center; padding-left:12px; }
+.box-result a:visited { color:#800080; }
+.box-result a.fblue:visited { color:#7f7fcc; }/*20120828 modify yan*/
+.box-result a.fblue:hover, .box-result a.fblue:focus { color:#f00; text-decoration:none; }
+.box-result .r-info a { text-decoration:underline; }
+.box-result h2 a{text-decoration: underline;} 
+.box-result .time { white-space:nowrap; }
+.box-result span.zts { /*white-space:nowrap;*/}
+.product_box-result { width:579px; }
+img.noimg { vertical-align:middle; margin:0 2px; }
+.list-img { overflow:hidden; zoom:1; padding:5px 0 0 0; height:94px; }
+.list-img li { float:left; margin:0 5px 0 0; display:inline; }
+.list-img li img { display:block; margin:0 auto; float:left; }
+.list-img li.lastall { border:none; width:auto; padding:78px 0 0 15px; }
+.result .hover { background: #F3F7FA; border-color: #E0EBF1 }/*2010/11/22*/
+/* 路脰脪鲁 */
+
+.pagebox { font-size:12px; margin-bottom:10px; margin-top:5px; }
+.pagebox a, .pagebox a:visited, .pagebox a:link { border:1px solid #ddd; color:#2c98c7; cursor:pointer; height:21px; line-height:21px; padding:0 8px; text-decoration:none; display:inline-block; overflow:hidden; margin-right:4px; }
+.pagebox a:hover { background:#044580 none repeat scroll 0 0; color:#FFFFFF; border-color:#044580 }
+.pagebox span.pagebox_cur_page { color:#000; cursor:default; font-weight:bold; height:23px; line-height:23px; padding:0 8px; display:inline-block; overflow:hidden; margin-right:4px; }
+/*脰卤麓茂脟酶鹿芦脫脙css*/
+.box-nav { /*background:#F3F7FA url(http://www.sinaimg.cn/dy/search/images/dot_line.png) repeat-x 0 100%; */padding:0 0 0 10px; margin-bottom:25px; }
+/*鹿脡脝卤*/
+.box-finance {/*padding-left:15px;*/ }
+.box-finance .r-img { width:auto; margin:2px 5px 0 0; }
+.box-finance .r-info { width:auto; padding-left:15px; }
+.box-finance h2 { padding: 0 0 10px 0; }
+.box-finance .r-num { font-family:arial; padding:0px 0 7px; zoom:1; }
+.box-finance .r-num:after { content:"."; display:block; height:0; visibility:hidden; clear:both; }
+.box-finance .r-num h3 { font-size:24px; font-weight:normal; line-height:1.0; padding:4px 14px 2px 0; float:left; margin:0 10px 0 0; border-right:1px solid #999; }
+.fgreen { color:#090; }
+.box-finance .r-num p { line-height:14px; white-space:nowrap; }
+.box-finance .r-num .num_detail { float:left; padding:2px 0 2px 14px; }
+.box-finance .r-data { padding:4px 1em 2px 2px; border-top:1px solid #999999; clear:both; _float:left; }
+.f_table { border-spacing:0; border-collapse:collapse; }
+.f_table th, .f_table td { padding-right:10px; text-align:left }
+.f_table td { padding-left:2px }
+/* end of 鹿脡脝卤 */
+
+/*脤矛脝酶*/
+.box-weather {/*padding-left:10px;*/ }
+.box-weather h2 { padding:0 0 8px 0; }
+.box-weather .w-cnt { overflow:hidden; zoom:1; margin:0 0 0 0; }
+.box-weather .w-icon { vertical-align:middle; }
+.box-weather dl { float:left; width:174px; padding:0 0 0 0px; border-right:1px dotted #ccc; margin-right:15px; }
+.box-weather dl.last { border:none; margin-right:-25px; }
+.box-weather dd p { line-height:normal; padding:3px 0; }
+/* 麓贸脝卢 */
+/* 脢脫脝碌 */
+.nav_16 .r-info h2 .hd { background: url(http://www.sinaimg.cn/dy/search/images/hd.png) repeat-x; border:solid 1px #9FB6E4; color:#8697D9; padding:3px 6px }
+.nav_16 .hd a {
+color:color:#8697D9; text-decoration:none }
+.nav_16 .blue { color:#6699cc; }
+/*禄媒路脰掳帽*/
+.box-socre h2 { padding:0 0 5px 0; }
+.tbl-score { border-collapse:collapse; border:1px solid #CFE9EF; line-height:24px; font-family:arial; margin:5px 0; }
+.tbl-score th { background:#F1F4FC; padding-left:12px; text-align:left; border-right:1px solid #fff; }
+.tbl-score td { padding-left:12px; border-bottom:1px solid #CFE9EF; }
+.tbl-score td.tar { font-family:"arial"; padding:0 1em 0 0; }
+.more-keyword { font:normal normal normal 14px/1.67em "arial"; padding:10px; }
+.more-keyword td { padding:0 0 0 3px; line-height:26px; text-align:center; }
+.more-keyword td.item { padding: 0 25px; text-align:left; }
+.search-form-bot { padding:10px 0 20px;}
+.search-form-bot form { width:530px; padding-left:15px; }
+.sidebar { width:125px ;}
+.more-keyword a, .result a { text-decoration:none; }
+.from { color:#666; padding:10px 0 15px; }
+.from strong { font-weight:normal; color:#000 }
+.from strong a { text-decoration:none; color:#000; }
+/*赂么脨脨禄禄脡芦*/
+/*.zebra { background:#F3F7FA; padding:10px; }/* modified by  youhuata 0415 */
+.zebra { padding: 10px 0 10px 10px; } /* 20120913 dalong3 */
+.zebra .r-info { width:389px; }/* added by youhuata 0415 */
+.zebra .r-info2 { float:none; width:auto; }
+/* 脟脨禄禄脧脭脢戮路陆脢陆脥录卤锚 */
+.view_icon { width:18px; height:15px; vertical-align:-10%; background:url(http://www.sinaimg.cn/dy/search/images/thumbs.png) no-repeat 0 0; }
+#thumb { background-position: 0 0 }
+#list { background-position:100% 0 }
+#thumb.on { background-position: 0 100% }
+#list.on { background-position:100% 100% }
+/* 虏煤脝路驴芒 */
+.box-prd { padding:10px; margin-bottom:15px }
+.box-prd h2 { margin-top:-3px }
+.box-prd .r-img { width:102px; text-align:center; vertical-align:middle; height:102px; line-height:102px; border:solid 1px #ccc; background:#fff; position:relative; overflow:hidden; zoom:1; display:table; }
+.box-prd .r-img a { position:static; +position:absolute;
+top:50%; vertical-align:middle; display:table-cell; _display:inline; zoom:1; _blr:expression(this.onFocus=this.blur());
+outline-style:none; }
+/*.box-prd .r-img a:after { content:" "; font-size:1px; visibility:hidden }*/
+.box-prd .r-img a img { border:none; padding:0; vertical-align:middle; position:static; +position:relative;
+top:-50%; left:-50%; max-height:98px; max-width:98px; }
+.box-prd .r-info { float:none; margin-left:124px; width:auto; zoom:1 }
+.box-prd h3 { font-weight:normal; text-align:right; margin:-23px 0 0; font-size:12px }
+.box-prd h3 .price { color:#c00; font-family:Arial, Helvetica, sans-serif; font-size:16px; font-weight:normal; line-height:28px; }
+.box-prd h3 .noprice { line-height:28px; }
+/* 虏煤脝路驴芒 > 脠铆录镁 */
+.box-software .r-img { width:44px; height:44px }
+.box-software .r-img a { width:42px; height:42px; line-height:42px }
+.box-software .r-img a img { margin-top:6px }
+.box-software .r-info { margin-left:60px }
+/* 麓贸脥录脧脭脢戮 */
+.dN { display:none }
+.thumbnail { font-size:12px; overflow:hidden; height:16px; }
+.thumbnail_view .box-prd { float:left; width:181px; padding:0; vertical-align:top }
+.thumbnail_view .r-img { float:none; width:142px; height:142px; line-height:142px }
+.thumbnail_view .r-img img { max-height:140px; max-width:140px; /*  麓脣麓娄脫脨CSS驴脴脰脝脥录脝卢驴铆赂脽拢卢脠莽脢盲鲁枚脢卤驴脴脰脝鹿媒脥录脝卢鲁脽麓莽拢卢脭貌驴脡脪脭脳垄脢脥碌么脰脨虏驴路脰 */ _height:expression(this.scrollHeight>139?"140px":"auto");
+_width:expression(this.scrollWidth>139?"140px":"auto");
+/*  麓脣麓娄脫脨CSS驴脴脰脝脥录脝卢驴铆赂脽拢卢脠莽脢盲鲁枚脢卤驴脴脰脝鹿媒脥录脝卢鲁脽麓莽拢卢脭貌驴脡脪脭脳垄脢脥碌么脰脨虏驴路脰 IE6 脳篓脫脙 */
+    }
+.thumbnail_view .r-info { margin-left:0; padding:10px 0 0 0; zoom:1 }
+.thumbnail_view .r-info h3 { text-align:left; margin:0 }
+.thumbnail_view .r-info p.content { display:none }
+/* .thumbnail_view .r-info p span, .thumbnail_view .r-info h3 span { display:none } */
+.thumbnail_view .r-info p .thumbnail { display:block }
+.thumbnail_view .r-info p .thumbnail { display:block; width:auto }/* modified by youhua 2010-8-20 */
+/* 脦垄虏漏脧脿鹿脴 */
+.small_icon { background:url(http://simg.sinajs.cn/miniblog2style/images/common/sicon.gif) no-repeat 0 0; overflow:hidden; }
+.male, .man { background-position:0 -20px; width:9px; height:12px; }
+.female, .sicon_female { width:9px; height:12px; background-position:0 0; }
+.vip { background-position:-32px -20px; width:11px; height:10px; }
+/* 脰卤脥篓鲁碌 */
+.box-map .r-img { width:250px }
+.box-map .r-info { width:auto; margin-left:250px; float:none }
+/*脠脮脝脷脩隆脭帽*/
+#ui-datepicker-div { margin-top:5px; margin-left:-10px;/* 脨脼脮媒脝芦虏卯 */ margin-bottom:20px; font-size:12px; font-family:Arial, Helvetica, sans-serif; background:#fff; display:none; border:1px #9ca9cb solid; width:244px; padding:3px; color:#434343; overflow:hidden; z-index:99 }
+#ui-datepicker-div select { height:21px; color:#434343; cursor:pointer }
+.ui-datepicker-header { width:244px; height:25px; border-bottom:1px #fff solid; overflow:hidden; background:url(http://i3.sinaimg.cn/dy/home/090605/bg_news.png) no-repeat 0 0; position:relative }
+.ui-datepicker-header a.ui-state-disabled, .ui-datepicker-header a.ui-state-disabled:visited { background:#d8ebfe; cursor:default }
+.ui-datepicker-prev { width:30px; height:21px; overflow:hidden; cursor:pointer; position:absolute; top:2px; left:4px; display:block }
+.ui-datepicker-next { width:30px; height:21px; overflow:hidden; cursor:pointer; position:absolute; top:2px; right:5px; display:block }
+.ui-datepicker-title { text-align:center; width:175px; height:21px; position:absolute; top:2px; left:34px }
+.ui-datepicker-year, .ui-datepicker-month { width:60px }
+.ui-datepicker-calendar { width:245px; border-collapse:collapse; border-left:1px #fff solid }
+.ui-datepicker-calendar th, .ui-datepicker-calendar td { padding:0; background:#efefef; color:#686868; border-right:1px #fff solid; border-bottom:1px #fff solid; line-height:22px; text-align:center; cursor:default; font-weight:400 }
+.ui-datepicker-calendar th {/* 卤铆脥路脩霉脢陆脭脷麓脣 */ background:#e9e9e9 }
+.ui-datepicker-calendar th span { display:block }
+.ui-datepicker-calendar th.ui-datepicker-week-end, .ui-datepicker-calendar td.ui-datepicker-week-end {/* 脰脺脛漏碌楼脭陋赂帽脩霉脢陆脭脷麓脣 */ }
+.ui-datepicker-calendar td { font-size:10px }
+.ui-datepicker-calendar td.ui-state-disabled { color:#aaa }
+.ui-datepicker-calendar td a, .ui-datepicker-calendar td a:visited { display:block; cursor:pointer; color:#686868; text-decoration:none; text-align:center; border:1px #efefef solid; line-height:20px; height:/* IE6脭脷a碌脛display脦陋block脢卤拢卢卤脴脨毛脡猫脰脙height禄貌width脰脨碌脛脪禄赂枚虏脜脛脺脮媒脠路麓楼路垄hover脦卤脌脿 */20px }
+.ui-datepicker-calendar td a:hover, .ui-datepicker-calendar td a:active, .ui-datepicker-calendar td a:focus { background:#ec6e6b; color:#fff; border:1px #a40300 solid }
+.ui-datepicker-calendar td a.ui-state-active, .ui-datepicker-calendar td a.ui-state-active:visited {/* .ui-state-active卤脴脨毛脭脷.ui-state-highlight脰庐脟掳拢卢麓脣脩霉脢陆脫脙脫脷卤锚脳垄脰赂露篓碌脛碌芦虏禄脢脟陆帽脤矛碌脛脠脮脝脷 */ background:#fff; border-color:#efefef }
+.ui-datepicker-calendar td a.ui-state-active:hover, .ui-datepicker-calendar td a.ui-state-active:active, .ui-datepicker-calendar td a.ui-state-active:focus { color:#ca0e0a; text-decoration:underline; background:#fff; border-color:#efefef }
+.ui-datepicker-calendar td a.ui-state-highlight, .ui-datepicker-calendar td a.ui-state-highlight:visited { background:#ca0e0a; color:#fff; border:1px #a40300 solid }
+.ui-datepicker-calendar td a.ui-state-highlight:hover, .ui-datepicker-calendar td a.ui-state-highlight:active, .ui-datepicker-calendar td a.ui-state-highlight:focus { background:#ca0e0a; color:#ff0; text-decoration:underline; border:1px #a40300 solid }
+.ui-icon, .ui-datepicker-cover, .ui-datepicker-trigger { display:none }
+.pagenum { font-size:11px; font-family:verdana; }
+.noresult { margin-left:25px; clear:left; font-size:14px; padding-bottom:100px; }
+.noresult h4 { font-weight:normal; font-size:14px; line-height:30px; }
+.noresult h4 span { color:#cc0033; }
+.noresult p { font-size:14px; line-height:50px; }
+.noresult ul { }
+.noresult ul li { font-size:14px; line-height:20px; margin-left:30px; list-style-type:disc; }
+.more_switch { text-align:right; }
+.more_switch a.amore, .more_switch a.amore2 { background-image:url(http://www.sinaimg.cn/dy/search/images/sw.png); outline:none 0; text-decoration:none; }
+span.style1 { color:#f00; }
+/**/
+.gray_lv2 { color:#666 }
+.cur_area { margin:0 0 5px 30px; }
+.notice { background:url(http://www.sinaimg.cn/dy/search/images/notice.gif) no-repeat 0 50%; padding:2px 2px 2px 15px; }
+/* 脭脷陆谩鹿没脰脨脣脩 */
+#search_more { padding:0 20px; font-size:14px; height:300px; position:relative; z-index:2 }
+#search_more h2 { font-weight:bold; margin:-10px 0 18px; font-family:"脦垄脠铆脩脜潞脷", "潞脷脤氓"; font-size:18px; position:relative; z-index:20 }
+#search_more p { line-height:157% }
+.main .l li .type-more li { padding-left:7px; }/* added by youhuata 2010-03-26  16:33 */
+.type-more { zoom:1; overflow:hidden }
+/* range radio add pointer */
+label.label_range { cursor:pointer; }
+label.label_range input { cursor:pointer; }
+/* world cup 2010 */
+/* added by youhuata 100602 */
+.WorldCupTop { height:95px!important }
+.w_c_p { background: url(http://www.sinaimg.cn/dy/search/images/sjb_banner.png) no-repeat 100% 100%; height:95px }
+.world_cup_filter { position:absolute; margin:0; color:#cc0000; }
+.world_cup_filter a { color:#00f; text-decoration:none }
+.world_cup_filter a:hover { color:#f00; text-decoration:none; }
+.main .l li span { color:#000000 }
+/* 脨脗脦脜脣脩脣梅脧脗脡赂脩隆脝梅 脢脌陆莽卤颅卤锚脳垄脤脴脢芒脩脮脡芦 */
+.sidebar li.wc2010_a a { color:#f60; }
+.sidebar li.wc2010_a a:hover { color:#f00; }
+/* 脥录脝卢脣脩脣梅 掳麓脨搂鹿没赂脽脟氓卤锚脢露 */
+img.size_hd { /*vertical-align:text-top;*/ margin-left:2px; }
+/*脠楼碌么hover 脧脗禄庐脧脽*/
+.sidebar a:hover, .sidebar a:focus { text-decoration:none; }
+/* 脳贸虏脿脡赂脩隆脝梅脰赂露篓脠脮脝脷路露脦搂 */
+.cdatehost { text-align:right; margin-right:2px; }
+.cdatehost p { padding:2px 0 0 0; }
+.cdatehost .btns { text-align:center; border-width:0; padding:20px }
+.cdatehost .btns input { font-size:14px }
+.cdatehost label { margin-right:2em; vertical-align:middle }
+.cdatehost .inp_txt { border:solid 1px #9EB5E4; width:90px; padding:3px 4px; height:13px; }
+.cdatehost select { width:90px; margin-right:16px }
+/*2010/11/3begin*/
+.mod_thumb { float: left; width: 140px; text-align: center; }
+.mod_thumb table { margin: auto; text-align: center; }
+.mod_thumb .video { text-align: left; }
+.mod_thumb .video a { position: relative; display: block; margin: -25px 0 0 5px; }
+.mod_thumb .btn_play { display: inline-block; width: 73px; height: 25px; background: url(http://www.sinaimg.cn/dy/search/images/search_btn_play.png) 0 0 no-repeat; }
+#search_ft_02 { display: none; }
+.dropselectbox { display:inline; }
+.dropdown { outline:none; display:inline-block; vertical-align: middle; *display:inline;
+zoom:1; background:#dee3fa; }
+.dropdown * { -moz-user-select:none; }
+.dropdown h4 { cursor:pointer; text-indent:5px; height:24px; padding-right: 5px; font:12px/24px '脣脦脤氓', sans-serif; border:solid 1px #667bce; background:url(http://www.sinaimg.cn/dy/search/images/search_slt_arr.png) no-repeat right center; }
+.dropdown h4.over { border-color:#667bce; background-image:url(http://www.sinaimg.cn/dy/search/images/search_slt_arr.png); }
+.dropdown h4.current { border-color:#667bce; }
+.dropdown div { display:block;}
+.dropdown ul { position:absolute; display:none; margin:0; padding:0; float:left; clear:both; border:1px solid #667bce; background:#FFF; }
+.dropdown ul li { text-indent:5px; display:block; cursor:default; background:#FFF; height:19px; }
+.dropdown ul li.over { background:#39f; color:#FFF; }
+/*2010/11/3end*/
+
+.icon_arr { padding-right: 10px; background: url(http://www.sinaimg.cn/dy/search/images/search3.png) right center no-repeat; }
+
+.ipt-00 { border:1px solid #898989; padding:3px 5px; line-height:24px; height:24px; font-size:14px; width:400px; margin:0 10px 0 0; }
+.filterzz {height: 24px;padding: 10px 0;text-align: center;}
+.filterzz a:link, .filterzz a:visited {background: none repeat scroll 0 0 #F6F6F6;border: 1px solid #EFEFEF;color: #6699CC;text-decoration: none;}
+.filterzz a {background: none repeat scroll 0 0 #F6F6F6;border: 1px solid #EFEFEF;color: #6699CC;display: inline-block;height: 22px;line-height: 22px;margin: 0 auto;padding: 0 75px;}
+.foot_tip{padding:10px 0;color:#777;margin:10px 0 5px 0;border-top: dashed 1px #999;}
+
+.result_s { display:inline;float:left;width:124px;margin:30px 50px 0px 20px;}
+.result_s .result_s_pic { display:block;position:relative;padding:1px;border:1px solid #dcdcdc;line-height:0px;font-size:0px;zoom:1;}
+.result_s .result_s_pic span { position:absolute;left:1px;bottom:1px;width:120px;height:18px;line-height:18px;font-size:12px;color:white;text-align:right;}
+.result_s .result_s_marker { background-color:black;opacity:0.6;filter:alpha(opacity=60);}
+.result_s .result_s_pic .result_s_length { width:114px;padding-right:6px;}
+.result_s .result_s_play { display:none;position:absolute;left:50%;top:50%;margin-left:-16px;margin-top:-20px;width:32px;height:32px;background:url(images/result_play_btn.png);_background:none;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale, src='images/result_play_btn.png');}
+.result_s .result_s_pic:hover .result_s_play { display:block;}
+.result_s p { color:#666666;}
+.result_s .result_key { color:red;}
+.result_s .result_s_title { height:36px;line-height:18px;margin:5px 0;}
+
+</style>
+
+<script type="text/javascript" src="/js/global.v2.js"></script>
+<script type="text/javascript" src="http://www.sinaimg.cn/jslib/jquery-1.4.2.min.js"></script>
+
+<!-- suggest by liusong@20110105 $-->
+<script type="text/javascript" src="js/jquery.suggest.js"></script>
+<style type="text/css">
+	.ac_results {
+			width: 384px;
+			border: 1px solid gray;
+		background-color: white;
+		padding: 0;
+		margin: 0;
+		list-style: none;
+		overflow: hidden;
+		position: absolute;
+		z-index: 10000;
+		display: none;
+	}
+	
+	.ac_results li {
+		padding: 2px 5px;
+		white-space: nowrap;
+		color: #333;
+		text-align: left;
+		font-size:14px;
+		height:20px;
+		line-height:20px;
+			}
+	
+	.ac_over {
+		cursor: pointer;
+		background-color: #d9e1f6;
+	}
+	</style>
+<script type="text/javascript">
+function bindSuggest(obj) {
+		var url = "iframe/suggest/index.php";
+	var selector = obj!=null ? ('#'+obj.target.id) : 'a.selected';
+	url += $(selector).attr('id') == 'tab08' ? '?type=intraproducts' : '';
+		$(".ipt-01").filter(function(){return $(this).parents('div.search-ipt')[0].style.display=='block';}).add($(".ipt-02:first")).suggest(url,{
+		minchars: 1,
+		delay: 0,
+		onSelect: function() {$(this).parents('form').submit();}
+	});
+	}
+$(function() {
+	$('a').filter(function(){return this.id.match(/tab0\d+/);}).each(function(){$(this).click(bindSuggest);});
+	bindSuggest(null);
+});
+</script>
+
+<script language="javascript">
+//2010/11/3 begin
+(function($) {
+	$.fn.extend({
+		sSelect: function() {
+			var self=this;
+			return this.each(function(i, obj) {
+				var selectId = (this.name || this.id) + '__jQSelect' + i || '__jQSelect' + i;
+				if (obj.style.display != 'none' && $(this).parents()[0].id.indexOf('__jQSelect') < 0) {
+					var tabindex = this.tabIndex || 0;
+					$(this).before("<div class='dropdown' id=" + selectId + " tabIndex=" + tabindex + "></div>").prependTo($("#" + selectId));
+					var selectZindex = $(this).css('z-index'),
+					selectIndex = $('#' + selectId + ' option').index($('#' + selectId + ' option:selected')[0]);
+					$('#' + selectId).append('<div class="dropselectbox"><h4></h4><ul></ul></div>');
+					$('#' + selectId + ' h4').empty().append($('#' + selectId + ' option:selected').text());
+					
+					var w = self.outerWidth();
+					$('#' + selectId + ' h4').css({
+						width: w
+					});
+					var selectUlwidth = w + parseInt($('#' + selectId + ' h4').css("padding-left")) + parseInt($('#' + selectId + ' h4').css("padding-right"));
+					$('#' + selectId + ' ul').css({
+						width: selectUlwidth + 'px'
+					});
+					$('#' + selectId + ' select').hide();
+					$('#' + selectId + ' div').hover(function() {
+						$('#' + selectId + ' h4').addClass("over");
+					},
+					function() {
+						$('#' + selectId + ' h4').removeClass("over");
+					});
+					$('#' + selectId)
+					.bind("focus", 
+					function() {
+						$.fn.clearSelectMenu(selectId, selectZindex);
+						$('#' + selectId + ' h4').addClass("over");
+					})
+					.bind("click", 
+					function(e) {
+						if ($('#' + selectId + ' ul').css("display") == 'block') {
+							$.fn.clearSelectMenu(selectId, selectZindex);
+							return false;
+						} else {
+							$('#' + selectId + ' h4').addClass("current");
+							$('#' + selectId + ' ul').show();
+							var selectZindex = $(this).css('z-index');
+							if ($.browser.msie || $.browser.opera) {
+								$('.dropdown').css({
+									'position': 'relative',
+									'z-index': '0'
+								});
+							}
+							$('#' + selectId).css({
+								'position': 'relative',
+								'z-index': '999'
+							});
+							$.fn.setSelectValue(selectId);
+							selectIndex = $('#' + selectId + ' li').index($('.selectedli')[0]);
+							var windowspace = ($(window).scrollTop() + document.documentElement.clientHeight) - $(this).offset().top;
+							var ulspace = $('#' + selectId + ' ul').outerHeight(true);
+							var windowspace2 = $(this).offset().top - $(window).scrollTop() - ulspace;
+							windowspace < ulspace && windowspace2 > 0 ? $('#' + selectId + ' ul').css({
+								top: -ulspace
+							}) : $('#' + selectId + ' ul').css({
+								top: $('#' + selectId + ' h4').outerHeight(true)
+							});
+							$(window).scroll(function() {
+								windowspace = ($(window).scrollTop() + document.documentElement.clientHeight) - $('#' + selectId).offset().top;
+								windowspace < ulspace ? $('#' + selectId + ' ul').css({
+									top: -ulspace
+								}) : $('#' + selectId + ' ul').css({
+									top: $('#' + selectId + ' h4').outerHeight(true)
+								});
+
+							});
+							$('#' + selectId + ' li').click(function(e) {
+								selectIndex = $('#' + selectId + ' li').index(this);
+								$.fn.keyDown(selectId, selectIndex);
+								$('#' + selectId + ' h4').empty().append($('#' + selectId + ' option:selected').text());
+								$.fn.clearSelectMenu(selectId, selectZindex);
+								e.stopPropagation();
+								e.cancelbubble = true;
+
+							})
+							.hover(
+							function() {
+								$('#' + selectId + ' li').removeClass("over");
+								$(this).addClass("over").addClass("selectedli");
+								selectIndex = $('#' + selectId + ' li').index(this);
+
+							},
+							function() {
+								$(this).removeClass("over");
+
+							}
+							);
+
+						};
+						e.stopPropagation();
+
+					})
+					.bind('mousewheel', 
+					function(e, delta) {
+						e.preventDefault();
+						var mousewheel = {
+							$obj: $('#' + selectId + ' li.over'),
+							$slength: $('#' + selectId + ' option').length,
+							mup: function() {
+								this.$obj.removeClass("over");
+								selectIndex == 0 ? selectIndex = 0: selectIndex--;
+								$.fn.keyDown(selectId, selectIndex, true);
+
+							},
+							mdown: function() {
+								this.$obj.removeClass("over");
+								selectIndex == (this.$slength - 1) ? selectIndex = this.$slength - 1: selectIndex++;
+								$.fn.keyDown(selectId, selectIndex, true);
+
+							}
+
+						}
+						delta > 0 ? mousewheel.mup() : mousewheel.mdown();
+
+					})
+					.bind("dblclick", 
+					function() {
+						$.fn.clearSelectMenu(selectId, selectZindex);
+						return false;
+
+					})
+					.bind("keydown", 
+					function(e) {
+						$(this).bind('keydown', 
+						function(e) {
+							if (e.keyCode == 40 || e.keyCode == 38 || e.keyCode == 35 || e.keyCode == 36) {
+								return false;
+
+							}
+
+						});
+						var $obj = $('#' + selectId + ' li.over'),
+						$slength = $('#' + selectId + ' option').length;
+						var noChange = true;
+						switch (e.keyCode) {
+							case 9:
+							return true;
+							break;
+							case 13:
+							//enter
+							$.fn.clearSelectMenu(selectId, selectZindex);
+							$.fn.keyDown(selectId, selectIndex);
+							break;
+							case 27:
+							//esc
+							$.fn.clearSelectMenu(selectId, selectZindex);
+							break;
+							case 33:
+							$obj.removeClass("over");
+							selectIndex = 0;
+							$.fn.keyDown(selectId, selectIndex);
+							break;
+							case 34:
+							$obj.removeClass("over");
+							selectIndex = ($slength - 1);
+							$.fn.keyDown(selectId, selectIndex);
+							break;
+							case 35:
+							$obj.removeClass("over");
+							selectIndex = ($slength - 1);
+							$.fn.keyDown(selectId, selectIndex);
+							break;
+							case 36:
+							$obj.removeClass("over");
+							selectIndex = 0;
+							$.fn.keyDown(selectId, selectIndex);
+							break;
+							case 38:
+							//up
+							e.preventDefault();
+							$obj.removeClass("over");
+							selectIndex == 0 ? selectIndex = 0: selectIndex--;
+							$.fn.keyDown(selectId, selectIndex, noChange);
+							break;
+							case 40:
+							//down
+							e.preventDefault();
+							$obj.removeClass("over");
+							selectIndex == ($slength - 1) ? selectIndex = $slength - 1: selectIndex++;
+							$.fn.keyDown(selectId, selectIndex, noChange);
+							break;
+							default:
+							e.preventDefault();
+							break;
+
+						};
+
+					})
+					.bind("blur", 
+					function() {
+						$.fn.clearSelectMenu(selectId, selectZindex);
+						return false;
+
+					})
+					.bind("selectstart", 
+					function() {
+						return false;
+
+					});
+
+				} else if ($(this).parents()[0].id.indexOf('__jQSelect') > 0) {
+					selectId = $(this).parents()[0].id;
+					$.fn.setSelectValue(selectId);
+					var w = self.outerWidth();
+					$('#' + selectId + ' h4').css({
+						width: w
+					});
+					var selectUlwidth = w + parseInt($('#' + selectId + ' h4').css("padding-left")) + parseInt($('#' + selectId + ' h4').css("padding-right"));
+					$('#' + selectId + ' ul').css({
+						width: selectUlwidth + 'px'
+					});
+					if (this.style.display != 'none') {
+						$(this).hide();
+					}
+
+				}
+			})
+		},
+		clearSelectMenu: function(selectId, selectZindex) {
+			if (selectId != undefined) {
+				selectZindex = selectZindex || '999';
+				$('#' + selectId + ' ul').empty().hide();
+				$('#' + selectId + ' h4').removeClass("over").removeClass("current");
+				$('#' + selectId).css({
+					'z-index': selectZindex
+				});
+			}
+		},
+		setSelectValue: function(sID) {
+			var content = [];
+			$.each($('#' + sID + ' option'), 
+			function(i) {
+				content.push("<li class='FixSelectBrowser'>" + $(this).text() + "</li>");
+			});
+			content = content.join('');
+			$('#' + sID + ' ul').html(content);
+			$('#' + sID + ' h4').html($('#' + sID + ' option:selected').text());
+			$('#' + sID + ' li').eq($('#' + sID + ' select')[0].selectedIndex).addClass("over").addClass("selectedli");
+		},
+		keyDown: function(sID, selectIndex, noChange) {
+			var $obj = $('#' + sID + ' select');
+			$obj[0].selectedIndex = selectIndex;
+			if (!noChange) {
+				$obj.change();
+			};
+			$('#' + sID + ' li:eq(' + selectIndex + ')').toggleClass("over");
+			$('#' + sID + ' h4').html($('#' + sID + ' option:selected').text());
+		}
+	});
+	var types = ['DOMMouseScroll', 'mousewheel'];
+	$.event.special.mousewheel = {
+		setup: function() {
+			if (this.addEventListener)
+			for (var i = types.length; i;)
+			this.addEventListener(types[--i], handler, false);
+			else
+			this.onmousewheel = handler;
+		},
+		teardown: function() {
+			if (this.removeEventListener)
+			for (var i = types.length; i;)
+			this.removeEventListener(types[--i], handler, false);
+			else
+			this.onmousewheel = null;
+		}
+	};
+	$.fn.extend({
+		mousewheel: function(fn) {
+			return fn ? this.bind("mousewheel", fn) : this.trigger("mousewheel");
+		},
+		unmousewheel: function(fn) {
+			return this.unbind("mousewheel", fn);
+		}
+	});
+	function handler(event) {
+		var args = [].slice.call(arguments, 1),
+		delta = 0,
+		returnValue = true;
+		event = $.event.fix(event || window.event);
+		event.type = "mousewheel";
+		if (event.wheelDelta) delta = event.wheelDelta / 120;
+		if (event.detail) delta = -event.detail / 3;
+		args.unshift(event, delta);
+		return $.event.handle.apply(this, args);
+	}
+})(jQuery);
+//2010/11/3 end
+</script>
+
+<script type="text/javascript">
+(function(){
+if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){return};
+
+//style
+var css = 'a{text-decoration:none!important}';
+var style = document.createElement('style');
+document.getElementsByTagName('head')[0].appendChild(style);
+style.textContent = css;
+
+//进入式
+document.addEventListener('mousedown',function(e){
+	var ele = e.target;
+	do{
+		if(ele.tagName == 'A'){
+			ele.target = '_self';
+			return;
+		};
+		if(ele.tagName == 'DIV'){return};
+	}while(ele = ele.parentNode);
+	},false);
+})();
+</script>
+
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+//ipad不需要背景变色
+if( !(/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)) ){
+	$(document).ready(function () {
+		$('.box-result').hover(
+			function () {
+				$(this).addClass("hover");
+			},
+			function () {
+				$(this).removeClass("hover");
+			}
+		);
+	});
+}
+//--><!]]>
+</script>
+<style type="text/css">
+.top2 .search-form .ipt-02 {margin:0 3px 0 0}
+.sidebar { width:125px ;border-right: 1px solid rgb(200, 213, 240);}
+</style>  
+
+<iframe src="http://beacon.sina.com.cn/ckctl.html" id="ckctlFrame" scrolling="no" style="height: 0px; width: 1px; overflow: hidden;"></iframe><style type="text/css">.tn-title-login-custom{float:left!important;font-family: "Microsoft YaHei","微软雅黑","SimSun","宋体"!important;position:relative!important;}
+.tn-title-login-custom .tn-user-custom{float:left!important;font-size:12px!important;}
+.tn-title-login-custom .tn-user-greet{float:left!important;height:17px!important;padding:12px 0!important;width:51px!important; line-height:17px!important;overflow:hidden!important;}
+.tn-title-login-custom .tn-tab-custom{position:relative!important;float:left!important;border-width:0 1px!important;border-style:solid!important;width:85px!important;height:17px!important;padding:12px 0!important;_padding:14px 0 10px!important;text-align:center!important;font-style:normal!important;text-decoration:none!important; vertical-align:top!important;}
+.tn-title-login-custom .tn-tab-custom-login{width:57px!important;_float:left;}
+.tn-title-login-custom .tn-tab-custom i{font-style:normal!important;}
+.tn-title-login-custom .tn-tab-custom:hover{text-decoration:none!important;}
+.tn-title-login-custom .tn-tab-custom .tn-new-custom{display:none;position:absolute!important;right:2px!important;margin-top:-10px!important;height:11px!important;width:13px!important;padding-left:3px!important;font-size:8px!important;overflow:hidden!important;line-height:10px!important;text-align:center!important;-webkit-text-size-adjust:none!important;font-style:normal!important;}
+.tn-title-login-custom .tn-tab-custom .tn-arrow-custom{display: inline-block!important;font-size: 12px!important;height: 5px!important;line-height: 13px!important;margin: 0 0 0 5px!important;overflow: hidden!important;transform: none!important;vertical-align: middle!important;width:9px!important;font-style:normal!important;}
+.tn-title-login-custom .tn-topmenulist-custom{position:absolute!important;right:0!important;top:41px!important;border-width:1px 1px 0!important;border-style:solid!important;width:85px!important;overflow:hidden!important;}
+.tn-title-login-custom .tn-topmenulist-custom .tn-text-list{margin-bottom:-2px!important;margin:0!important;padding:0!important;}
+.tn-title-login-custom .tn-topmenulist-custom li{border-bottom-width:1px!important;border-bottom-style:solid!important;line-height:31px!important; list-style:none!important;margin:0!important;padding:0!important;}
+.tn-title-login-custom .tn-topmenulist-custom a{display:block!important;padding:0 15px!important;text-decoration:none!important;text-align:left!important;}
+.tn-title-login-custom .tn-topmenulist-custom a em{float:right!important;font-style:normal!important;}
+.tn-title-login-custom .tn-topmenulist-custom a:hover{text-decoration:none!important;}
+.tn-title-login-custom .tn-topmenulist-custom a.tn-user-custom-logout{background:#f2f2f2!important;color:#0a8cd2!important;}
+.tn-title-login-custom .tn-topmenulist-custom a.tn-user-custom-logout:hover{text-decoration:underline!important;}
+/*可覆盖样式区域*/
+.tn-title-login-custom .tn-user-custom{background:#f7f7f7;}
+.tn-title-login-custom .tn-tab-custom{border-color:#f7f7f7;color:#ff8601;}
+.tn-title-login-custom .tn-tab-custom:hover,
+.tn-title-login-custom .tn-tab-custom-onmouse{background:#eaeaea;border-color:#ff8503;color:#ff8601;}
+.tn-title-login-custom .tn-tab-custom .tn-new-custom{background:url(http://i.sso.sina.com.cn/images/login/icon_custom.png) no-repeat 0 -30px;color:#fff;text-align:center;-webkit-text-size-adjust: none;}
+.tn-title-login-custom .tn-tab-custom .tn-arrow-custom{ background:url(http://i.sso.sina.com.cn/images/login/icon_custom.png) no-repeat scroll 0 0 transparent; }
+.tn-title-login-custom .tn-topmenulist-custom{border-color:#ff8601;background:#fff;}
+.tn-title-login-custom .tn-topmenulist-custom li{border-bottom-color:#ff8601;}
+.tn-title-login-custom .tn-topmenulist-custom a{color:#000;}
+.tn-title-login-custom .tn-topmenulist-custom a em{color:#ff8603;}
+.tn-title-login-custom .tn-topmenulist-custom a:hover{background:#fff6d9;color:#ff8601;}</style></head>
+<body><div class="side-btns-wrap side-btns-wrap-resize" style="display: block;"><div class="side-btns-top"><a class="side-btns-top-btn" href="javascript:;" title="返回顶部" suda-uatrack="key=channel_index_up_to_top&amp;value=news" hidefocus="">返回顶部</a><a class="side-btns-top-close" href="javascript:;" title="关闭" suda-uatrack="key=channel_index_up_to_top&amp;value=news_close" hidefocus="">关闭</a></div></div>
+<div class="topWrap">
+<div style="position:relative;z-index:10000" id="top_column">
+	<div class="top clearfix">
+		<div class="l">
+		<div class="l">
+
+                 <h1 class="l"><a href="/?t=news"><img src="images/newLogo.jpg" alt="新浪搜索"></a></h1>
+        
+
+          <div class="navType l">
+			<a rel="/?q=[keyword]&amp;c=news" href="/?q=%D7%BD%D1%FD%BC%C7&amp;c=news" class="selected" id="tab02" suda-uatrack="key=SearchHeader&amp;value=news">新闻</a>
+			<a rel="/?q=[keyword]&amp;c=zt" href="/?q=%D7%BD%D1%FD%BC%C7&amp;c=zt&amp;range=title" id="tab02" suda-uatrack="key=SearchHeader&amp;value=topic">专题</a>
+			<a rel="/?q=[keyword]&amp;c=blog" href="/?q=%D7%BD%D1%FD%BC%C7&amp;c=blog" id="tab03" suda-uatrack="key=SearchHeader&amp;value=blog">博客</a>
+			<a rel="http://s.weibo.com/weibo/[keyword]" href="http://s.weibo.com/weibo/%E6%8D%89%E5%A6%96%E8%AE%B0" target="_blank" id="tab04" suda-uatrack="key=SearchHeader&amp;value=weibo">微博</a>
+			
+			<a rel="/?q=[keyword]&amp;c=img" href="/?q=%D7%BD%D1%FD%BC%C7&amp;c=img" id="tab07" suda-uatrack="key=SearchHeader&amp;value=pic">图片</a>
+			
+			
+			<a rel="/?q=[keyword]&amp;c=video" href="/?q=%D7%BD%D1%FD%BC%C7&amp;c=video&amp;range=title" id="tab02">视频</a>
+			<!-- <a rel="http://biz.finance.sina.com.cn/suggest/lookup_n.php?country=&q=[keyword]&name=%CD%F2%BF%C6A&t=keyword&c=all&k=%CD%F2%BF%C6A&range=all&col=1_7&from=channel" href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?country=&q=%D7%BD%D1%FD%BC%C7&name=%CD%F2%BF%C6A&t=keyword&c=all&k=%CD%F2%BF%C6A&range=all&col=1_7&from=channel" target="_blank" id="tab05" suda-uatrack="key=SearchHeader&value=gupiao">股票</a> -->
+			<!-- <a rel="http://music.sina.com.cn/yueku/search/s.php?t=all&k=[keyword]" href="http://music.sina.com.cn/yueku/search/s.php?t=all&k=%D7%BD%D1%FD%BC%C7" target="_blank" id="tab06" suda-uatrack="key=SearchHeader&value=music">音乐</a>
+			<a rel="/?q=[keyword]&c=product" href="/?q=%D7%BD%D1%FD%BC%C7&c=product" id="tab08" suda-uatrack="key=SearchHeader&value=product">产品库</a>
+			<a href="zl/search.php?q=%D7%BD%D1%FD%BC%C7" title="专栏搜索" target="_BLANK">专栏</a> -->
+			<a rel="http://biz.finance.sina.com.cn/suggest/lookup_n.php?country=&amp;q=[keyword]&amp;name=s&amp;t=keyword&amp;c=all&amp;k=s&amp;range=all&amp;col=1_7&amp;from=channel" href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?country=&amp;q=%D7%BD%D1%FD%BC%C7&amp;name=s&amp;t=keyword&amp;c=all&amp;k=s&amp;range=all&amp;col=1_7&amp;from=channel" target="_blank" id="tab04" suda-uatrack="key=SearchHeader&amp;value=weibo">股票</a>
+			          	<a href="?c=more" id="topamore" suda-uatrack="key=SearchHeader&amp;value=more">更多&gt;&gt;</a>
+          </div>
+       	</div>
+	</div>
+		<div class="r">
+						<a href="http://www.sina.com.cn" suda-uatrack="key=SearchHeader&amp;value=sinahomepage">新浪首页</a>
+		</div>
+
+
+                <!--0422 login-->
+        <div class="login-frame">
+            <a href="javascript:;" class="login-button" id="JS_Login_Btn"><span style="cursor:pointer;">登录</span></a>
+            <div class="logined-wrap fl" id="JS_Logined_Wrap"></div>
+            <div id="JS_Login_Layer" style="display:none"><div class="top-nav" style=""><div class="tn-title-login-custom" node-type="userInfoContainer"><div class="tn-user-custom"><a href="javascript:void(0);" class="tn-tab-custom tn-tab-custom-login" node-type="login"><i><span>登录</span></i></a><span class="tn-user-greet" style="display:none;" node-type="greet">欢迎你，</span><a node-type="nickCon" style="display:none;" href="http://weibo.com" target="_blank" class="tn-tab-custom"><i><span node-type="nick">&nbsp;</span><em class="tn-new-custom" node-type="totalMsg"></em><em class="tn-arrow tn-arrow-custom"></em></i></a><div class="tn-topmenulist-custom" node-type="infoList" style="display:none;"><ul class="tn-text-list"><li><a href="http://weibo.com/messages?topnav=1&amp;wvr=4" target="_blank"><em node-type="pm"></em>私信</a></li><li><a href="http://weibo.com/comment/inbox?topnav=1&amp;wvr=4&amp;f=1" target="_blank"><em node-type="comment"></em>评论</a></li><li><a href="http://weibo.com/at/weibo?topnav=1&amp;wvr=4" target="_blank"><em node-type="atme"></em>@我</a></li><li><a href="javascript:void(0);" node-type="logout" class="tn-user-custom-logout">退出</a></li></ul></div></div><div node-type="css_check" class="userpanel-checkload" style="display:none;"></div></div></div></div>
+        </div>
+        <!--0422 login-->
+        
+
+	</div>
+	<div class="list-more" id="topcmore" style="left:292px;top:26px;display:none;"><!-- left:485px -->
+		<div class="more-arr"></div>
+		<div class="more-link">
+			<a rel="http://biz.finance.sina.com.cn/suggest/lookup_n.php?suggest_radio=lookupn&amp;country=&amp;q=[keyword]&amp;t=keyword&amp;c=all&amp;k=[keyword]&amp;name=[keyword]" href="http://biz.finance.sina.com.cn/suggest/lookup_n.php?suggest_radio=lookupn&amp;country=&amp;q=%D7%BD%D1%FD%BC%C7&amp;t=keyword&amp;c=all&amp;k=%D7%BD%D1%FD%BC%C7&amp;name=%D7%BD%D1%FD%BC%C7" target="_blank">股票</a>
+			<a rel="http://php.weather.sina.com.cn/search.php?city=[keyword]&amp;c=1&amp;f=1&amp;dpc=1" href="http://php.weather.sina.com.cn/search.php?city=%D7%BD%D1%FD%BC%C7&amp;c=1&amp;f=1&amp;dpc=1" target="_blank">天气</a>
+			<a rel="http://map.sina.com.cn/#city=北京!type=0!cr=12,11639794,3990817!k=[keyword]!strt=0!snum=10" href="http://map.sina.com.cn/#city=北京!type=0!cr=12,11639794,3990817!k=捉妖记!strt=0!snum=10" target="_blank">地图</a>
+			<a rel="http://yingxun.ent.sina.com.cn/search_key.php?keyword=[keyword]" href="http://yingxun.ent.sina.com.cn/search_key.php?keyword=%D7%BD%D1%FD%BC%C7" target="_blank">影讯</a>
+			<a rel="http://data.ent.sina.com.cn/show/search.php?keyword=[keyword]" href="http://data.ent.sina.com.cn/show/search.php?keyword=%D7%BD%D1%FD%BC%C7" target="_blank">演出</a>
+			<a href="http://bbs.sina.com.cn/" target="_blank" class="line-dot">论坛</a>
+			<a href="?c=more" class="line-dot">更多&gt;&gt;</a>
+		</div>
+	</div>
+</div>    <div class="top2">
+        <!--             <h1 class="l"><a href="/?t=news"><img src="images/logo_new_yan.png" alt="新浪搜索" /></a></h1>
+         -->
+        <div class="search-form l">
+            <form method="get" action="/" onsubmit="return submit_form(this)">
+                <input type="text" name="q" autocomplete="off" maxlength="100" value="捉妖记" class="ipt-02" onblur="set_top_column_href(this.value);" id="keyword">
+                                    <input type="submit" value="" class="ipt-03" hidefocus="true" suda-uatrack="key=SearchHeader&amp;value=searchnews">
+                
+                <a href="/?c=adv&amp;q=%D7%BD%D1%FD%BC%C7" suda-uatrack="key=SearchHeader&amp;value=advancedsearch">高级搜索</a>
+                <p>
+                                 <label class="label_range" for="range1_all">
+                    <input type="radio" onclick="news_range_search_base_click(this);" id="range1_all" checked="checked" name="range" value="all">新闻全文                </label>
+                                 <label class="label_range" for="range1_title">
+                    <input type="radio" onclick="news_range_search_base_click(this);" id="range1_title" suda-uatrack="key=SearchHeader&amp;value=title" name="range" value="title">新闻标题                </label>
+                                </p>
+               
+                
+                <input name="c" type="hidden" value="news">
+                <input name="sort" type="hidden" value="time">
+				                
+                            </form>
+        </div>
+    </div>
+</div>
+<style type="text/css">
+
+body{font-family: "Arial","Microsoft YaHei","微软雅黑";}/*0425*/
+.r-info-blog .content{font-size: 14px;line-height: 20px;padding-top: 5px;padding-bottom: 10px;}/*0425*/
+.box-result .r-info{width: 545px}/*0530*/
+.box-result .r-info2{width: 670px}/*0605*/
+.box-result .r-info a{text-decoration: none!important;}/*0425*/
+.box-result .r-info-blog-tit a { text-decoration:none!important;}/*0528*/
+input.ipt-03{background: url(/images/0422_zyc_search_newIcons.png) 0 -233px no-repeat;}/*0425*/
+form input.ipt-03:hover, input.ipt-03.hover{background-position: -96px -233px}
+.r-info-blog .fgray{color: #616161;padding-left: 10px;}/*0528*/
+.box-result .r-info p a:link, .box-result .r-info p a:visited{color: #000099}/*0428*/
+.box-result .r-info p a:hover{color: #ff0000}/*0428*/
+/*0422 zyc*/
+/*filter*/
+.search_bar{width: 730px;padding-left: 30px;padding-bottom: 8px;}
+.search_type{float: left;}
+.search_type a{float: left;padding: 0 10px;height: 22px;line-height: 22px;color: #000099;}
+.search_type a.cur{color: #fff;background: #4141aa;}
+.search_filter{float: right;height: 22px;line-height: 22px;}
+.search_filter .left{float: left;border-right: 1px solid #bcbcbc;padding-right: 15px;}
+.search_filter .right{float: left;padding-left: 15px;}
+.search_filter span,.search_filter a{padding: 0 5px;font-size: 12px;}
+.search_filter .cur{color: #5f5f5f;}
+
+/*result*/
+.nav{width: 100%;margin-left: 0;}
+.r-info-pic{float: left;margin-right: 10px;padding-top: 10px;_height:expression((this.offsetHeight)>260?"250px":"auto");max-height: 240px;overflow: hidden;}/*0528*/
+.box-result .r-img{_height:expression((this.offsetHeight)>240?"240px":"auto");max-height: 240px;overflow: hidden;}
+.r-info-pic img{border: 1px solid #e8e8e8;}
+.box-result .r-info-blog{width: 530px;}/*0528*/
+.box-result .r-info-blog-full{width: 660px;}/*0528*/
+.box-result h2{font:normal normal normal 16px/1.67em "Arial","Microsoft YaHei","微软雅黑"}/*0428*/
+.main .result{width: 690px;}/*0430*/
+.box-result{border-bottom: 1px solid #f2f2f2;padding: 10px 0;margin-bottom: 0;}/*0428*/
+.r-info-blog-tit .rib-author{color: #2c2c2c;}/*0528*/
+.r-info-blog-tit .rib-author:visited{color: #2c2c2c;}/*0528*/
+.r-info-blog-tit .rib-author:hover{color: #cc0033;}/*0528*/
+.main .sRight{margin-top: 15px;}
+.result_num{padding: 5px 0;color: #666;}
+
+.result-top{border-bottom: 1px solid #d9d9f0;border-top: 1px solid #d9d9f0;margin-bottom: 0;}
+.so_userinfo{border-bottom:1px solid #f2f2f2;padding: 20px 0;}
+.result-top .so_userinfo{border-bottom: 0px;margin-bottom: 0;padding: 13px 0;}/*0428*/
+.info_txt .it_p span{padding: 5px 0 2px;display: block;}/*0428*/
+.info_txt ul{margin-top: 8px;}/*0428*/
+.info_txt h4{font-size: 16px;}/*0428*/
+.blog_rss{background: url(/images/0422_zyc_search_newIcons.png) 0 -93px no-repeat;display: block;text-indent: -999em;width: 58px;height: 18px;}
+/*右侧rss,his,hotsearch*/
+.main .sRight{border: 0;}
+.blk_right{border-left: 1px solid #e9e9e9;padding-left: 10px;}
+.blk_myRss{padding: 10px 0;border-bottom: 1px solid #e9e9e9;}
+
+.br_title h4{font-size: 14px;color: #000;float: left;}
+.br_title .rss_rssCur{background: url(/images/0422_zyc_search_newIcons.png) 0 -63px no-repeat;padding-left: 15px;font-size: 12px;float: right;color: #4141aa;}
+.blk_myRss ul{margin-top: 10px;}
+.ul_right li{height: 20px;line-height: 20px;position: relative;padding-left: 10px;margin-bottom: 5px;}
+.ul_right li .delItem{display: none;background: url(/images/0422_zyc_search_newIcons.png) 0 0 no-repeat;width: 21px;height: 20px;position: absolute;right: 0;top:0;text-indent: -999em;border-left: 1px solid #fff;}
+.ul_right li .delItem:hover{background-position: -29px 0;}
+.ul_right li.cur{background: #e9eff5}
+.ul_right .cur .delItem{display: block;}
+.blk_myHis{padding: 10px 0;border-bottom: 1px solid #e9e9e9;}
+.blk_myHis ul{margin-top: 10px;}
+.blk_myHis .his_fold{background: url(/images/0422_zyc_search_newIcons.png) 0 -32px no-repeat;width: 16px;height: 14px;text-indent: -999em;float: left;margin-left: 5px;margin-top: 3px;overflow: hidden;}
+.blk_myHis .his_fold:hover{background-position: -29px -32px;}
+.blk_myHis .his_unfold{background-position: 0 -48px;}
+.blk_myHis .his_unfold:hover{background-position: -29px -48px;}
+.blk_myHis .his_clear{float: right;color: #929292;}
+.blk_hotSearch{padding: 10px 0;border-bottom: 1px solid #e9e9e9;}
+.ul_hotSearch{margin-top: 12px;}
+.ul_hotSearch span{padding-right: 10px;display: inline-block;width: 18px;text-align: center;}
+.ul_hotSearch .top3{color: #cc0033;font-size: 12px;}
+
+.filterzz a{width: 100%;padding: 0;}
+/*0630 zyc*/
+.ul_right li .rssItem{display: block;width: 190px;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+/*login*/
+.login-frame{float: right;line-height: 34px;height: 34px;margin-top: 13px;position: relative;}
+.login-frame a:link,.login-frame a:visited{color:#2c2c2c;}
+.login-frame .login-button{padding-left:4px;padding-right: 10px;}
+.login-frame .logined-wrap{float:left;}
+.login-frame .top-nr-welcome{display: block;padding-top: 4px;}
+.login-frame .username{padding-right:5px;}
+.login-frame .logout{padding-right:15px;}
+.login-frame a.username,.login-frame a.username:visited{color:#6c6c6c;}
+.login-frame a.login-button:hover,.login-frame a.username:hover,.login-frame a.logout:hover{color:#ab010e;text-decoration:none;}
+
+.login-frame a.username{display: block;background: url(/images/0422_zyc_search_newIcons.png) right -144px no-repeat;padding-right: 20px;height: 24px;line-height: 24px;border: 1px solid #f6f6f6;text-align: center;padding-left: 20px;color: #4141aa;width: 70px;white-space:nowrap; text-overflow:ellipsis; overflow:hidden}
+.login-frame a.username:hover{background-color: #fff;border: 1px solid #ededed;}
+.login-frame .logout{display: block;text-align: center;border: 1px solid #ededed;background:#f6f6f6;border-top:0px;height: 24px;line-height: 24px;padding-right: 20px;padding-left: 20px;width: 70px;position: absolute;}
+.login-frame .logout:hover{background: #fff;}
+.login-frame-on a.username{background-color: #fff;border: 1px solid #ededed;color: #4141aa;}
+.login-frame-on a.username:visited{color: #4141aa;}
+.login-frame-on .logout{color: #4141aa;}
+.login-frame-on .logout:visited{color: #4141aa;}
+.top{width: 1000px;padding-right: 0px;}
+.top2{zoom:1;}
+.top .r{margin-top: 13px;}
+.r a:link, .r a:visited{color: #3d3d3d;}
+.nav_inner{width: 730px;padding-left: 30px;}
+.nav .r_v2{margin-top: 0!important;}
+</style>
+<div class="nav clearfix">
+    <div class="nav_inner clearfix">
+                
+            <div class="search_type clearfix">
+                <a href="/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=time&amp;col=&amp;source=&amp;from=&amp;country=&amp;size=&amp;time=&amp;a=&amp;dpc=1&amp;t=" class="cur">全部</a>
+                <a href="/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=time&amp;col=&amp;source=&amp;from=&amp;country=&amp;size=&amp;time=&amp;a=&amp;dpc=1&amp;t=3_5_6" suda-uatrack="key=SearchBody&amp;value=includepic">含图片</a>
+                <a href="/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=time&amp;col=&amp;source=&amp;from=&amp;country=&amp;size=&amp;time=&amp;a=&amp;dpc=1&amp;t=2" suda-uatrack="key=SearchBody&amp;value=includevideo">含视频</a>
+            </div>
+            <div class="r_v2"> 
+                                 
+                 
+                   按时间 
+                                  
+                                | 
+                                    <a href="/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=rel&amp;col=&amp;source=&amp;from=&amp;country=&amp;size=&amp;time=&amp;a=&amp;dpc=1" suda-uatrack="key=SearchBody&amp;value=correlation">
+                    按相关度</a> 
+                                  
+                                | 
+                                    <a href="/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=count&amp;col=&amp;source=&amp;from=&amp;country=&amp;size=&amp;time=&amp;a=&amp;dpc=1" suda-uatrack="key=SearchBody&amp;value=clicksort">
+                    按点击量</a> 
+                                  
+                            </div>
+            <!--  -->
+        </div>
+        </div>
+    <div class="wrap" id="wrap">
+        <div class="main clearfix">    
+        <div class="result" id="result">
+                        
+                                 <span id="correct_box"></span>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+				  
+$(document).ready(function(){
+	var url = "/iframe/correct.php?q=%D7%BD%D1%FD%BC%C7&range=all&c=news&sort=time&col=&source=&from=&country=&size=&time=&a=&dpc=1&tpl_c=";
+	$('#correct_box').load(url); 
+});
+
+//--><!]]>
+</script>
+                                                                                        <div class="l_v2">找到相关新闻3,406篇</div>
+                                    
+             
+                    <div class="mod_bar">
+        
+                                
+                                
+                <!--
+                //2013-11-14号删除这个提示 by：hongliang4
+                                 -->
+                    <script type="text/javascript">
+                        (function ($) {
+                            //Cookies
+                            $.setCookie=function (opt) {
+                                var defaults={
+                                    name:'',
+                                    value:'',
+                                    expire:1
+                                }
+                                var options=$.extend(defaults,opt);
+                                var exdate=new Date();
+                                exdate.setDate(exdate.getDate()+options.expire);
+                                document.cookie=options.name+ "=" +escape(options.value)+((options.expire==null) ? "" : ";expires="+exdate.toGMTString());
+                            }
+
+                            $.getCookie=function (cName){
+                                if (document.cookie.length>0){
+                                    c_start=document.cookie.indexOf(cName + "=");
+                                    if (c_start!=-1){
+                                        c_start=c_start + cName.length+1;
+                                        c_end=document.cookie.indexOf(";",c_start);
+                                        if (c_end==-1) c_end=document.cookie.length;
+                                        return unescape(document.cookie.substring(c_start,c_end));
+                                    }
+                                }
+                                return '';
+                            }
+
+                            $('.tips_01 .close').click(function () {
+                                $('.tips_01').remove();
+                                //$.setCookie({name:'tips_01',value:'hide'});
+                            });
+                            var is_show_tips=$.getCookie('tips_01');
+                            if (is_show_tips=='hide') {
+                                $('.tips_01').remove();
+                            }
+                        })(jQuery);
+                    </script>
+            </div>
+
+    <!--移动直达区到提示信息下方 20120908 dalong3-->
+                        <div id="nav_result_container"></div>
+        
+                        
+                                        
+                			<!-- 文字新闻spider begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_0">
+				<div class="r-info r-info2">
+					<h2><a href="http://news.sina.com.cn/c/2016-04-15/doc-ifxriqqx2548757.shtml" target="_blank">电影《愤怒的小鸟》定档5月20日“胖红”将萌翻北影节开幕式</a> <span class="fgray_time">荆楚网 2016-04-15 16:20:07</span></h2>
+					<p class="content">此外，人气最高的“胖红”还将与《<span style="color:#C03">捉妖记</span>》的“胡巴”以及《功夫熊猫》系列的“阿宝”同时登上北京电影节开幕式的舞台，它们三个究竟能擦出什么样的火花？让我们拭目以待。</p>
+					<!--
+<p class="fgray">频道：<a href="http://news.sina.com.cn" target="_blank" class="fblue">新闻</a>&nbsp;&nbsp;来源：荆楚网</p>
+					-->
+								</div>
+			</div>
+			<!-- 文字新闻spider end -->                        
+                                        
+                			<!-- 文字新闻 begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_1">
+				<div class="r-info r-info2">
+					<h2><a href="http://edu.sina.com.cn/ischool/2016-04-18/doc-ifxriqqx2533765.shtml" target="_blank">田亮女儿森碟梦想当服务员 读国际校学费22万</a> <span class="fgray_time">新浪教育 2016-04-15 14:51:47</span></h2>
+					<p class="content">森碟在学习上毫不逊色，同时也收到很多代言和出演电影的邀请。不仅出演了《爸爸去哪儿大电影》和《<span style="color:#C03">捉妖记</span>》，还受邀为《神偷奶爸2》中的小女儿艾格尼丝配音。</p>
+					<!--
+<p class="fgray">
+											频道：<a href="http://edu.sina.com.cn/" target="_blank" class="fblue">教育</a>&nbsp;&nbsp;
+											来源：新浪教育					</p>
+					<p class="fgray">
+											</p>					
+					<p><span class="fgray">标签：</span><a style="text-decoration:none;" href="/?c=news&q=国际学校">国际学校</a> <a style="text-decoration:none;" href="/?c=news&q=国际班">国际班</a> <a style="text-decoration:none;" href="/?c=news&q=田亮">田亮</a> <a style="text-decoration:none;" href="/?c=news&q=叶一茜">叶一茜</a> <a style="text-decoration:none;" href="/?c=news&q=森碟">森碟</a></p>-->
+								</div>
+				
+			</div>
+			<!-- 文字新闻 end -->                        
+                                        
+                			<!-- 图片新闻 begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_2">
+								<h2><a href="http://ent.sina.com.cn/m/c/2016-04-15/doc-ifxriqqv5721787.shtml" target="_blank">高风险！春秋鸿投拍《杨贵妃》赔光身家</a>
+					<span class="fgray_time">21世纪经济报道 2016-04-15 08:45:21</span></h2>
+				<div class="r-img">
+					<a href="http://ent.sina.com.cn/m/c/2016-04-15/doc-ifxriqqv5721787.shtml" target="_blank" class="a-img"><img alt="" class="left_img" width="120" onload="a_r_i(this);" onerror="set_right_url3(this,'');" src="http://t0.sinaimg.cn/pic?url=http%3A%2F%2Fn.sinaimg.cn%2Ftransform%2F20150731%2FWFOI-fxfpqxf0113379.jpg"></a>
+				</div>
+							<div class="r-info">
+					<p class="content">然而电影投拍的高风险属性往往被个别高票房影片的光芒所掩盖。2015年的票房冠军《<span style="color:#C03">捉妖记</span>》以3.5亿元的成本最终拿下24.38亿元票房，刨去院线分成后也有约10亿元的收入。</p>
+					<!--
+<p class="fgray">
+											频道：<a href="http://ent.sina.com.cn/" target="_blank" class="fblue">娱乐</a>&nbsp;&nbsp;
+											来源：21世纪经济报道					</p>
+					<p class="fgray">
+											</p>					
+					<p><span class="fgray">标签：</span><a style="text-decoration:none;" href="/?c=news&q=金城武">金城武</a> <a style="text-decoration:none;" href="/?c=news&q=吴宇森">吴宇森</a> <a style="text-decoration:none;" href="/?c=news&q=宋慧乔">宋慧乔</a> <a style="text-decoration:none;" href="/?c=news&q=杨贵妃">杨贵妃</a> <a style="text-decoration:none;" href="/?c=news&q=范冰冰">范冰冰</a></p>-->
+									</div>
+			</div>
+			<!-- 图片新闻 end -->                        
+                                        
+                			<!-- 文字新闻spider begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_3">
+				<div class="r-info r-info2">
+					<h2><a href="http://news.sina.com.cn/o/2016-04-15/doc-ifxrizpp1123372.shtml" target="_blank">娜塔莉·波特曼献导演首秀</a> <span class="fgray_time">南方日报 2016-04-15 07:06:09</span></h2>
+					<p class="content">此外还有美国著名演员娜塔莉·波特曼，意大利大师级导演、编剧吉赛贝·托纳多雷，《<span style="color:#C03">捉妖记</span>》导演许诚毅，国际著名影星克里斯托弗·瓦尔兹，以及美国导演罗素兄弟等。</p>
+					<!--
+<p class="fgray">频道：<a href="http://news.sina.com.cn" target="_blank" class="fblue">新闻</a>&nbsp;&nbsp;来源：南方日报</p>
+					-->
+								</div>
+			</div>
+			<!-- 文字新闻spider end -->                        
+                                        
+                			<!-- 文字新闻 begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_4">
+				<div class="r-info r-info2">
+					<h2><a href="http://fashion.sina.com.cn/s/2016-04-14/0729/doc-ifxrcizu4141342.shtml" target="_blank">《火锅英雄》大卖 “40亿女主”白百何会演又会穿 </a> <span class="fgray_time">新浪时尚 2016-04-13 15:31:25</span></h2>
+					<p class="content">《被偷走的那五年》接下来就是《被偷走的那五年》中超有安全感的张孝全。《<span style="color:#C03">捉妖记</span>》和井宝一起创造了《<span style="color:#C03">捉妖记</span>》的票房神话。</p>
+					<!--
+<p class="fgray">
+											频道：<a href="http://fashion.sina.com.cn/" target="_blank" class="fblue">时尚</a>&nbsp;&nbsp;
+											来源：新浪时尚					</p>
+					<p class="fgray">
+											</p>					
+					<p><span class="fgray">标签：</span><a style="text-decoration:none;" href="/?c=news&q=针织衫">针织衫</a> <a style="text-decoration:none;" href="/?c=news&q=连衣裙">连衣裙</a> <a style="text-decoration:none;" href="/?c=news&q=背带裤">背带裤</a> <a style="text-decoration:none;" href="/?c=news&q=时装周">时装周</a> <a style="text-decoration:none;" href="/?c=news&q=街拍">街拍</a></p>-->
+								</div>
+				
+			</div>
+			<!-- 文字新闻 end -->                        
+                                        
+                			<!-- 图片新闻 begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_5">
+								<h2><a href="http://ent.sina.com.cn/m/c/2016-04-12/doc-ifxrcizu4010464.shtml" target="_blank">《不朽的时光》涉及文革过审花了近一年半</a>
+					<span class="fgray_time">新浪娱乐 2016-04-12 01:38:11</span></h2>
+				<div class="r-img">
+					<a href="http://ent.sina.com.cn/m/c/2016-04-12/doc-ifxrcizu4010464.shtml" target="_blank" class="a-img"><img alt="" class="left_img" width="120" onload="a_r_i(this);" onerror="set_right_url3(this,'');" src="http://t1.sinaimg.cn/pic?url=http%3A%2F%2Fn.sinaimg.cn%2Fent%2Ftransform%2F20160412%2FQcO1-fxrckae7793052.jpg"></a>
+				</div>
+							<div class="r-info">
+					<p class="content">他认为，既然已成为历史，我们都要有勇气去回忆它。该片已入围第二十三届北京大学生电影节主竞赛单元，与《老炮儿》、《<span style="color:#C03">捉妖记</span>》、《寻龙诀》等佳片角逐最佳影片。</p>
+					<!--
+<p class="fgray">
+											频道：<a href="http://ent.sina.com.cn/" target="_blank" class="fblue">娱乐</a>&nbsp;&nbsp;
+											来源：新浪娱乐					</p>
+					<p class="fgray">
+											</p>					
+					<p><span class="fgray">标签：</span><a style="text-decoration:none;" href="/?c=news&q=闫然">闫然</a> <a style="text-decoration:none;" href="/?c=news&q=王紫逸">王紫逸</a> <a style="text-decoration:none;" href="/?c=news&q=怀旧">怀旧</a></p>-->
+									</div>
+			</div>
+			<!-- 图片新闻 end -->                        
+                                        
+                			<!-- 文字新闻 begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_6">
+				<div class="r-info r-info2">
+					<h2><a href="http://finance.sina.com.cn/stock/thirdmarket/2016-04-11/doc-ifxrcizs7260121.shtml" target="_blank">一部电影拖垮一家新三板公司：范冰冰马震连累春秋鸿</a> <span class="fgray_time">综合 2016-04-11 18:52:09</span></h2>
+					<p class="content">做市商拿到手的价格是每股14元，当时看很便宜。但2015年7月暑期档的热门电影是《大圣归来》、《<span style="color:#C03">捉妖记</span>》，分别取得9.56亿和24.39亿的票房收入。</p>
+					<!--
+<p class="fgray">
+											频道：<a href="http://finance.sina.com.cn/" target="_blank" class="fblue">财经</a>&nbsp;&nbsp;
+											来源：综合					</p>
+					<p class="fgray">
+											</p>					
+					<p><span class="fgray">标签：</span><a style="text-decoration:none;" href="/?c=news&q=新三板">新三板</a> <a style="text-decoration:none;" href="/?c=news&q=枫盛阳">枫盛阳</a> <a style="text-decoration:none;" href="/?c=news&q=投资">投资</a></p>-->
+								</div>
+				
+			</div>
+			<!-- 文字新闻 end -->                        
+                                        
+                			<!-- 图片新闻 begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_7">
+								<h2><a href="http://finance.sina.com.cn/zl/fund/2016-04-11/zl-ifxrcizu3972630.shtml" target="_blank">创业将决定未来世界经济新秩序</a>
+					<span class="fgray_time">新浪财经 2016-04-11 14:16:39</span></h2>
+				<div class="r-img">
+					<a href="http://finance.sina.com.cn/zl/fund/2016-04-11/zl-ifxrcizu3972630.shtml" target="_blank" class="a-img"><img alt="" class="left_img" width="120" onload="a_r_i(this);" onerror="set_right_url3(this,'');" src="http://t2.sinaimg.cn/pic?url=http%3A%2F%2Fn.sinaimg.cn%2Ffinance%2Ftransform%2F20160411%2F4X3w-fxrcizu3971787.jpg"></a>
+				</div>
+							<div class="r-info">
+					<p class="content">为什么，在此之前的几代人都有短缺经济的概念，消费时有很多约束。去年，我们的电影事业蓬勃发展，<span style="color:#C03">捉妖记</span>票房24 亿，像我这个年纪的人是不会理解的，觉得这种名字的电影太low 了 ...</p>
+					<!--
+<p class="fgray">
+											频道：<a href="http://finance.sina.com.cn/" target="_blank" class="fblue">财经</a>&nbsp;&nbsp;
+											来源：新浪财经					</p>
+					<p class="fgray">
+											</p>					
+					<p><span class="fgray">标签：</span><a style="text-decoration:none;" href="/?c=news&q=创业">创业</a> <a style="text-decoration:none;" href="/?c=news&q=资本主义">资本主义</a> <a style="text-decoration:none;" href="/?c=news&q=欧洲经济">欧洲经济</a></p>-->
+									</div>
+			</div>
+			<!-- 图片新闻 end -->                        
+                                        
+                			<!-- 文字新闻spider begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_8">
+				<div class="r-info r-info2">
+					<h2><a href="http://finance.sina.com.cn/roll/2016-04-10/doc-ifxrcizu3917378.shtml" target="_blank">奥飞娱乐拟募资45亿元扩充IP版图</a> <span class="fgray_time">中证网 2016-04-10 17:59:28</span></h2>
+					<p class="content">由其参与投资并于2016 年2月8日上映的电影《美人鱼》，截至2016 年3月31日，累计票房达33.9 亿元，已打破国内由《<span style="color:#C03">捉妖记</span>》保持的24.3 亿元的电影票房纪录 ...</p>
+					<!--
+<p class="fgray">频道：<a href="http://finance.sina.com.cn/" target="_blank" class="fblue">财经</a>&nbsp;&nbsp;来源：中证网</p>
+					-->
+								</div>
+			</div>
+			<!-- 文字新闻spider end -->                        
+                                        
+                			<!-- 文字新闻spider begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_9">
+				<div class="r-info r-info2">
+					<h2><a href="http://ent.sina.com.cn/zz/2016-04-10/doc-ifxrcuyk2561219.shtml" target="_blank">姚晨谈创业，陈柏霖谈爱情</a> <span class="fgray_time">新京报 2016-04-10 02:19:41</span></h2>
+					<p class="content">用来举办包括主竞赛在内的8个展映单元活动。今年，主竞赛单元共吸引到300余部影片报名参赛，《老炮儿》、《寻龙诀》、《<span style="color:#C03">捉妖记</span>》等34部电影入围了最后的大名单。</p>
+					<!--
+<p class="fgray">频道：<a href="http://ent.sina.com.cn/" target="_blank" class="fblue">娱乐</a>&nbsp;&nbsp;来源：新京报</p>
+					-->
+								</div>
+			</div>
+			<!-- 文字新闻spider end -->                        
+                                        
+                			<!-- 文字新闻spider begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_10">
+				<div class="r-info r-info2">
+					<h2><a href="http://news.sina.com.cn/o/2016-04-08/doc-ifxrcizu3833473.shtml" target="_blank">一壹影视基金.亚洲影展组委会联合主办 首届亚洲影展在联合国总部开幕</a> <span class="fgray_time">齐鲁晚报 2016-04-08 17:20:58</span></h2>
+					<p class="content">其中2015深受国内观众青睐的《滚蛋吧!肿瘤君》、《杀生》、《狼图腾》、《<span style="color:#C03">捉妖记</span>》、《智取威虎山》、《重返20岁》悉数上映，并赢得当地影迷好评。</p>
+					<!--
+<p class="fgray">频道：<a href="http://news.sina.com.cn" target="_blank" class="fblue">新闻</a>&nbsp;&nbsp;来源：齐鲁晚报</p>
+					-->
+								</div>
+			</div>
+			<!-- 文字新闻spider end -->                        
+                                        
+                			<!-- 图片新闻 begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_11">
+								<h2><a href="http://ent.sina.com.cn/m/c/2016-04-08/doc-ifxrcizu3805703.shtml" target="_blank">《不朽时光》将映 启星纯情诠释残酷青春</a>
+					<span class="fgray_time">新浪娱乐 2016-04-08 11:09:22</span></h2>
+				<div class="r-img">
+					<a href="http://ent.sina.com.cn/m/c/2016-04-08/doc-ifxrcizu3805703.shtml" target="_blank" class="a-img"><img alt="" class="left_img" width="120" onload="a_r_i(this);" onerror="set_right_url3(this,'');" src="http://t3.sinaimg.cn/pic?url=http%3A%2F%2Fn.sinaimg.cn%2Fent%2Ftransform%2F20160408%2FmG9X-fxrcuyk2456272.jpg"></a>
+				</div>
+							<div class="r-info">
+					<p class="content">对于入围第二十三届北京大学生电影节主竞赛单元，与《老炮儿》、《<span style="color:#C03">捉妖记</span>》、《寻龙诀》等佳片角逐最佳影片的新闻，启星表示，青春是恒久的话题，近年来各种类型的青春片也是层出 ...</p>
+					<!--
+<p class="fgray">
+											频道：<a href="http://ent.sina.com.cn/" target="_blank" class="fblue">娱乐</a>&nbsp;&nbsp;
+											来源：新浪娱乐					</p>
+					<p class="fgray">
+											</p>					
+					<p><span class="fgray">标签：</span><a style="text-decoration:none;" href="/?c=news&q=不朽的时光">不朽的时光</a> <a style="text-decoration:none;" href="/?c=news&q=爱新觉罗启星">爱新觉罗启星</a> <a style="text-decoration:none;" href="/?c=news&q=闫然">闫然</a></p>-->
+									</div>
+			</div>
+			<!-- 图片新闻 end -->                        
+                                        
+                			<!-- 文字新闻spider begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_12">
+				<div class="r-info r-info2">
+					<h2><a href="http://finance.sina.com.cn/roll/2016-04-07/doc-ifxrckae7615237.shtml" target="_blank">揭秘中国电影灰色地带 金融资本来袭，中国电影人真的准备好了么？</a> <span class="fgray_time">经济观察网 2016-04-07 20:39:04</span></h2>
+					<p class="content">买票房“买票房”是主体是制片方和发行方，为了增加影片在院线的排片量，增加影片的曝光率和广告效应，也有像《<span style="color:#C03">捉妖记</span>》为冲击票房纪录，而《叶问3》的买票房则与电影众筹等金融资 ...</p>
+					<!--
+<p class="fgray">频道：<a href="http://finance.sina.com.cn/" target="_blank" class="fblue">财经</a>&nbsp;&nbsp;来源：经济观察网</p>
+					-->
+								</div>
+			</div>
+			<!-- 文字新闻spider end -->                        
+                                        
+                			<!-- 图片新闻 begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_13">
+								<h2><a href="http://fashion.sina.com.cn/2016-04-07/1914/doc-ifxrcizu3759667.shtml" target="_blank">首届亚洲影展举行 6部影片受到当地观众欢迎</a>
+					<span class="fgray_time">新浪时尚 2016-04-07 19:14:11</span></h2>
+				<div class="r-img">
+					<a href="http://fashion.sina.com.cn/2016-04-07/1914/doc-ifxrcizu3759667.shtml" target="_blank" class="a-img"><img alt="" class="left_img" width="120" onload="a_r_i(this);" onerror="set_right_url3(this,'');" src="http://t0.sinaimg.cn/pic?url=http%3A%2F%2Fn.sinaimg.cn%2Ffashion%2Ftransform%2F20160407%2FFWjt-fxrcizu3759647.jpg"></a>
+				</div>
+							<div class="r-info">
+					<p class="content">滚蛋吧！肿瘤君》、《杀生》、《狼图腾》、《<span style="color:#C03">捉妖记</span>》、《智取威虎山》、《重返20岁》等六部在国内获得票房口碑双丰收的影片受邀参展，并获得专家和当地影迷们一致好评。</p>
+					<!--
+<p class="fgray">
+											频道：<a href="http://fashion.sina.com.cn/" target="_blank" class="fblue">时尚</a>&nbsp;&nbsp;
+											来源：新浪时尚					</p>
+					<p class="fgray">
+											</p>					
+					<p><span class="fgray">标签：</span><a style="text-decoration:none;" href="/?c=news&q=一壹影视">一壹影视</a></p>-->
+									</div>
+			</div>
+			<!-- 图片新闻 end -->                        
+                                        
+                			<!-- 图片新闻 begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_14">
+								<h2><a href="http://ent.sina.com.cn/m/c/2016-04-07/doc-ifxrcizu3747826.shtml" target="_blank">说方言助力电影？实际票房表现平平</a>
+					<span class="fgray_time">法制晚报 2016-04-07 16:01:30</span></h2>
+				<div class="r-img">
+					<a href="http://ent.sina.com.cn/m/c/2016-04-07/doc-ifxrcizu3747826.shtml" target="_blank" class="a-img"><img alt="" class="left_img" width="120" onload="a_r_i(this);" onerror="set_right_url3(this,'');" src="http://t1.sinaimg.cn/pic?url=http%3A%2F%2Fn.sinaimg.cn%2Fent%2Ftransform%2F20160406%2Fpmos-fxqxqmf4160390.jpg"></a>
+				</div>
+							<div class="r-info">
+					<p class="content">票房表现 方言助力 票房表现平平《火锅英雄》上映6日，2.2亿元的成绩，对于新人导演杨庆而言已算不俗，但是对于去年靠着《寻龙诀》、《<span style="color:#C03">捉妖记</span>》拿下惊人成绩的陈坤 [微博]、白百何 ...</p>
+					<!--
+<p class="fgray">
+											频道：<a href="http://ent.sina.com.cn/" target="_blank" class="fblue">娱乐</a>&nbsp;&nbsp;
+											来源：法制晚报					</p>
+					<p class="fgray">
+											</p>					
+					<p><span class="fgray">标签：</span><a style="text-decoration:none;" href="/?c=news&q=火锅英雄">火锅英雄</a> <a style="text-decoration:none;" href="/?c=news&q=我的特工爷爷">我的特工爷爷</a> <a style="text-decoration:none;" href="/?c=news&q=方言">方言</a></p>-->
+									</div>
+			</div>
+			<!-- 图片新闻 end -->                        
+                                        
+                			<!-- 文字新闻spider begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_15">
+				<div class="r-info r-info2">
+					<h2><a href="http://news.sina.com.cn/o/2016-04-07/doc-ifxrcizu3702382.shtml" target="_blank">无“影业”不“互娱” 互联网企业扎堆跨界</a> <span class="fgray_time">南方日报 2016-04-07 07:08:12</span></h2>
+					<p class="content">公司自主IP《苍穹之剑》系列游戏影视剧化，将韩国人气漫画《雪姬》搬上大银幕，并与安乐影业合作推出2015年中国电影票房冠军《<span style="color:#C03">捉妖记</span>》手游。</p>
+					<!--
+<p class="fgray">频道：<a href="http://news.sina.com.cn" target="_blank" class="fblue">新闻</a>&nbsp;&nbsp;来源：南方日报</p>
+					-->
+								</div>
+			</div>
+			<!-- 文字新闻spider end -->                        
+                                        
+                			<!-- 文字新闻 begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_16">
+				<div class="r-info r-info2">
+					<h2><a href="http://ent.sina.com.cn/m/c/2016-04-06/doc-ifxrcizs6911101.shtml" target="_blank">《火锅》端上桌剧本憋6年 鲜肉劫匪为过审</a> <span class="fgray_time">新浪娱乐 2016-04-06 22:06:53</span></h2>
+					<p class="content">白百何主演过一系列都市爱情片，但并不满足于小妞定位，经过《<span style="color:#C03">捉妖记</span>》被封为“票房女王”后，也心甘情愿在《火锅英雄》里出演一个戏份有限的重庆女孩；秦昊多年来专注于文艺 ...</p>
+					<!--
+<p class="fgray">
+											频道：<a href="http://ent.sina.com.cn/" target="_blank" class="fblue">娱乐</a>&nbsp;&nbsp;
+											来源：新浪娱乐					</p>
+					<p class="fgray">
+						<span class="zts">所属专题：<a href="http://ent.sina.com.cn/f/m/chongqinghotpot/index.shtml" target="_blank" class="fblue">电影《火锅英雄》</a> </span>					</p>					
+					<p><span class="fgray">标签：</span><a style="text-decoration:none;" href="/?c=news&q=杨庆">杨庆</a> <a style="text-decoration:none;" href="/?c=news&q=陈坤">陈坤</a> <a style="text-decoration:none;" href="/?c=news&q=火锅英雄">火锅英雄</a></p>-->
+								</div>
+				
+			</div>
+			<!-- 文字新闻 end -->                        
+                                        
+                			<!-- 文字新闻spider begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_17">
+				<div class="r-info r-info2">
+					<h2><a href="http://finance.sina.com.cn/roll/2016-04-06/doc-ifxqxqmf4138800.shtml" target="_blank">英媒：中国为国产电影再提供保护伞 这样做对吗？</a> <span class="fgray_time">环球时报 2016-04-06 15:00:01</span></h2>
+					<p class="content">它可能本身就是上乘之作。）上一个票房冠军 去年引人注目的影片《<span style="color:#C03">捉妖记</span>》是在人为有利的环境下才摘得桂冠的。</p>
+					<!--
+<p class="fgray">频道：<a href="http://finance.sina.com.cn/" target="_blank" class="fblue">财经</a>&nbsp;&nbsp;来源：环球时报</p>
+					-->
+								</div>
+			</div>
+			<!-- 文字新闻spider end -->                        
+                                        
+                			<!-- 文字新闻 begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_18">
+				<div class="r-info r-info2">
+					<h2><a href="http://ent.sina.com.cn/m/c/2016-04-05/doc-ifxqxcnr5349840.shtml" target="_blank">《寒战2》郭富城梁家辉“内斗”升级</a> <span class="fgray_time">新浪娱乐 2016-04-05 21:41:20</span></h2>
+					<p class="content">有业内人士指出，不同于去年暑期档《<span style="color:#C03">捉妖记</span>》、《煎饼侠》等电影喜剧“称王”的局面，今年暑期档呈现多元化趋势，武侠、动作、警匪、奇幻等多类型电影将集结上映。</p>
+					<!--
+<p class="fgray">
+											频道：<a href="http://ent.sina.com.cn/" target="_blank" class="fblue">娱乐</a>&nbsp;&nbsp;
+											来源：新浪娱乐					</p>
+					<p class="fgray">
+											</p>					
+					<p><span class="fgray">标签：</span><a style="text-decoration:none;" href="/?c=news&q=梁家辉">梁家辉</a> <a style="text-decoration:none;" href="/?c=news&q=郭富城">郭富城</a> <a style="text-decoration:none;" href="/?c=news&q=寒战">寒战</a></p>-->
+								</div>
+				
+			</div>
+			<!-- 文字新闻 end -->                        
+                                        
+                			<!-- 文字新闻 begin -->
+			<div class="box-result clearfix" data-sudaclick="blk_result_19">
+				<div class="r-info r-info2">
+					<h2><a href="http://finance.sina.com.cn/roll/2016-04-05/doc-ifxqxcnr5321277.shtml" target="_blank">叶问3假票房背后：票房与利益挂钩 相关法律空白 </a> <span class="fgray_time">《法人》 2016-04-05 14:00:57</span></h2>
+					<p class="content">在此份成绩单中，冠军影片《<span style="color:#C03">捉妖记</span>》的背后已经隐现“假票房”，但由于该片的票房疑云爆发于影片上映进入尾声阶段，对此的讨论仅限于商业道德。</p>
+					<!--
+<p class="fgray">
+											频道：<a href="http://finance.sina.com.cn/" target="_blank" class="fblue">财经</a>&nbsp;&nbsp;
+											来源：《法人》					</p>
+					<p class="fgray">
+											</p>					
+					<p><span class="fgray">标签：</span><a style="text-decoration:none;" href="/?c=news&q=叶问3">叶问3</a> <a style="text-decoration:none;" href="/?c=news&q=票房">票房</a> <a style="text-decoration:none;" href="/?c=news&q=电影">电影</a></p>-->
+								</div>
+				
+			</div>
+			<!-- 文字新闻 end -->        
+                           <!--                                   -->
+            <!-- 分页 begin -->
+            <table cellspacing="0" style="margin:0 auto;"><tbody><tr><td>
+                <div class="pagebox" id="_function_code_page">
+                    <a href="/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=time&amp;col=&amp;source=&amp;from=&amp;country=&amp;size=&amp;time=&amp;a=&amp;page=1&amp;pf=2135029914&amp;ps=2132736196&amp;dpc=1" onclick="_S_uaTrack('SearchFlip', 'Page1');" title="第一页">第一页</a><a href="/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=time&amp;col=&amp;source=&amp;from=&amp;country=&amp;size=&amp;time=&amp;a=&amp;page=3&amp;pf=2135029914&amp;ps=2132736196&amp;dpc=1" onclick="_S_uaTrack('SearchFlip', 'Page3');" title="上一页">上一页</a><a href="/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=time&amp;col=&amp;source=&amp;from=&amp;country=&amp;size=&amp;time=&amp;a=&amp;page=1&amp;pf=2135029914&amp;ps=2132736196&amp;dpc=1" onclick="_S_uaTrack('SearchFlip', 'Page1');" title="第1页">1</a><a href="/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=time&amp;col=&amp;source=&amp;from=&amp;country=&amp;size=&amp;time=&amp;a=&amp;page=2&amp;pf=2135029914&amp;ps=2132736196&amp;dpc=1" onclick="_S_uaTrack('SearchFlip', 'Page2');" title="第2页">2</a><a href="/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=time&amp;col=&amp;source=&amp;from=&amp;country=&amp;size=&amp;time=&amp;a=&amp;page=3&amp;pf=2135029914&amp;ps=2132736196&amp;dpc=1" onclick="_S_uaTrack('SearchFlip', 'Page3');" title="第3页">3</a><b><span class="pagebox_cur_page">4</span></b><a href="/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=time&amp;col=&amp;source=&amp;from=&amp;country=&amp;size=&amp;time=&amp;a=&amp;page=5&amp;pf=2135029914&amp;ps=2132736196&amp;dpc=1" onclick="_S_uaTrack('SearchFlip', 'Page5');" title="第5页">5</a><a href="/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=time&amp;col=&amp;source=&amp;from=&amp;country=&amp;size=&amp;time=&amp;a=&amp;page=6&amp;pf=2135029914&amp;ps=2132736196&amp;dpc=1" onclick="_S_uaTrack('SearchFlip', 'Page6');" title="第6页">6</a><a href="/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=time&amp;col=&amp;source=&amp;from=&amp;country=&amp;size=&amp;time=&amp;a=&amp;page=7&amp;pf=2135029914&amp;ps=2132736196&amp;dpc=1" onclick="_S_uaTrack('SearchFlip', 'Page7');" title="第7页">7</a><a href="/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=time&amp;col=&amp;source=&amp;from=&amp;country=&amp;size=&amp;time=&amp;a=&amp;page=8&amp;pf=2135029914&amp;ps=2132736196&amp;dpc=1" onclick="_S_uaTrack('SearchFlip', 'Page8');" title="第8页">8</a><a href="/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=time&amp;col=&amp;source=&amp;from=&amp;country=&amp;size=&amp;time=&amp;a=&amp;page=9&amp;pf=2135029914&amp;ps=2132736196&amp;dpc=1" onclick="_S_uaTrack('SearchFlip', 'Page9');" title="第9页">9</a><a href="/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=time&amp;col=&amp;source=&amp;from=&amp;country=&amp;size=&amp;time=&amp;a=&amp;page=10&amp;pf=2135029914&amp;ps=2132736196&amp;dpc=1" onclick="_S_uaTrack('SearchFlip', 'Page10');" title="第10页">10</a><a href="/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=time&amp;col=&amp;source=&amp;from=&amp;country=&amp;size=&amp;time=&amp;a=&amp;page=5&amp;pf=2135029914&amp;ps=2132736196&amp;dpc=1" onclick="_S_uaTrack('SearchFlip', 'Page5');" title="下一页">下一页<!--  --></a>
+                </div>
+            </td></tr></tbody></table>
+            <!-- 分页 end -->
+                                    <!-- 在结果中搜索 begin -->
+<div class="search-form search-form-bot">
+	<!-- 2010/11/11 -->
+		<!-- 2010/11/3 begin -->
+	<form method="get" action="/" onsubmit="return submit_form(this)">
+				<input type="text" name="q" maxlength="100" value="捉妖记 " class="ipt-00">
+		<input type="submit" value="" class="ipt-03 ipt-03b ipt-03_news" hidefocus="true" suda-uatrack="key=SearchBody&amp;value=searchbelow">
+						<input type="hidden" value="all" name="range">
+					<input type="hidden" value="news" name="c">
+					<input type="hidden" value="time" name="sort">
+					<input type="hidden" value="" name="col">
+					<input type="hidden" value="" name="source">
+					<input type="hidden" value="" name="from">
+					<input type="hidden" value="" name="country">
+					<input type="hidden" value="" name="size">
+					<input type="hidden" value="" name="time">
+					<input type="hidden" value="" name="a">
+							<input type="hidden" value="2131425458" name="pf">
+					<input type="hidden" value="2134309112" name="ps">
+					<input type="hidden" value="1" name="dpc">
+			</form>
+	<!-- 2010/11/3 end -->
+</div>
+<!-- 在结果中搜索 end -->
+            </div>
+<script type="text/javascript">
+$(function(){$("div.box-result").mouseover(function(){$(this).find('div.wbShareBtn').show();}).mouseout(function(){$(this).find('div.wbShareBtn').hide();});});
+</script>
+        <div class="sRight">
+        <!--0422-->
+                <div class="blk_right">
+                <!--订阅词start-->
+                    <div class="blk_myRss" style="display: none;">
+                        <div class="br_title clearfix"><h4>我的订阅词</h4><a href="javascript:;" class="rss_rssCur">订阅当前词</a></div>
+                        <ul class="ul_right" id="rss01"></ul>
+                    </div>
+                <!--订阅词end-->
+                <!--最近搜过start-->
+                <div class="blk_myHis">
+                    <div class="br_title clearfix"><h4>最近搜过</h4><a class="his_fold" href="javascript:;">展开收起</a><a href="javascript:;" class="his_clear">全部清除</a></div>
+                    <ul class="ul_right" id="his01"></ul>
+                </div>
+                <!--最近搜过end-->
+                <!--大家都在搜 start-->
+                <div class="blk_hotSearch">
+                    <div class="br_title clearfix"><h4>大家都在搜</h4></div>
+                    <ul class="ul_hotSearch ul_right" id="hotSearch01">
+
+                                                <li><span class="top3">1</span><a href="?q=张檬整容&amp;c=news">张檬整容</a></li>
+                                                <li><span class="top3">2</span><a href="?q=上瘾 台湾&amp;c=news">上瘾 台湾</a></li>
+                                                <li><span class="top3">3</span><a href="?q=五一去哪玩&amp;c=news">五一去哪玩</a></li>
+                                                <li><span>4</span><a href="?q=部队锅&amp;c=news">部队锅</a></li>
+                                                <li><span>5</span><a href="?q=那些被禁止的体操动作&amp;c=news">那些被禁止的体操动作</a></li>
+                                                <li><span>6</span><a href="?q=tfboys成初中考试新题型&amp;c=news">tfboys成初中考试新题型</a></li>
+                                                <li><span>7</span><a href="?q=苏打绿 青峰&amp;c=news">苏打绿 青峰</a></li>
+                                            </ul>
+                </div>
+                <!--大家都在搜 end-->
+                <!-- 各地新闻 begin -->
+                <div id="area_news" class="blk_area_news clearfix" style="display: block;">
+                    <div class="br_title clearfix"><h4>各地新闻</h4></div>
+                    <ul id="ul_area_news" class="ul_area_news"><li><p><a href="http://sh.sina.com.cn/news/w/2016-04-21/detail-ifxrpvcy4269564.shtml" target="_blank">捉妖记被曝刷票房 电影局:电影产业需要正确数据</a></p><div class="area_info clearfix"><span class="news_area">青年报</span><span class="news_time">2016-04-21 11:58:13</span></div></li><li><p><a href="http://sh.sina.com.cn/news/m/2016-03-08/detail-ifxqafha0464973.shtml" target="_blank">曹可凡:文化输出很绵软 却能滴水穿石</a></p><div class="area_info clearfix"><span class="news_area">综合</span><span class="news_time">2016-03-08 07:13:35</span></div></li><li><p><a href="http://sh.sina.com.cn/news/w/2016-03-07/detail-ifxqaffy3712953.shtml" target="_blank">叶问3三天4.7亿元票房被质疑造假 背后资本运作有看头</a></p><div class="area_info clearfix"><span class="news_area">综合</span><span class="news_time">2016-03-07 16:57:12</span></div></li><li><p><a href="http://slide.zj.sina.com.cn/news/slide_32_35533_378523.html?img=4876643" target="_blank">图集：黄子韬豪宅曝光 扒一扒娱乐圈很壕的富二代</a></p><div class="area_info clearfix"><span class="news_area">其他</span><span class="news_time">2016-03-07 11:58:59</span></div></li><li><p><a href="http://sh.sina.com.cn/news/w/2016-03-03/detail-ifxqaffy3552375.shtml" target="_blank">曹可凡:社会对艺人太宽松 需接受公众检视</a></p><div class="area_info clearfix"><span class="news_area">新京报</span><span class="news_time">2016-03-03 14:00:54</span></div></li><li><p><a href="http://sh.sina.com.cn/news/w/2016-03-01/detail-ifxpvysv5073830.shtml" target="_blank">上影筹拍《葫芦兄弟》真人版 将尽最大努力重塑经典</a></p><div class="area_info clearfix"><span class="news_area">新华社</span><span class="news_time">2016-03-01 19:50:08</span></div></li></ul>
+                    <a class="area_news_more" href="http://search.sina.com.cn/?q=%D7%BD%D1%FD%BC%C7&amp;range=all&amp;c=news&amp;sort=time&amp;col=&amp;source=&amp;from=dfz_api&amp;country=&amp;size=&amp;time=&amp;a=&amp;page=4&amp;pf=2131425458&amp;ps=2134309112&amp;dpc=1" target="_blank">更多新闻<span>…</span></a>
+                </div>
+                <style type="text/css">
+                .blk_area_news{display:none;padding:10px 0;}
+                .ul_area_news{margin:12px 0 0 11px;}
+                .ul_area_news li{margin-bottom:8px;}
+                .ul_area_news li p{line-height:20px;font-size:13px;}
+                .area_info{color:#7c7c7c;font-size:12px;}
+                .news_area{float:left;}
+                .news_time{float:right;}
+                .area_news_more{float:right;height:23px;line-height:23px;padding:0 10px;font-size:13px;color:#000;}
+                .area_news_more span{margin-left:3px;font-weight:bold;}
+                .area_news_more:link,.area_news_more:visited{text-decoration:none;}
+                .area_news_more:hover{background:#e9eff5;text-decoration:none;}
+                .area_news_more:hover span{color:#7c7c7c;}
+                </style>
+                <!-- 各地新闻 end -->
+                </div>
+                <script type="text/javascript">
+                jQuery(document).ready(function(){
+                    //地方站搜索 begin
+                    setAreaNews();
+                    toDfzResult();
+                    //地方站搜索 end
+                    bindLiOver('hotSearch01');
+                })
+                //地方站搜索 begin
+                function setAreaNews(){
+                    var sw = document.getElementById('keyword').value,
+                        rg = GetQueryString('range'),
+                        $areaNews = jQuery('#area_news'),
+                        $areaNewsUl = jQuery('#ul_area_news');
+                    jQuery.ajax({
+                        url:'http://api.search.sina.com.cn/?q='+encodeURIComponent(sw)+'&range='+rg+'&c=news&sort=time&ie=utf-8&from=dfz_api',
+                        async:false,
+                        type:'GET',
+                        data:null,
+                        dataType:'jsonp',
+                        success:function(data){
+                            var dataList = data.result.list,
+                                dataListLen = dataList.length;
+                            var len = dataListLen<=6?dataListLen:6;
+                            if(!len){
+                                $areaNews.hide();
+                                return; 
+                            }
+                            $areaNews.show();
+                            for(var i=0;i<len;i++){
+                                var li='<li><p><a href="'+unescape(dataList[i].url)+'" target="_blank">'+unescape(dataList[i].title)+'</a></p><div class="area_info clearfix"><span class="news_area">'+unescape(dataList[i].media?dataList[i].media:(dataList[i].column_infos.name?dataList[i].column_infos.name:''))+'</span><span class="news_time">'+dataList[i].datetime+'</span></div></li>';
+                                $areaNewsUl.append(li);
+                            }
+                        },
+                        error:function(){
+
+                        }
+                    })                    
+                }
+                function toDfzResult(){
+                    var reg = new RegExp("(^|&)from=","i"),
+                        base = window.location.href.split('?')[0],
+                        urlsearch=window.location.search;
+                    var href = base + (reg.test(urlsearch)?urlsearch.replace('from='+GetQueryString('from'),'from=dfz_api'):urlsearch+'&from=dfz_api');
+                    jQuery(".area_news_more").attr('href',href);
+                    return false;
+                }
+                //地方站搜索 end
+                var bindLiOver = function(ulId){
+                    jQuery('#'+ulId+' li').mouseenter(function(){
+                        jQuery('#'+ulId+' li').removeClass('cur')
+                        jQuery(this).addClass('cur');
+                    });
+                    jQuery('#'+ulId+' li').mouseleave(function(){
+                        jQuery('#'+ulId+' li').removeClass('cur')
+                    });
+                }
+                function GetQueryString(name){
+                     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+                     var r = window.location.search.substr(1).match(reg);
+                     if(r!=null) { return  r[2]; } 
+                     return null;
+                }
+                function toRssUrl(kw){//点击跳转
+                    var curKey = GetQueryString('q');
+                    var loc  = location.href.replace(curKey,encodeURIComponent(kw));
+                    if(loc.indexOf("ie=utf-8") == -1)
+                    {
+                        loc += "&ie=utf-8";
+                    }
+                    location.href = loc;
+                }
+                var rssZ = function(){};
+                rssZ.prototype = {
+                    ulId:'',
+                    init:function(id){
+                        this.ulId = id;
+                        this.getRss();
+                    },
+                    creatDom:function(data){//创建dom
+                        var domStr='';
+                        var domArr = [];
+                        for(var i=0;i<data.length;i++){
+                            var itemId = data[i].id;
+                            var itemkey = data[i].skey;
+                            var itemStr = '<li><a href="javascript:;" class="liItem rssItem" data-qstr="'+itemkey+'">'+itemkey+'</a><a data-rssid="'+itemId+'" class="delItem rss_removeRss" href="javascript:;">取消订阅</a></li>';
+                            domArr.push(itemStr);
+                        }
+                        domStr = domArr.join('');
+                        return domStr;
+
+                    },
+                    
+                    getRss:function(){//获取订阅词
+                        var _self = this;
+                        jQuery.ajax({
+                            url:'http://search.sina.com.cn/api/apiindex.php?s=subscribe&a=getkeys&stype=1&format=json',
+                            async:false,
+                            type:'GET',
+                            data:null,
+                            dataType:'jsonp',
+                            success:function(data){
+                                var res = data.result;
+                                if(res.status.code==0){
+                                    jQuery('#'+_self.ulId).html(_self.creatDom(res.data));
+                                    _self.bindLi();
+                                }else{
+                                    //alert(res.status.msg)
+                                }
+                            },
+                            error:function(){
+                                
+                            }
+                        })
+                        
+                    },
+                    addRss:function(kw){//添加订阅词
+                        var _self = this;
+                        jQuery.ajax({
+                            url:'http://search.sina.com.cn/api/apiindex.php?s=subscribe&a=addkey&stype=1&skey='+kw+'&format=json',
+                            async:false,
+                            type:'GET',
+                            data:null,
+                            dataType:'jsonp',
+                            success:function(data){
+                                var res = data.result;
+                                if(res.status.code==0){
+                                    _self.getRss();
+                                }else{
+                                    alert(res.status.msg)
+                                }
+                            },
+                            error:function(){
+                                
+                            }
+                        })
+                    },
+                    delRss:function(id){//删除订阅词
+                        var _self = this;
+                        jQuery.ajax({
+                            url:'http://search.sina.com.cn/api/apiindex.php?s=subscribe&a=delkey&stype=1&id='+id+'&format=json',
+                            async:false,
+                            type:'GET',
+                            data:null,
+                            dataType:'jsonp',
+                            success:function(data){
+                                var res = data.result;
+                                if(res.status.code==0){
+                                }else{
+                                    alert(res.status.msg)
+                                }
+                            },
+                            error:function(){
+                                
+                            }
+                        })
+                    },
+                    bindLi:function(){//li绑定事件
+                        var _self = this;
+                        bindLiOver(_self.ulId);
+                        jQuery('#'+_self.ulId+' .rss_removeRss').unbind("click").click(function(){
+                            var itemId = jQuery(this).attr('data-rssid');
+                            _self.delRss(itemId);
+                            jQuery(this).parent().remove();
+                        });
+                        jQuery('#'+_self.ulId+' .liItem').unbind("click").click(function(){
+                            toRssUrl(jQuery(this).attr('data-qstr'));
+                        });
+                        jQuery('.rss_rssCur').unbind("click").click(function(){
+                            var keyword = GetQueryString('q');
+                            if(keyword!=null&&keyword!='')
+                            _self.addRss(keyword);
+                        });
+
+                    }
+                };
+                
+                var cookie = (function(){
+                    /**
+                     * 读取cookie,注意cookie名字中不得带奇怪的字符，在正则表达式的所有元字符中，目前 .[]$ 是安全的。
+                     * @param {Object} cookie的名字
+                     * @return {String} cookie的值
+                     * @example
+                     * var value = co.getCookie(name);
+                     */
+                    var co={};
+                    co.getCookie = function (name) {
+                        var start = document.cookie.indexOf(name + "=");
+                        var len = start + name.length + 1;
+                        if ((!start) && (name != document.cookie.substring(0, name.length))) {
+                            return null;
+                        }
+                        if (start == -1) return null;
+                        var end = document.cookie.indexOf(';', len);
+                        if (end == -1) end = document.cookie.length;
+                        return unescape(document.cookie.substring(len, end));
+
+                    };
+
+                    /**
+                     * 设置cookie
+                     * @param {String} name cookie名
+                     * @param {String} value cookie值
+                     * @param {Number} expire Cookie有效期，单位：小时
+                     * @param {String} path 路径
+                     * @param {String} domain 域
+                     * @param {Boolean} secure 安全cookie
+                     * @example
+                     * co.setCookie('name','sina',null,"")
+                     */
+                    co.setCookie = function (name, value, expires, path, domain, secure) {
+                        var today = new Date();
+                        today.setTime(today.getTime());
+                        if (expires) {
+                            expires = expires * 1000 * 60 * 60 * 24;
+                        }
+                        var expires_date = new Date(today.getTime() + (expires));
+                        document.cookie = name + '=' + escape(value) +
+                            ((expires) ? ';expires=' + expires_date.toGMTString() : '') +((path) ? ';path=' + path : '') +((domain) ? ';domain=' + domain : '') +((secure) ? ';secure' : '');
+                    };
+
+                    /**
+                     * 删除cookie
+                     * @param {String} name cookie名
+                     */
+                    co.deleteCookie = function(name, path, domain) {
+                        if (co.getCookie(name)) document.cookie = name + '=' +((path) ? ';path=' + path : '') +((domain) ? ';domain=' + domain : '') +
+                        ';expires=Thu, 01-Jan-1970 00:00:01 GMT';
+                    };
+                    return co;
+                })();
+                var splitStr = '|sEaRchHIS|';
+                //搜索历史
+                (function(){
+                    //初始化
+                    var creatDom = function(data){//创建dom
+                        var domStr='';
+                        var domArr = [];
+                        for(var i=0;i<data.length;i++){
+                            if(data[i]=='')return;
+                            var itemStr = '<li><a href="javascript:;" class="liItem rssItem" data-qstr="'+data[i]+'">'+data[i]+'</a><a class="delItem his_removeHis" href="javascript:;">删除</a></li>';
+                            domArr.push(itemStr);
+                        }
+                        domStr = domArr.join('');
+                        return domStr;
+
+                    };
+                    if(getSearch()[1].length>0){
+                        jQuery('#his01').html(creatDom(getSearch()[1]));
+                        bindLiOver('his01');
+                        jQuery('#his01 .his_removeHis').click(function(){
+                            var kw = jQuery(this).prev().html();
+                            removeSearch(kw);
+                            jQuery(this).parent().remove();
+                        });
+                        jQuery('#his01 .liItem').click(function(){
+                            toRssUrl(jQuery(this).attr('data-qstr'));
+                        });
+                        jQuery('.his_clear').click(function(){
+                            jQuery('#his01').html('');
+                            cookie.deleteCookie('mYSeArcH','/', 'search.sina.com.cn');
+                        });
+                        jQuery('.his_fold').click(function(){
+                            jQuery('.his_fold').toggleClass('his_unfold');
+                            jQuery('#his01').toggle();
+                        })
+
+                    }
+                })();
+                function stripscript(s) { 
+                    var pattern = new RegExp("[%--`~!@#$^&*()=|{}':;',\\[\\].<>/?~！@#……&*（）|{}‘；：”“'。，、？]")        //格式 RegExp("[在中间定义特殊过滤字符]")
+                    var rs = ""; 
+                    for (var i = 0; i < s.length; i++) { 
+                     rs = rs+s.substr(i, 1).replace(pattern, ''); 
+                    }
+                    return rs;
+                }
+                function getSearch(){
+                    var n = 15;
+                    var hisStr='',hisArr=[],hisArrRes=[];
+                    hisStr = cookie.getCookie('mYSeArcH');
+                    if(hisStr!=null){
+                        hisArr = hisStr.split(splitStr);
+                        if(hisArr.length>n){
+                            for(var i=0;i<n;i++){
+                                hisArrRes.push(hisArr[hisArr.length-1-i]);
+                            }
+                        }else{
+                            for(var i=hisArr.length-1;i>-1;i--){
+                                hisArrRes.push(hisArr[i]);
+                            }
+                        }
+                    }else{
+                        hisStr='';
+                    }
+                    return [hisStr,hisArrRes];
+                }
+                var addSearch = function(kw){
+                    kw=stripscript(kw);
+                    var checkArry = function(a,arrayA){
+                        var res = true;
+                        for(var i =0;i<arrayA.length;i++){
+                            if(a==arrayA[i]){
+                                res = false;
+                            }
+                        }
+                        return res;
+                    }
+                    if(checkArry(kw,getSearch()[1])){
+                        var tempStr = getSearch()[0]==''?kw:getSearch()[0]+splitStr+kw;
+                        cookie.setCookie('mYSeArcH', tempStr, 43800, '/', 'search.sina.com.cn');
+                    }   
+                }
+                function removeSearch(kw){
+                    var searchStr = getSearch()[0];
+                    if(searchStr!=''&&searchStr.indexOf(splitStr)==-1&&searchStr.indexOf(kw)!=-1){
+                        searchStr = searchStr.replace(kw,'');
+                    }
+                    if(searchStr.indexOf(kw+splitStr)!=-1){
+                        searchStr=searchStr.replace(kw+splitStr,'');        
+                    }
+                    cookie.setCookie('mYSeArcH', searchStr, 43800, '/', 'search.sina.com.cn');      
+                }
+                </script>
+
+
+
+
+
+            </div>
+            <!--0422-->
+        </div> 
+</div> 
+<!--反馈入口 start-->
+<style type="text/css">
+.scrollDiv{bottom:185px;right:0;width: 14px;font-size: 14px;background: #e4e4e4;border-radius: 5px 0 0 5px;padding: 12px 7px;}
+.scrollDiv a{font-size: 14px;color: #5d5d5d;font-family: "Microsoft Yahei","微软雅黑","SimSun","宋体","Arial Narrow",serif;}
+.scrollDiv a:visited{color: #5d5d5d;text-decoration: none;}
+.scrollDiv a:hover{color: #ff8400;text-decoration: none;}
+</style>
+<div id="scrollDiv" class="scrollDiv" style="position: fixed;">
+<a href="http://comment5.news.sina.com.cn/comment/skin/feedback.html?channel=ly&amp;newsid=231" target="_blank">我要反馈</a>
+</div>
+<script type="text/javascript">
+~function(){var a="scrollDiv";var d=document.getElementById(a);function c(g,e,f){if(g.attachEvent){g.attachEvent("on"+e,f);}else{g.addEventListener(e,f,false);}}function b(){var g=navigator.appVersion.indexOf("MSIE 6")!=-1?true:false;var e=0,f=0;if(g){d.style.position="absolute";}else{d.style.position="fixed";}}c(window,"scroll",b);c(window,"resize",b);b();}();
+</script>
+<!--反馈入口 end-->
+<!-- 返回顶部 begin -->
+<style type="text/css">
+.side-btns-wrap{width:25px;right: 0;position: fixed;bottom: 150px; _position:absolute;_top:expression(documentElement.scrollTop + documentElement.clientHeight-120);z-index:100;visibility: hidden;overflow: hidden;}
+.side-btns-top{width:25px;}
+.side-btns-top a{display: block; line-height:500px; cursor:pointer;}
+.side-btns-top-btn { height: 25px; width: 25px;background:url(http://search.sina.com.cn/images/roll.png) no-repeat 0 0px;overflow:hidden;}
+.side-btns-top-btn:hover {filter:Alpha(Opacity=80); opacity:.8;}
+.side-btns-top-close{width: 50px;height: 18px;margin-top:1px;background: url(http://i3.sinaimg.cn/dy/deco/2013/0913/close2.png) no-repeat;display: none!important;}
+.side-btns-wrap-resize{display: none !important;}
+</style>
+ 
+<script type="text/javascript">
+// 返回顶部js
+(function(aClz,maxSize,co) {
+var doc = document, side = (function() {var body = doc.body, firstChild = body.firstChild, wrap = doc.createElement('div'); wrap.className = 'side-btns-wrap'; wrap.innerHTML = '<div class="side-btns-top"><a class="side-btns-top-btn" href="javascript:;" title="返回顶部" suda-uatrack="key=channel_index_up_to_top&value=news" hidefocus>返回顶部</a><a class="side-btns-top-close" href="javascript:;" title="关闭" suda-uatrack="key=channel_index_up_to_top&value=news_close" hidefocus>关闭</a></div>'; firstChild ? firstChild.parentNode.insertBefore(wrap, firstChild) : body.appendChild(wrap); return wrap; })(), clz = side.className, nClz = clz + ' ' + aClz, cookieName = co.name || 'close_techidxtop', domain = co.domain || 'news.sina.com.cn', path = co.path|| '/', lnks = side.getElementsByTagName('a'), btn = lnks[0], close = lnks[1], addEvent = function(o, s, fn) {if (o.attachEvent) {o.attachEvent('on' + s, fn); } else {o.addEventListener(s, fn, false); } return o; }, toggle = function() {var top = doc.documentElement.scrollTop || doc.body.scrollTop, visible = (top > 0 ? 'visible' : 'hidden'); side.style.visibility = visible; }, sideToggle = function(dis) {side.style.display = dis; }, resize = function() {var body = doc.documentElement || doc.body; if (!body) {return; } var width = body.offsetWidth; if (width < maxSize) {side.className = nClz; } else {side.className = clz; } }, toTop = function() {doc.documentElement.scrollTop = 0; doc.body.scrollTop = 0; }; var cookie = (function() {var co = {}; co.getCookie = function(name) {name = name.replace(/([\.\[\]\$])/g, '\\\$1'); var rep = new RegExp(name + '=([^;]*)?;', 'i'); var co = document.cookie + ';'; var res = co.match(rep); if (res) {return unescape(res[1]) || ""; } else {return ""; } }; co.setCookie = function(name, value, expire, path, domain, secure) {var cstr = []; cstr.push(name + '=' + escape(value)); if (expire) {var dd = new Date(); var expires = dd.getTime() + expire * 3600000; dd.setTime(expires); cstr.push('expires=' + dd.toGMTString()); } if (path) {cstr.push('path=' + path); } if (domain) {cstr.push('domain=' + domain); } if (secure) {cstr.push(secure); } document.cookie = cstr.join(';'); }; co.deleteCookie = function(name) {document.cookie = name + '=;' + 'expires=Fri, 31 Dec 1999 23:59:59 GMT;'; }; return co; })(); var display = cookie.getCookie(cookieName); if(display!=''){sideToggle('none'); return; } sideToggle('block'); resize(); addEvent(window, 'resize', resize); addEvent(close,'click',function(e){sideToggle('none'); cookie.setCookie(cookieName,'1',15*24,path,domain); if(window.event){window.event.returnValue = false; }else{e.preventDefault(); } }); addEvent(window, 'scroll', toggle); addEvent(btn, 'click', toTop); })('side-btns-wrap-resize',1110,{
+name:'close_techidxtop', //cookie名
+domain:'finance.sina.com.cn' //domain 根据频道不同
+});
+</script>
+ 
+<!-- 返回顶部 end --> 
+        <script type="text/javascript" src="/js/jquery.ui.datepicker.js?t=20121010"></script>  
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+
+var s_timeOptions = {
+	dateFormat: 'yy-mm-dd',
+	changeMonth: true,
+	changeYear: true,
+	showOn: 'both',
+	buttonImage: 'http://www.sinaimg.cn/dy/search/images/calendar.gif',
+	buttonImageOnly: true,
+	maxDate:'d', //today
+	minDate:new Date(1998, 0, 1),
+	yearRange : 'c-15:c+15',
+	monthNamesShort:['1','2','3','4','5','6','7','8','9','10','11','12'],
+	dayNamesMin:[ '日','一', '二', '三', '四', '五', '六'],
+	showOtherMonths:false,
+	duration:'fast',
+	onSelect: function(dateText, inst){
+		$("#" + inst.input[0].id + "_err").css('display','none');
+	}
+};
+var e_timeOptions = {
+	dateFormat: 'yy-mm-dd',
+	changeMonth: true,
+	changeYear: true,
+	showOn: 'both',
+	buttonImage: 'http://www.sinaimg.cn/dy/search/images/calendar.gif',
+	buttonImageOnly: true,
+	maxDate:'d', //today
+	minDate:new Date(1998, 0, 1),
+	yearRange : 'c-15:c+15',
+	monthNamesShort:['1','2','3','4','5','6','7','8','9','10','11','12'],
+	dayNamesMin:[ '日','一', '二', '三', '四', '五', '六'],
+	showOtherMonths:false,
+	duration:'fast',
+	beforeShow : function(input, inst){
+		var sd = $('#s_time').attr('value').match(/^(\d{4})\-0?(\d{1,2})\-0?(\d{1,2})$/i),nDate;;
+		if(sd && (sd[1] - 1998 >=0)){
+			nDate = new Date(sd[1],sd[2]-1,sd[3]);
+		}else{
+			nDate = new Date(1998, 0, 1);
+		};
+		if($("#e_time").datepicker("option","minDate").getTime() == nDate.getTime()){return};
+		$("#e_time").datepicker("option","minDate",nDate);
+	},
+	onSelect : function(dateText,inst){
+		$("#" + inst.input[0].id + "_err").css('display','none');
+	}
+};
+$("#s_time").datepicker(s_timeOptions);
+$("#e_time").datepicker(e_timeOptions);
+function chkDate(){ //检查时间格式
+	if(this.value !== ''){
+		var err = false;
+		var data = this.value.match(/^(\d{4})\-0?(\d{1,2})\-0?(\d{1,2})$/i);
+		if(data){
+            current_date = new Date();
+			if(data[1] < 1998 || data[1] > current_date.getFullYear()){err = true};
+			if(data[2] == 0 || data[2] > 12){err = true};
+			if(data[3] == 0 || data[3] > 31){err = true};
+			if(data[2] == 2 && data[3] > 28){
+				err = true;
+				if(data[1]%4==0 && data[3] == 29){err = false};
+			};
+			if((data[2] == 4 || data[2] == 6 || data[2] == 9 || data[2] == 11) && data[3] > 30){err = true};
+		}else{
+			err = true;
+		}
+	}else{
+		err = false;
+	}
+	
+	if(err){
+		if($("#" + this.id + "_err").length == 0){
+			$("#" + this.id).after('<span id="' + this.id + '_err" style="font-size:12px;color:#f00;line-height:20px;display:block;">您选择的日期不合理</span>');
+		};
+		$("#" + this.id + "_err").css('display','block');
+	}else{
+		$("#" + this.id + "_err").css('display','none');
+	};
+};
+$("#s_time").bind("blur",chkDate);
+$("#e_time").bind("blur",chkDate);
+//验证表单提交
+function chkDateForm(form){
+    var s_date_value = form.stime.value;
+    var e_date_value = form.etime.value;
+	var s_date = s_date_value.match(/^(\d{4})\-0?(\d{1,2})\-0?(\d{1,2})$/i);
+	var e_date = e_date_value.match(/^(\d{4})\-0?(\d{1,2})\-0?(\d{1,2})$/i);
+	if(!s_date || !e_date){
+		alert('您选择的日期不合理');
+		return false;
+	};
+    
+    /*选择的日期大于当前日期，给出提示 --dalong3 20120920*/
+    var s_date_string = new String();
+    var current_date = new Date();
+    s_date_year = s_date[1];
+    e_date_year = e_date[1];
+    min_date_year = 1998;
+    if((s_date_year - current_date.getFullYear() > 0) || (min_date_year - s_date_year >0) || (s_date_year - e_date_year >0)) {
+		alert('您选择的日期不合理');
+		return false;
+    }
+	s_date = new Date(s_date[1],s_date[2] - 1,s_date[3]);
+	e_date = new Date(e_date[1],e_date[2] - 1,e_date[3]);
+
+
+	if(s_date > e_date){
+		alert('您选择的日期不合理');
+		return false;
+	};
+	return true;
+};
+
+//--><!]]>
+</script><div id="ui-datepicker-div" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all ui-helper-hidden-accessible"></div>
+    
+
+    <!-- for iPad begin -->
+<script type="text/javascript">
+//翻页
+var iPadPage = {
+	    nextPage : '', //下一页url
+	    prePage : '', //上一页url
+	   pageObj : document.getElementById('wrap'), //翻页对象
+	   x : 0,
+	   y : 0,
+	   lastX : 0,
+	   lastY : 0,
+	   status : 'ok',
+	   parentObj : null,
+	   init : function(){
+			if(!/\((iPhone|iPad|iPod)/i.test(navigator.userAgent)){return};
+			var tempThis = this;
+			this.addEvent(this.pageObj,'touchstart',function(e){tempThis._touchstart(e)});
+			this.addEvent(this.pageObj,'touchmove',function(e){tempThis._touchmove(e)});
+			this.addEvent(this.pageObj,'touchend',function(e){tempThis._touchend(e)});
+	   },
+_touchstart : function(e){
+		      this.x = e.touches[0].pageX;
+		      this.scrollX = window.pageXOffset;
+		      this.scrollY = window.pageYOffset; //用于判断页面是否滚动
+	      },
+_touchmove : function(e){
+		     if(e.touches.length > 1){ //多点触摸
+			     this.status = 'ok';
+			     return;
+		     };
+		     this.lastX = e.touches[0].pageX;
+		     var cX = this.x - this.lastX;
+
+		     if(cX<0){//第一页禁止向左
+			     if(!this.prePage){
+				     return;
+			     };
+		     };
+		     if(this.status == 'ok'){
+			     if(this.scrollY == window.pageYOffset && this.scrollX == window.pageXOffset && Math.abs(cX)>50){ //横向触摸
+				     if(cX>0){//最后一页禁止向右
+					     if(!this.nextPage){
+						     return;
+					     };
+				     };
+				     if(!this.parentObj){
+					     this.parentObj = document.createElement('div');
+					     this.parentObj.style.width = this.pageObj.offsetWidth + 'px';
+					     this.parentObj.style.overflow = 'hidden';
+						 this.pageObj.style.width = this.pageObj.offsetWidth + 'px';
+					     this.pageObj.style.overflow = 'hidden';
+					     this.pageObj.parentNode.insertBefore(this.parentObj,this.pageObj);
+					     this.parentObj.appendChild(this.pageObj);
+				     }
+				     this.status = 'touch';
+			     }else{
+				     return;
+			     };
+		     };
+
+		     this.pageObj.style.marginLeft = - cX + 'px';
+		     e.preventDefault();
+	     },
+_touchend : function(e){
+		    if(this.status != 'touch'){return};
+		    this.status = 'ok';
+		    var cX = this.x - this.lastX;
+		    var tempThis = this;
+		    if(this.alertStatus == 'open'){this.hideAlert()};
+		    this.actPX(this.pageObj.style,'marginLeft',this.pageObj.offsetLeft,cX>0?-(this.parentObj.offsetWidth+2):this.parentObj.offsetWidth+2,200,function(){
+				    if(cX<0){
+				    if(tempThis.prePage){window.location.href = tempThis.prePage}else{tempThis.pageObj.style.marginLeft = 0};
+				    }else{
+				    if(tempThis.nextPage){window.location.href = tempThis.nextPage}else{tempThis.pageObj.style.marginLeft = 0};
+				    };
+				    });
+	    },
+actPX : function(obj,key,start,end,speed,endFn,u){
+		if(typeof(u) == 'undefined'){u = 'px'};
+		clearTimeout(obj['_extend_actPX' + key.replace(/\-\.\=/,'_') + '_timeOut']);
+		if(start > end){
+			speed = - Math.abs(speed);
+		}else{
+			speed = Math.abs(speed);
+		};
+		var now = start;
+		var length = end - start;
+		obj['_extend_actPX' + key.replace(/\-\.\=/,'_') + '_timeOut'] = setTimeout(function(){
+				now += speed;
+				//debugger;
+				var space = end - now;
+				if(start < end){
+				if(space < length/3){
+				speed = Math.ceil(space/3);
+				};
+				if(space <= 0){ //end
+				obj[key] = end + u;
+				if(endFn){endFn()};
+				return;
+				};
+				}else{
+				if(space > length/3){
+				speed = Math.floor(space/3);
+				};
+				if(space >= 0){ //end
+				obj[key] = end + u;
+				if(endFn){endFn()};
+				return;
+				};
+				};
+
+				obj[key] = now + u;
+				obj['_extend_actPX' + key.replace(/\-\.\=/,'_') + '_timeOut'] = setTimeout(arguments.callee,20);
+
+		},20);
+	},
+addEvent : function(obj,eventType,func){if(obj.attachEvent){obj.attachEvent("on" + eventType,func);}else{obj.addEventListener(eventType,func,false)}}
+};
+~function(){
+	var pageDiv = document.getElementById('_function_code_page');
+	if(pageDiv!=null) {
+		var pageList = pageDiv.getElementsByTagName('a');
+		for(var i=0;i<pageList.length;i++){
+			if(pageList[i].title == '上一页'){iPadPage.prePage = pageList[i].href;};
+			if(pageList[i].title == '下一页'){iPadPage.nextPage = pageList[i].href;};
+		};
+	}
+}();
+iPadPage.init();
+</script>
+
+<!-- for iPad end -->
+            <!--新闻 点击地图 -->
+<script type="text/javascript" src="http://www.sinaimg.cn/unipro/pub/suda_m_v629.js"></script>
+<script type="text/javascript">suds_init(1586,20.00,965,2);</script>
+    <!-- SUDA_CODE_START -->
+<script type="text/javascript" charset="utf-8" src="http://www.sinaimg.cn/unipro/pub/suda_s_v851c.js"></script>
+<!-- SUDA_CODE_END -->    <div id="footer" class="foot">
+	<a href="javascript:void(0);" onclick="setHomePage();">设为首页</a> - <a href="http://comment4.news.sina.com.cn/comment/skin/feedback.html?channel=ly&amp;newsid=231" target="_blank">意见反馈</a> - <a href="http://corp.sina.com.cn/chn/" target="_blank">新浪简介</a> - <a href="http://corp.sina.com.cn/eng/" target="_blank">About Sina</a>
+	<br>
+	©2016 - <a href="http://corp.sina.com.cn/chn/sina_priv.html" target="_blank">隐私保护 </a> -  <a href="http://corp.sina.com.cn/chn/sina_intr.html" target="_blank">新浪公司</a> <a href="http://corp.sina.com.cn/chn/copyright.html" target="_blank">版权所有</a> <a href="http://www.miibeian.gov.cn/" target="_blank">京ICP证000007 <img src="images/logo_homeIcon.png" width="13" height="17" class="Icon01"></a>
+	<br>
+	<a href="http://news.sina.com.cn/c/2013-01-29/171826152112.shtml" target="_blank">共同抵制网络低俗色情信息</a> - 文明办网文明上网举报电话：010-82615762
+</div>
+        
+<!-- ie6 下按钮hover状态改变 -->    
+<!--[if lte IE 6]>
+<script type="text/javascript">
+	(function(){
+		var inps = document.getElementsByTagName("input");
+		for(i=0,len=inps.length;i<len;i++){
+				if(inps[i].className.match("ipt-03")){
+						inps[i].onmouseover = function(){
+								this.className += " hover";
+							}
+						inps[i].onmouseout = function(){
+								this.className =this.className.replace(/ hover/g,"");
+							}	
+					}
+			}			
+	})();
+</script>
+<![endif]-->
+<script src="http://i.sso.sina.com.cn/js/ssologin.js"></script>
+<script type="text/javascript" src="http://i.sso.sina.com.cn/js/user_panel.js" charset="utf-8"></script>
+<style type="text/css">
+.outlogin_layerbox_bylx{top: 55px!important;border-color:#b9cdf0;}
+.outlogin_layerbox_bylx .layerbox_left a.login_btn{background: #3f7bc1;}
+.outlogin_layerbox_bylx .layerbox_left a.forget_Pwd{color: #3f7bc1;}
+.outlogin_layerbox_bylx .layerbox_left a.register_lnk{color:#3f7bc1;}
+</style>
+ 
+ <script type="text/javascript">
+ // Login 0422
+    (function(){
+        var userPanel = window.SINA_USER_PANEL;
+        var panelSTK = userPanel.STK;
+        var rss01 = new rssZ();
+        var loginBtn = $("#JS_Login_Btn");
+        var userInfoTpl='<span class="top-nr-welcome"><a href="http://login.sina.com.cn/member/my.php" target="_blank" class="link-FF8400 username">{name}</a><a href="javascript:;" class="logout" style="display:none">退出</a></span>';
+        var loginWrapper=$("#JS_Logined_Wrap");
+        loginWrapper.delegate('.top-nr-welcome','mouseenter',function(){
+            $('.top-nr-welcome').toggleClass('login-frame-on');
+            $('.logout').toggle();
+        });
+        loginWrapper.delegate('.top-nr-welcome','mouseleave',function(){
+            $('.top-nr-welcome').toggleClass('login-frame-on');
+            $('.logout').toggle();
+        });
+        loginWrapper.delegate('.logout','click',function(){
+            SINA_OUTLOGIN_LAYER.logout();
+        });
+                var blk_rss = jQuery('.blk_myRss');//0425
+        if(userPanel){
+            panelSTK.Ready(function(){
+                userPanel.set('outloginLayer', {
+                    ready : function(){
+                         var loginLayer = window.SINA_OUTLOGIN_LAYER;
+                            var logincookie = loginLayer&&loginLayer.getSinaCookie();//0425
+                            if(logincookie){
+                                rss01.init('rss01');
+                                blk_rss.show();
+                            }else{
+                                blk_rss.hide();
+                            }
+                        if(loginLayer){
+                            loginLayer.set('sso', {
+                                entry : 'finance'
+                            }).init();
+
+                            panelSTK.addEvent(panelSTK.E("JS_Login_Btn"), 'click', function(){
+                                //set_login_tit(true);
+                                loginLayer.set('plugin',{
+                                    parentNode: document.body,
+                                    position: 'custom'
+                                });
+                                var offs = loginBtn.offset(); 
+                                loginLayer.set('styles',{
+                                    'top': ((offs && offs.top) || 0) + 45 + 'px',
+                                    'left': ((offs && offs.left) || 0)- 150 + 'px',
+                                    'z-index': '99999'
+                                });
+                                loginLayer.show();
+                            });
+                        }
+                    },
+                    triggerEvent: 'click',
+                    loginBtns: ["JS_Login_Btn"]
+                    //setPos: true
+                }).set('container',{
+                    node: panelSTK.E("JS_Login_Layer")
+                }).register('plugin_ready',function(){
+                    SINA_OUTLOGIN_LAYER.register('login_success', function(){
+                        rss01.init('rss01');
+                        jQuery('.blk_myRss').show();
+                        loginBtn.css({
+                            display:'none'
+                        });
+                        SINA_OUTLOGIN_LAYER.getWeiboInfo({
+                            timeout : 5* 1000,
+                            onSuccess : function(rs){
+                                loginWrapper.prepend($(
+                                   userInfoTpl.replace(/\{name\}/g, rs.data.name.substring(0,10))
+                                ));
+                            },
+                            onFailure:function(rs){
+                                loginWrapper.prepend($(
+                                    userInfoTpl.replace(/\{name\}/g, SINA_OUTLOGIN_LAYER.getSinaCookie().nick.substring(0,10))
+                                ));
+                            }
+                        });
+                        if (window.myEvent) {
+                            window.myEvent.fire({
+                                type : 'onLoginSuccess'
+                            })
+                        }
+                    });
+                    SINA_OUTLOGIN_LAYER.register('logout_success', function(){
+                        $(loginWrapper.children()[0]).remove();
+                        loginBtn.css({
+                            display:''
+                        });
+                         jQuery('.blk_myRss').hide();
+                        if (window.myEvent) {
+                            window.myEvent.fire({
+                                type : 'onLogoutSuccess'
+                            })
+                        }
+                    });
+
+                }).init();
+            });
+        }
+
+    })();
+</script>
+
+
+
+<!-- begin: 1462111294.5484 -->
+<!-- 新浪新闻 begin: 1462111294.5513 -->
+<!-- 新浪新闻   end: 1462111294.9587 -->
+<!--   end: 1462111295.3512 -->
+<ul class="ac_results" style="top: 97px; left: 31px;"></ul></body></html>

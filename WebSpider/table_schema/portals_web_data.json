@@ -1,0 +1,110 @@
+{  
+      "properties":{  
+	 "site_id":{
+            "type":"long",
+            "store":"yes",
+            "index":"not_analyzed"
+         },
+         "item_type":{  
+            "type":"long",
+	    "store":"yes",
+            "index":"not_analyzed"  
+         },  
+         "url":{
+            "type":"string",
+	    "store":"yes",
+            "index":"not_analyzed"  
+         },  
+	 "title":{
+            "type":"string",
+	    "store":"yes",
+	    "index_analyzer": "index_ansj",
+            "search_analyzer": "query_ansj"
+         },
+         "source_title":{
+            "type":"string",
+        "store":"yes",
+        "index":"not_analyzed"
+         },
+	"body":{
+            "type":"string",
+            "store":"yes",
+	    "index_analyzer": "index_ansj",
+            "search_analyzer": "query_ansj"	
+         },
+	"summary":{
+            "type":"string",
+            "store":"yes",
+	    "index_analyzer": "index_ansj",
+            "search_analyzer": "query_ansj"	
+         },
+	 "theme_word":{
+            "type":"string",
+            "store":"yes",
+	    "index_analyzer": "index_ansj",
+            "search_analyzer": "query_ansj"	
+         },
+        "keyword":{
+            "type":"string",
+            "store":"yes",
+            "index_analyzer": "index_ansj",
+            "search_analyzer": "query_ansj"
+         },
+        "emotion_polar":{
+            "type":"long",
+            "store":"yes",
+            "index":"not_analyzed"
+         },
+	"description":{
+            "type":"string",
+            "store":"yes",
+	    "index_analyzer": "index_ansj",
+            "search_analyzer": "query_ansj"  	
+         },
+        "author":{
+            "type":"string",
+            "store":"yes",
+            "index":"not_analyzed"
+         },
+        "publish_time_string":{
+            "type":"string",
+            "store":"yes",
+            "index":"not_analyzed"
+         },
+	"insert_time":{
+            "type":"long",
+            "store":"yes",
+            "index":"not_analyzed"
+         },
+        "discuss_number":{
+            "type":"long",
+            "store":"yes",
+            "index":"not_analyzed"
+         },
+        "transmit_number":{
+            "type":"long",
+            "store":"yes",
+            "index":"not_analyzed"
+         },
+        "media_type":{
+            "type":"long",
+            "store":"yes",
+            "index":"not_analyzed"
+         },
+         "publish_time_long":{
+            "type":"date",
+            "store":"yes",
+            "index":"not_analyzed"
+         },
+         "likes_number":{
+            "type":"long",
+            "store":"yes",
+            "index":"not_analyzed"
+         },
+         "reply_number":{
+            "type":"long",
+            "store":"yes",
+            "index":"not_analyzed"
+         }
+      }
+}

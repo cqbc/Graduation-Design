@@ -1,0 +1,1319 @@
+2016-04-29 15:43:11,775 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 15:43:13,133 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 15:43:13,148 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 15:43:13,148 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库有更新，已更新到redis中!
+2016-04-29 15:43:13,164 [Thread-5] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 15:43:13,164 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - task_circle初始化完成!
+2016-04-29 15:43:13,164 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-29 15:43:13,164 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 15:43:13,180 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 15:43:16,159 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 15:43:16,159 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-29 15:43:16,175 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 15:43:16,207 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_to_do_task_key初始化完成!
+2016-04-29 15:43:16,347 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_done_task_key初始化完成!
+2016-04-29 15:43:16,363 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-04-29 15:43:16,363 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-29 15:43:16,363 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - the file task list have added to the redis quene all!
+2016-04-29 15:43:16,363 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - current to do task size in redis---2
+2016-04-29 15:43:21,371 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - seeds\test.txt,数据文件已加载到内存，将删除之!
+2016-04-29 15:43:21,371 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - once load seed dir,the seeds task have pushed all to the queue
+2016-04-29 15:43:25,303 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 15:43:25,365 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 15:43:25,521 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 15:43:25,521 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 15:43:25,584 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_000876CCD2CF45262A5B0C197DCC0966.json
+2016-04-29 15:44:03,184 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 15:44:03,184 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-29 15:44:03,184 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 15:44:03,184 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 15:44:13,140 [Thread-0] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey4Client] - 规则库有更新，更新完成!
+2016-04-29 15:44:13,140 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_0B229E0E98AEA89A35E2EF95D14068F1.json
+2016-04-29 15:44:16,251 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 15:44:53,195 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 15:44:53,305 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 15:44:53,321 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 15:44:53,321 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 15:44:53,321 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 15:44:56,378 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_AAF146F31B0A7BD92DE6609418E83D01.json
+2016-04-29 15:45:06,281 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 15:45:23,353 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 15:45:23,369 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_E8559B54A13CEF46AC11BB2DD49A0F78.json
+2016-04-29 15:45:30,742 [pool-2-thread-1] INFO  [org.elasticsearch.plugins] - [Hydro-Man] loaded [], sites []
+2016-04-29 15:45:33,532 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 15:45:33,580 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 19:34:56,539 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 19:35:05,776 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 20:35:47,970 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 20:36:45,410 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 20:39:52,711 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 20:40:28,789 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 20:41:33,424 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 20:46:12,597 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 20:49:41,023 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 20:50:37,097 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 20:50:57,508 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 20:51:21,504 [main] INFO  [org.elasticsearch.plugins] - [Jann] loaded [], sites []
+2016-04-29 20:51:23,598 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 20:51:28,233 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 20:51:35,492 [main] INFO  [org.elasticsearch.plugins] - [Kleinstocks] loaded [], sites []
+2016-04-29 20:51:36,999 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 20:51:37,174 [main] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#delete index by indexName successful!
+2016-04-29 20:58:12,029 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 20:58:13,168 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 20:58:13,465 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 20:58:13,480 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 20:58:13,480 [Thread-5] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 20:58:13,512 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - task_circle从redis加载完成!
+2016-04-29 20:58:13,512 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-29 20:58:13,527 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加待抓取周期任务到redis set成功!
+2016-04-29 20:58:13,527 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加待抓取周期任务到redis set成功!
+2016-04-29 20:58:13,527 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有到时的循环任务到待执行的circle to do队列中!
+2016-04-29 20:58:13,527 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 20:58:16,476 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 20:58:16,476 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-29 20:58:16,491 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 20:58:17,348 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_to_do_task_key从redis加载完成!
+2016-04-29 20:58:17,363 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_done_task_key初始化完成!
+2016-04-29 20:58:17,379 [main] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 20:58:17,379 [main] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 20:58:17,379 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-04-29 20:58:17,379 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-29 20:58:17,379 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - the file task list have added to the redis quene all!
+2016-04-29 20:58:17,379 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - current to do task size in redis---0
+2016-04-29 20:58:22,386 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - seeds\test.txt,数据文件已加载到内存，将删除之!
+2016-04-29 20:58:22,386 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - once load seed dir,the seeds task have pushed all to the queue
+2016-04-29 20:58:49,878 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 20:58:49,925 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 20:58:50,065 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 20:58:50,065 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 20:58:50,128 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle url to do key!
+2016-04-29 20:58:50,174 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_000876CCD2CF45262A5B0C197DCC0966.json
+2016-04-29 20:59:03,532 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 20:59:03,532 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-29 20:59:03,532 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 20:59:03,532 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 20:59:37,202 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle url to do key!
+2016-04-29 20:59:37,202 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_0B229E0E98AEA89A35E2EF95D14068F1.json
+2016-04-29 20:59:46,925 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 20:59:53,536 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 20:59:53,713 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 20:59:53,740 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 20:59:53,742 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:00:02,586 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_0DCE6007BA19C2A85DE3E382867DA617.json
+2016-04-29 21:00:06,959 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:00:43,758 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:00:43,837 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:00:43,837 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:00:43,837 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:00:45,006 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:00:45,038 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_FA1DB87AB6FF5B8A235FFECBE06C089E.json
+2016-04-29 21:00:49,684 [pool-2-thread-1] INFO  [org.elasticsearch.plugins] - [Hurricane] loaded [], sites []
+2016-04-29 21:00:51,588 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:00:51,620 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:00:58,657 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_2A42EDAAE5F4C0770ECEE84251714533.json
+2016-04-29 21:01:01,650 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:01:27,510 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:01:27,510 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_DEE5B7284F506E1923EF4F34C6F42D7B.json
+2016-04-29 21:01:31,934 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:01:31,950 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:01:33,959 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:01:33,975 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:01:33,975 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:01:33,975 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:01:57,946 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:01:57,951 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_3E3DBEB9508ED82630022070EB2D4168.json
+2016-04-29 21:02:01,999 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:02:01,999 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:02:14,845 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_9248B8AEF819F9DE982B913C3FF05AF9.json
+2016-04-29 21:02:22,022 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:02:23,986 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:02:23,986 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:02:23,986 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:02:23,986 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:02:45,841 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:02:45,841 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_300E87418A40739243C4143E8327CD4A.json
+2016-04-29 21:02:52,059 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:02:52,070 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:03:02,985 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_DA8BA3ECF5CDAF0721E618129B96665E.json
+2016-04-29 21:03:12,092 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:03:13,998 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:03:13,998 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:03:13,998 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:03:14,014 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:03:19,503 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_2C95AB17148C5B38B4FF1F7250948D4E.json
+2016-04-29 21:03:22,102 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:03:51,896 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:03:51,903 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_F0BF60AA2B693DAFB2FBF6EF2A13B2FB.json
+2016-04-29 21:03:52,190 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:03:52,193 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:04:04,025 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:04:04,025 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:04:04,025 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:04:04,025 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:04:23,762 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:04:23,762 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_4A93BE5536377B1127A24F01D7E3E5B5.json
+2016-04-29 21:04:32,267 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:04:32,272 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:04:53,939 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:04:53,944 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_66D636DEC37A782F1EE4BA42476D5442.json
+2016-04-29 21:04:54,029 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:04:54,036 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:04:54,036 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:04:54,037 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:05:02,296 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:05:02,296 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:05:21,545 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:05:21,545 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_5F3B33B0AC4782DB564DEBCAA06326F1.json
+2016-04-29 21:05:22,326 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:05:22,326 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:05:44,044 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:05:44,079 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:05:44,079 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:05:44,079 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:05:49,022 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:05:49,038 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_960B84F86816DF027F6E0C88FF6744D2.json
+2016-04-29 21:05:52,365 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:05:52,365 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:06:16,528 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:06:16,528 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_384CCBF5425FC9E58E171640B124B078.json
+2016-04-29 21:06:22,412 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:06:22,412 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:06:34,081 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:06:34,102 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:06:34,102 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:06:34,103 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:06:44,019 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:06:44,035 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_4420DF750647259A17511C6D6F89C25D.json
+2016-04-29 21:06:52,453 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:06:52,469 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:06:59,658 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_6754FD99B6F2FDF3FC7177A5D33436C6.json
+2016-04-29 21:07:02,473 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:07:24,124 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:07:24,132 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:07:24,132 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:07:24,185 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:07:24,185 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:07:24,185 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:07:28,610 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:07:28,852 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_8D0978A168F1312E85A5D296609DCA46.json
+2016-04-29 21:07:32,496 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:07:32,512 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:08:06,654 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:08:06,827 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_D88877B42860BC2E04D0A399B395B4F4.json
+2016-04-29 21:08:12,566 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:08:12,566 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:08:14,193 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:08:14,208 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:08:14,208 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:08:14,209 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:08:36,616 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:08:36,616 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_D00AE3D03875129310BD4879A812DF3B.json
+2016-04-29 21:08:42,630 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:08:42,634 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:09:04,221 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:09:04,221 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:09:04,221 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:09:04,221 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:09:06,078 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:09:06,126 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_2F0397C9CF040886DBED00264309CFB3.json
+2016-04-29 21:09:12,693 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:09:12,693 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:09:24,953 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_3FED0BD9590CB0BAFB77945820CD2ECD.json
+2016-04-29 21:09:32,708 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:09:52,379 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:09:52,395 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_B3946F122CBE5B5372628C163795673F.json
+2016-04-29 21:09:52,739 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:09:52,755 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:09:54,224 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:09:54,244 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:09:54,244 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:09:54,244 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:10:22,186 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:10:22,186 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_3CA168B7B5D1048D80A6FAA6B65CD13E.json
+2016-04-29 21:10:23,154 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:10:23,154 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:10:44,258 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:10:44,258 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:10:44,258 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:10:44,258 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:10:49,395 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:10:49,395 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_EBB70BF69D01C4B42E37718134F087B1.json
+2016-04-29 21:10:53,208 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:10:53,208 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:11:18,762 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:11:18,778 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_A8A03889F2D933A77A645D3EBB8283FF.json
+2016-04-29 21:11:23,269 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:11:23,284 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:11:34,262 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:11:34,275 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:11:34,275 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:11:34,277 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:11:46,276 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:11:46,276 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_80F7BAA41F864951E5247DBE29268940.json
+2016-04-29 21:11:53,321 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:11:53,337 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:12:02,391 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_43159A597C78DA1435DB1C05138C6E92.json
+2016-04-29 21:12:03,344 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:12:24,281 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:12:25,045 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:12:25,045 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:12:25,061 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:12:25,074 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:12:25,074 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:12:25,074 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:12:30,844 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:12:30,876 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_DA5F561D75AD173E62CB40A57A97337A.json
+2016-04-29 21:12:33,405 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:12:33,405 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:12:48,449 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_B38397B1A6C3D3A72AAE14FF866B607A.json
+2016-04-29 21:12:53,425 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:13:15,077 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:13:15,087 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:13:15,087 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:13:15,089 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:13:18,913 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:13:18,913 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_9D82438C9A5AE4046A1B1E163F0DAFC7.json
+2016-04-29 21:13:23,462 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:13:23,478 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:13:47,181 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:13:47,196 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_AA632A08185F7BB87141BA0D20DC51A7.json
+2016-04-29 21:13:53,523 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:13:53,526 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:14:05,099 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:14:05,109 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:14:05,109 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:14:05,110 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:14:14,238 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:14:14,238 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_615598EBA433313AC8386192B24E5DE2.json
+2016-04-29 21:14:23,573 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:14:23,578 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:14:46,251 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:14:46,251 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_E0FDA5DF92E266354DB9B2490FE3C3CC.json
+2016-04-29 21:14:53,608 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:14:53,623 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:14:55,122 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:14:55,122 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:14:55,122 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:14:55,137 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:15:02,363 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_BADC3BF09DA0EA4657525FAC9439805D.json
+2016-04-29 21:15:03,626 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:15:28,883 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_4152E15B7BCE9C4BBDDB291563D4D2FE.json
+2016-04-29 21:15:33,641 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:15:45,140 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:15:45,145 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:15:45,155 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:15:45,155 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:15:45,168 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:15:45,168 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:15:45,169 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:15:57,798 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:15:57,798 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_8FE1EDCCD41FAE8949F83D813914B22A.json
+2016-04-29 21:16:03,681 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:16:03,697 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:16:27,373 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:16:27,378 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_5DE85AF37BD657C88900597BF1D0000C.json
+2016-04-29 21:16:33,745 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:16:33,745 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:16:35,373 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:16:35,389 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:16:35,389 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:16:35,389 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:16:54,044 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:16:54,059 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_6CC43DED1A874426F7D51ABE85D4D813.json
+2016-04-29 21:17:03,790 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:17:03,790 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:17:21,386 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:17:21,386 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_6D3D7AA10E4DE59CA08DA9435ABD89BF.json
+2016-04-29 21:17:23,890 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:17:23,906 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:17:25,395 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:17:25,395 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:17:25,395 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:17:25,395 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:17:49,230 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:17:49,246 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_26F216CE274C0264EF786FFB91F9A758.json
+2016-04-29 21:17:53,950 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:17:53,966 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:18:15,409 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:18:15,409 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:18:15,409 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:18:15,409 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:18:20,809 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:18:20,809 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_5E570154EC16331890C15C90E3CF77AC.json
+2016-04-29 21:18:23,997 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:18:23,997 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:18:52,377 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:18:52,382 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_E5B6BBAC008CEFFF525910C145F05069.json
+2016-04-29 21:18:54,022 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:18:54,026 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:19:05,424 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:19:05,439 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:19:05,439 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:19:05,439 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:19:26,841 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:19:26,851 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_677635EB85C2FD2D2F1F3CA01B4721D7.json
+2016-04-29 21:19:34,062 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:19:34,093 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:19:55,440 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:19:55,449 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:19:55,449 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:19:55,451 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:20:00,414 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:20:00,414 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_939518099AF945BF1182A2214432F219.json
+2016-04-29 21:20:04,138 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:20:04,138 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:20:28,474 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:20:28,474 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_AEC250BDFE8AD62A945F553181C4C6D8.json
+2016-04-29 21:20:34,217 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:20:34,225 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:20:45,457 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:20:45,473 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:20:45,473 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:20:45,475 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:20:55,519 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:20:55,519 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_9963C8322C88C6B8EF3CCC6E50C6BB49.json
+2016-04-29 21:21:04,281 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:21:04,296 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:21:27,487 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:21:27,493 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_3A0900566E76B00922FACAA40110093A.json
+2016-04-29 21:21:34,331 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:21:34,336 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:21:35,476 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:21:35,490 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:21:35,490 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:21:35,492 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:21:55,812 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:21:55,816 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_0FCBB62F6D108447E03DED95ECE546EA.json
+2016-04-29 21:22:04,386 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:22:04,390 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:22:25,494 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:22:25,499 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:22:25,499 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:22:25,500 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:22:26,741 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:22:26,741 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_D80737C55110E9607EE1BA059E5279B7.json
+2016-04-29 21:22:34,429 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:22:34,429 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:22:54,768 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:22:54,784 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_C0D223C8D275ABBEF743DC926C21F2DE.json
+2016-04-29 21:23:04,487 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:23:04,503 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:23:15,515 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:23:15,525 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:23:15,525 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:23:15,527 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:23:22,497 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:23:22,512 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_191FF6181461756141BE291B5208C2D0.json
+2016-04-29 21:23:24,573 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:23:24,573 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:23:50,613 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:23:50,613 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_033A186B439A4D100D6BDBD209343C94.json
+2016-04-29 21:23:54,610 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:23:54,625 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:24:05,567 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:24:05,577 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:24:05,577 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:24:05,579 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:24:17,488 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:24:17,488 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_827622E4B5967DBF7EEE5C66D215CCFE.json
+2016-04-29 21:24:24,682 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:24:24,687 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:24:45,283 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:24:45,283 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_68CC66DE44917A7A5EA94A9911B10932.json
+2016-04-29 21:24:54,726 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:24:54,742 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:24:55,585 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:24:55,585 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:24:55,601 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:24:55,601 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:25:12,833 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:25:12,833 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_F6C911B7889C5FFFA4AB37618B561F7E.json
+2016-04-29 21:25:14,786 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:25:14,802 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:25:30,959 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_1328465109AFD549AAE2946A16733F4A.json
+2016-04-29 21:25:34,832 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:25:45,612 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:25:45,612 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:25:45,612 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:25:45,612 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:25:58,951 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:25:58,951 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_AF616EA6F97D2BC9BE8939342A655609.json
+2016-04-29 21:26:04,895 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:26:04,899 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:26:25,646 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:26:25,661 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_723F7BA8D994D76CB061C6E9A4D73E93.json
+2016-04-29 21:26:34,934 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:26:34,934 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:26:35,622 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:26:35,622 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:26:35,622 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:26:35,622 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:26:51,806 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:26:51,885 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_6F1896960EEF088E64FDC663D51093E6.json
+2016-04-29 21:26:55,041 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:26:55,041 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:27:24,415 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:27:24,432 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_CE04FFE0B76BBE27F3BA66BEFED5142A.json
+2016-04-29 21:27:25,087 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:27:25,087 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:27:25,624 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:27:25,635 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:27:25,635 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:27:25,637 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:27:52,717 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:27:52,732 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_41487A5130D8D0350A02D5EE1675DAB9.json
+2016-04-29 21:27:55,123 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:27:55,123 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:28:15,639 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:28:15,654 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:28:15,656 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加待抓取周期任务到redis set成功!
+2016-04-29 21:28:15,657 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加待抓取周期任务到redis set成功!
+2016-04-29 21:28:15,657 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有到时的循环任务到待执行的circle to do队列中!
+2016-04-29 21:28:15,659 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:28:23,904 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:28:23,904 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle url to do key!
+2016-04-29 21:28:23,904 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_000876CCD2CF45262A5B0C197DCC0966.json
+2016-04-29 21:28:25,169 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:28:25,169 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:29:05,665 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:29:05,665 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:29:05,665 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:29:05,665 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:29:06,197 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle url to do key!
+2016-04-29 21:29:06,197 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_0B229E0E98AEA89A35E2EF95D14068F1.json
+2016-04-29 21:29:15,211 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:29:50,691 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_C983DFDFFEA4090E3E5DC3CD9EBBB9BC.json
+2016-04-29 21:29:55,344 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:29:55,673 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:29:55,673 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,673 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,673 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,673 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,673 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,673 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,673 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,673 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,673 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,673 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,673 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,673 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,688 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,704 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,704 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,704 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,704 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,704 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:29:55,829 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:29:55,829 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:29:55,829 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:30:06,738 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_D2E29C194D818FCBAF98AD7F4B7E5EE4.json
+2016-04-29 21:30:15,351 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:30:33,639 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_F252B7AE2BED4B12A6447701821234DF.json
+2016-04-29 21:30:35,373 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:30:45,830 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:30:45,830 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:30:45,830 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:30:45,830 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:30:45,845 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:30:45,862 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:30:45,862 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:30:45,862 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:30:45,862 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:30:45,862 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:30:45,862 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:31:04,898 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:31:05,023 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_45622913BE8C6D6A5B287C844860D362.json
+2016-04-29 21:31:05,413 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:31:05,429 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:31:35,864 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:31:35,869 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:31:35,870 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:31:35,871 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:31:36,076 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:31:36,154 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_188441DA69C086BA52E53FD7851221F5.json
+2016-04-29 21:31:45,449 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:31:45,449 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:32:05,271 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:32:05,271 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_42AA1272D48D36EFE57BCCE3EC8DBF73.json
+2016-04-29 21:32:05,475 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:32:05,491 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:32:25,873 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:32:25,884 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:32:25,884 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:32:25,886 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:32:34,561 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:32:34,561 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_37F3E3576E1F6AD80EC50F9DCCF6F5D7.json
+2016-04-29 21:32:35,514 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:32:35,514 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:33:01,697 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:33:01,713 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_DDCFBDE1AA28C7A2AB37D4514C5D48E9.json
+2016-04-29 21:33:05,558 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:33:05,574 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:33:15,887 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:33:15,899 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:33:15,900 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:33:15,902 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:33:27,561 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:33:27,561 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_85C8A00E820FABE9E8F5A5EE4A4B5597.json
+2016-04-29 21:33:35,618 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:33:35,618 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:34:02,606 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:34:02,622 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_E41E252BA58702A6B4CB878AC0832A76.json
+2016-04-29 21:34:05,638 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:34:05,638 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:34:05,904 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:34:05,904 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:34:05,904 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:34:05,904 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:34:31,636 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:34:31,636 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_DD8F20B5631B182BAC6349690A8B1B34.json
+2016-04-29 21:34:35,676 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:34:35,696 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:34:55,920 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:34:55,920 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:34:55,920 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:34:55,920 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:34:58,731 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:34:58,731 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_CF73FC516BC93CDB8E4C11444849A32D.json
+2016-04-29 21:35:05,764 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:35:05,764 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:35:30,819 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:35:30,819 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_F6BE03795BC2C0052AC045267060E77B.json
+2016-04-29 21:35:35,810 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:35:35,810 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:35:45,931 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:35:45,931 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:35:45,931 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:35:45,931 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:36:01,875 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:36:01,875 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_0167DB12CB98A22602AE1DB518D1BF81.json
+2016-04-29 21:36:05,897 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:36:05,897 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:36:33,868 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:36:33,963 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_CE46E9D682D6688CF2525E28A9F42221.json
+2016-04-29 21:36:35,930 [pool-2-thread-3] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:36:35,930 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:36:35,945 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:36:35,945 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:36:35,945 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:36:35,962 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:36:47,276 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_A38E98123A67BBD7419626199FDBF4E5.json
+2016-04-29 21:36:55,938 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:37:02,819 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_3FEDDFEAE5EC1E1277F19973501F2857.json
+2016-04-29 21:37:05,944 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:37:19,101 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_ABE9F60A05841B7EF207A808776CD3EC.json
+2016-04-29 21:37:25,953 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:37:25,969 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:37:25,969 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:25,969 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:25,984 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:25,984 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:25,984 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:26,000 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:26,001 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:26,001 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:26,016 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:26,032 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:26,032 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:26,048 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:26,048 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:26,063 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:26,063 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:26,079 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:26,094 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:26,094 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:26,094 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:37:26,094 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:37:26,094 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:37:26,110 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:37:52,152 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:37:52,152 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_1538A7C5466EF496FCDF7FD961E754E2.json
+2016-04-29 21:37:56,016 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:37:56,032 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:38:16,112 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:38:16,117 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:38:16,117 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:38:16,119 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:38:20,818 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:38:20,818 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_3596A2EB28E27A738BF7A8DA3D92CE92.json
+2016-04-29 21:38:26,066 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:38:26,082 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:38:47,314 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:38:47,346 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_8A26F3C948DE5D79B30503A0A0A901EC.json
+2016-04-29 21:38:56,120 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:38:56,120 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:39:06,122 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:39:06,122 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:39:06,122 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:39:06,137 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:39:13,866 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:39:13,866 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_78CE3EDDEACE05EB71C30001EFA21B38.json
+2016-04-29 21:39:16,194 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:39:16,242 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:39:39,639 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:39:39,639 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_116F89A8E44BB554EC0F57A102951CDF.json
+2016-04-29 21:39:46,291 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:39:46,296 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:39:56,149 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:39:56,149 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:39:56,149 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:39:56,149 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:40:06,926 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:40:06,926 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_E7D49AACBFD5326B7CADA359888E80C7.json
+2016-04-29 21:40:16,695 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:40:16,695 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:40:36,145 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:40:36,145 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_48FDEDA229F9A5330F1B55DF89A290FF.json
+2016-04-29 21:40:36,855 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:40:36,855 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:40:46,157 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:40:46,157 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:40:46,157 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:40:46,157 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:41:08,654 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:41:08,669 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_69B0DB081E1D6AEFA0ED19C92795FE0D.json
+2016-04-29 21:41:16,887 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:41:16,887 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:41:36,170 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:41:36,179 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:41:36,179 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:41:36,181 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:41:43,797 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:41:43,797 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_5AD30CAE6223CA6BCBFE1A0BACF26605.json
+2016-04-29 21:41:46,922 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:41:46,922 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:42:14,401 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:42:14,417 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_D6DC025CA5C1F785828BFAAD88EB74AE.json
+2016-04-29 21:42:16,979 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:42:16,995 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:42:26,194 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:42:26,194 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:42:26,194 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:42:26,194 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:42:44,953 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:42:44,953 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_C438D0AB0FD14EAD51A9FFF8FD6698A6.json
+2016-04-29 21:42:47,202 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:42:47,202 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:43:15,929 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:43:15,929 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_EAB59D05E4AA0A833EB174E8242B71FB.json
+2016-04-29 21:43:16,195 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:43:16,195 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:43:16,195 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:43:16,195 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:43:17,482 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:43:17,485 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:43:50,362 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:43:50,362 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_7ABEEA9178BF6ADCCAEB121B3BB4BCB0.json
+2016-04-29 21:43:57,521 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:43:57,538 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:44:06,198 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:44:06,222 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:44:06,222 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:44:06,224 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:44:18,775 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:44:18,807 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_6FEAE94D2E222974F77D4BB9CB9FA2C5.json
+2016-04-29 21:44:27,593 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:44:27,609 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:44:45,119 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:44:45,135 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_7ED17EB7A75989D64322A07DACDAE656.json
+2016-04-29 21:44:47,635 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:44:47,650 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:44:56,235 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:44:56,235 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:44:56,235 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:44:56,235 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:45:13,673 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:45:13,688 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_0E6E764B27B364757877018C30CD1EB4.json
+2016-04-29 21:45:17,701 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:45:17,716 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:45:28,930 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_A9973FDE58F24B0F64A10B58CC4D872B.json
+2016-04-29 21:45:37,735 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:45:46,238 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:45:46,238 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:45:46,238 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:45:46,238 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:45:46,263 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:45:46,273 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:45:46,273 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:45:46,273 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:45:46,274 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:45:46,275 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:45:46,275 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:45:46,275 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:45:46,275 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:45:56,122 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:45:56,122 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_07E674F44986A29A446E9CE8F0D2D552.json
+2016-04-29 21:45:57,761 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:45:57,761 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:46:22,208 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:46:22,320 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_6A00B56CA701D7C53C17A8DA16A8C7FC.json
+2016-04-29 21:46:27,796 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:46:27,812 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:46:36,278 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:46:36,278 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:46:36,278 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:46:36,278 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:46:48,388 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:46:48,388 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_21EA435BCEE6EDBFB6FB827181602659.json
+2016-04-29 21:46:57,836 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:46:57,836 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:47:14,592 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:47:14,592 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_B166F826429A5C2146432B0E48FBA57C.json
+2016-04-29 21:47:17,872 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:47:17,872 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:47:26,280 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:47:26,290 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:47:26,290 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:47:26,292 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:47:46,089 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:47:46,168 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_CC2917686CDD029408DCB7C38636AE9A.json
+2016-04-29 21:47:47,920 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:47:47,936 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:48:13,070 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:48:13,102 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_A461F933F88878F21800C7BFA2FF3DF6.json
+2016-04-29 21:48:16,304 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:48:16,304 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:48:16,320 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:48:16,320 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:48:17,976 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:48:17,976 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:48:39,468 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:48:39,507 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_EB31CE4BF56CA3F1C58724E49802EAA4.json
+2016-04-29 21:48:48,008 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:48:48,012 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:49:06,322 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:49:06,331 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:49:06,332 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:49:06,333 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:49:08,480 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:49:08,483 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_3470B73CBD95BD796A578FA5331C5D00.json
+2016-04-29 21:49:18,039 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:49:18,043 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:49:44,385 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:49:44,390 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_377DF2D8883547EA449E8650FF88B8D8.json
+2016-04-29 21:49:48,085 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:49:48,100 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:49:56,335 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:49:56,345 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:49:56,345 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:49:56,347 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:50:14,863 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:50:14,867 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_974596F4EBC35B731D54D166F9459609.json
+2016-04-29 21:50:18,339 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:50:18,351 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:50:46,175 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:50:46,206 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_7FD6EC4E2DEEF52B1DFAF8835950B4CC.json
+2016-04-29 21:50:46,348 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:50:46,354 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:50:46,354 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:50:46,355 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:50:48,398 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:50:48,398 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:51:14,347 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:51:14,362 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_B8B25E1401EBD018586CCD9809C035CC.json
+2016-04-29 21:51:18,555 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:51:18,571 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:51:36,358 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:51:36,367 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:51:36,367 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:51:36,368 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:51:42,169 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:51:42,184 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_56BAAE5BED3032743BE60CF90E42BD90.json
+2016-04-29 21:51:48,611 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:51:48,611 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:52:09,518 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:52:09,518 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_8721802159B01F8291C7DE48505EAB84.json
+2016-04-29 21:52:18,779 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:52:18,794 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:52:26,376 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:52:26,376 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:52:26,376 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:52:26,376 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:52:35,062 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:52:35,062 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_8681398B3697BE63A4E05052F346AE90.json
+2016-04-29 21:52:38,822 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:52:38,822 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:52:52,866 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:52:52,881 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_3ECDC04C3508757CCDBD75B73099B195.json
+2016-04-29 21:52:58,850 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:52:58,857 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:53:16,393 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:53:16,401 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:53:16,401 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:53:16,401 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:53:19,638 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:53:19,653 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_590B0C21BD4376A9D44910B3CCAC16E2.json
+2016-04-29 21:53:28,898 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:53:28,898 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:53:50,729 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:53:50,744 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_BDAE358C524C3D39D699AB0D92F58226.json
+2016-04-29 21:53:58,943 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:53:58,943 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:54:06,413 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:54:06,413 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:54:06,413 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:54:06,413 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:54:18,727 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:54:18,731 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_D1044904A7A473C2F7D63DA150C7C1A6.json
+2016-04-29 21:54:18,972 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:54:18,975 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:54:33,327 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_385BA67564F846B348A8D1FCCD169894.json
+2016-04-29 21:54:38,999 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:54:56,414 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:54:56,423 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:54:56,423 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:54:56,425 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:55:03,688 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:55:03,703 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_263921487FFF0EBDE025435881DFACA9.json
+2016-04-29 21:55:09,011 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:55:09,026 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:55:33,284 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:55:33,284 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_E2B78B5CB03F845052280F695B83EB4A.json
+2016-04-29 21:55:39,053 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:55:39,053 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:55:46,433 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:55:46,433 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:55:46,433 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:55:46,433 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:56:01,602 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:56:01,606 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_42A1F80671D99D8655ECAC944BF5B3CA.json
+2016-04-29 21:56:09,191 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:56:09,195 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:56:31,195 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:56:31,210 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_8A55D570425DF6AFA805AB394C7A8912.json
+2016-04-29 21:56:36,449 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:56:36,449 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:56:36,449 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:56:36,449 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:56:39,214 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:56:39,230 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:56:48,524 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_544BA79C23129A7A054DA2027C543D7B.json
+2016-04-29 21:56:49,242 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:57:15,141 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:57:15,141 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_84CC16781F51C9370A22E2CAB52CD8A8.json
+2016-04-29 21:57:19,293 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:57:19,293 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:57:26,458 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:57:26,474 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:57:26,474 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:57:26,474 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:57:32,469 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_9281AB14DCAD1CC79F3DBC6274C7F55B.json
+2016-04-29 21:57:39,318 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:58:01,816 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:58:01,816 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_2AED3356949906E3AAB7F3B3A90E760B.json
+2016-04-29 21:58:09,482 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:58:09,482 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:58:16,484 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:58:16,484 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:58:16,484 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:58:16,484 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:58:16,484 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:58:16,484 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:58:16,484 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:58:16,500 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:58:16,500 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:58:16,500 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:58:16,500 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:58:16,500 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:58:16,500 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:58:16,500 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加待抓取周期任务到redis set成功!
+2016-04-29 21:58:16,500 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加待抓取周期任务到redis set成功!
+2016-04-29 21:58:16,500 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有到时的循环任务到待执行的circle to do队列中!
+2016-04-29 21:58:16,500 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:58:35,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 21:58:35,418 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle url to do key!
+2016-04-29 21:58:35,418 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_000876CCD2CF45262A5B0C197DCC0966.json
+2016-04-29 21:58:39,557 [pool-2-thread-4] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 21:58:39,557 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 21:59:06,504 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:59:06,511 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:59:06,511 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:59:06,514 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 21:59:32,664 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle url to do key!
+2016-04-29 21:59:32,664 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_0B229E0E98AEA89A35E2EF95D14068F1.json
+2016-04-29 21:59:39,580 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,517 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,532 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,548 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,548 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,548 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,548 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,549 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,580 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 21:59:56,596 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 21:59:56,596 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 21:59:56,596 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 22:00:11,956 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_069E67E202B84983409814AB32E7C8A1.json
+2016-04-29 22:00:19,612 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 22:00:43,630 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 22:00:43,630 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_4B23F0CA864FD6AD7A74A3055586027E.json
+2016-04-29 22:00:46,610 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 22:00:46,689 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 22:00:46,689 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 22:00:46,689 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 22:00:49,802 [pool-2-thread-5] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 22:00:49,806 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 22:01:09,334 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 22:01:09,334 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_466D76957E7B149BF7C215EB6AF32D7B.json
+2016-04-29 22:01:09,850 [pool-2-thread-5] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 22:01:09,850 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 22:01:36,690 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 22:01:36,700 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 22:01:36,700 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 22:01:36,702 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 22:01:43,865 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 22:01:43,880 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_335CCA4A09C615A48D6FD2C17F061504.json
+2016-04-29 22:01:49,904 [pool-2-thread-5] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 22:01:49,904 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 22:01:59,249 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_D44B400A07BEB1D61244A46AAB935FDF.json
+2016-04-29 22:01:59,921 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 22:02:26,704 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 22:02:26,717 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:02:26,718 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:02:26,721 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:02:26,721 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:02:26,722 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:02:26,734 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:02:26,747 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:02:26,747 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:02:26,748 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:02:26,748 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:02:26,748 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:02:26,749 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 22:02:26,749 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 22:02:26,751 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 22:02:28,828 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 22:02:28,828 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_ADC7D97AA5EA5D447B4508EDDE8033B4.json
+2016-04-29 22:02:29,952 [pool-2-thread-5] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 22:02:29,952 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 22:02:45,069 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_E41466A6E53D27D357F36C5AB4ED297D.json
+2016-04-29 22:02:49,955 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 22:03:13,499 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 22:03:13,499 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_E1B71C4C81E2AD30DABB68D348E8E5A7.json
+2016-04-29 22:03:16,753 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 22:03:16,760 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:03:16,760 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:03:16,765 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:03:16,765 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:03:16,765 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:03:16,773 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:03:16,783 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:03:16,784 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:03:16,784 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:03:16,785 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:03:16,786 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:03:16,789 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 22:03:16,789 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 22:03:16,791 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 22:03:19,995 [pool-2-thread-5] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 22:03:19,999 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 22:03:41,298 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 22:03:41,298 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_010B6AA3BD4BF65B46F95BE98CC870F3.json
+2016-04-29 22:03:50,044 [pool-2-thread-5] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 22:03:50,044 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 22:03:55,443 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_8AFF73A66990E5DC37EB7C52C5957B3A.json
+2016-04-29 22:04:00,055 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 22:04:06,795 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 22:04:06,807 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 22:04:06,807 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 22:04:06,807 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 22:04:29,976 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 22:04:29,976 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_3F15303462F5AB924D835343CFC9D7C1.json
+2016-04-29 22:04:30,086 [pool-2-thread-5] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 22:04:30,086 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 22:04:56,821 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 22:04:56,826 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 22:04:56,826 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 22:04:56,828 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 22:05:00,922 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 22:05:01,313 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_141E8C199AA2CEEB6EF685CB3218A51A.json
+2016-04-29 22:05:10,150 [pool-2-thread-5] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 22:05:10,166 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 22:05:26,704 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 22:05:26,704 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_F97F355EE2889C7F82C2599D16890A14.json
+2016-04-29 22:05:30,191 [pool-2-thread-5] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 22:05:30,207 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 22:05:46,830 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 22:05:46,838 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 22:05:46,838 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 22:05:46,839 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 22:05:54,246 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 22:05:54,246 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_33F15BDB173299F2BB1E2D0B1DC20685.json
+2016-04-29 22:06:00,229 [pool-2-thread-5] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 22:06:00,233 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 22:06:36,841 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 22:06:36,856 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 22:06:36,856 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 22:06:36,856 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 22:07:26,871 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 22:07:26,871 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-29 22:07:26,871 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 22:07:26,871 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 22:07:31,349 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 22:07:31,413 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 22:07:31,553 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 22:07:31,553 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 22:07:31,662 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_EA3D91DF5CA8AA3BFD8CCCECE230F4CC.json
+2016-04-29 22:07:59,661 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 22:07:59,756 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_335D62821014BCF64A06190A68A43A50.json
+2016-04-29 22:08:00,349 [pool-2-thread-6] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 22:08:00,349 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 22:08:15,860 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_32B03506FEED11F81677D91F53E303EA.json
+2016-04-29 22:08:16,876 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 22:08:16,876 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 22:08:16,876 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 22:08:16,876 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 22:08:20,393 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 22:08:44,340 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 22:08:44,340 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_5EABA241CCA121CA6FBBA960DE13AA8D.json
+2016-04-29 22:08:50,436 [pool-2-thread-6] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 22:08:50,436 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 22:09:06,879 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 22:09:06,881 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:09:06,882 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:09:06,886 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:09:06,886 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:09:06,887 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:09:06,895 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:09:06,902 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:09:06,907 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:09:06,908 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:09:06,909 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:09:06,909 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:09:06,909 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:09:06,917 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 22:09:06,918 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 22:09:06,920 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 22:09:14,856 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 22:09:14,872 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_F0FB60E25FDF4489FBD4F4ABAA3C3E61.json
+2016-04-29 22:09:20,499 [pool-2-thread-6] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 22:09:20,520 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 22:19:22,353 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 22:19:23,539 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 22:19:23,695 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 22:19:23,758 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 22:19:23,758 [Thread-5] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 22:19:23,773 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - task_circle从redis加载完成!
+2016-04-29 22:19:23,773 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-29 22:19:23,789 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加待抓取周期任务到redis set成功!
+2016-04-29 22:19:23,789 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加待抓取周期任务到redis set成功!
+2016-04-29 22:19:23,789 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有到时的循环任务到待执行的circle to do队列中!
+2016-04-29 22:19:23,789 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 22:19:26,753 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 22:19:26,753 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-29 22:19:26,784 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 22:19:27,253 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_to_do_task_key从redis加载完成!
+2016-04-29 22:19:27,581 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_done_task_key从redis加载完成!
+2016-04-29 22:19:27,581 [main] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:19:27,581 [main] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:19:27,581 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-04-29 22:19:27,581 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-04-29 22:19:27,581 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - the file task list have added to the redis quene all!
+2016-04-29 22:19:27,581 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - current to do task size in redis---0
+2016-04-29 22:19:32,588 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - seeds\test.txt,数据文件已加载到内存，将删除之!
+2016-04-29 22:19:32,588 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - once load seed dir,the seeds task have pushed all to the queue
+2016-04-29 22:19:46,083 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 22:19:46,130 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 22:19:46,286 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 22:19:46,302 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 22:19:46,349 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle url to do key!
+2016-04-29 22:19:46,380 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_000876CCD2CF45262A5B0C197DCC0966.json
+2016-04-29 22:20:13,798 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 22:20:13,798 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-04-29 22:20:13,798 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 22:20:13,798 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 22:20:35,415 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle url to do key!
+2016-04-29 22:20:35,415 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_0B229E0E98AEA89A35E2EF95D14068F1.json
+2016-04-29 22:20:36,835 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-04-29 22:21:03,473 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-04-29 22:21:03,513 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 22:21:03,672 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 22:21:03,689 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-04-29 22:21:03,755 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_141E8C199AA2CEEB6EF685CB3218A51A.json
+2016-04-29 22:21:03,801 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 22:21:03,811 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,811 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,811 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,811 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,811 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,811 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,811 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,811 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,811 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,811 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,811 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,811 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,811 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,811 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,811 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,835 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,838 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,839 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,839 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,844 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,844 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,844 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,844 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,846 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,846 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,846 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,857 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,857 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,859 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,859 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,859 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,861 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,861 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,865 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,865 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,865 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,865 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,865 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,865 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,865 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,865 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,865 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,865 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,865 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,865 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,865 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,865 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,865 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,885 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,885 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,887 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,887 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,887 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,888 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,888 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,888 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,890 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,893 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,893 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,895 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,895 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,896 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,897 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,897 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,897 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,903 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,903 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,903 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,903 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,903 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,903 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,903 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,903 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,903 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,903 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,903 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,903 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,903 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,903 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,903 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,949 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - find repeat task,will jump the one!
+2016-04-29 22:21:03,989 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 22:21:03,989 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 22:21:03,989 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-04-29 22:21:31,523 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - update template statistic successful
+2016-04-29 22:21:31,556 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_crawl_body_random_page.js phantomjs/para/baidu_config_para_file_F97F355EE2889C7F82C2599D16890A14.json
+2016-04-29 22:21:39,911 [pool-2-thread-1] INFO  [org.elasticsearch.plugins] - [Brian Braddock] loaded [], sites []
+2016-04-29 22:21:42,424 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-04-29 22:21:42,487 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - web page index portal web data success~
+2016-04-29 22:21:53,991 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-04-29 22:21:54,017 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-04-29 22:21:54,017 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-04-29 22:21:54,017 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!

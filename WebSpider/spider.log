@@ -1,0 +1,810 @@
+2016-05-02 14:02:23,918 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-05-02 14:02:23,997 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_news_crawl_search_result.js phantomjs/para/baidu_891629C0F8DF13908E4A901498EC779E.json
+2016-05-02 14:08:04,622 [main] INFO  [com.zel.util.io.IOUtil] - resource\dic\system\ComplexToSimple.dic (系统找不到指定的路径。)
+2016-05-02 14:11:56,529 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-05-02 14:11:56,578 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_news_crawl_search_result.js phantomjs/para/baidu_891629C0F8DF13908E4A901498EC779E.json
+2016-05-02 14:17:38,023 [main] INFO  [com.zel.util.io.IOUtil] - resource\dic\system\ComplexToSimple.dic (系统找不到指定的文件。)
+2016-05-02 14:25:45,439 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-05-02 14:25:45,473 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_news_crawl_search_result.js phantomjs/para/baidu_891629C0F8DF13908E4A901498EC779E.json
+2016-05-02 14:26:27,907 [main] INFO  [com.zel.util.io.IOUtil] - resource\dic\system\ComplexToSimple.dic (系统找不到指定的文件。)
+2016-05-02 14:33:08,222 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-05-02 14:33:08,253 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/baidu_news_crawl_search_result.js phantomjs/para/baidu_891629C0F8DF13908E4A901498EC779E.json
+2016-05-02 14:33:51,418 [main] INFO  [com.zel.manager.LibraryManager] - 成功--加载缓存的简繁关联词典!
+2016-05-02 14:33:55,793 [main] INFO  [com.zel.manager.LibraryManager] - 成功--加载词典库文件!
+2016-05-02 14:34:05,801 [main] INFO  [com.zel.manager.LibraryManager] - 成功--加载缓存的Trie树和词性对应表!
+2016-05-02 14:34:16,628 [main] INFO  [com.zel.manager.LibraryManager] - 成功--加载缓存的bi-gram关联词典!
+2016-05-02 14:43:33,486 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-05-02 14:43:35,625 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 14:43:35,856 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 14:43:35,879 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:43:35,889 [Thread-5] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 14:43:35,907 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - task_circle从redis加载完成!
+2016-05-02 14:43:35,908 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 14:43:35,920 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加元搜索待抓取周期任务到redis set成功!
+2016-05-02 14:43:35,920 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有到时的循环任务到待执行的circle to do队列中!
+2016-05-02 14:43:35,923 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:43:38,861 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 14:43:38,861 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-05-02 14:43:38,908 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 14:43:39,454 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_to_do_task_key从redis加载完成!
+2016-05-02 14:43:39,862 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_done_task_key从redis加载完成!
+2016-05-02 14:43:39,862 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-05-02 14:43:39,862 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-05-02 14:43:39,862 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-05-02 14:43:39,862 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-05-02 14:43:39,862 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-05-02 14:43:39,862 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-05-02 14:43:39,862 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - the file task list have added to the redis quene all!
+2016-05-02 14:43:39,862 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - current to do task size in redis---3
+2016-05-02 14:43:44,004 [pool-2-thread-1] INFO  [org.elasticsearch.plugins] - [Bloodlust] loaded [], sites []
+2016-05-02 14:43:44,865 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - seeds\test.txt,数据文件已加载到内存，将删除之!
+2016-05-02 14:43:44,865 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - once load seed dir,the seeds task have pushed all to the queue
+2016-05-02 14:43:46,196 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 14:43:46,228 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 14:43:56,275 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 14:43:56,275 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 14:44:05,163 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-05-02 14:44:05,210 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 14:44:05,459 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 14:44:05,475 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 14:44:05,537 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_90B91EB8EE0231AF857E1C7E47650C28.json
+2016-05-02 14:44:06,303 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 14:44:06,303 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 14:44:16,355 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 14:44:16,359 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 14:44:25,928 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:44:25,928 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 14:44:25,928 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 14:44:25,930 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:44:26,521 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 14:44:26,524 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 14:44:36,534 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:44:36,950 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=30
+2016-05-02 14:44:36,952 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:36,955 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:36,957 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:36,961 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:36,963 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:36,966 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:36,968 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:36,971 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:36,975 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:36,977 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:36,981 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:36,985 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:36,990 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:36,994 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:36,996 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:37,007 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:37,010 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:37,012 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:37,015 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:37,025 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:37,026 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:37,028 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:37,031 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:37,033 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:37,035 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:37,036 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:37,064 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:37,081 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:37,091 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:37,093 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:44:37,101 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_90B91EB8EE0231AF857E1C7E47650C28.json
+2016-05-02 14:44:46,540 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:44:56,544 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:45:06,547 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:45:07,649 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=30
+2016-05-02 14:45:07,651 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,651 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,652 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,653 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,654 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,655 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,656 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,657 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,659 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,660 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,662 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,663 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,664 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,665 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,667 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,668 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,669 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,671 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,672 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,673 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,675 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,676 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,677 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,679 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,681 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,683 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,686 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,688 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,691 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,692 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:07,696 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_90B91EB8EE0231AF857E1C7E47650C28.json
+2016-05-02 14:45:15,935 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:45:15,950 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-05-02 14:45:15,950 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 14:45:15,950 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:45:16,550 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:45:26,556 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:45:30,557 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=30
+2016-05-02 14:45:30,557 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,557 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,557 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,557 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,557 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,557 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,557 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,557 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,573 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,574 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,574 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,574 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,574 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,574 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,574 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,574 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,574 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,574 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,589 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,589 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,589 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,589 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,589 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,589 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,589 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,589 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,589 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,589 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,605 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,605 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:45:30,605 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle keyword to do key!
+2016-05-02 14:45:30,605 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_90B91EB8EE0231AF857E1C7E47650C28.json
+2016-05-02 14:45:36,559 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:45:46,571 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:45:56,575 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:46:03,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=30
+2016-05-02 14:46:03,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,418 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,433 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,433 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,433 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,433 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,433 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,433 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,433 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,433 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,433 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,433 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,433 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,449 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,449 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:03,449 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:46:05,959 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:46:05,959 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 14:46:05,959 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 14:46:05,959 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:46:06,587 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:46:16,600 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:46:26,613 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:46:36,622 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:46:46,635 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:46:55,964 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:46:55,964 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 14:46:55,964 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 14:46:55,964 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:46:56,640 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:47:06,643 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:47:16,651 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:47:26,654 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:47:36,664 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:47:45,979 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:47:45,979 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 14:47:45,979 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 14:47:45,979 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:47:46,696 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 14:47:46,699 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 14:47:56,737 [pool-2-thread-2] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 14:47:56,744 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 14:48:06,765 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:48:16,775 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:48:26,782 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:48:35,982 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:48:35,982 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 14:48:35,982 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 14:48:35,982 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:48:36,795 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:48:46,801 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:49:58,517 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-05-02 14:49:59,532 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 14:49:59,735 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 14:49:59,751 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:49:59,767 [Thread-5] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 14:49:59,782 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - task_circle从redis加载完成!
+2016-05-02 14:49:59,782 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 14:49:59,798 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加元搜索待抓取周期任务到redis set成功!
+2016-05-02 14:49:59,798 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有到时的循环任务到待执行的circle to do队列中!
+2016-05-02 14:49:59,798 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:50:02,748 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 14:50:02,748 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-05-02 14:50:02,780 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 14:50:03,264 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_to_do_task_key从redis加载完成!
+2016-05-02 14:50:03,638 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_done_task_key从redis加载完成!
+2016-05-02 14:50:03,638 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:50:03,638 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-05-02 14:50:03,638 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-05-02 14:50:03,638 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-05-02 14:50:03,638 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-05-02 14:50:03,638 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-05-02 14:50:03,638 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-05-02 14:50:03,638 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - the file task list have added to the redis quene all!
+2016-05-02 14:50:03,638 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - current to do task size in redis---3
+2016-05-02 14:50:08,650 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - seeds\test.txt,数据文件已加载到内存，将删除之!
+2016-05-02 14:50:08,650 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - once load seed dir,the seeds task have pushed all to the queue
+2016-05-02 14:50:13,648 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:50:23,663 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:50:25,303 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-05-02 14:50:25,349 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 14:50:25,583 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 14:50:25,599 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 14:50:25,661 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_7ACF646FF2D4AAD782C0A44853A7B2CF.json
+2016-05-02 14:50:33,667 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:50:43,670 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:50:49,812 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:50:49,812 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-05-02 14:50:49,812 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 14:50:49,812 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:50:51,510 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=30
+2016-05-02 14:50:51,510 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,510 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,510 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,525 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,525 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,525 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,525 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,525 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,525 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,541 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,541 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,541 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,541 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,541 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,556 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,556 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,556 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,556 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,572 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,572 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,572 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,572 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,572 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,589 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,590 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,591 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,592 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,592 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,592 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,592 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:50:51,592 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_7ACF646FF2D4AAD782C0A44853A7B2CF.json
+2016-05-02 14:50:53,685 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:51:03,688 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:51:13,696 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:51:19,455 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=30
+2016-05-02 14:51:19,455 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,455 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,470 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,470 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,470 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,470 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,470 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,470 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,470 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,470 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,470 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,486 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,486 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,486 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,486 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,486 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,486 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,486 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,486 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,486 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,486 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,486 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,486 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,486 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,502 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,502 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,502 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,502 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,502 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,502 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:19,502 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_7ACF646FF2D4AAD782C0A44853A7B2CF.json
+2016-05-02 14:51:23,712 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:51:33,715 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:51:39,816 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:51:39,816 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 14:51:39,816 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 14:51:39,817 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:51:43,528 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=30
+2016-05-02 14:51:43,528 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,528 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,544 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,544 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,544 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,544 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,544 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,544 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,544 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,544 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,544 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,559 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,559 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,559 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,559 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,559 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,559 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,559 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,559 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,575 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,575 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,575 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,575 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,575 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,575 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,575 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,575 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,575 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,575 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,575 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 14:51:43,590 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle keyword to do key!
+2016-05-02 14:51:43,590 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_90B91EB8EE0231AF857E1C7E47650C28.json
+2016-05-02 14:51:43,715 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:51:53,719 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:52:03,722 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:52:07,672 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=30
+2016-05-02 14:52:07,680 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,684 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,685 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,687 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,692 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,694 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,695 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,697 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,698 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,718 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,720 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,721 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,722 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,723 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,728 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,731 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,732 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,733 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,734 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,736 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,737 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,738 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,739 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,740 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,749 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,750 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,752 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,753 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,754 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:07,756 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=黄蒙蒙,newUrlSet.size()=0
+2016-05-02 14:52:13,736 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:52:23,746 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:52:29,873 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:52:29,873 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 14:52:29,873 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 14:52:29,888 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:52:33,750 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:52:43,753 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:52:53,761 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:53:03,770 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:53:13,774 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:53:19,896 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:53:19,896 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 14:53:19,896 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 14:53:19,897 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:53:23,786 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:53:33,789 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:53:43,792 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:53:53,795 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:54:03,796 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:54:09,899 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:54:09,899 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 14:54:09,899 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 14:54:09,899 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:54:13,800 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:54:23,805 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-05-02 14:54:33,812 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-05-02 14:54:43,819 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-05-02 14:54:53,821 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - fail_url_null_null	null	
+2016-05-02 14:54:59,903 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:54:59,903 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 14:54:59,903 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 14:54:59,907 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:55:06,204 [pool-2-thread-1] INFO  [org.elasticsearch.plugins] - [Cable] loaded [], sites []
+2016-05-02 14:55:07,627 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 14:55:07,659 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 14:55:17,663 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:55:27,674 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:55:37,693 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 14:55:37,725 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 14:55:47,728 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:55:49,908 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:55:49,908 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-05-02 14:55:49,908 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 14:55:49,908 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:55:57,732 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:56:07,735 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:56:17,738 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:56:27,752 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:56:37,756 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:56:39,910 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:56:39,910 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 14:56:39,910 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 14:56:39,910 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:56:47,769 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:56:57,771 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:57:07,778 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:57:17,779 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:57:27,783 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:57:29,911 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:57:29,911 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 14:57:29,911 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 14:57:29,911 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:57:37,788 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:57:47,804 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:57:57,819 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:58:07,833 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:58:17,838 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:58:19,927 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:58:19,927 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 14:58:19,927 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 14:58:19,930 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:58:27,840 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:58:37,843 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:58:47,845 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:58:57,860 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:59:07,862 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:59:09,939 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:59:09,939 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 14:59:09,939 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 14:59:09,939 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 14:59:17,868 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:59:27,872 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:59:37,878 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:59:47,886 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:59:57,894 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 14:59:59,942 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 14:59:59,942 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有非种子任务进入二级任务队列!
+2016-05-02 14:59:59,974 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - 添加元搜索待抓取周期任务到redis set成功!
+2016-05-02 14:59:59,974 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 添加所有到时的循环任务到待执行的circle to do队列中!
+2016-05-02 14:59:59,974 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:00:04,155 [main] INFO  [com.cqupt.spider.task.TaskDispatcherControler] - success to delete circle keyword to do key!
+2016-05-02 15:00:04,155 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_90B91EB8EE0231AF857E1C7E47650C28.json
+2016-05-02 15:00:07,896 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:00:17,902 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:00:27,916 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:01:05,513 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-05-02 15:01:06,636 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 15:01:06,643 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 15:01:06,663 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库有更新，已更新到redis中!
+2016-05-02 15:01:06,673 [Thread-5] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 15:01:06,674 [Thread-5] INFO  [com.cqupt.spider.manager.TaskQueueManager] - task_circle初始化完成!
+2016-05-02 15:01:06,674 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 15:01:06,674 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 15:01:06,677 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:01:09,651 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 15:01:09,657 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-05-02 15:01:09,666 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 15:01:09,709 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_to_do_task_key初始化完成!
+2016-05-02 15:01:09,832 [main] INFO  [com.cqupt.spider.manager.BloomFilterManager] - bloom_done_task_key初始化完成!
+2016-05-02 15:01:09,842 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-05-02 15:01:09,842 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-05-02 15:01:09,843 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-05-02 15:01:09,844 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-05-02 15:01:09,845 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - 从种子文件中批量添加任务到种子队列中!
+2016-05-02 15:01:09,845 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - redis list size is little to threshold，will inject a batch of tasks!
+2016-05-02 15:01:09,845 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - the file task list have added to the redis quene all!
+2016-05-02 15:01:09,846 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - current to do task size in redis---3
+2016-05-02 15:01:14,846 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - seeds\test.txt,数据文件已加载到内存，将删除之!
+2016-05-02 15:01:14,846 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - once load seed dir,the seeds task have pushed all to the queue
+2016-05-02 15:01:24,120 [main] INFO  [com.cqupt.common.statics.SystemParasSpider] - proxy server is forbidden!
+2016-05-02 15:01:24,172 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 15:01:24,401 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 15:01:24,408 [main] INFO  [com.cqupt.common.utils.JedisOperatorUtil] - Redis客户端已成功连接至服务器端!
+2016-05-02 15:01:24,467 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_7ACF646FF2D4AAD782C0A44853A7B2CF.json
+2016-05-02 15:01:52,531 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=30
+2016-05-02 15:01:52,531 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,531 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,531 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,531 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,531 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,547 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,547 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,547 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,547 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,547 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,547 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,547 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,563 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,578 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,578 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,578 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,578 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,594 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,594 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,594 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,594 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,609 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,625 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,625 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,625 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,625 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,625 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,625 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,625 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,641 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:01:52,734 [Thread-0] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKeyClient] - 规则库有更新，更新完成!
+2016-05-02 15:01:52,734 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_7ACF646FF2D4AAD782C0A44853A7B2CF.json
+2016-05-02 15:01:56,788 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 15:01:56,788 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 15:01:56,788 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 15:01:56,804 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:02:02,047 [pool-2-thread-1] INFO  [org.elasticsearch.plugins] - [Evangeline Whedon] loaded [], sites []
+2016-05-02 15:02:03,677 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:02:03,723 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:02:13,867 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:02:13,873 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:02:19,748 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=30
+2016-05-02 15:02:19,750 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,752 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,754 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,755 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,757 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,758 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,764 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,765 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,767 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,769 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,770 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,771 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,773 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,774 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,775 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,778 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,780 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,781 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,782 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,784 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,786 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,788 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,791 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,792 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,793 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,793 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,794 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,795 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,796 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,797 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:19,798 [main] INFO  [com.cqupt.common.utils.PhantomJsOperatorUtil] - command_line---phantomjs/win_phantomjs --config phantomjs/config_phantomjs/config_phantomjs.json phantomjs/js/sogou_news_crawl_search_result.js phantomjs/para/sogou_7ACF646FF2D4AAD782C0A44853A7B2CF.json
+2016-05-02 15:02:23,896 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:02:23,913 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:02:33,937 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:02:33,954 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:02:43,986 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:02:43,986 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:02:46,821 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 15:02:46,821 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 15:02:46,822 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 15:02:46,824 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:02:51,681 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=30
+2016-05-02 15:02:51,681 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,681 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,681 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,681 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,681 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,681 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,681 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,697 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,697 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,697 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,697 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,697 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,697 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,697 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,697 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,697 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,697 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,697 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,713 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,713 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,713 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,713 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,713 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,713 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,713 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,713 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,713 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,713 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,713 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:51,713 [main] INFO  [com.cqupt.spider.manager.SystemControlerManager] - metasearch keyword=少女时代,newUrlSet.size()=0
+2016-05-02 15:02:54,010 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:02:54,016 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:03:04,243 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:03:04,259 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:03:14,282 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:03:14,297 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:03:24,324 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:03:24,324 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:03:34,342 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:03:34,342 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:03:36,828 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 15:03:36,829 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 15:03:36,829 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 15:03:36,834 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:03:44,382 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:03:44,382 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:03:54,422 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:03:54,437 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:04:04,475 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:04:04,475 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:04:14,498 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:04:14,514 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:04:24,536 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:04:24,536 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:04:26,834 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 15:04:26,834 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 15:04:26,834 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 15:04:26,834 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:04:34,591 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:04:34,591 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:04:44,607 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:04:44,623 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:04:54,641 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:04:54,644 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:05:04,669 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:05:04,701 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:05:14,721 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:05:14,725 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:05:16,839 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 15:05:16,839 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 15:05:16,839 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 15:05:16,841 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:05:24,744 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:05:24,760 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:05:34,788 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:05:34,803 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:05:44,851 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:05:44,854 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:05:54,917 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:05:54,917 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:06:04,942 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:06:04,958 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:06:06,862 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 15:06:06,862 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 15:06:06,862 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 15:06:06,862 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:06:14,977 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:06:14,981 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:06:25,002 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:06:25,006 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:06:35,023 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:06:35,023 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:06:45,062 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:06:45,078 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:06:55,098 [pool-2-thread-1] INFO  [com.cqupt.es.dao.impl.ESIndexDaoImpl] - 127.0.0.1:9200:9300#index ok!
+2016-05-02 15:06:55,098 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - index metadata search data success~
+2016-05-02 15:06:56,871 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 15:06:56,871 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 15:06:56,871 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 15:06:56,871 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:07:05,104 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:07:15,106 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:07:25,120 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:07:35,123 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:07:45,125 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:07:46,876 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 15:07:46,876 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 15:07:46,876 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 15:07:46,878 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:07:55,129 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:08:05,130 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:08:15,136 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:08:25,138 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:08:35,153 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:08:36,888 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 15:08:36,888 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 15:08:36,888 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 15:08:36,904 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:08:45,159 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:08:55,162 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:09:05,164 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:09:15,167 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:09:25,169 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:09:26,911 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 15:09:26,911 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 15:09:26,911 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 15:09:26,912 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:09:35,170 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:09:45,180 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:09:55,183 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:10:05,197 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:10:15,205 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:10:16,916 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 15:10:16,916 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 15:10:16,916 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 15:10:16,916 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:10:25,209 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:10:35,232 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:10:45,234 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:10:55,246 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:11:05,259 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:11:06,929 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 15:11:06,929 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 15:11:06,929 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 15:11:06,929 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:11:15,271 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:11:25,274 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:11:35,279 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:11:45,285 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:11:55,288 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:11:56,938 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 15:11:56,938 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 15:11:56,938 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 15:11:56,938 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:12:05,292 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:12:15,298 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:12:25,298 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:12:35,300 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:12:45,303 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:12:46,943 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 15:12:46,943 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 15:12:46,943 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 15:12:46,945 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:12:55,309 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:13:05,314 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:13:15,317 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:13:25,331 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:13:35,332 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:13:36,954 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 15:13:36,954 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 15:13:36,954 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 15:13:36,954 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:13:45,347 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:13:55,359 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:14:05,362 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:14:15,365 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:14:25,376 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:14:26,957 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 服务器端的ext_rule规则库没有更新，将跳过!
+2016-05-02 15:14:26,958 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有非种子任务的产生，不加入二任务队列!
+2016-05-02 15:14:26,958 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - 没有到时的循环任务!
+2016-05-02 15:14:26,959 [Thread-5] INFO  [com.cqupt.spider.threads.DaemonThread4UpdateRuleKey] - update task statistic successful!
+2016-05-02 15:14:35,377 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:14:45,384 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:14:55,386 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!
+2016-05-02 15:15:05,396 [Thread-7] INFO  [com.cqupt.spider.threads.DaemonThread4SaveCrawlData] - meta search data find repeat,abandon send index to server!

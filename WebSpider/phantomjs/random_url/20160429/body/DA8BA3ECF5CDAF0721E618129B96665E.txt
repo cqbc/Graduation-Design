@@ -1,0 +1,13 @@
+<!--[1,27,8379] published at 2016-04-28 11:11:27 from #130 by 6074--><html><head>
+<link rel="mask-icon" sizes="any" href="http://www.sina.com.cn/favicon.svg" color="red">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>新闻用户问卷调查</title>
+<meta http-equiv="Pragma" content="no-cache">
+
+<meta content="MSHTML 6.00.2600.0" name="GENERATOR">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+</head>
+
+<frameset rows="100%,0%"><frame src="https://www.wenjuan.com/s/AzIbum/"><frame src="#" scrolling="no" noresize="" target="main"></frameset>
+
+</html>

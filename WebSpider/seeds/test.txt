@@ -1,0 +1,3 @@
+#新浪新闻	http://news.sina.com.cn/	1	WebPage_Url	B
+#新浪娱乐	http://ent.sina.com.cn/	4	WebPage_Url	B	
+元搜索	少女时代	8	MetaSearch_NEWSPage	Z

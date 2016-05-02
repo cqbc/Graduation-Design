@@ -1,0 +1,309 @@
+<!--[1,27,162] published at 2015-07-10 14:08:04 from #99 by 2123--><html><head><meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7">
+<title>媒体大全</title>
+<style type="text/css">
+@charset "gb2312";
+/* 初始化 */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,address{margin:0;padding:0;}
+fieldset,img{border:none;}
+address,caption,cite,code,dfn,th,var{font-style:normal;font-weight:normal;}
+ul,ol{list-style:none;}
+select,input{vertical-align:middle;}
+select,input,textarea{font-size:12px;}
+table{border-collapse:collapse;border-spacing:0;font-size:inherit;}
+body{background:#fff;padding:5px 0;font:12px/20px Arial,'宋体', sans-serif;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+
+.clearfix:after{content:'\20';display:block;height:0;clear:both;}
+.clearfix{zoom:1;}
+
+/* blank */
+.blk1,.blk2,.blk3,.blk4,.blk{ clear:both; overflow:hidden;}
+.blk1{ height:5px;}
+.blk2{ height:10px;}
+.blk3{ height:15px;}
+.blk4{ height:20px;}
+.blk{ height:65px;}
+
+/* float txtalign */
+.tc { text-align:center; }
+.tr { text-align:right; }
+.tl { text-align:left; }
+.fl{ float:left; }
+.fr{ float:right; }
+
+#main,#mrdiaHeader{ width:950px; margin:0 auto;}
+#mrdiaHeader{}
+.nav{ padding:0 30px; height:30px; background:url(http://i3.sinaimg.cn/dy/2010/0819/201081994123.png) repeat-x; font:12px/30px simsun;}
+.nav a{ color:#fff; padding:0 6px; text-decoration:none;}
+.nav a:hover{ color:#fff; color:#0cf;}
+.banner{ height:100px; background:url(http://i3.sinaimg.cn/dy/2010/0819/201081994024.jpg);}
+.titBar{ height:53px; background:url(http://i1.sinaimg.cn/dy/2010/0819/201081994417.png) no-repeat -20px 0;}
+.titBar em{ display:inline-block; width:154px; *width:166px; height:37px; padding:7px 0 0 25px; font:18px/30px "黑体",sans-serif; color:#fff; text-align:center;}
+.container{padding:10pxm 0; border:2px solid #bde1f3; border-top:none; overflow:hidden; zoom:1; font:12px/22px simsun; }
+.container a{ display:inline-block; width:175px; color:#1f49b2; text-decoration:none;}
+.container a:hover{ color:red; text-decoration:underline;}
+.pull_TB20{ padding:20px 0;}
+.lst_01{ padding:0 60px;}
+.lst_01 .con{ padding:10px 20px; border:1px solid #bde1f3;  zoom:1;}
+.lst_02{ padding:0 60px;}
+.lst_02 dl{ margin-top:1px; background:url(http://i0.sinaimg.cn/dy/2010/0819/201081994537.png) repeat-y; overflow:hidden; border:1px solid #bde1f3;  zoom:1;}
+.lst_02 dt{float:left; width:80px; text-align:center; font:18px/40px "黑体",sans-serif; color:#006;  }
+.lst_02 dd{float:left; width:744px; padding:10px 0;}
+.lst_02 dd:hover,.lst_01 .con:hover{ background:#edfaff;}
+.lst_02 a{ padding:0 10px; display:inline-block; width:150px;}
+
+/* header */
+.header{ width:950px; margin:0 auto; }
+.secondaryHeader{ width:950px; margin:0 auto; height:33px;overflow:hidden;background:url(http://i2.sinaimg.cn/dy/images/header/2008/standardl2nav_bg.gif) repeat-x #fff;color:#000;font-size:12px;font-weight:100;}
+.secondaryHeader a,.secondaryHeader a:visited{color:#000;text-decoration:none;}
+.secondaryHeader a:hover,.secondaryHeader a:active{color:#c00;text-decoration:underline;}
+.sHBorder{border:1px #e3e3e3 solid;padding:0 10px 0 12px;overflow:hidden;zoom:1;}
+.sHLogo{float:left;height:31px;line-height:31px;overflow:hidden;}
+.sHLogo span,.sHLogo span a,.sHLogo span a:link,.sHLogo span a:visited,.sHLogo span a:hover{display:block;*float:left;display:table-cell;vertical-align:middle;*display:block;*font-size:27px;*font-family:Arial;height:31px;}
+.sHLogo span,.sHLogo span a img,.sHLogo span a:link img,.sHLogo span a:visited img,.sHLogo span a:hover img{vertical-align:middle;}
+.sHLinks{float:right;line-height:31px;}
+
+/* footer */
+.footer{padding:20px 0 0 0; font-size:12px; text-align:center; color:#000; font-family:Arial;}
+.footer p{text-align:center; line-height:20px; font-size:12px; margin:0; padding:0;}
+.footer a{ color:#000; text-decoration:none;}
+.footer a:hover, .footer a:active, .footer a:focus {color: #f00;text-decoration:underline;}
+
+</style>
+<base target="_blank">
+
+</head><body><div style="position: absolute; width: 950px; left: 50%; margin-left: -475px;">
+
+<!-- 标准二级导航_新闻中心 begin -->
+<div class="header">
+<div class="blk1"></div>
+<div class="secondaryHeader">
+	<div class="sHBorder">
+		<div class="sHLogo"><span><a href="http://www.sina.com.cn/"><img src="http://i1.sinaimg.cn/dy/images/header/2009/standardl2nav_sina_new.gif" alt="新浪网"></a><a href="http://news.sina.com.cn/"><img src="http://i1.sinaimg.cn/dy/images/header/2009/standardl2nav_news.gif" alt="新闻中心"></a></span></div>
+		<div class="sHLinks"><a href="http://news.sina.com.cn/">新闻首页</a>&nbsp;|&nbsp;<a href="http://www.sina.com.cn/">新浪首页</a>&nbsp;|&nbsp;<a href="http://news.sina.com.cn/guide/">新浪导航</a></div>
+	</div>
+</div>
+</div>
+<div class="blk2"></div>
+
+<div id="mrdiaHeader">
+<div class="nav">
+<a href="http://www.sina.com.cn/" target="_blank">首页</a><a href="http://news.sina.com.cn/china/" target="_blank">国内</a><a href="http://news.sina.com.cn/world/" target="_blank">国际</a><a href="http://news.sina.com.cn/society/" target="_blank">社会</a><a href="http://jczs.sina.com.cn/" target="_blank">军事</a><a href="http://sky.news.sina.com.cn/" target="_blank">航空</a><a href="http://health.news.sina.com.cn/" target="_blank">健康</a><a href="http://green.sina.com.cn/" target="_blank">环保</a><a href="http://news.sina.com.cn/media/" target="_blank">传媒</a><a href="http://weather.news.sina.com.cn/" target="_blank">天气</a><a href="http://sports.sina.com.cn/" target="_blank">体育</a><a href="http://ent.sina.com.cn/" target="_blank">娱乐</a><a href="http://finance.sina.com.cn/" target="_blank">财经</a><a href="http://tech.sina.com.cn/" target="_blank">科技</a><a href="http://news.sina.com.cn/opinion/" target="_blank">评论</a><a href="http://news.sina.com.cn/photo/" target="_blank">图片</a><a href="http://survey.news.sina.com.cn/list.php?channel=news&amp;dpc=1" target="_blank">调查</a><a href="http://news.sina.com.cn/news1000/" target="_blank">滚动</a><a href="http://news.sina.com.cn/hotnews/" target="_blank">排行</a><a href="http://news.sina.com.cn/zt/" target="_blank">专题</a><a href="http://news.sina.com.cn/pc/2004-11-16/27/1088.html?from=401" target="_blank">手机版</a>
+</div>
+<div class="banner"></div>
+</div>
+
+<div id="main">
+<div class="container">
+<div class="blk4"></div>
+<div class="titBar"><em>中央</em></div>
+<div class="lst_01">
+<div class="con">
+  <a href="http://www.peopledaily.com.cn/" target="_blank">人民日报</a><a href="http://www.xinhua.org/" target="_blank">新华社</a><a href="http://zqb.cyol.com/node/zgqnb.htm" target="_blank">中国青年报</a><a href="http://www.cri.com.cn/" target="_blank">国际广播电台</a><a href="http://ermyd.cnii.com.cn/" target="_blank">人民邮电报</a><a href="http://gb.chinabroadcast.cn" target="_blank">国际在线</a><a href="http://www.wlx315.cn" target="_blank">中国质量万里行</a><a href="http://www.gmw.cn/gmw/gmrb/default.htm" target="_blank">光明日报</a><a href="http://www.cctv.com.cn/" target="_blank">央视国际</a><a href="http://www.huaxia.com/" target="_blank">华夏经纬网</a><a href="http://www.chinataiwan.org/" target="_blank">中国台湾网</a><a href="http://gb.chinabroadcast.cn/world_news_journal/index.htm" target="_blank">世界新闻报</a><a href="http://www.cqn.com.cn/" target="_blank">中国质量报</a><a href="http://www.china.com.cn" target="_blank">中国互联网新闻中心</a><a href="http://www.workercn.cn/" target="_blank">工人日报</a><a href="http://www.chinanews.com.cn/" target="_blank">中新社</a><a href="http://inewsweek.cn/" target="_blank">中国新闻周刊</a><a href="http://www.cpd.com.cn/" target="_blank">人民公安报</a><a href="http://www.jyb.com.cn/" target="_blank">中国教育报</a><a href="http://www.xinhuanet.com/zgjx/index.htm" target="_blank">中国记协</a><a href="http://www.mos.gov.cn/csr/home.jsp" target="_blank">中国纪检监察报</a><a href="http://www.jcrb.com.cn" target="_blank">检察日报</a><a href="http://www.huanqiu.com/" target="_blank">环球时报</a><a href="http://www.zgxxb.com.cn/" target="_blank">中国信息报</a><a href="http://www.plapic.com.cn/" target="_blank">解放军画报</a><a href="http://www.chinacourt.org/" target="_blank">人民法院报</a><a href="http://www.rensb.com/" target="_blank">中国人事报</a><a href="http://www.cmt.com.cn/" target="_blank">中国医学论坛报</a><a href="http://www.chinadaily.com.cn" target="_blank">中国日报</a><a href="http://www.xinhuanet.com/banyt/" target="_blank">半月谈</a><a href="http://www.zgjtb.com/" target="_blank">中国交通报</a><a href="http://www.china-woman.com" target="_blank">中国妇女报</a><a href="http://zgqxb.cma.gov.cn/newspaper/" target="_blank">中国气象报</a><a href="http://newscenter.chemall.com.cn/" target="_blank">中国化工报</a><a href="http://www.greentimes.com/" target="_blank">中国绿色时报</a><a href="http://www.stdaily.com/" target="_blank">科技日报</a><a href="http://www.chinaxiaokang.com/" target="_blank">小康</a><a href="http://www.fmprc.gov.cn/chn/" target="_blank">外交部网站</a><a href="http://www.people.com.cn/GB/paper49/" target="_blank">华南新闻</a><a href="http://www.chinamil.com.cn/site1/gfbmap/gfbmap.htm" target="_blank">中国国防报</a><a href="http://www.chinapop.gov.cn/" target="_blank">中国人口报</a><a href="http://45936c.hn73.com/" target="_blank">旅游中国周刊</a><a href="http://www.legaldaily.com.cn/" target="_blank">法制日报</a><a href="http://www.qsjournal.com.cn" target="_blank">求是</a><a href="http://www.mofcom.gov.cn/" target="_blank">商务部网站</a><a href="http://www.people.com.cn/GB/paper40/" target="_blank">华东新闻</a><a href="http://www.rmzxb.com.cn/" target="_blank">人民政协报</a><a href="http://www.rmtd.com.cn/" target="_blank">人民铁道报</a><a href="http://www.ccmt.org.cn/" target="_blank">中国涉外商事海事审判网</a><a href="http://paper.ce.cn/" target="_blank">经济日报</a><a href="http://www.ce.cn/" target="_blank">中国经济网</a><a href="http://www.pladaily.com.cn" target="_blank">解放军报</a><a href="http://www.cnr.cn/" target="_blank">中国广播网</a><a href="http://www.modedu.com/" target="_blank">现代教育报</a><a href="http://www.cpanet.cn/cms/html/zhongguosheyingbao//" target="_blank">中国摄影报</a><a href="http://www.farmer.com.cn/" target="_blank">三农在线</a><a href="http://www.ibnet.cn/" target="_blank">国际商报</a><a href="http://www.farmer.com.cn/wlb/nmrb/" target="_blank">农民日报</a><a href="http://www.greenchina.gov.cn/" target="_blank">绿色中国网</a><a href="http://www.ctnews.com.cn/" target="_blank">中国旅游报</a><a href="http://www.chinajsb.cn/" target="_blank">中国建设报</a><a href="http://zxb.ccn.com.cn/" target="_blank">中国消费者报</a><a href="http://www.ldwb.com.cn/" target="_blank">劳动午报</a><a href="http://www.jkb.com.cn/" target="_blank">健康报</a><a href="http://www.audit.gov.cn/cysite/chpage/c177/" target="_blank">中国审计报</a><a href="http://cbda.ccd.com.cn/publication/zhjzb/" target="_blank">中华建筑报</a><a href="http://www.cfqn.com.cn/" target="_blank">中国食品质量报</a><a href="http://www.youth.cn/wlds/" target="_blank">中青传媒</a><a href="http://www.cien.com.cn/" target="_blank">中国产经新闻报</a><a href="http://www.people.com.cn/GB/paper503/" target="_blank">健康时报</a><a href="http://www.cnfoodnet.com/" target="_blank">中国食品报</a><a href="http://www.cosco.com/cn/news/newspaper.jsp?leftnav=/5/5" target="_blank">中国远洋报</a><a href="http://www.chinapostnews.com.cn/" target="_blank">中国邮政报</a><a href="http://www.farmer.com.cn/wlb/yyb/" target="_blank">中国渔业报</a><a href="http://www.chinaxwcb.com/" target="_blank">中国新闻出版网</a><a href="http://epaper.oceanol.com/index.aspx" target="_blank">中国海洋报</a><a href="http://www.china-spacenews.com/" target="_blank">中国航天报</a><a href="http://www.goldnews.com.cn/" target="_blank">中国黄金报</a><a href="http://www.cpnn.com.cn/" target="_blank">中国电力新闻网</a><a href="http://www.greenchina.tv/" target="_blank">绿色中国网络电视</a><a href="http://www.labournews.com.cn/" target="_blank">中国劳动保障报</a><a href="http://www.lowcn.com" target="_blank">中国低碳经济网</a><a href="http://www.chinamags.org/index.asp" target="_blank">中国数字期刊行业资讯</a><a href="http://www.mzb.com.cn/" target="_blank">中国民族报</a><a href="http://www.tibetinfor.com/" target="_blank">中国西藏网</a></div>
+</div> 
+
+  <div class="blk4"></div>
+<div class="titBar"><em>地方</em></div>
+<div class="lst_02">
+<dl><dt>网站</dt><dd><a href="http://news.sina.com.cn/" target="_blank">新浪新闻</a><a href="http://news.sohu.com/" target="_blank">搜狐新闻</a><a href="http://news.163.com/" target="_blank">网易新闻</a><a href="http://www.takungpao.com/" target="_blank">大公网</a></dd>
+</dl>
+<dl><dt>北京</dt><dd>
+  <div><a href="http://www.bjd.com.cn/" target="_blank">京报网</a><a href="http://bjwb.bjd.com.cn/html/2010-07/18/node_82.htm" target="_blank">北京晚报</a><a href="http://bjrb.bjd.com.cn/html/2010-07/19/node_2.htm" target="_blank">北京日报</a><a href="http://bjyouth.ynet.com/" target="_blank">北京青年报</a><a href="http://www.morningpost.com.cn/" target="_blank">北京晨报</a><a href="http://www.beijing.org.cn/" target="_blank">北京新闻网</a><a href="http://www.beijing.gov.cn/default.htm" target="_blank">首都之窗</a><a href="http://www.thefirst.cn/" target="_blank">竞报</a><a href="http://www.thebeijingnews.com/" target="_blank">新京报</a><a href="http://www.stardaily.com.cn/" target="_blank">北京娱乐信报</a><a href="http://www.bjreview.com.cn/" target="_blank">北京周报</a><a href="http://jjrb.bjd.com.cn/html/2010-07/20/node_62.htm" target="_blank">京郊日报</a><a href="http://www.bjrc.com/meitizhaopin/scbdzb/scbdzb.asp" target="_blank">北京人才市场报</a><a href="http://www.mzyfz.com/" target="_blank">民主与法制时报</a><a href="http://www.fawan.com/" target="_blank">法制晚报</a><a href="http://epaper.jinghua.cn/" target="_blank">京华时报</a><a href="http://www.beijingnews.com.cn/" target="_blank">千龙网</a><a href="http://www.bjd.com.cn/sdjsb/1365/siming.htm" target="_blank">首都建设报</a><a href="http://www.bgtv.com.cn/" target="_blank">北京广播电视报</a><a href="http://www.bjzhxx.com/main.htm" target="_blank">北京综合信息网</a><a href="http://www.chinalegalnews.com.cn/" target="_blank">法制早报</a><a href="http://www.chinatimes.cc/" target="_blank">华夏时报</a><a href="http://www.bjradio.com.cn/" target="_blank">北京广播网</a><a href="http://www.btv.org/" target="_blank">北京电视台</a><a href="http://www.bjbusiness.com.cn/" target="_blank">北京现代商报</a><a href="http://www.wuca.net/" target="_blank">世界华人网</a><a href="http://www.hao123.com/" target="_blank">hao123网址导航</a></div>
+</dd>
+</dl>
+
+<dl>
+<dt>上海</dt><dd><a href="http://www.eastday.com" target="_blank">东方网</a><a href="http://www.news365.com.cn/whb" target="_blank">多媒体文汇报</a><a href="http://www.xinmin.cn/" target="_blank">新民网</a><a href="http://www.shanghaidaily.com" target="_blank">上海日报</a><a href="http://www.jfdaily.com.cn/" target="_blank">解放日报</a><a href="http://trs.jfdaily.com/shfzb/history/20091228/index_296.html" target="_blank">上海法治报</a><a href="http://china-window.com/shanghai/jfd/jfd.html" target="_blank">解放日报文摘</a><a href="http://www.china-cbn.com/" target="_blank">第一财经</a><a href="http://www.jfdaily.com/gb/jfxww/xlbk/xwwb/index.html" target="_blank">新闻晚报</a><a href="http://www.shucm.sh.cn/" target="_blank">上海建设</a><a href="http://snrb.sepg.net.cn/" target="_blank">少年日报</a><a href="http://www.jfdaily.com/gb/node2/node17/node33/index.html" target="_blank">新闻晨报</a><a href="http://www.jfdaily.com/gb/node2/node17/node160/index.html" target="_blank">申江服务导报</a><a href="http://www.china91.com/" target="_blank">人才市场报</a><a href="http://xmzk.xinminweekly.com.cn/" target="_blank">新民周刊</a><a href="http://www.dfdaily.com/" target="_blank">东方早报</a><a href="http://www.why.com.cn/epublish/gb/paper1/index.htm" target="_blank">上海青年报</a><a href="http://www.photobase.cn" target="_blank">华东图片网</a><a href="http://www.sh.chinanews.com/" target="_blank">上海新闻网</a><a href="http://www.shzgh.org/renda/node6797/node6803/index.html" target="_blank">上海劳动报</a><a href="http://sh.sina.com.cn/" target="_blank">新浪上海</a><a href="http://www.bundpic.com/" target="_blank">外滩画报</a><a href="http://www.shautonews.com/autonews/index.jsp" target="_blank">上海汽车报</a><a href="http://www.cnstock.com/" target="_blank">上海证券报</a><a href="http://www.elle.com/" target="_blank">世界时装之苑</a><a href="http://www.shbiz.com.cn/cms.php?prog=show&amp;pp=p1" target="_blank">上海商报</a><a href="http://www.envir.online.sh.cn/epress/enpress.htm" target="_blank">上海环境报</a><a href="http://www.modern-family.com/" target="_blank">现代家庭</a><a href="http://www.dragontv.cn/" target="_blank">东方卫视</a><a href="http://www.smg.cn/" target="_blank">上海电视台</a><a href="http://www.dfsports.com.cn/" target="_blank">东方体育报</a><a href="http://www.mengya.com/" target="_blank">萌芽</a><a href="http://www.cnad.com/" target="_blank">中国广告</a><a href="http://wxb.wenxuebao.com/" target="_blank">文学报</a><a href="http://kidsnews.eastday.com/eastday/node2524/index.html" target="_blank">东方少年</a><a href="http://www.popumed.com/module/emag/emag_index.php" target="_blank">大众医学</a><a href="http://www.amoney.com.cn/cms.php" target="_blank">理财周刊</a><a href="http://paper.cnstock.com/html/2010-07/19/node_3.htm" target="_blank">上海证券报周末金刊</a></dd>
+</dl>
+
+<dl>
+<dt>天津</dt><dd><a href="http://www.jwb.com.cn" target="_blank">今晚报</a><a href="http://epaper.tianjindaily.com.cn/tjrb" target="_blank">天津日报</a><a href="http://www.enorth.com.cn/" target="_blank">北方网</a><a href="http://www.tianjinwe.com/news/node/index.htm" target="_blank">天津网</a><a href="http://epaper.tianjindaily.com.cn/mrxb" target="_blank">每日新报</a><a href="http://www.tjrb.com.cn/" target="_blank">采风报</a><a href="http://epaper.tianjindaily.com.cn/cskb" target="_blank">城市快报</a><a href="http://www.xnlu.com/sbwz/" target="_blank">书报文摘</a><a href="http://www.tjtv.com.cn/" target="_blank">天津电视台</a><a href="http://www.radiotj.com/home.htm" target="_blank">天津人民广播电台</a></dd>
+</dl>
+
+<dl>
+<dt>重庆</dt><dd><a href="http://www.cqnews.net/" target="_blank">华龙网</a><a href="http://www.cqcb.com/" target="_blank">重庆晨报</a><a href="http://www.chinacqsb.com/" target="_blank">重庆商报</a><a href="http://www.cqwb.com.cn/" target="_blank">重庆晚报</a><a href="http://www.chongqingtimes.com.cn/" target="_blank">重庆时报</a><a href="http://www.sxxww.com" target="_blank">中国三峡新闻网</a><a href="http://www.cpcw.com/" target="_blank">电脑报</a><a href="http://sdxbepaper.cqnews.net/" target="_blank">时代信报</a><a href="http://www.ccqtv.com/" target="_blank">重庆人民广播电台</a><a href="http://www.cqtv.com.cn/" target="_blank">重庆电视台</a></dd>
+</dl>
+
+<dl>
+<dt>黑龙江</dt>
+<dd><a href="http://www.dbw.cn" target="_blank">东北网</a><a href="http://www.hljnews.cn/" target="_blank">黑龙江新闻网</a><a href="http://www.harbindaily.com/" target="_blank">哈尔滨日报</a><a href="http://epaper.hljnews.cn/xdsb/html/2008-09/25/node_262.htm" target="_blank">新都市报</a><a href="http://www.lifedaily.cn" target="_blank">生活报</a><a href="http://www.dqdaily.com/" target="_blank">大庆日报</a><a href="http://www.hljtv.com/" target="_blank">黑龙江电视台</a><a href="http://www.hrbtv.net/" target="_blank">哈尔滨电视台</a><a href="http://epaper.hljnews.cn/lnrb/html/2010-07/19/node_73.htm" target="_blank">老年日报</a><a href="http://www.xinnews.com/" target="_blank">新晚报</a><a href="http://www.hljdaily.com.cn/" target="_blank">黑龙江日报</a><a href="http://am621.hljradio.com/" target="_blank">黑龙江人民广播电台</a></dd>
+</dl>
+
+<dl>
+<dt>辽宁</dt>
+<dd><a href="http://www.nen.com.cn" target="_blank">东北新闻网</a><a href="http://www.lndaily.com.cn" target="_blank">辽宁日报</a><a href="http://epaper.lnd.com.cn/html/lswb/20080826/index.html" target="_blank">辽沈晚报</a><a href="http://www.daliandaily.com.cn" target="_blank">大连日报</a><a href="http://www.dlwb.com.cn" target="_blank">大连晚报</a><a href="http://www.syd.com.cn/" target="_blank">沈阳日报</a><a href="http://www.qianhuaweb.com/asrb/html/2010-07/19/node_5.htm" target="_blank">千华网-鞍山日报</a><a href="http://epaper.hilizi.com/" target="_blank">半岛晨报</a><a href="http://www.syd.com.cn/" target="_blank">沈阳晚报</a><a href="http://newspaper.lndaily.com.cn/bfcb/" target="_blank">北方晨报</a><a href="http://newspaper.lndaily.com.cn/nmb/" target="_blank">辽宁农民报</a><a href="http://www.runsky.com/" target="_blank">天健网</a><a href="http://epaper.syd.com.cn/syjb/paperindex.htm" target="_blank">沈阳今报</a><a href="http://www.qianhuaweb.com/qswb/index.htm" target="_blank">千华网-千山晚报</a><a href="http://www.sdshang.com/" target="_blank">时代商报</a><a href="http://www.qianhuaweb.com/" target="_blank">千华网</a><a href="http://news.liao1.com/elec/" target="_blank">华商晨报</a><a href="http://www.syd.com.cn/" target="_blank">沈阳网</a><a href="http://www.lntv.com.cn/" target="_blank">辽宁电视台</a><a href="http://www.csytv.com/" target="_blank">沈阳电视台</a><a href="http://www.trendsmag.com/" target="_blank">生活时尚</a><a href="http://www.51de.com/" target="_blank">网络与信息</a><a href="http://www.newbusiness.cn/" target="_blank">大连新商报</a><a href="http://www.laoyou.cn/main.asp" target="_blank">老同志之友</a><a href="http://www.syd.com.cn/" target="_blank">大众生活</a><a href="http://syradio.cn/" target="_blank">沈阳人民广播电台</a></dd>
+</dl>
+
+<dl>
+<dt>吉林</dt>
+<dd><a href="http://www.chinajilin.com.cn" target="_blank">中国吉林网</a><a href="http://www.xwhb.net/" target="_blank">新文化报</a><a href="http://www.cswb.cn" target="_blank">城市晚报</a><a href="http://www.chinajilin.com.cn/jlrb/" target="_blank">吉林日报</a><a href="http://www.cfwto.com/" target="_blank">现代营销</a><a href="http://www.jilin.gov.cn" target="_blank">中国彩虹网</a><a href="http://www.dyxw.com/" target="_blank">东亚经贸新闻</a><a href="http://www.changchun.jl.cn/" target="_blank">长春信息港</a><a href="http://www.jintian.net/today/" target="_blank">今天杂志</a><a href="http://www.chinactv.com/" target="_blank">长春电视台</a><a href="http://www.ccradio.cn/" target="_blank">长春广播网</a></dd>
+</dl>
+
+<dl>
+<dt>广东</dt>
+<dd><a href="http://www.dayoo.com" target="_blank">大洋网</a><a href="http://www.southcn.com/" target="_blank">南方网</a><a href="http://www.nfdaily.cn/" target="_blank">南方日报</a><a href="http://informationtimes.dayoo.com/" target="_blank">信息时报</a><a href="http://www.infzm.com/" target="_blank">南方周末</a><a href="http://www.nddaily.com/" target="_blank">南方都市报</a><a href="http://www.sznews.com/" target="_blank">深圳新闻网</a><a href="http://www.nfpeople.com/" target="_blank">南方人物周刊</a><a href="http://www.nfcmag.com/" target="_blank">南风窗</a><a href="http://www.neweekly.com.cn/" target="_blank">新周刊</a><a href="http://gzdaily.dayoo.com/" target="_blank">广州日报</a><a href="http://www.golden-age.com.cn/" target="_blank">黄金时代</a><a href="http://sztqb.sznews.com/" target="_blank">深圳特区报</a><a href="http://www.xkb.com.cn/" target="_blank">新快报</a><a href="http://21sjsypl.dooland.com/" target="_blank">21世纪商业评论</a><a href="http://www.donature.com/" target="_blank">大自然探索</a><a href="http://www.xkb.com.cn./index.php" target="_blank">新快网</a><a href="http://worldview.dayoo.com/" target="_blank">看世界</a><a href="http://www.zsnews.cn/" target="_blank">中山日报</a><a href="http://www.fsonline.com.cn/" target="_blank">佛山晚报</a><a href="http://paper.sznews.com/szdsb/" target="_blank">深圳都市报</a><a href="http://www.21cbh.com/" target="_blank">21世纪经济报道</a><a href="http://www.asiabeauty.net/magazine/002/" target="_blank">经典美学</a><a href="http://www.goofm.com/index.htm" target="_blank">广州电台</a><a href="http://www.ycwb.com/" target="_blank">金羊网</a><a href="http://www.dahuawang.com/" target="_blank">大华网</a><a href="http://www.mm111.net/" target="_blank">茂名日报</a><a href="http://www.nanfangdaily.com.cn/hb/" target="_blank">城市画报</a><a href="http://search.zhnews.net/zjwb/" target="_blank">珠江晚报</a><a href="http://www.54cn.net/" target="_blank">广州青年报</a><a href="http://wzb.dayoo.com/" target="_blank">广州文摘报</a><a href="http://www.step.com.cn" target="_blank">汕头特区晚报</a><a href="http://www.sc168.com/" target="_blank">顺德报</a><a href="http://gmzzs.com/" target="_blank">共鸣</a><a href="http://www.stdaily.com.cn" target="_blank">汕头日报</a><a href="http://www.ycwb.com/" target="_blank">羊城晚报</a><a href="http://www.shanwei.sti.gd.cn/" target="_blank">汕尾信息网</a><a href="http://www.sznews.com.cn/fdcdb/index.htm" target="_blank">中外房地产导报</a><a href="http://www.sznews.com.cn/jb/" target="_blank">晶报</a><a href="http://lrb.dayoo.com/" target="_blank">老人报</a><a href="http://paper.sznews.com/szsb/index.htm" target="_blank">深圳商报</a><a href="http://www.sznews.com.cn/szwb/" target="_blank">深圳晚报</a><a href="http://www.jyrb.net.cn/" target="_blank">揭阳日报</a><a href="http://gdtxbs.365ditu.com/" target="_blank">广东通信报</a><a href="http://www.jmrb.com/" target="_blank">江门新闻网</a><a href="http://www.stcd.com.cn/" target="_blank">汕头都市报</a><a href="http://www.dg.gd.cn/" target="_blank">东莞网</a><a href="http://fzj.sz.gov.cn/" target="_blank">法制</a><a href="http://sldb.dayoo.com/" target="_blank">商旅导报</a><a href="http://paper.sznews.com/szzk/" target="_blank">本色生活</a><a href="http://www.sz-qb.com/" target="_blank">深圳侨报</a><a href="http://wtyym.dayoo.com/" target="_blank">舞台与荧幕</a><a href="http://www.ycwb.com/gdjsb/2008-05/28/gdjsb.htm" target="_blank">广东建设报</a><a href="http://www.jczk2000.com/" target="_blank">广东科技报-建材周刊</a><a href="http://www.rzc.com.cn/" target="_blank">人之初</a><a href="http://gzsoccer.dayoo.com/" target="_blank">足球报</a><a href="http://www.zsnews.cn/DATA/EPaper/zssb/html/part/partindex.html?paperdate=20100719" target="_blank">中山商报</a><a href="http://www.chaozhoudaily.com/" target="_blank">潮州日报</a><a href="http://www.mzrb.com.cn/" target="_blank">梅州日报</a><a href="http://modern.dayoo.com/" target="_blank">新现代画报</a><a href="http://www.gztv.com/" target="_blank">广州电视台</a><a href="http://gzmp.dayoo.com/" target="_blank">广州英文早报</a><a href="http://www.infzm.com/mangazine.shtml" target="_blank">名牌</a><a href="http://www.woman.org.cn/" target="_blank">女报</a><a href="http://msdb.dayoo.com/" target="_blank">美食导报</a><a href="http://dgtimes.timedg.com" target="_blank">东莞时报</a><a href="http://gdcct.gov.cn/" target="_blank">三农直通车</a></dd>
+</dl>
+
+<dl>
+<dt>广西</dt>
+<dd><a href="http://www.gxnews.com.cn/" target="_blank">广西新闻网</a><a href="http://www.gxrb.com.cn/" target="_blank">广西日报</a><a href="http://www.ngzb.com.cn/" target="_blank">南国早报</a><a href="http://www.ngzb.com.cn/" target="_blank">南国今报</a><a href="http://epaper.gxnews.com.cn/ddshb/html/2010-07/19/node_192.htm" target="_blank">当代生活报</a><a href="http://www.nnwb.com" target="_blank">南宁晚报</a><a href="http://www.bbrmedia.com/Simplified/" target="_blank">广西人民广播电台</a><a href="http://www.jiankang123.net/" target="_blank">健康生活</a><a href="http://www.lznews.gov.cn:9999/epaper/lzrb/html/2010/07/19/01/default.htm" target="_blank">柳州日报</a><a href="http://www.lznews.gov.cn:9999/epaper/lzwb/html/" target="_blank">柳州晚报</a><a href="http://www.nnrb.com.cn/" target="_blank">南宁日报</a><a href="http://www.unn.com.cn/GB/channel3234/" target="_blank">人民网广西视窗</a><a href="http://www.gx.chinanews.com.cn/" target="_blank">中新社广西新闻网</a><a href="http://www.gxtv.cn/program/" target="_blank">广西电视台</a><a href="http://www.nntv.com.cn/" target="_blank">南宁电视台</a></dd>
+</dl>
+
+<dl>
+<dt>云南</dt>
+<dd><a href="http://www.yunnan.cn/" target="_blank">云网</a><a href="http://www.yunnan.com.cn" target="_blank">云南新闻网</a><a href="http://www.yuxinews.com/" target="_blank">玉溪新闻网</a><a href="http://www.yndl.gov.cn/" target="_blank">大理新闻网</a><a href="http://www.yn.xinhuanet.com/" target="_blank">新华云南频道</a><a href="http://www.tonghai.gov.cn/" target="_blank">通海网</a><a href="http://www.clzg.cn/" target="_blank">彩龙中国网</a><a href="http://www.yndaily.com/" target="_blank">云南日报</a><a href="http://www.shxb.net/" target="_blank">生活新报</a><a href="http://www.bndaily.com/" target="_blank">西双版纳报</a><a href="http://www.yndaily.com/ihtml/yndaily/TXTP_DCCB.html" target="_blank">滇池晨报</a><a href="http://www.yntv.cn/" target="_blank">云南电视台</a><a href="http://www.kmtv.com.cn/" target="_blank">昆明电视台</a><a href="http://radiokm.cn/" target="_blank">昆明人民广播电台</a></dd>
+</dl>
+
+<dl>
+<dt>贵州</dt>
+<dd><a href="http://www.gog.com.cn/gzdsb/" target="_blank">贵州都市报</a><a href="http://www.gog.com.cn/gzrb/" target="_blank">贵州日报</a><a href="http://www.gzbs.cn/index.html" target="_blank">今日传播</a><a href="http://www.zunyi.cc/main.asp" target="_blank">遵义都市网</a><a href="http://www.gywb.com.cn/" target="_blank">金阳时讯</a><a href="http://www.gz.xinhuanet.com/" target="_blank">新华网贵州频道</a><a href="http://www.gog.com.cn/" target="_blank">金黔在线</a><a href="http://gzsb.gog.com.cn/" target="_blank">贵州商报</a><a href="http://www.cqnews.net/" target="_blank">华龙网</a></dd>
+</dl>
+
+<dl>
+<dt>甘肃</dt>
+<dd><a href="http://www.gs.chinanews.com/" target="_blank">甘肃新闻网</a><a href="http://lzcbnews.com/" target="_blank">兰州晨报</a><a href="http://gsrb.gansudaily.com.cn/" target="_blank">甘肃日报</a><a href="http://xbsb.gansudaily.com.cn/" target="_blank">西部商报</a><a href="http://www.gansudaily.com.cn/" target="_blank">每日甘肃</a><a href="http://gsnmb.gansudaily.com.cn/" target="_blank">甘肃农民报</a><a href="http://www.gs.xinhua.org/" target="_blank">新华网甘肃频道</a><a href="http://www.lzbs.com.cn/" target="_blank">兰州新闻网</a><a href="http://www.gstv.com.cn/" target="_blank">甘肃电视台</a><a href="http://www.shnwzb.com/" target="_blank">少年文摘报</a></dd>
+</dl>
+
+<dl>
+<dt>宁夏</dt>
+<dd><a href="http://www.nxnews.net/" target="_blank">宁夏新闻网</a><a href="http://szb.nxnet.cn/index1.aspx" target="_blank">宁夏日报</a><a href="http://www.nx.xinhuanet.com/" target="_blank">新华网宁夏频道</a><a href="http://www.ycen.com.cn/" target="_blank">银川新闻网</a><a href="http://szb.nxnet.cn/index2.aspx" target="_blank">新消息报</a></dd>
+</dl>
+
+<dl>
+<dt>福建</dt>
+<dd><a href="http://www.hdzxw.com/Index.html" target="_blank">海峡都市报</a><a href="http://www.dnkb.com.cn/" target="_blank">东南快报</a><a href="http://szb.qzwb.com/dnzb/html/2010-07/19/node_42.htm" target="_blank">东南早报</a><a href="http://www.ndwww.cn/#" target="_blank">闽东日报</a><a href="http://www.mxrb.cn/dzb/dzb.htm" target="_blank">闽西日报</a><a href="http://www.qzwb.com/" target="_blank">泉州晚报</a><a href="http://www.zohi.tv/" target="_blank">福州人民广播电台</a><a href="http://www.66163.com/Fujian_w/news/smrb/index.html" target="_blank">三明日报</a><a href="http://www.66163.com/Fujian_w/news/fjqb/" target="_blank">福建侨报</a><a href="http://www.66163.com/Fujian_w/news/mzrb/" target="_blank">湄洲日报</a><a href="http://www.66163.com" target="_blank">福建之窗</a><a href="http://www.xmnn.cn/dzbk/xmrb" target="_blank">厦门日报</a><a href="http://www.xmnn.cn/dzbk/xmwb" target="_blank">厦门晚报</a><a href="http://www.xmnn.cn/" target="_blank">厦门网</a><a href="http://www.ssrb.com.cn/" target="_blank">石狮日报</a><a href="http://www.66163.com/Fujian_w/news/fjrb/" target="_blank">福建日报</a><a href="http://www.fjtv.net/" target="_blank">福建电视台</a><a href="http://www.zohi.tv/" target="_blank">福州电视台</a><a href="http://www.vos.com.cn/" target="_blank">海峡之声网</a><a href="http://www.fjsen.com/" target="_blank">东南新闻网</a><a href="http://www.fzen.com.cn/" target="_blank">福州晚报</a><a href="http://www.greatwuyi.com/mbrb/" target="_blank">闽北日报</a><a href="http://www.sclw.com.cn/" target="_blank">市场瞭望</a><a href="http://www.taihainet.com/" target="_blank">台海网</a><a href="http://epaper.taihainet.com/" target="_blank">海峡导报</a></dd>
+</dl>
+
+<dl>
+<dt>江苏</dt>
+<dd><a href="http://www.longhoo.net/gb/longhoo/" target="_blank">龙虎网</a><a href="http://www.yangtse.com/" target="_blank">扬子晚报</a><a href="http://www.dsqq.cn/index.html" target="_blank">现代快报</a><a href="http://www.wxrb.com/" target="_blank">无锡日报</a><a href="http://www.jschina.com.cn/" target="_blank">中国江苏网</a><a href="http://www.cnxz.com.cn/" target="_blank">中国徐州网</a><a href="http://www.lygnews.com/www/" target="_blank">连云港新闻网</a><a href="http://www.xhby.net/" target="_blank">新华日报</a><a href="http://ever.xhby.net/node/node_58.htm" target="_blank">南京晨报</a><a href="http://press.idoican.com.cn/detail/newspapers/488/" target="_blank">江南晚报</a><a href="http://epaper.cnxz.com.cn/pcwb/html/2010-01/03/node_114.htm" target="_blank">彭城晚报</a><a href="http://www.xhby.net" target="_blank">新华报业网</a><a href="http://www.njnews.cn/" target="_blank">南京报业网</a><a href="http://njrb.njnews.cn/" target="_blank">南京日报</a><a href="http://www.dfwenhua.com/" target="_blank">东方文化周刊</a><a href="http://zm.njnews.cn/" target="_blank">周末报</a><a href="http://www.jsw.com.cn/site3/jjwb/paperindex.htm" target="_blank">京江晚报</a><a href="http://www.njdfwb.com/index.html" target="_blank">东方卫报</a><a href="http://www.njnews.cn/jrsb/index.htm" target="_blank">今日商报</a><a href="http://www.jstv.com/" target="_blank">江苏电视台</a><a href="http://www.njbg.com.cn/" target="_blank">南京电视台</a><a href="http://www.njnews.cn/jllw/" target="_blank">金陵瞭望</a><a href="http://www.yangtse.com/yzjjsb/" target="_blank">扬子经济报</a><a href="http://www.njnews.cn/jssb/index.htm" target="_blank">江苏商报</a><a href="http://sqtg.cnxz.com.cn/xzrb/paperindex.htm" target="_blank">徐州日报</a><a href="http://www.thmz.com/" target="_blank">太湖明珠网</a><a href="http://www.njbg.com.cn/" target="_blank">南京人民广播电视</a><a href="http://www.jsdushi.com/" target="_blank">江苏都市网</a><a href="http://www.mochou.cn/" target="_blank">莫愁</a><a href="http://admin.chinajournal.net.cn/model01/index.asp?rwbh=%27XMYS%27" target="_blank">畜牧与兽医</a><a href="http://www.jsbc.com/" target="_blank">江苏广播电视总台</a><a href="http://www.yhsy.com/" target="_blank">烟花三月网</a></dd>
+</dl>
+
+<dl>
+<dt>河北</dt>
+<dd><a href="http://epaper.hebnews.cn/hbrb/20100101/index.htm" target="_blank">河北日报</a><a href="http://www.sjzdaily.com.cn/" target="_blank">石家庄日报</a><a href="http://www.hbqnb.com/" target="_blank">河北青年报</a><a href="http://zwb.hebnews.cn/shsb/" target="_blank">杂文报</a><a href="http://www.handannews.com.cn/epaper/handwb" target="_blank">邯郸晚报</a><a href="http://www.hebei.com.cn/" target="_blank">长城在线</a><a href="http://www.yzdsb.com.cn" target="_blank">燕赵都市报</a><a href="http://www.hbgrb.net/" target="_blank">河北工人报</a><a href="http://www.handannews.com.cn/epaper/handrb" target="_blank">邯郸日报</a><a href="http://www.sjzdaily.com.cn/zoukan/default.htm" target="_blank">大周刊</a><a href="http://www.cddaily.com.cn/" target="_blank">承德日报</a><a href="http://www.lczk.cn/" target="_blank">莲池周刊</a><a href="http://www.sjzdaily.com.cn/" target="_blank">燕赵晚报</a><a href="http://www.hbrtv.com/" target="_blank">河北广电</a><a href="http://gz.jxcn.cn/news/xnmb.asp" target="_blank">新农民</a><a href="http://www.jpdb.net/" target="_blank">精品导报</a><a href="http://www.hebnews.cn/" target="_blank">河北新闻网</a><a href="http://www.tssv.cn/" target="_blank">唐山网络广播电视台</a><a href="http://nckf.chinajournal.net.cn/" target="_blank">农村科技开发</a></dd>
+</dl>
+
+<dl>
+<dt>河南</dt>
+<dd><a href="http://epaper.dahe.cn/dhb/" target="_blank">大河报</a><a href="http://newpaper.dahe.cn/hnrb/" target="_blank">河南日报</a><a href="http://zzwb.zynews.com/" target="_blank">郑州晚报</a><a href="http://www.zztv.tv/" target="_blank">郑州电视台</a><a href="http://www.hntv.ha.cn/" target="_blank">河南电视台</a><a href="http://hndlb.ceepa.cn/" target="_blank">河南电力报</a><a href="http://www.dahe.cn/" target="_blank">河南日报周末版</a><a href="http://www.lyd.com.cn/" target="_blank">洛阳日报</a><a href="http://www.21xc.com/" target="_blank">许昌新网</a><a href="http://www.zynews.com" target="_blank">中原网</a><a href="http://www.zhld.com/zkrb/html/2010-07/19/node_41.htm" target="_blank">周口日报</a><a href="http://www.xxrb.com.cn/" target="_blank">新乡日报</a><a href="http://westking.cn/news/smxrb/" target="_blank">西部在线</a><a href="http://newpaper.dahe.cn/hnrbncb/" target="_blank">河南农村报</a><a href="http://www.lhrb.com.cn/" target="_blank">漯河日报</a><a href="http://www.jinbw.com.cn/" target="_blank">东方今报</a><a href="http://www.zynews.com/?" target="_blank">郑州日报</a><a href="http://www.xyby.com.cn/" target="_blank">信阳日报</a><a href="http://aydaily.anyang.gov.cn/" target="_blank">安阳日报</a><a href="http://www.jzrb.com.cn/" target="_blank">焦作新闻网</a><a href="http://www.hbrb.com.cn/" target="_blank">鹤壁新闻网</a><a href="http://www.zmdnews.cn/" target="_blank">驻马店新闻网</a><a href="http://www.hszz.cn" target="_blank">华商杂志社</a><a href="http://newpaper.dahe.cn/jrxf/" target="_blank">今日消费</a><a href="http://newpaper.dahe.cn/hnsb/" target="_blank">河南商报</a><a href="http://www.hnddsh.com/index.php" target="_blank">党的生活</a><a href="http://www.nydaily.com.cn/" target="_blank">南阳日报</a><a href="http://epaper.dahe.cn/dhwzb/" target="_blank">大河文摘报</a><a href="http://www.zytdb.com/" target="_blank">中原铁道报</a><a href="http://www.smxdaily.com.cn/" target="_blank">三门峡日报</a><a href="http://epaper.sqrb.cn/sqrb/html/2010-07/19/node_2.htm" target="_blank">商丘日报</a><a href="http://enews.kf.cn/kfrb/data/20100719/html/1/partindex.html" target="_blank">开封日报</a><a href="http://newpaper.dahe.cn/jrab/html/2010-07/19/node_404.htm" target="_blank">今日安报</a><a href="http://epaper.jzrb.com/jzrb" target="_blank">焦作日报</a><a href="http://mysd.qikan.com/" target="_blank">美与时代</a><a href="http://www.radiohenan.com/" target="_blank">河南人民广播电台</a><a href="http://www.zzradio.cn/" target="_blank">郑州人民广播电台</a></dd>
+</dl>
+
+<dl>
+<dt>山东</dt>
+<dd><a href="http://www.e23.cn" target="_blank">舜网</a><a href="http://qlwb.dzwww.com/" target="_blank">齐鲁晚报</a><a href="http://jnrb1.e23.cn/" target="_blank">济南日报</a><a href="http://jnsb1.e23.cn/" target="_blank">济南时报</a><a href="http://www.dzwww.com/nongcundazhong" target="_blank">农村大众</a><a href="http://www.sdnews.com.cn/" target="_blank">山东新闻网</a><a href="http://bddsb.dzwww.com/" target="_blank">半岛都市报</a><a href="http://www.qingdaonews.com" target="_blank">青岛新闻网</a><a href="http://www.dzwww.com/" target="_blank">大众网</a><a href="http://city.dzwww.com/" target="_blank">城市信报</a><a href="http://dz-www.sd.cninfo.net/" target="_blank">鲁北热线</a><a href="http://dzrb.dzwww.com/" target="_blank">大众日报</a><a href="http://www.jiaodong.net" target="_blank">胶东在线</a><a href="http://www.sdtv.com.cn/" target="_blank">山东电视台</a><a href="http://www.jntv.com.cn/" target="_blank">济南电视台</a><a href="http://www.shm.com.cn/" target="_blank">水母网</a><a href="http://www.qingdaonews.com/" target="_blank">青岛晚报</a><a href="http://221.2.232.58/dzb/" target="_blank">东营日报</a><a href="http://www.tzdaily.com.cn" target="_blank">滕州日报</a><a href="http://www.sdgb.cn/" target="_blank">山东广播网</a><a href="http://jkb1.e23.cn/" target="_blank">当代健康报</a><a href="http://www.dzwww.com/dzpc/" target="_blank">大众电脑报</a><a href="http://jjdb.dzwww.com/" target="_blank">经济导报</a><a href="http://shrb.dzwww.com/" target="_blank">生活日报</a><a href="http://lzcb.dzwww.com/" target="_blank">鲁中晨报</a><a href="http://sdqnb.dzwww.com/" target="_blank">山东青年报</a><a href="http://www.qingdaonews.com/ln.htm" target="_blank">老年生活报</a><a href="http://www.flnews.com.cn/" target="_blank">家庭生活报</a><a href="http://www.rznews.cn/" target="_blank">日照新闻网</a><a href="http://www.open.sd-china.com/" target="_blank">走向世界</a><a href="http://www.chinaparking.org/urbanparking/" target="_blank">城市停车</a><a href="http://dsnb1.e23.cn/" target="_blank">都市女报</a><a href="http://rkb1.e23.cn/" target="_blank">人口导报</a><a href="http://www.zbnews.net/" target="_blank">淄博新闻网</a><a href="http://www.sdgh.org.cn/sdgrb/" target="_blank">山东工人报</a></dd>
+</dl>
+
+<dl>
+<dt>四川</dt>
+<dd><a href="http://www.scol.com.cn" target="_blank">四川在线</a><a href="http://www.sichuandaily.com.cn/" target="_blank">四川日报</a><a href="http://news.cdqss.com/" target="_blank">成都商报</a><a href="http://www.zgrb.net/" target="_blank">今日自贡</a><a href="http://www.wccdaily.com.cn" target="_blank">华西都市报</a><a href="http://www.chengdutv.com/" target="_blank">成都电视台</a><a href="http://www.homelife.sc.cn/" target="_blank">家庭与生活报</a><a href="http://www.morning.sc.cn" target="_blank">天府早报</a><a href="http://cdrb.newssc.org/html/2010-07/19/node_622.htm" target="_blank">成都日报</a><a href="http://www.cdwb.com.cn" target="_blank">成都晚报</a><a href="http://ybrb.newssc.org/" target="_blank">宜宾日报</a><a href="http://www.newssc.org" target="_blank">四川新闻网</a><a href="http://www.chinawestnews.net/" target="_blank">西部网</a><a href="http://pzhrb.newssc.org/" target="_blank">攀枝花日报</a><a href="http://www.tfol.com/12338/index.shtml" target="_blank">成都人民广播电台</a><a href="http://www.lsrb.cn/" target="_blank">凉山日报</a><a href="http://lsrb.newssc.org/" target="_blank">乐山日报</a><a href="http://dyrb.newssc.org/" target="_blank">德阳日报</a><a href="http://www.zgrb.net/" target="_blank">自贡日报</a><a href="http://digest.scol.com.cn/" target="_blank">文摘周报网</a><a href="http://legal.scol.com.cn/2010/07/16/default.htm" target="_blank">四川法制报</a><a href="http://www.scrmgbdt.cn/" target="_blank">四川人民广播电台</a><a href="http://www.megajoy.com/" target="_blank">激动网</a><a href="http://gzrb.newssc.org/html/2008-06/11/node_782.htm" target="_blank">甘孜日报</a><a href="http://gfsb.newssc.org/" target="_blank">国防时报</a><a href="http://www.feiyu.com.cn/feiyunews/wang2/zz3.htm" target="_blank">商务早报</a><a href="http://sckjb.newssc.org/" target="_blank">四川科技报</a><a href="http://www.sichuan.net.cn/Company/15channel/index.html" target="_blank">成都电视台</a><a href="http://country.scol.com.cn/" target="_blank">四川农村日报</a><a href="http://wxb.newssc.org/" target="_blank">晚霞报</a><a href="http://www.scncrb.com/" target="_blank">南充日报</a><a href="http://www.zyrb.com.cn/" target="_blank">资阳时报</a><a href="http://bzrb.newssc.org/" target="_blank">巴中日报</a><a href="http://sczxb.newssc.org/html/2010-07/17/node_146.htm" target="_blank">四川政协报</a><a href="http://www.sctv.com/" target="_blank">四川电视台</a><a href="http://scgrrb.newssc.org/" target="_blank">四川工人日报</a><a href="http://www.scecnews.org.cn/jjxx/scjjrb/" target="_blank">四川经济日报</a><a href="http://www.myrb.net/" target="_blank">绵阳日报</a><a href="http://msrb.newssc.org/" target="_blank">眉山日报</a><a href="http://www.stocknews.sc.cn/" target="_blank">金融投资报</a></dd>
+</dl>
+
+<dl>
+<dt>浙江</dt>
+<dd><a href="http://www.zjol.com.cn/" target="_blank">浙江在线</a><a href="http://www.zjdaily.com.cn/" target="_blank">浙江日报</a><a href="http://www.xsnet.cn/" target="_blank">萧山日报</a><a href="http://www.zjdaily.com.cn/qjwb/" target="_blank">钱江晚报</a><a href="http://dskb.hangzhou.com.cn/" target="_blank">都市快报</a><a href="http://www.cztv.com.cn/" target="_blank">浙江人民广播电台</a><a href="http://www.qnsb.com/" target="_blank">青年时报</a><a href="http://www.hcrt.cn/" target="_blank">杭州电视台</a><a href="http://www.66wz.com" target="_blank">温州网</a><a href="http://www.cnnb.com.cn/gb/node2/node11/index.html" target="_blank">东南商报</a><a href="http://www.hangzhou.com.cn/" target="_blank">杭州日报</a><a href="http://www.zjdaily.com.cn/jrzb/" target="_blank">今日早报</a><a href="http://www.cnnb.com.cn/gb/node2/node115/index.html" target="_blank">宁波日报</a><a href="http://business.hangzhou.com.cn/" target="_blank">每日商报</a><a href="http://www.cnnb.com.cn/" target="_blank">中国宁波网</a><a href="http://www.taizhou.com.cn/" target="_blank">中国台州网</a><a href="http://epaper.cnnb.com.cn/nbwb/" target="_blank">宁波晚报</a><a href="http://www.wzwb.com.cn/" target="_blank">温州晚报</a><a href="http://www.wzrb.com.cn/node2/index.html" target="_blank">温州日报</a><a href="http://www.jxdaily.net.cn/" target="_blank">嘉兴日报</a><a href="http://epaper.shaoxing.com.cn/" target="_blank">绍兴日报</a><a href="http://www.wzdsb.com.cn/" target="_blank">温州都市报</a><a href="http://www.zjol.com.cn/" target="_blank">浙江法制报</a><a href="http://www.cztv.com.cn/" target="_blank">浙江电视台</a><a href="http://www.hz66.com/index.html" target="_blank">湖州在线</a><a href="http://epaper.shaoxing.com.cn/ttsb" target="_blank">天天商报</a><a href="http://www.zjrb.cn/" target="_blank">诸暨日报</a><a href="http://www.zjdaily.com.cn/zjlnb/" target="_blank">浙江老年报</a><a href="http://www.zjjybkzs.com:8080/jyxxb/jyxxb.jsp" target="_blank">教育信息报</a><a href="http://www.shangyuribao.cn/html/2010-07/19/node_14.htm" target="_blank">上虞日报</a><a href="http://www.hangzhou.com.cn/" target="_blank">杭州网</a><a href="http://epaper.zgkqw.com/" target="_blank">绍兴县报</a><a href="http://www.jinbaonet.com/" target="_blank">现代金报</a></dd>
+</dl>
+
+<dl>
+<dt>山西</dt>
+<dd><a href="http://www.jrsx.com.cn/" target="_blank">今日山西</a><a href="http://www.daynews.com.cn/sxrb/" target="_blank">山西日报</a><a href="http://www.daynews.com.cn/sxwb/" target="_blank">山西晚报</a><a href="http://www.daynews.com.cn/" target="_blank">山西新闻网</a><a href="http://www.tynews.com.cn/" target="_blank">太原新闻网</a><a href="http://www.sx.xinhuanet.com/czrb/" target="_blank">长治新闻网</a><a href="http://www.sxgov.cn/" target="_blank">黄河新闻网</a><a href="http://www.dtwb.com.cn/" target="_blank">大同晚报</a><a href="http://www.tynews.com.cn/index/index.htm" target="_blank">太原日报</a><a href="http://www.tynews.com.cn/tywbmap/2005-03/19/tywbmap.htm" target="_blank">太原晚报</a><a href="http://www.daynews.com.cn/sjdsb/" target="_blank">三晋都市报</a><a href="http://www.daynews.com.cn/sxnmb/" target="_blank">山西农民报</a><a href="http://www.shanxitv.com/" target="_blank">山西电视台</a><a href="http://www.tytv.com.cn/" target="_blank">太原电视台</a><a href="http://www.daynews.com.cn/mag3/" target="_blank">山西法制报</a><a href="http://www.sxty.com.cn/" target="_blank">太原在线</a><a href="http://www.dtwb.com.cn/" target="_blank">大同晚报</a><a href="http://www.tynews.com.cn/sxsbmap/sxsbmap.htm" target="_blank">山西商报</a><a href="http://www.sx.xinhuanet.com/sxgrb/" target="_blank">山西工人报</a><a href="http://epaper.daynews.com.cn/index.aspx?paperType=sxnmb" target="_blank">山西农民报</a><a href="http://www.scxxb.com.cn/" target="_blank">市场信息报</a><a href="http://www.peoplephoto.com/" target="_blank">人民摄影</a><a href="http://www.ew.com.cn/" target="_blank">英语周报</a><a href="http://www.fzdb.cn/" target="_blank">发展导报</a></dd>
+</dl>
+
+<dl>
+<dt>陕西</dt>
+<dd><a href="http://hsb.hsw.cn/" target="_blank">华商报</a><a href="http://www.cnwest.com/node/index.htm" target="_blank">西部网</a><a href="http://www.sxdaily.com.cn/" target="_blank">陕西日报</a><a href="http://epaper.xawb.com/xarb" target="_blank">西安日报</a><a href="http://epaper.xawb.com/xawb" target="_blank">西安晚报</a><a href="http://www.baojidaily.com/" target="_blank">宝鸡日报</a><a href="http://www.sanqindaily.com/" target="_blank">三秦都市报</a><a href="http://www.xiancn.com/" target="_blank">西安新闻网</a><a href="http://www.womanfriend.com/" target="_blank">女友</a><a href="http://sjk.akxw.cn/akrb/html/2010-07/14/node_5.htm" target="_blank">安康日报</a><a href="http://www.qianyan.biz/qy-6962.html" target="_blank">当代女报</a><a href="http://www.sxtvs.com/" target="_blank">陕西电视台</a><a href="http://vod.xatvs.com/" target="_blank">西安电视台</a><a href="http://www.xbfzb.com/" target="_blank">西部法制报</a><a href="http://www.xiancity.cn/" target="_blank">西安网</a></dd>
+</dl>
+
+<dl>
+<dt>安徽</dt>
+<dd><a href="http://www.anhuinews.com/" target="_blank">中安在线</a><a href="http://www.ahwang.cn/" target="_blank">安徽网</a><a href="http://epaper.anhuinews.com/ahrb.aspx" target="_blank">安徽日报</a><a href="http://epaper.anhuinews.com/ahsb.aspx" target="_blank">安徽商报</a><a href="http://www.hf365.com/" target="_blank">合肥在线</a><a href="http://www.ahtv.cn/" target="_blank">安徽网络电视台</a><a href="http://www.hefeitv.com/" target="_blank">合肥电视台</a><a href="http://www.mediaxinan.com" target="_blank">新安晚报</a><a href="http://www.juece.net.cn/" target="_blank">决策杂志</a><a href="http://epaper.anhuinews.com/jhsb.aspx" target="_blank">江淮时报</a><a href="http://www.ahscb.com/" target="_blank">安徽市场报</a><a href="http://www.hfol.com.cn/" target="_blank">合肥人民广播电台</a></dd>
+</dl>
+
+<dl>
+<dt>江西</dt>
+<dd><a href="http://www.jxnews.com.cn/" target="_blank">大江网</a><a href="http://www.jxnews.com.cn/jxrb/" target="_blank">江西日报</a><a href="http://www.online.jx.cn/" target="_blank">江西热线</a><a href="http://www.jxcn.cn/" target="_blank">中国江西网</a><a href="http://www.jxnews.com.cn/jndsb/" target="_blank">江南都市报</a><a href="http://www.jnds.com.cn/" target="_blank">江南都市网</a><a href="http://www.jxgdw.com/jxtv/index.htm" target="_blank">江西电视台</a><a href="http://www.jxgdw.com/jxgbdt/" target="_blank">江西人民广播电台</a><a href="http://www.jiujiang.gov.cn/index.htm" target="_blank">九江网</a><a href="http://www.jxnews.com.cn/xxrb/" target="_blank">信息日报</a><a href="http://www.jxsb.cn/" target="_blank">江西商报</a><a href="http://www.ncwbw.cn/" target="_blank">南昌晚报</a><a href="http://www.jxgdw.com/jxgbdt/" target="_blank">南昌人民广播电台</a><a href="http://www.jxjatv.com/" target="_blank">江西吉安网</a>
+
+</dd>
+</dl>
+
+<dl>
+<dt>湖北</dt>
+<dd><a href="http://www.cnchu.com/" target="_blank">楚网</a><a href="http://cjrb.cnhan.com/" target="_blank">长江日报</a><a href="http://hbrb.cnhubei.com/" target="_blank">湖北日报</a><a href="http://ctjb.cnhubei.com/" target="_blank">楚天金报</a><a href="http://ctdsb.cnhubei.com/" target="_blank">楚天都市报</a><a href="http://www.whtv.com.cn/" target="_blank">武汉电视台</a><a href="http://www.cnhubei.com/xwqs/" target="_blank">新闻前哨</a><a href="http://www.changjiangtimes.com/index.aspx" target="_blank">长江商报</a><a href="http://news.cnhubei.com/" target="_blank">荆楚网</a><a href="http://www.cnhan.com/gb/special/node_928.htm" target="_blank">武汉晚报</a><a href="http://whcb.cnhan.com/" target="_blank">武汉晨报</a><a href="http://ncxb.cnhubei.com/" target="_blank">农村新报</a><a href="http://www.zgsyb.com/" target="_blank">中国水运报</a><a href="http://www.whradio.com.cn/" target="_blank">武汉广播电台</a><a href="http://www.zhiyin.com.cn/" target="_blank">知音</a><a href="http://www.sxxw.net/" target="_blank">三峡晚报</a></dd>
+</dl>
+
+<dl>
+<dt>湖南</dt>
+<dd><a href="http://www.rednet.cn/" target="_blank">红网</a><a href="http://www.xxcb.com.cn/" target="_blank">潇湘晨报</a><a href="http://www.hnol.net" target="_blank">湖南在线</a><a href="http://www.csonline.com.cn/" target="_blank">星辰在线</a><a href="http://hnrb.hnol.net/" target="_blank">湖南日报</a><a href="http://www.csonline.com.cn/newspaper/dfxb/" target="_blank">东方新报</a><a href="http://www.hnol.net/node/2007-04/02/node_3433.htm" target="_blank">三湘都市报</a><a href="http://www.hnradio.com/" target="_blank">湖南人民广播电台</a><a href="http://www.803.com.cn/" target="_blank">岳阳网</a><a href="http://www.efaw.cn/" target="_blank">Ｅ法网</a><a href="http://www.voc.com.cn/" target="_blank">华声在线</a><a href="http://www.zzz4.com/" target="_blank">株洲在线</a><a href="http://www.csonline.com.cn/newspaper/js/" target="_blank">国防知识报</a><a href="http://www.hncstv.com/" target="_blank">长沙人民广播电台</a><a href="http://www.titansports.cn/" target="_blank">体坛周报</a><a href="http://www.hnol.net/" target="_blank">大众卫生报</a><a href="http://www.ladyonline.net" target="_blank">今日女报</a><a href="http://www.coanew.com/" target="_blank">中外建筑</a><a href="http://www.hunantv.com/" target="_blank">湖南电视台</a><a href="http://www.hunantv.com/" target="_blank">金鹰网</a><a href="http://www.hnol.net/gb/node/2005-03/14/node_16.htm" target="_blank">文萃</a><a href="http://www.wmrx.tv/" target="_blank">为民热线网</a></dd>
+</dl>
+<dl>
+<dt>海南</dt>
+<dd><a href="http://www.hinews.cn" target="_blank">南海网</a><a href="http://www.hndaily.com.cn" target="_blank">海南日报</a><a href="http://www.hkwb.net/" target="_blank">海口晚报</a><a href="http://www.ngdsb.com.cn/" target="_blank">南国都市报</a><a href="http://www.hainan.net/" target="_blank">海南在线</a><a href="http://www.hainan.com/" target="_blank">海南热线</a></dd>
+</dl>
+
+<dl>
+<dt>西藏</dt>
+<dd><a href="http://www.chinatibetnews.com/" target="_blank">中国西藏新闻网</a><a href="http://www.tibetinfor.com/xzrb/200209/02090401/menu.htm" target="_blank">西藏日报</a><a href="http://www.lasa-eveningnews.com.cn/" target="_blank">拉萨晚报</a><a href="http://www.cnxz.org/index.html" target="_blank">西藏在线</a><a href="http://www.tibetinfor.com/tibetzt/xztv/lanmujishao/xzdst_lmjs_jd.htm" target="_blank">西藏电视台</a></dd>
+</dl>
+<dl>
+<dt>青海</dt>
+<dd><a href="http://www.qhnews.com/" target="_blank">青海新闻网</a><a href="http://www.qhradio.com/" target="_blank">青海人民广播电台</a></dd>
+</dl>
+
+<dl>
+<dt>新疆</dt>
+<dd><a href="http://www.tianshannet.com/#" target="_blank">天山网</a><a href="http://www.xjdaily.com/" target="_blank">新疆日报</a><a href="http://xjdsb.tsnews.cn/" target="_blank">新疆都市报</a><a href="http://www.ylxw.com.cn/" target="_blank">伊犁新闻网</a><a href="http://www.wlmqwb.com/wlmqdzb/fm/" target="_blank">乌鲁木齐晚报</a><a href="http://www.wlmqwb.com/" target="_blank">乌鲁木齐在线</a><a href="http://epaper.168cb.com/" target="_blank">都市消费晨报</a><a href="http://www.xjnews.cn/" target="_blank">新疆新闻网</a><a href="http://www.xjtvs.com.cn/" target="_blank">新疆电视台</a><a href="http://www.jrxjnet.com/" target="_blank">今日新疆网</a><a href="http://www.iyaxin.com/" target="_blank">亚心网</a></dd>
+</dl>
+<dl>
+<dt>内蒙古</dt>
+<dd><a href="http://www.nmgcb.com.cn/" target="_blank">内蒙古晨报</a><a href="http://szb.northnews.cn/bfxb/html/2010-07/19/node_2.htm" target="_blank">北方新报</a></dd>
+</dl>
+</div>
+
+<div class="blk4"></div>
+<div class="titBar"><em>体育</em></div>
+<div class="lst_01">
+<div class="con">
+  <a href="http://gzsoccer.dayoo.com/" target="_blank">足球报</a><a href="http://www.titansports.cn/" target="_blank">体坛周报</a><a href="http://sports.sina.com.cn/" target="_blank">新浪网竞技风暴</a><a href="http://www.sportsol.com.cn/" target="_blank">中国体育在线</a><a href="http://www.sportsol.com.cn/yls/paper/zgzqb/" target="_blank">中国足球报</a><a href="http://tyzb.cnhubei.com/" target="_blank">体育周报</a><a href="http://www.runsky.com/homepage/sports/fbw/" target="_blank">足球周报</a><a href="http://www.tianjindaily.com.cn/" target="_blank">球迷羊城体育</a><a href="http://www.dfsports.com.cn/" target="_blank">东方体育日报</a>
+</div>
+</div>
+
+<div class="blk4"></div>
+<div class="titBar"><em>财经</em></div>
+<div class="lst_01">
+<div class="con">
+  <p><a href="http://www.jingji.com.cn/" target="_blank">经济</a><a href="http://www.p5w.net/p5w/home/stime/today/index.html" target="_blank">证券时报</a><a href="http://www.p5w.net/p5w/home/stime/today/index.html" target="_blank">全景网络</a><a href="http://www.homeway.com.cn" target="_blank">和讯中金网</a><a href="http://www.cnemag.com.cn/" target="_blank">中国企业家</a><a href="http://www.cs.com.cn//" target="_blank">中国证券网</a><a href="http://www.cs.com.cn" target="_blank">中国证券报</a><a href="http://finance.sina.com.cn/" target="_blank">新浪网财经纵横</a><a href="http://www.caijing.com.cn/mag/default.aspx" target="_blank">财经</a><a href="http://www.cftmedia.com/upload/index.html" target="_blank">财富时报</a><a href="http://www.cjsc.com.cn/" target="_blank">长江证券</a><a href="http://jsjjb.xhby.net/html/2010-07/19/node_222.htm" target="_blank">江苏经济报</a><a href="http://jjckb.xinhuanet.com/" target="_blank">经济参考报</a><a href="http://www.gemag.com.cn/gemag/new/" target="_blank">环球企业家</a><a href="http://www.cenn.cn/" target="_blank">中国企业报</a><a href="http://www.21cbh.com/" target="_blank">21世纪经济报道</a><a href="http://www.ccidnet.com/" target="_blank">赛迪网</a><a href="http://www.vmarketing.cn/index.html" target="_blank">成功营销</a><a href="http://www.qhdb.com.cn/Newspaper/PageNavigate.aspx" target="_blank">期货日报</a><a href="http://www.cb.com.cn" target="_blank">中国经营报</a><a href="http://www.grainnews.com.cn/" target="_blank">粮油市场报</a><a href="http://www.cnfoodnet.com/" target="_blank">中国食品网</a><a href="http://www.tianjobs.com/" target="_blank">天下人才网</a><a href="http://www.trade.sh.cn/" target="_blank">国际经贸信息网</a><a href="http://www.xincaijing.com/" target="_blank">新财经</a><a href="http://zqdb.hinews.cn/html/2010-07/17/node_542.htm" target="_blank">证券导报</a><a href="http://www.hqcj.com.cn/" target="_blank">环球财经</a><a href="http://www.icn.com.cn/" target="_blank">海峡消费报</a><a href="http://www.hbjjrb.com/" target="_blank">河北经济日报</a><a href="http://www.cet.com.cn/" target="_blank">中国经济时报</a><a href="http://www.fortuneworld.com.cn/" target="_blank">中国科技财富</a><a href="http://www.sinotrust.cn/home.do?" target="_blank">新华信管理咨询</a><a href="http://www.xyfund.com/" target="_blank">新元网</a><a href="http://xnsb.newssc.org/html/2010-07/16/node_469.htm" target="_blank">西南商报</a><a href="http://www.szed.com/szsb/" target="_blank">深圳商报</a><a href="http://www.zgjrw.com/" target="_blank">中国金融网</a><a href="http://www.china-crb.cn/" target="_blank">中国房地产报</a><a href="http://www.hbjjrb.com/" target="_blank">河北经济日报</a><a href="http://www.marketdaily.com.cn/" target="_blank">市场报</a><a href="http://www.infomorning.com/" target="_blank"> 信息早报</a><a href="http://cn.globaltexnet.com/" target="_blank">全球纺织网</a><a href="http://www.mofcom.gov.cn/" target="_blank">商务部网站</a><a href="http://www.bjbusiness.com.cn/" target="_blank">北京现代商报</a><a href="http://www.hljjjb.com/" target="_blank">黑龙江经济报</a><a href="http://gzsb.gog.com.cn/" target="_blank">贵州商报</a><a href="http://www.businesstimes.com.cn/" target="_blank">财经时报</a><a href="http://www.chinabt.net" target="_blank">中国商贸</a><a href="http://scjjrb.newssc.org/html/2010-07/19/node_1182.htm" target="_blank">四川经济日报</a><a href="http://www.baibaofp.com/index-ygaxxb.htm" target="_blank">粤港信息日报</a><a href="http://www.enpctn.com.cn/" target="_blank">企业文明杂志</a><a href="http://www.qhdb.com.cn/" target="_blank">期货日报（河南）</a><a href="http://www.xd56b.com/" target="_blank">现代物流报</a><a href="http://media.people.com.cn/GB/22114/52789/" target="_blank">今传媒</a><a href="http://www.financialnews.com.cn/" target="_blank">金融时报</a><a href="http://www.chinado.cn/" target="_blank">中国发展观察</a></p>
+</div>
+</div>
+
+<div class="blk4"></div>
+<div class="titBar"><em>科技</em></div>
+<div class="lst_01">
+<div class="con"><a href="http://news.it168.com/" target="_blank">IT168</a><a href="http://www.cpcw.com/" target="_blank">电脑报</a><a href="http://www.dcw.net.cn/" target="_blank">数字通信</a><a href="http://www.cniti.com/ef/" target="_blank">新潮电子</a><a href="http://www.ceocio.com.cn/" target="_blank">IT经理世界</a><a href="http://www.ccw.com.cn/" target="_blank">计算机世界网</a><a href="http://tech.sina.com.cn" target="_blank">新浪网科技时代</a><a href="http://www.sciencetimes.com.cn" target="_blank">科学时报</a><a href="http://www.dzdnb.com/" target="_blank">电子电脑报</a><a href="http://www.pcworld.com.cn" target="_blank">微电脑世界</a><a href="http://www.baibaofp.com/index-zglssb.htm" target="_blank">中国绿色时报</a><a href="http://www.zdnet.com.cn" target="_blank">ZDNet China</a><a href="http://bkb.ynet.com/" target="_blank">北京科技报</a><a href="http://www.sciencetimes.com.cn/" target="_blank">科学网</a><a href="http://media.ccidnet.com/swm.htm" target="_blank">软件世界</a><a href="http://china.nikkeibp.co.jp/china/index.html" target="_blank">日经BP网</a><a href="http://ciworld.qikan.com/" target="_blank">互联网世界</a><a href="http://www.ciw.com.cn/" target="_blank">中国计算机报</a><a href="http://www.discloser.net/" target="_blank">DISCLOSER.NET</a><a href="http://old.jfdaily.com/epublish/gb/paper106/" target="_blank">上海计算机报社</a><a href="http://www.gbds.com.cn/" target="_blank">捷视网</a><a href="http://www.cnw.com.cn" target="_blank">网界网</a><a href="http://www.cww.net.cn/" target="_blank">通信世界</a><a href="http://www.donews.com/index.html" target="_blank">IT写作社区</a><a href="http://www.c114.net/" target="_blank">CHINA通信网</a><a href="http://www.pconline.com.cn/" target="_blank">太平洋电脑网</a><a href="http://www.sm114.com.cn" target="_blank">中国媒介搜索网</a><a href="http://www.hc360.com" target="_blank">慧聪网</a><a href="http://www.8080.net/" target="_blank">极速网</a><a href="http://www.zcom.com/m/dgbestshumashijie/" target="_blank">数码世界</a><a href="http://www.xxxtgc.com/" target="_blank">信息系统工程</a><a href="http://www.ebjournal.info/" target="_blank">电子商务在线</a><a href="http://home.enet.com.cn/" target="_blank">eNET硅谷动力</a><a href="http://www.cnii.com.cn" target="_blank">中国信息产业网</a><a href="http://www.chinahightech.com" target="_blank">中国高新技术产业导报</a><a href="http://www.techweb.com.cn/" target="_blank">techweb</a>
+</div>
+</div>
+
+<div class="blk4"></div>
+<div class="titBar"><em>文化娱乐生活</em></div>
+<div class="lst_01">
+<div class="con"><a href="http://msb.zjol.com.cn/html/2010-08/14/node_199.htm" target="_blank">美术报</a><a href="http://www.ccn.com.cn" target="_blank">中国消费网</a><a href="http://living.sina.com.cn" target="_blank">新浪网生活空间</a><a href="http://www.letv.com/" target="_blank">乐视网</a><a href="http://www.chinanews.com.cn/chuban_3.html" target="_blank">中华文摘</a><a href="http://www.gmw.cn/01ds/2010-07/14/default.htm" target="_blank">中华读书报</a><a href="http://www.cnjy.com.cn/" target="_blank">中华集邮网</a><a href="http://web.peopledaily.com.cn/by/9807/" target="_blank">北影画报</a><a href="http://www.trendsmag.com/trendsmag/" target="_blank">时尚</a><a href="http://www.ccdy.cn/node_1521.htm" target="_blank">中国文化报</a><a href="http://www.sg.com.cn/" target="_blank">精品购物指南</a><a href="http://games.sina.com.cn/" target="_blank">新浪游戏</a><a href="http://www.cflac.org.cn/chinaartnews/" target="_blank">中国艺术报</a><a href="http://www.hnol.net/gb/node/2004-01/09/node_14.htm" target="_blank">家庭导报</a></div>
+</div>
+
+<div class="blk4"></div>
+</div>
+</div>
+
+<div class="clearfix"></div>
+<div class="footer">
+	<p><a href="http://news.sina.com.cn/guest.html" target="_blank">新闻中心意见反馈留言板</a>　电话：010-82612286　　<a href="http://tech.sina.com.cn/sinahelp/2003-10-28/113/314.html" target="_blank">新浪网产品客户服务联系电话</a>　　欢迎批评指正</p>
+	<p> </p>
+	<p><a href="http://corp.sina.com.cn/chn/">新浪简介</a> | <a href="http://corp.sina.com.cn/eng/">About Sina</a> | <a href="http://emarketing.sina.com.cn/">广告服务</a> | <a href="http://www.sina.com.cn/contactus.html">联系我们</a> | <a href="http://corp.sina.com.cn/chn/sina_job.html">招聘信息</a> | <a href="http://www.sina.com.cn/intro/lawfirm.shtml">网站律师</a> | <a href="http://english.sina.com">SINA English</a> | <a href="https://login.sina.com.cn/signup/signup.php">通行证注册</a> | <a href="http://tech.sina.com.cn/focus/sinahelp.shtml">产品答疑</a></p>
+	<p> </p>
+	<p>Copyright © 1996-2015 SINA Corporation, All Rights Reserved</p>
+	<p> </p>
+	<p>新浪公司 <a href="http://www.sina.com.cn/intro/copyright.shtml">版权所有</a></p>
+	<p>北京网通提供网络带宽</p>
+</div>
+</div>
+
+</body></html>

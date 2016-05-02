@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="src/lib/antlr-2.7.4.jar"/>
+	<classpathentry kind="lib" path="src/lib/cpdetector-1.0.10.jar"/>
+	<classpathentry kind="lib" path="src/lib/cxf-2.3.11.jar"/>
+	<classpathentry kind="lib" path="src/lib/jargs-1.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/jchardet-1.0.jar"/>
+	<classpathentry kind="lib" path="src/lib/neethi-2.0.5.jar"/>
+	<classpathentry kind="lib" path="src/lib/wsdl4j-1.6.2.jar"/>
+	<classpathentry kind="lib" path="src/lib/XmlSchema-1.4.7.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
