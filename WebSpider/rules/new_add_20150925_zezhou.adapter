@@ -38,6 +38,12 @@
 	发布时间	span#p_publishtime
 	正文	div#p_content
 	
+人民网观点	opinion.people.com.cn	http://opinion.people.com.cn/[\s\S]*	httpclient
+	标题	h1#p_title
+	作者	span#p_origin#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
+	发布时间	span#p_publishtime
+	正文	div#p_content
+	
 
 环球网国际	world.huanqiu.com	http://world.huanqiu.com/[\s\S]*	phantomjs
 	标题	div.conText>h1
@@ -87,12 +93,22 @@
 	正文	div#contentMain	
 	评论数	span.bshare-share-count
 	
+	
+	
+	
 中国网新闻	news.china.com.cn	http://news.china.com.cn/[\s\S]*	phantomjs
 	标题	h1.artTitle
 	作者	span#author_baidu#=>#(作者：#split_small#[\s\S]*#split_small#[\s]*)
 	发布时间	span#pubtime_baidu#=>#(发布时间：#split_small#[\s\S]*#split_small#[\s]*)
 	正文	div#artbody	
 	评论数	span.bshare-share-count
+	
+
+中国网新闻	news.china.com.cn	http://news.china.com.cn/[\s\S]*	httpclient
+	标题	div#contit>h1
+	作者	span#source_baidu#=>#(来源： #split_small#[\S\s]*#split_small#[\s]*)
+	发布时间	span#pubtime_baidu#=>#(发布时间： #split_small#[\S\s]*#split_small#[\s]*)
+	正文	div#bigpic
 	
 中国网财经	finance.china.com.cn	http://finance.china.com.cn/[\s\S]*	phantomjs
 	标题	div.left_content>h1
@@ -107,6 +123,7 @@
 	发布时间	span#pubtime_baidu#=>#(发布时间：#split_small#[\s\S]*#split_small#[\s]*)
 	正文	div#artbody	
 	#评论数	span.bshare-share-count
+	
 	
 
 	
@@ -126,7 +143,13 @@
 	标题	div.l_tit
 	作者	span#source_baidu#=>#(来源：#split_small#[\s\S]*#split_small#[\s]*)
 	发布时间	span#pubtime_baidu
-	正文	div#container	
+	正文	div#container
+
+中国青年网评论	pinglun.youth.cn	http://pinglun.youth.cn/[\s\S]*	httpclient
+	标题	div.l_tit
+	作者	span#source_baidu#=>#(来源： #split_small#[\S\s]*#split_small#[\s]*)
+	发布时间	span#pubtime_baidu#=>#(发稿时间： #split_small#[\S\s]*#split_small#[\s]*)
+	正文	div.article	
 	
 
 央广网新闻	news.cnr.cn	http://news.cnr.cn/[\s\S]*	phantomjs
@@ -211,6 +234,58 @@
 	正文	div.article
 
 
+##新闻
+中国新闻周刊	news.inewsweek.cn	http://news.inewsweek.cn/[\s\S]*	httpclient
+	标题	div.pic_div>h3
+	作者	span#source_baidu#=>#(来源：#split_small#[\S\s]*#split_small#[\s]*)
+	发布时间	div.text_c>p>span#pubtime_baidu
+	正文	div.text_f
+	
+#财经
+中国新闻周刊	finance.inewsweek.cn	http://finance.inewsweek.cn/[\s\S]*	httpclient
+	标题	div.vsmy>p
+	作者	div.vsmy>p#=>#(文章来源：#split_small#[\S\s]*#split_small#[\s]* )
+	发布时间	div.vsmy>p#=>#(#split_small#[\S\s]*#split_small#[\s]*&nbsp; 作者)
+	正文	div#content
+	
+#人物
+中国新闻周刊	people.inewsweek.cn	http://people.inewsweek.cn/[\s\S]*	httpclient
+	标题	div.pic_div>h3
+	作者	span#source_baidu#=>#(来源：#split_small#[\S\s]*#split_small#[\s]*)
+	发布时间	div.text_c>p>span#pubtime_baidu
+	正文	div.text_f
+	
+#往事
+中国新闻周刊	story.inewsweek.cn	http://story.inewsweek.cn/[\s\S]*	httpclient
+	标题	div.pic_div>h3
+	作者	span#source_baidu#=>#(来源：#split_small#[\S\s]*#split_small#[\s]*)
+	发布时间	div.text_c>p>span#pubtime_baidu
+	正文	div.text_f
+
+#观点
+中国新闻周刊	viewpoint.inewsweek.cn	http://viewpoint.inewsweek.cn/[\s\S]*	httpclient
+	标题	div.pic_div>h3
+	作者	span#source_baidu#=>#(来源：#split_small#[\S\s]*#split_small#[\s]*)
+	发布时间	div.text_c>p>span#pubtime_baidu
+	正文	div.text_f
 
 
+### 
+老友网	www.nntv.cn	http://www.nntv.cn/[\s\S]*	httpclient
+	标题	div.content_left_header>h1
+	作者	div.content_left_header>p span:eq(1)#=>#(来源：#split_small#[\S\s]*#split_small#[\s]*)
+	发布时间	div.content_left_header>p span:eq(0)
+	正文	div#content
+
+老友网	www.nntv.cn	http://www.nntv.cn/[\s\S]*	httpclient
+	标题	h1[align=center]
+	作者	div.content_left_header>p span:eq(1)#=>#(来源：#split_small#[\S\s]*#split_small#[\s]*)
+	发布时间	div.content_left_header>p span:eq(0)
+	正文	div.content_left_center
+
+老友网	www.nntv.cn	http://www.nntv.cn/[\s\S]*	httpclient
+	标题	div.content_left_header>h1
+	作者	div.content_left_header>p span:eq(1)#=>#(来源：#split_small#[\S\s]*#split_small#[\s]*)
+	发布时间	div.content_left_header>p span:eq(0)
+	正文	div.content_left_center
 

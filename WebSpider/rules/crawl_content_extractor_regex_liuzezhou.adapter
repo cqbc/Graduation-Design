@@ -1,5 +1,3 @@
-#新浪新闻	news.sina.com.cn	http://news.sina.com.cn/[\s\S]*/[\s\S]*/[\d]+\.shtml	httpclient
-#新浪新闻	news.sina.com.cn	http://news.sina.com.cn/[\s\S]*	httpclient
 
 新浪新闻	news.sina.com.cn	http://news.sina.com.cn/[\s\S]*	phantomjs
 	标题	h1#artibodyTitle
@@ -45,8 +43,19 @@
 	正文	div.content>p
 	评论数	span#commentCount1
 	关键词	p.art_keywords#=>#(标签: #split_small#[\s\S]*#split_small#[\s]*)
-
-
+	
+新浪博客	blog.sina.com.cn	http://blog.sina.com.cn/[\s\S]*	httpclient
+	标题	div.articalTitle>h2
+	作者	strong#ownernick
+	发布时间	span.time#=>#(\(*#split_small#[\s\S]*#split_small#\))
+	正文	div.articalContent>p
+	
+新浪Blog	blog.sina.com.cn	http://blog.sina.com.cn/[\s\S]*	phantomjs
+	标题	div.articalTitle>h2
+	作者	strong#ownernick
+	发布时间	span.time#=>#(\(*#split_small#[\s\S]*#split_small#\))
+	正文	div.articalContent>p
+	
 #腾讯
 
 腾讯新闻	news.qq.com	http://news.qq.com/[\s\S]*	phantomjs
@@ -143,7 +152,6 @@
 	评论数	div.ep-tie-top	
 	关键词	span.cBlue
 	
-	
 网易综艺	v.163.com	 http://v.163.com/[\s\S]*	phantomjs
 	标题	span#js_Set
   作者	div.cDGray>span[class]#block_index#1#=>#(来源：#split_small#[\s\S]+#split_small#[\s\S]*) 
@@ -158,6 +166,18 @@
 	#正文	div#endText>p
 	评论数	span#tieCount>a
 	关键词	div>span.item#=>#(标签：#split_small#[\s\S]*#split_small#[\s]*)
+	
+网易论坛1	bbs.local.163.com	http://bbs.local.163.com/[\s\S]*	httpclient
+        标题	div.tie-con-hd>h2
+        作者	div.tie-author-column>span
+        发布时间	div.tie-con-hd-panel>span#=>#(楼主 &nbsp;&nbsp;[\s]*[\s]*#split_small#[\S]*\s[\S]*#split_small# )
+        正文	div.tie-content
+  
+网易论坛2	bbs.news.163.com	http://bbs.news.163.com/[\s\S]*	httpclient
+	标题	h2
+	作者	span.info-name#paras#html,title
+	发布时间	span.time#=>#(楼主 &nbsp;&nbsp; [\s]*#split_small#[\S]*\s[\S]*#split_small# )
+	正文	div.tie-con-bd
 
 #搜狐
 搜狐新闻	news.sohu.com	http://news.sohu.com/[\s\S]*	phantomjs
@@ -188,12 +208,17 @@
 	正文	div#contentText>div>p
 	评论数	span.f12			
 	
-搜狐美剧	tv.sohu.com	http://tv.sohu.com/[\s\S]*	phantomjs
-	标题	h2
-#	作者	
-#	发布时间	
-#	正文	
-#	评论数			
+搜狐社区1	club.news.sohu.com	http://club.news.sohu.com/[\s\S]*	phantomjs
+	标题	em.title
+	作者	a.username
+	发布时间	div.grey:contains(-)#=>#(发表于*#split_small#[\s\S]*#split_small#[ ])
+	正文	div.wrap>p
+	
+搜狐社区2	m.club.sohu.com	http://m.club.sohu.com/[\\s\\S]*	httpclient
+	标题	div.read>dl>dd#block_index#1
+	作者	span[style=float:right;margin-top: 1px;]>em#block_index#1
+	发布时间	span[style=float:right;margin-top: 1px;]>em#block_index#2
+	正文	dl[style=background:#fff;]>dt				
 
 #凤凰网	
 凤凰新闻	news.ifeng.com	http://news.ifeng.com/[\s\S]*	phantomjs

@@ -1,32 +1,16 @@
-网易论坛	bbs.local.163.com	http://bbs.local.163.com/[\s\S]*	httpclient
-        标题	div.tie-con-hd>h2
-        作者	div.tie-author-column>span
-        发布时间	div.tie-con-hd-panel>span#=>#(楼主 &nbsp;&nbsp;[\s]*[\s]*#split_small#[\S]*\s[\S]*#split_small# )
-        正文	div.tie-content
 
 中华网社区	club.china.com	http://club.china.com/[\s\S]*	httpclient  
         标题	div.topic>div.postHeadOne>h1
         作者	div.topic>div.postInfo span.author>a
         发布时间	div.topic>div.postInfo li.time>span#=>#(发表于：[\s]*#split_small#[\S]*\s[\S]*#split_small# )
         正文	div.topic>div.postContent
-
-新浪博客	blog.sina.com.cn	http://blog.sina.com.cn/[\s\S]*	httpclient
-	标题	div.articalTitle>h2
-	作者	strong#ownernick
-	发布时间	span.time#=>#(\(*#split_small#[\s\S]*#split_small#\))
-	正文	div.articalContent>p
         
 西祠论坛	www.xici.net	http://www.xici.net/[\s\S]*	phantomjs
 	标题	h1.title
 	作者	a.b>span
 	发布时间	div.l>b
 	正文	div.doc_txt>p
-
-#搜狐	club.news.sohu.com	http://club.news.sohu.com/[\s\S]*	phantomjs
-#	标题	em.title
-#	作者	a.username
-#	发布时间	div.grey:contains(-)#=>#(发表于*#split_small#[\s\S]*#split_small#[ ])
-#	正文	div.wrap>p
+        
 
 凯迪社区	club.kdnet.net	http://club.kdnet.net/[\s\S]*	phantomjs
 	标题	div.posts-title
@@ -34,35 +18,6 @@
 	发布时间	div.posts-posted#=>#(于 *#split_small#[\s\S]*#split_small#发布)
 	正文	div.posts-cont	
 
-搜狐社区	m.club.sohu.com	http://m.club.sohu.com/[\\s\\S]*	httpclient
-	标题	div.read>dl>dd#block_index#1
-	作者	span[style=float:right;margin-top: 1px;]>em#block_index#1
-	发布时间	span[style=float:right;margin-top: 1px;]>em#block_index#2
-	正文	dl[style=background:#fff;]>dt	
-
-网易论坛	bbs.news.163.com	http://bbs.news.163.com/[\s\S]*	httpclient
-	标题	h2
-	作者	span.info-name#paras#html,title
-	发布时间	span.time#=>#(楼主 &nbsp;&nbsp; [\s]*#split_small#[\S]*\s[\S]*#split_small# )
-	正文	div.tie-con-bd
-
-人民网观点	opinion.people.com.cn	http://opinion.people.com.cn/[\s\S]*	httpclient
-	标题	h1#p_title
-	作者	span#p_origin#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
-	发布时间	span#p_publishtime
-	正文	div#p_content
-
-新华网	news.xinhuanet.com	http://news.xinhuanet.com/[\s\S]*	httpclient
-	标题	h1#title
-	作者	span#source#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
-	发布时间	span#pubtime
-	正文	div#content
-
-中国网	news.china.com.cn	http://news.china.com.cn/[\s\S]*	httpclient
-	标题	div#contit>h1
-	作者	span#source_baidu#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
-	发布时间	span#pubtime_baidu#=>#(发布时间： #split_small#[\S\s]*#split_small#[　]*)
-	正文	div#bigpic
 
 央视网	news.cntv.cn	http://news.cntv.cn/[\s\S]*	httpclient
 	标题	div#top_title>h1
@@ -71,29 +26,13 @@
 	#发布时间	span#pubtime_baidu#=>#(发布时间： #split_small#[\S\s]*#split_small#[　]*)
 	正文	div#content_body
 
-中国青年网	news.youth.cn	http://news.youth.cn/[\s\S]*	httpclient
-	标题	div.l_tit
-	作者	span#source_baidu#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
-	发布时间	span#pubtime_baidu#=>#(发稿时间： #split_small#[\S\s]*#split_small#[　]*)
-	正文	div.article
 
-中国青年网	pinglun.youth.cn	http://pinglun.youth.cn/[\s\S]*	httpclient
-	标题	div.l_tit
-	作者	span#source_baidu#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
-	发布时间	span#pubtime_baidu#=>#(发稿时间： #split_small#[\S\s]*#split_small#[　]*)
-	正文	div.article
 
 深圳新闻网	www.sznews.com	http://www.sznews.com/[\s\S]*	httpclient
 	标题	div#PrintTxt>h2
 	作者	span#source_baidu#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
 	发布时间	span#pubtime_baidu
 	正文	div.new_txt>p
-
-正方北网	www.northnews.cn	http://www.northnews.cn/[\s\S]*	httpclient
-	标题	div.wz-tit>h1
-	作者	div.auth>span#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
-	发布时间	div.auth span:eq(0)
-	正文	div#ctrlfscont
 
 咸宁新闻网	news.xnnews.com.cn	http://news.xnnews.com.cn/[\s\S]*	httpclient
 	标题	td.title
@@ -102,6 +41,13 @@
 	发布时间	td.ly#=>#(时间： #split_small#[\S\s]*#split_small#[　]*进入论坛)
 	正文	div.TRS_Editor>p
 
+
+正方北网	www.northnews.cn	http://www.northnews.cn/[\s\S]*	httpclient
+	标题	div.wz-tit>h1
+	作者	div.auth>span#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
+	发布时间	div.auth span:eq(0)
+	正文	div#ctrlfscont
+	
 正方北网	news.shangdu.com	http://news.shangdu.com/[\s\S]*	httpclient
 	标题	div.newsColumnHeader>h1
 	作者	div.artInfo1#=>#(来源： #split_small#[\S\s]*#split_small#[　]*)
@@ -243,24 +189,6 @@ i黑马网	newshtml.iheima.com	http://newshtml.iheima.com/[\s\S]*	httpclient
 	发布时间	div.titleDiscription>span#pubtime_baidu
 	正文	div.mainContent
 
-### 
-老友网	www.nntv.cn	http://www.nntv.cn/[\s\S]*	httpclient
-	标题	div.content_left_header>h1
-	作者	div.content_left_header>p span:eq(1)#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
-	发布时间	div.content_left_header>p span:eq(0)
-	正文	div#content
-
-老友网	www.nntv.cn	http://www.nntv.cn/[\s\S]*	httpclient
-	标题	h1[align=center]
-	作者	div.content_left_header>p span:eq(1)#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
-	发布时间	div.content_left_header>p span:eq(0)
-	正文	div.content_left_center
-
-老友网	www.nntv.cn	http://www.nntv.cn/[\s\S]*	httpclient
-	标题	div.content_left_header>h1
-	作者	div.content_left_header>p span:eq(1)#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
-	发布时间	div.content_left_header>p span:eq(0)
-	正文	div.content_left_center
 
 北京电视台	news.brtn.cn	http://news.brtn.cn/[\s\S]*	httpclient
 	标题	div.body_left>h2
@@ -282,38 +210,6 @@ i黑马网	newshtml.iheima.com	http://newshtml.iheima.com/[\s\S]*	httpclient
 	发布时间	span#pubtime_baidu
 	正文	div.detailbg
 
-##新闻
-中国新闻周刊	news.inewsweek.cn	http://news.inewsweek.cn/[\s\S]*	httpclient
-	标题	div.pic_div>h3
-	作者	span#source_baidu#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
-	发布时间	div.text_c>p>span#pubtime_baidu
-	正文	div.text_f
-
-#人物
-中国新闻周刊	people.inewsweek.cn	http://people.inewsweek.cn/[\s\S]*	httpclient
-	标题	div.pic_div>h3
-	作者	span#source_baidu#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
-	发布时间	div.text_c>p>span#pubtime_baidu
-	正文	div.text_f
-#往事
-中国新闻周刊	story.inewsweek.cn	http://story.inewsweek.cn/[\s\S]*	httpclient
-	标题	div.pic_div>h3
-	作者	span#source_baidu#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
-	发布时间	div.text_c>p>span#pubtime_baidu
-	正文	div.text_f
-
-#观点
-中国新闻周刊	viewpoint.inewsweek.cn	http://viewpoint.inewsweek.cn/[\s\S]*	httpclient
-	标题	div.pic_div>h3
-	作者	span#source_baidu#=>#(来源：#split_small#[\S\s]*#split_small#[　]*)
-	发布时间	div.text_c>p>span#pubtime_baidu
-	正文	div.text_f
-#财经
-中国新闻周刊	finance.inewsweek.cn	http://finance.inewsweek.cn/[\s\S]*	httpclient
-	标题	div.vsmy>p
-	作者	div.vsmy>p#=>#(文章来源：#split_small#[\S\s]*#split_small#[　]* )
-	发布时间	div.vsmy>p#=>#(#split_small#[\S\s]*#split_small#[　]*&nbsp; 作者)
-	正文	div#content
 
 中国金融新闻网	www.financialnews.com.cn	http://www.financialnews.com.cn/[\s\S]*	httpclient
 	标题	td>h1
