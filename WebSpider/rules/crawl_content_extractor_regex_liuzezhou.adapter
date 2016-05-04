@@ -50,7 +50,7 @@
 	发布时间	span.time#=>#(\(*#split_small#[\s\S]*#split_small#\))
 	正文	div.articalContent>p
 	
-新浪Blog	blog.sina.com.cn	http://blog.sina.com.cn/[\s\S]*	phantomjs
+新浪博客	blog.sina.com.cn	http://blog.sina.com.cn/[\s\S]*	phantomjs
 	标题	div.articalTitle>h2
 	作者	strong#ownernick
 	发布时间	span.time#=>#(\(*#split_small#[\s\S]*#split_small#\))
@@ -211,7 +211,7 @@
 搜狐社区1	club.news.sohu.com	http://club.news.sohu.com/[\s\S]*	phantomjs
 	标题	em.title
 	作者	a.username
-	发布时间	div.grey:contains(-)#=>#(发表于*#split_small#[\s\S]*#split_small#[ ])
+	发布时间	div.grey:contains(-)#=>#(发表于*#split_small#[\s\S]*#split_small#[\s])
 	正文	div.wrap>p
 	
 搜狐社区2	m.club.sohu.com	http://m.club.sohu.com/[\\s\\S]*	httpclient

@@ -125,8 +125,6 @@
 	#评论数	span.bshare-share-count
 	
 	
-
-	
 中国青年网新闻	news.youth.cn	http://news.youth.cn/[\s\S]*	phantomjs
 	标题	div.l_tit
 	作者	span#source_baidu#=>#(来源：#split_small#[\s\S]*#split_small#[\s]*)
