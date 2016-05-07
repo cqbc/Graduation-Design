@@ -78,7 +78,7 @@ public class WebUrlProcess {
 							String field = parser_resultPojo.getRuleName() + "#"
 									+ parser_resultPojo.getSource_title();
 
-							if (!SystemParasSpider.application_is_test) {
+							
 								boolean is_exists = SystemControlerManager.jedisOperatorUtil
 										.HContainsFields(
 												StaticValue.statistic_key_template,
@@ -103,7 +103,7 @@ public class WebUrlProcess {
 											field, "1");
 									logger.info("update template statistic successful");
 								}
-							}
+							
 						} else {
 							// 说明规则库没有匹配上
 							System.out.println("Match Rule Fail!");
