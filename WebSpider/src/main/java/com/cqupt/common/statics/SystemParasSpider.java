@@ -148,9 +148,6 @@ public class SystemParasSpider {
 			.parseInt(readConfigUtil
 					.getValue("cache_data_circle_save_interval")) * 1000;
 
-	// 取得是否是测试节点的配置
-	public static boolean application_is_test = Boolean
-			.parseBoolean(readConfigUtil.getValue("application_is_test"));
 
 	/**
 	 * phantomjs start
