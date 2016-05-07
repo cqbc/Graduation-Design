@@ -199,7 +199,7 @@ public class MetaSearchProcess {
 					parserResultPojo = new ParserResultPojo();
 					// 为传递空采集对象，告诉服务器端是有要处理和保存的信息而添加
 					parserResultPojo.setCrawlData4PortalSite(new CrawlData4PortalSite());
-					parserResultPojo.setRuleName("sina新闻搜索");
+					parserResultPojo.setRuleName("新浪新闻元搜索");
 					parserResultPojo.setMatchRegex(true);
 
 					parserResultPojo.setNewUrlSet(newUrlSet);
@@ -265,7 +265,6 @@ public class MetaSearchProcess {
 
 			parserResultPojo = new ParserResultPojo();
 			parserResultPojo.setCrawlData4PortalSite(crawlData4PortalSite);
-			parserResultPojo.setRuleName("元搜索");
 			parserResultPojo.setMatchRegex(true);
 
 			parserResultPojo.setNormal(true);
