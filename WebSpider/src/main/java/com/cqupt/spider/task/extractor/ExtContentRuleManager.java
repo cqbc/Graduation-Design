@@ -40,12 +40,6 @@ public class ExtContentRuleManager {
 	}
 
 	public static void main(String[] args) {
-		// JedisOperatorUtil jedisOperatorUtil= new
-		// JedisOperatorUtil(SystemParas.redis_host,
-		// SystemParas.redis_port,SystemParas.redis_password);
-		// String str =
-		// jedisOperatorUtil.getObj(StaticValue.ext_content_rule_key);
-
 		ExtContentRuleManager extContentRuleConfigManager = new ExtContentRuleManager(
 				SystemParasSpider.ext_content_rule_config_fs,
 				SystemParasSpider.ext_content_rule_config_root_dir);

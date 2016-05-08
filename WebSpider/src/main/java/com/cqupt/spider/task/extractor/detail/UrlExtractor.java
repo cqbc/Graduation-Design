@@ -12,7 +12,7 @@ import com.vaolan.utils.IOUtil;
 import com.vaolan.utils.StaticValue;
   
 public class UrlExtractor  {
-	// 暂时以host完全相同为唯一获取新的url依据，后续会添加新的规则
+	// 以host完全相同为唯一获取新的url依据，后续会添加新的规则
 	public static Set<String> getNewUrls(String fromUrl, String host,
 			String htmlSource, int topN) {
 		List<String> urlList = JsoupHtmlParser.getAllHref4AddHost(fromUrl,
@@ -35,11 +35,10 @@ public class UrlExtractor  {
 					if (count >= topN) {
 						return finalUrlSet;
 					}
-					//取出那些非html的网页 
-					if(url.contains("html"))
-					{
-					finalUrlSet.add(url);
-					count++;
+					//取出那些html的网页 
+					if(url.contains("html")){
+						finalUrlSet.add(url);
+						count++;
 					}
 					
 				}

@@ -16,6 +16,7 @@ import com.cqupt.spider.task.extractor.detail.UrlExtractor;
 import com.vaolan.extkey.utils.UrlOperatorUtil;
 
 public class HtmlSourceParser {
+	
 	// 日期处理工具类
 	public static DateUtil dateUtil = new DateUtil();
 	

@@ -24,8 +24,7 @@ public class HtmlParserUtil {
 			.compile("url=(.*)[\\s]*",Pattern.CASE_INSENSITIVE);
 
 	public String getRefreshLocationUrl(String fromUrl, String htmlSource) {
-//		String fromUrl = "http://www.baidu.com/";
-//		String htmlSource = IOUtil.readDirOrFile("d:/test.txt", "utf-8");
+
 		List<String> selList = new LinkedList<String>();
 		selList.add("meta[http-equiv=refresh]");
 		

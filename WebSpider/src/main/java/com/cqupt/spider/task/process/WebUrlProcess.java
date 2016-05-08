@@ -83,6 +83,7 @@ public class WebUrlProcess {
 										.HContainsFields(
 												StaticValue.statistic_key_template,
 												field);
+								
 								if (is_exists) {
 									String value = SystemControlerManager.jedisOperatorUtil.HGet(
 											StaticValue.statistic_key_template,
@@ -150,7 +151,6 @@ public class WebUrlProcess {
 					if (htmlSource == null || htmlSource.isEmpty()) {
 						continue;
 					}
-					// System.out.println("抓取到数据了!");
 					
 					// 在这里做页面内是否有内容跳转
 					String refresh_location = htmlParserUtil.getRefreshLocationUrl(
