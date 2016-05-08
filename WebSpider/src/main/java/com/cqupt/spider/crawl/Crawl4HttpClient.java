@@ -73,7 +73,6 @@ public class Crawl4HttpClient {
 				requestAll = rb.build();
 				response = httpClientPojo.getHttpClient().execute(requestAll);
 			}
-			// return parserResponse(response);
 			return parserResponse_v2(response);
 		} catch (SocketTimeoutException timeOutException) {
 			// 此种情况将会认为可能是代理异常失效，但暂不处理这种异常对代理替换策略的影响的!
