@@ -62,7 +62,7 @@ public class CallWebService {
 		
 
 				
-		  URL wsdlUrl = new URL("http://127.0.0.1:9999/TaskService?wsdl");
+		  	URL wsdlUrl = new URL("http://127.0.0.1:9999/TaskService?wsdl");
 	        Service s = Service.create(wsdlUrl, new QName("http://task.ws.impl.zel.com/","TaskService"));
 	        ITaskService hs = s.getPort(new QName("http://task.ws.impl.zel.com/","TaskServiceImplPort"), ITaskService.class);
 			CrawlTaskPojo	taskPojo = new CrawlTaskPojo();
