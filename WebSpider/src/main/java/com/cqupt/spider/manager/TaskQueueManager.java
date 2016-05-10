@@ -192,8 +192,7 @@ public class TaskQueueManager {
 				circleVisitUrls.remove(taskPojo);
 				remove_status = true;
 			} else {
-				System.out
-						.println("circle task is not the circle task set,remove disable!");
+				System.out.println("circle task is not the circle task set,remove disable!");
 				remove_status = false;
 			}
 		} finally {
@@ -313,7 +312,7 @@ public class TaskQueueManager {
 												ObjectAndByteArrayConvertUtil
 														.ObjectToByteArray(to_do_task_pojo));
 							} else {
-								logger.info("find repeat task,will jump the one!");
+								logger.info("规则库没有匹配此任务的host");
 							}
 						} else {
 							jedisOperatorUtil

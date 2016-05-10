@@ -8,6 +8,7 @@ import com.cqupt.common.utils.IOUtil;
 import com.cqupt.common.utils.PhantomJsOperatorUtil;
 import com.cqupt.common.utils.StringOperatorUtil;
 import com.cqupt.spider.pojos.CrawlConfigParaPojo;
+import com.cqupt.spider.pojos.CrawlTaskPojo;
 import com.cqupt.spider.pojos.PhantomjsConfigParaPojo;
 import com.cqupt.spider.pojos.ProxyPojo;
 
@@ -52,15 +53,15 @@ public class PhantomManager {
 	}
 
 	public static CrawlConfigParaPojo crawlKeywordSeg4NewsSearchResult(
-			String root_url, String keyword, ProxyPojo proxyPojo) {
+			String root_url, String searchKeyword, ProxyPojo proxyPojo) {
 		if (StringOperatorUtil.isBlank(root_url)
-				|| StringOperatorUtil.isBlank(keyword)) {
+				|| StringOperatorUtil.isBlank(searchKeyword)) {
 			return null;
 		}
 
 		// 组合成相关参数集合
 		CrawlConfigParaPojo crawlConfigParaPojo = new CrawlConfigParaPojo(
-				root_url, keyword, 0);
+				root_url, searchKeyword, 0);
 		String config_para_string = crawlConfigParaPojo.toString();
 		
 		String prefix= getConfigFileNamePrefix(root_url);

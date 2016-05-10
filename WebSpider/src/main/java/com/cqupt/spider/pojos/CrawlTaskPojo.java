@@ -19,6 +19,7 @@ import com.cqupt.common.utils.StringOperatorUtil;
  */
 public class CrawlTaskPojo implements Serializable {
 
+
 	@Override
 	public int hashCode() {
 		return 1;
@@ -79,6 +80,7 @@ public class CrawlTaskPojo implements Serializable {
 	private int depth;
 	// 表示该任务被插入的时间，以上为基础再加上TaskLevelEnum对应的ms即可判断是否应该被加入到待抓取的circle中
 
+	private int crawlPageNumber;
 	private long last_insert_time_long;
 
 	public long getLast_insert_time_long() {
@@ -252,6 +254,14 @@ public class CrawlTaskPojo implements Serializable {
 
 	public void reset4Circle() {
 		this.setCurrent_depth(0);
+	}
+	
+	public int getCrawlPageNumber() {
+		return crawlPageNumber;
+	}
+
+	public void setCrawlPageNumber(int crawlPageNumber) {
+		this.crawlPageNumber = crawlPageNumber;
 	}
 
 	public static void main(String[] args) {

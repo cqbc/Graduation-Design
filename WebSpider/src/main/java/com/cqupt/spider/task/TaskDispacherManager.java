@@ -37,9 +37,7 @@ public class TaskDispacherManager {
 							taskPojo = TaskDispatcherControler.getTaskSecondQueue();
 							if (taskPojo != null) {
 								System.out.println("从第二队列取出一个任务," + taskPojo);
-							} else {
-								System.out.println("没有可执行任务");
-							}
+							} 
 						}
 					}
 				 

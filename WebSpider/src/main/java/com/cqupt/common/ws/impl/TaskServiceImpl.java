@@ -25,10 +25,10 @@ public class TaskServiceImpl implements ITaskService {
 	}
 
 	public RetStatus addTask(CrawlTaskPojo taskTaskPojo) {
-		// TaskQueueManager.addTask(taskTaskPojo, TaskQueueType.To_Visit);
+		
 		TaskQueueManager.addTaskToDoQueue(
 				StaticValue.redis_task_todo_list_key_name, taskTaskPojo, null,
-				false);
+				true);
 		// 只有从这个途径过添加的任务都是原始任务,根据条件加入循环队列
 		if (SystemParasSpider.task_circle_enable && taskTaskPojo.isEnableToCircle()) {
 			TaskQueueManager.addTask(taskTaskPojo, TaskQueueType.Circle_Visit);

@@ -7,5 +7,5 @@ package com.cqupt.common.enums;
  * 
  */
 public enum TaskLevelEnum {
-	A, B, C, D, E,F,G,H,I,J,K,L,Z
+	A, B, C, D, E,F,G,Z
 }

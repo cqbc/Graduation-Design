@@ -20,8 +20,18 @@ import com.cqupt.common.ws.impl.TaskServiceImpl;
  * web service发布管理器
  */
 public class WebServiceManager {
-
+	
 	private List<Endpoint> ws_list = new LinkedList<Endpoint>();
+
+	private static WebServiceManager instance;
+
+	public static synchronized WebServiceManager getInstance() {
+		if (instance == null) {
+			instance = new WebServiceManager();
+		}
+		return instance;
+	}
+
 
 	// 开启web service
 	public void startWebService() {
@@ -72,6 +82,8 @@ public class WebServiceManager {
 		for (Endpoint endPoint : ws_list) {
 			endPoint.stop();
 		}
+		
+		ws_list.clear();
 		System.out.println("ws service is stop!");
 	}
 

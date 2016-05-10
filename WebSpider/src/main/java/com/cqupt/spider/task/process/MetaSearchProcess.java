@@ -133,8 +133,7 @@ public class MetaSearchProcess {
 					parserResultPojo.setMatchRegex(true);
 					parserResultPojo.setNewUrlSet(newUrlSet);
 					parserResultPojo.setNormal(true);
-					parserResultPojo
-							.setSource_title(taskPojo.getSource_title());
+					parserResultPojo.setSource_title(taskPojo.getSource_title());
 					// 因为是元搜索，暂认为此字段无意义
 					parserResultPojo.setCurrent_depth(0);
 
