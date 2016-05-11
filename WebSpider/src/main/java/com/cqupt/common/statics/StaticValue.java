@@ -77,6 +77,7 @@ public class StaticValue {
 	public static String pic_file_prefix_name_default = "capture-";
 	public static String pic_file_suffix_name_default = ".png";
 	public static int max_page_number_default = SystemParasSpider.crawl_max_page_number;
+	public static int max_page_number = 0;
 	public static boolean is_data_write_to_file_default = SystemParasSpider.is_data_write_to_file_default;
 	public static String data_write_to_file_root_path_default = ".png";
 	public static String data_file_prefix_name_default = "page-";

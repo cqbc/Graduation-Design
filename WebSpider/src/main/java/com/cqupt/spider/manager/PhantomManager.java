@@ -76,9 +76,9 @@ public class PhantomManager {
 		//修改路径
 		String phantomjs_config_path = getPhantomjsConfigFilePath(
 				crawlConfigParaPojo, proxyPojo);
-
-		String jsPath = getCrawlJsFilePath(root_url);
 		//获取js路径
+		String jsPath = getCrawlJsFilePath(root_url);
+		
 		PhantomJsOperatorUtil.crawl(phantomjs_config_path,
 				SystemParasSpider.phantomjs_crawl_config_js_root_path
 						+jsPath, config_para_json_path);

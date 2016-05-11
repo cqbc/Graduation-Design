@@ -20,6 +20,7 @@ import com.cqupt.common.enums.CrawlTypeEnum;
 import com.cqupt.common.enums.RetCodeEnum;
 import com.cqupt.common.enums.RetDescEnum;
 import com.cqupt.common.enums.TaskTypeEnum;
+import com.cqupt.common.statics.StaticValue;
 import com.cqupt.common.statics.StaticValue4RelationMap;
 import com.cqupt.common.statics.SystemParasSpider;
 import com.cqupt.common.utils.FileOperatorUtil;
@@ -85,7 +86,7 @@ public class SpiderUI extends JFrame implements ActionListener{
 		
 		JLabel lable1_5 = new JLabel("媒体类型：");
 		text1_5 = new JTextField(3);
-		text1_5.setText("1");
+		text1_5.setText("8");
 		
 		JLabel lable1_6 = new JLabel("任务级别：");
 		text1_6= new JTextField(3);
@@ -322,6 +323,7 @@ public class SpiderUI extends JFrame implements ActionListener{
     			taskPojo.setTitle(text1_1.getText().trim());
     			taskPojo.setValue(text1_3.getText().trim());
     			taskPojo.setCrawlPageNumber(Integer.parseInt(text1_4.getText().trim()));
+    			StaticValue.max_page_number = Integer.parseInt(text1_4.getText().trim());
     			taskPojo.setType(TaskTypeEnum.Keyword);
     			taskPojo.setCrawlEngine(CrawlTypeEnum.MetaSearch_NEWSPage);
     			taskPojo.setMedia_type(Integer.parseInt(text1_5.getText().trim()));

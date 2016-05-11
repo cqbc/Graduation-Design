@@ -82,7 +82,7 @@ public class MetaSearchProcess {
 		List<IResultPojo> resultList_all = new LinkedList<IResultPojo>();
 
 
-//		SearchEngineEnum searchEngineEnum = SearchEngineEnum.Sogou;
+//		SearchEngineEnum searchEngineEnum = SearchEngineEnum.Baidu;
 		SearchEngineEnum searchEngineEnum = searchEngineEnumList[(randomUtil
 				.nextInt(random_max_int) % 2)];
 

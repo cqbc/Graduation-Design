@@ -81,7 +81,12 @@ public class CrawlConfigParaPojo {
 		this.setPic_capture_save_sub_path(keyword_md5_add_seq);
 		this.setPic_file_prefix_name(StaticValue.pic_file_prefix_name_default);
 		this.setPic_file_suffix_name(StaticValue.pic_file_suffix_name_default);
-		this.setMax_page_number(StaticValue.max_page_number_default);
+		if(StaticValue.max_page_number>0 && StaticValue.max_page_number<20){
+			this.setMax_page_number(StaticValue.max_page_number);
+		}else{
+			this.setMax_page_number(StaticValue.max_page_number_default);
+		}
+		
 		this.setIs_data_write_to_file(StaticValue.is_data_write_to_file_default);
 
 		this.setData_write_to_file_sub_path(keyword_md5_add_seq);
@@ -97,8 +102,9 @@ public class CrawlConfigParaPojo {
 			String outputPicFilePathString) {
 		this(root_url, searchKeyword, flag);
 		if (outputPicFilePathString != null) {
-//			this.setAbsolute_capture_file_path(outputPicFilePathString);
+			
 			this.setRandom_url_output_path_capture(outputPicFilePathString);
+			
 		}
 	}
 
