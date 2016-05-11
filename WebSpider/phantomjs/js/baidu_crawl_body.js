@@ -106,8 +106,7 @@ page.onAlert = function(msg) {
 
 page.onLoadFinished = function(status) {
 	if (count_crawl_page_number > max_page_number) {
-		console
-				.log('the crawled page number is arrived to the max value,will exit phantomjs!');
+		console.log('the crawled page number is arrived to the max value,will exit phantomjs!');
 		phantom.exit();
 	}
 	console.log('load finish--------');
@@ -121,12 +120,7 @@ page.onLoadFinished = function(status) {
 	}
 	console.log('page.url----' + page.url);
 
-	// 用于临时测试
-	/**
-	 * page.render('finish_index'+count+'.png'); count++;
-	 * fs.write('page.txt',page.content,'a');
-	 * fs.write('page.txt','\n\n********','a');
-	 */
+	
 	if ((page.url.indexOf("http://www.baidu.com/link")) == -1) {
 		if (is_capture_pic) {
 			page.render(pic_capture_save_root_path + pic_capture_save_sub_path
@@ -135,10 +129,7 @@ page.onLoadFinished = function(status) {
 			count_render_pic++;
 		}
 
-		// 过滤指定内容，并写入到文件中
-		// var aid_content_txt = page.evaluate(function() {
-		// return $('#content_left').html();
-		// });
+	
 		// 是否将抓取到的数据每页写入一个文本文件,其编页为output-encoding
 		if (is_data_write_to_file) {
 			fs.write(data_write_to_file_root_path + data_write_to_file_sub_path
@@ -151,24 +142,10 @@ page.onLoadFinished = function(status) {
 };
 
 page.onUrlChanged = function(targetUrl) {
-	// console.log('New URL: ' + targetUrl);
-	/*
-	 * if((targetUrl.indexOf("http://www.baidu.com/s?"))>-1){
-	 * page.open(targetUrl); }
-	 */
+
 };
 
 page.onResourceReceived = function(response) {
-	// for(var i = 0; i < arguments.length; i++){
-	// console.log('receive-' + JSON.stringify(arguments[i]));
-	// console.log('receive-' + arguments[i]);
-	// console.log('receive-' +page.cookies);
-	// fs.write('kk.txt',JSON.stringify(arguments[i]),'w+');
-	// fs.write('kk.txt','\n','w+');
-	// fs.write('kk.txt',page.content,'w+');
-	// }
-	// console.log('resource rec page.url---'+page.url);
-	// console.log('reponse url---'+response.url);
 	receive_response_count_current++;
 };
 
@@ -187,7 +164,6 @@ function openPage(root_url){
 			console.log('page open is not success,phantomjs will exit!');
 			phantom.exit();
 		}
-		// console.log('page.open is finished');
     });	
 }
 

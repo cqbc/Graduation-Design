@@ -99,7 +99,6 @@ function checkNoResponse() {
 	if (receive_response_count_last == receive_response_count_current) {
 		if (receive_response_fail_count < no_response_waitting_fail_time_max) {
 			console.log('check fail response,will try again');
-			// closePage();
 			receive_response_fail_count++;
 			openPage(root_url);
 		} else {

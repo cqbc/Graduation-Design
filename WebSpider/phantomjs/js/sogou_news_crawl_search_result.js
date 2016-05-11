@@ -125,10 +125,16 @@ setInterval(checkNoResponse, no_response_waitting_time_max);
 page.onLoadFinished = function(status) {
 	// 第一次是请求搜索，不算做一页
 	if ((current_grab_page_number - 1) > max_page_number) {
-		console
-				.log('the crawled page number is arrived to the max value,will exit phantomjs!');
+		console.log('the crawled page number is arrived to the max value,will exit phantomjs!');
 		exitPhantom();
 	}
+	
+	if(current_grab_page_number == 1){
+		console.log('page.number---' + '进入首页');
+	}else{
+		console.log('page.number---' + '第'+(current_grab_page_number-1)+'页');
+	}
+	
 	console.log('load finish--------');
 	console.log('page.title---' + page.title);
 	if (is_inject_jquery && !inject_jquery_flag) {
